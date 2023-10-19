@@ -1,0 +1,807 @@
+{
+    "Heron": {
+        "img": "https://oldschool.runescape.wiki/images/Heron.png",
+        "droprate": "1/82243",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Rock golem": {
+        "img": "https://oldschool.runescape.wiki/images/Rock_golem.png",
+        "droprate": "1/247200",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Beaver": {
+        "img": "https://oldschool.runescape.wiki/images/Beaver.png",
+        "droprate": "1/73321",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Baby chinchompa": {
+        "url": "https://oldschool.runescape.wiki/images/Baby_chinchompa_(grey).png",
+        "droprate": "1/98373",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Giant squirrel": {
+        "url": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
+        "droprate": "1/34440",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Tangleroot": {
+        "url": "https://oldschool.runescape.wiki/images/Tangleroot.png",
+        "droprate": "1/173977",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Rocky": {
+        "url": "https://oldschool.runescape.wiki/images/Rocky.png",
+        "droprate": "1/257111",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Rift guardian": {
+        "url": "https://oldschool.runescape.wiki/images/Rift_guardian_(air).png",
+        "droprate": "1/804984",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Abyssal orphan": {
+        "url": "https://oldschool.runescape.wiki/images/Abyssal_orphan.png",
+        "droprate": "1/26",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Into the Abyss"
+            ],
+            "skills": [
+                "Prayer",
+                "Slayer"
+            ]
+        }
+    },
+    "Ikkle hydra": {
+        "url": "https://oldschool.runescape.wiki/images/Ikkle_hydra_(serpentine).png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Prayer"
+            ]
+        }
+    },
+    "Callisto cub": {
+        "url": "https://oldschool.runescape.wiki/images/Callisto_cub.png",
+        "droprate": "1/2000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Prayer",
+                "Defence",
+                "Ranged",
+                "Magic"
+            ]
+        }
+    },
+    "Hellpuppy": {
+        "url": "https://oldschool.runescape.wiki/images/Hellpuppy.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Prayer"
+            ]
+        }
+    },
+    "Pet chaos elemental": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_chaos_elemental.png",
+        "droprate": "1/300",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Pet zilyana": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_zilyana.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Prayer",
+                "Ranged",
+                "Defence"
+            ]
+        }
+    },
+    "Pet dark core": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_dark_core.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Shadow of the Storm"
+            ],
+            "skills": [
+                "Prayer",
+                "Construction",
+                "Attack",
+                "Strength",
+                "Defence"
+            ]
+        }
+    },
+    "Pet dagannoth prime": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Prayer",
+                "Ranged",
+                "Defence"
+            ]
+        }
+    },
+    "Pet dagannoth supreme": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Prayer",
+                "Attack",
+                "Strength",
+                "Defence"
+            ]
+        }
+    },
+    "Pet dagannoth rex": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_rex.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Prayer",
+                "Magic",
+                "Defence"
+            ]
+        }
+    },
+    "Tzrek-jad": {
+        "url": "https://oldschool.runescape.wiki/images/Tzrek-jad.png",
+        "droprate": "1/67",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Prayer",
+                "Ranged",
+                "Defence"
+            ]
+        }
+    },
+    "Pet general graardor": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Strength",
+                "Attack",
+                "Defence",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Baby mole": {
+        "url": "https://oldschool.runescape.wiki/images/Baby_mole.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer"
+            ]
+        }
+    },
+    "Noon": {
+        "url": "https://oldschool.runescape.wiki/images/Noon.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Prayer",
+                "Defence",
+                "Attack",
+                "Strength"
+            ]
+        }
+    },
+    "Jal-nib-rek": {
+        "url": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
+        "droprate": "1/100",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Ranged",
+                "Prayer",
+                "Defence",
+                "Attack",
+                "Strength",
+                "Magic"
+            ]
+        }
+    },
+    "Kalphite princess": {
+        "url": "https://oldschool.runescape.wiki/images/Kalphite_princess.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence",
+                "Attack",
+                "Strength",
+                "Magic"
+            ]
+        }
+    },
+    "Prince black dragon": {
+        "url": "https://oldschool.runescape.wiki/images/Prince_black_dragon.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Pet kraken": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_kraken.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Magic",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Pet kree'arra": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_kree'arra.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Magic",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Pet k'ril tsutsaroth": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_k'ril_tsutsaroth.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Magic",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Scorpia's offspring": {
+        "url": "https://oldschool.runescape.wiki/images/Scorpia's_offspring.png",
+        "droprate": "1/2016",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Skotos": {
+        "url": "https://oldschool.runescape.wiki/images/Skotos.png",
+        "droprate": "1/65",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Pet smoke devil": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_smoke_devil.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Slayer",
+                "Magic",
+                "Prayer",
+                "Attack",
+                "Strength",
+                "Defence"
+            ]
+        }
+    },
+    "Venenatis spiderling": {
+        "url": "https://oldschool.runescape.wiki/images/Venenatis_spiderling.png",
+        "droprate": "1/2000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Prayer",
+                "Attack",
+                "Strength",
+                "Defence"
+            ]
+        }
+    },
+    "Vet'ion Jr.": {
+        "url": "https://oldschool.runescape.wiki/images/Vet'ion_jr..png",
+        "droprate": "1/2000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Prayer",
+                "Attack",
+                "Strength",
+                "Defence"
+            ]
+        }
+    },
+    "Vorki": {
+        "url": "https://oldschool.runescape.wiki/images/Vorki.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Dragon Slayer II"
+            ],
+            "skills": [
+                "Ranged",
+                "Prayer",
+                "Defence"
+            ]
+        }
+    },
+    "Phoenix": {
+        "url": "https://oldschool.runescape.wiki/images/Phoenix.png",
+        "droprate": "1/5000",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Pet snakeling": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
+        "droprate": "1/4000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Regicide"
+            ],
+            "skills": [
+                "Defence",
+                "Ranged",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Olmlet": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
+        "droprate": "1/53",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Ranged",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Lil'zik": {
+        "url": "https://oldschool.runescape.wiki/images/Lil'_zik.png",
+        "droprate": "1/650",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "A Night at the Theatre"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Ranged",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Pet penance queen": {
+        "url": "https://oldschool.runescape.wiki/images/Pet_penance_queen.png",
+        "droprate": "1/1000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Ranged",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Herbi": {
+        "url": "https://oldschool.runescape.wiki/images/Herbi.png",
+        "droprate": "1/6500",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Bone Voyage"
+            ],
+            "skills": [
+                "Hunter",
+                "Agility"
+            ]
+        }
+    },
+    "Sraracha": {
+        "url": "https://oldschool.runescape.wiki/images/Sraracha.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Smolcano": {
+        "url": "https://oldschool.runescape.wiki/images/Smolcano.png",
+        "droprate": "1/2250",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Song of the Elves"
+            ],
+            "skills": [
+                "Mining",
+                "Smithing",
+                "Runecraft"
+            ]
+        }
+    },
+    "Youngllef": {
+        "url": "https://oldschool.runescape.wiki/images/Youngllef.png",
+        "droprate": "1/2000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Song of the Elves"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Ranged",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Little nightmare": {
+        "url": "https://oldschool.runescape.wiki/images/Little_nightmare.png",
+        "droprate": "1/4000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Lil' creator": {
+        "url": "https://oldschool.runescape.wiki/images/Lil'_creator.png",
+        "droprate": "1/400",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Magic",
+                "Ranged",
+                "Prayer"
+            ]
+        }
+    },
+    "Tiny tempor": {
+        "url": "https://oldschool.runescape.wiki/images/Lil'_creator.png",
+        "droprate": "1/8000",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Nexling": {
+        "url": "https://oldschool.runescape.wiki/images/Nexling.png",
+        "droprate": "1/500",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "The Frozen Door"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Magic",
+                "Ranged",
+                "Prayer",
+                "Agility"
+            ]
+        }
+    },
+    "Abyssal protector": {
+        "url": "https://oldschool.runescape.wiki/images/Abyssal_protector.png",
+        "droprate": "1/4000",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Temple of the Eye"
+            ],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Tumeken's guardian": {
+        "url": "https://oldschool.runescape.wiki/images/Tumeken's_guardian.png",
+        "droprate": "1/100",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Beneath Cursed Sands"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Magic",
+                "Ranged",
+                "Prayer",
+                "Mining"
+            ]
+        }
+    },
+    "Muphin": {
+        "url": "https://oldschool.runescape.wiki/images/Muphin_(ranged).png",
+        "droprate": "1/2500",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Secrets of the North"
+            ],
+            "skills": [
+                "Ranged",
+                "Defence",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Wisp": {
+        "url": "https://oldschool.runescape.wiki/images/Wisp.png",
+        "droprate": "1/2000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Desert Treasure II"
+            ],
+            "skills": [
+                "Defence",
+                "Magic",
+                "Prayer"
+            ]
+        }
+    },
+    "Baron": {
+        "url": "https://oldschool.runescape.wiki/images/Baron.png",
+        "droprate": "1/2500",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Desert Treasure II"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Butch": {
+        "url": "https://oldschool.runescape.wiki/images/Butch.png",
+        "droprate": "1/3000",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Desert Treasure II"
+            ],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Lil'viathan": {
+        "url": "https://oldschool.runescape.wiki/images/Lil'viathan.png",
+        "droprate": "1/2500",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Desert Treasure II"
+            ],
+            "skills": [
+                "Ranged",
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Bloodhound": {
+        "url": "https://oldschool.runescape.wiki/images/Bloodhound.png",
+        "droprate": "1/1000",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Attack",
+                "Construction",
+                "Cooking",
+                "Runecraft",
+                "Crafting",
+                "Defence",
+                "Farming",
+                "Firemaking",
+                "Fishing",
+                "Fletching",
+                "Herblore",
+                "Hitpoints",
+                "Hunter",
+                "Magic",
+                "Mining",
+                "Prayer",
+                "Ranged",
+                "Slayer",
+                "Smithing",
+                "Strength",
+                "Thieving",
+                "Woodcutting"
+            ]
+        }
+    }
+}

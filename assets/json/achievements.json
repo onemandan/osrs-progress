@@ -1,0 +1,6227 @@
+{
+    "Agility-01": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Climb over the western Falador wall",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-02": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Complete a lap of the Draynor Village Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-03": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Use the rope swing to travel to the Moss Giant Island north-west of Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-04": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Cross the lava using the stepping stones within Brimhaven Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-05": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Jump over the fence south of Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-06": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Explore Cairn Island to the west of Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-07": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Kill an Earth warrior in the Wilderness beneath Edgeville",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-08": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Cross the Coal Trucks log balance",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-09": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Complete a lap of the Al Kharid Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-10": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Climb to the summit of the Agility Pyramid",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-11": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Complete a lap of the Varrock Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-12": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Complete a lap of the Barbarian Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Alfred Grimhand's Barcrawl"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-13": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Take the Agility shortcut from the Grand Tree to Otto's Grotto",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-14": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Complete a lap of the Canifis Rooftop Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-15": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Squeeze through the crevice in the Dwarven Mines",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-16": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Catch a Leaping sturgeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Fishing",
+                "Strength"
+            ]
+        }
+    },
+    "Agility-17": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Squeeze past the jutting wall on your way to the Cosmic Altar",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lost City"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-18": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Complete a lap of the Ape Atoll Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-19": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use the boulder leap shortcut in the dense essence mine",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-20": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Complete a lap of the Falador Rooftop Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-21": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Kill a Deathwing in the dungeon under the Kharazi Jungle",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Legends' Quest"
+            ],
+            "skills": [
+                "Agility",
+                "Woodcutting",
+                "Thieving",
+                "Strength",
+                "Mining"
+            ]
+        }
+    },
+    "Agility-22": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Kill an Elf with a Crystal bow",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Roving Elves"
+            ],
+            "skills": [
+                "Agility",
+                "Ranged"
+            ]
+        }
+    },
+    "Agility-23": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Squeeze through the obstacle pipe in Edgeville Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-24": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Complete a lap of the Wilderness Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-25": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Complete a lap of the Seers' Village Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-26": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Mix a Stamina mix on top of the Seers' Village bank",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore",
+                "Agility"
+            ]
+        }
+    },
+    "Agility-27": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Enter the Wilderness God Wars Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-28": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Slay a Spiritual mage within the Wilderness God Wars Dungeon",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Slayer"
+            ]
+        }
+    },
+    "Agility-29": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Take the Agility shortcut from Trollheim into the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Agility-30": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Use the shortcut to get to the bridge over the Salve",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-31": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Pickpocket Movario on the Dorgesh-Kaan Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Strength",
+                "Ranged"
+            ]
+        }
+    },
+    "Agility-32": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Complete a lap of the Pollnivneach Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-33": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Climb the advanced spike chain within the Slayer Tower",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-34": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Complete a lap of the Rellekka Rooftop Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-35": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Jump over the strange floor in Taverley Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-36": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Use the Elven Overpass advanced cliffside shortcut",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Underground Pass"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Agility-37": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Complete a lap of Ardougne's Rooftop Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Attack-01": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Enter the Warriors' Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength"
+            ]
+        }
+    },
+    "Attack-02": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Defeat a Locust Rider with Keris",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Contact!"
+            ],
+            "skills": [
+                "Attack"
+            ]
+        }
+    },
+    "Attack-03": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Equip Iban's upgraded staff or upgrade an Iban staff",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Underground Pass"
+            ],
+            "skills": [
+                "Attack",
+                "Magic"
+            ]
+        }
+    },
+    "Attack-04": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Loot the Barrows chest while wearing any complete Barrows set",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Attack",
+                "Defence"
+            ]
+        }
+    },
+    "Construction-01": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Find out what your family crest is from Sir Renitee",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-02": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Change your family crest to the Saradomin symbol",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction",
+                "Prayer"
+            ]
+        }
+    },
+    "Construction-03": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Teleport to Pollnivneach with a redirected Teleport to House tablet",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-04": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Enter your player-owned house from Hosidius",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-05": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Pick up your Pet rock from your POH Menagerie",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-06": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Enter your POH from Yanille",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-07": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Have the Seers' Estate agent decorate your house with Fancy Stone",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-08": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Enter the Kharyrll portal in your POH",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Construction",
+                "Magic"
+            ]
+        }
+    },
+    "Construction-09": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Have the Varrock Estate agent decorate your house with Fancy Stone",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-10": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Build an Isafdar painting in your POH Quest Hall",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Roving Elves"
+            ],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Construction-11": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Speak to the Kq head in your POH",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        }
+    },
+    "Cooking-01": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Cook a Thin snail on the Port Phasmatys range",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Ghosts Ahoy"
+            ],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-02": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Cook a Spider on a stick",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-03": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Cook a Karambwan thoroughly",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tai Bwo Wannai Trio"
+            ],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-04": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Complete a game of Trouble Brewing",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Cabin Fever"
+            ],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-05": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Make a Chocolate bomb at the Grand Tree",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-06": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Catch and cook a Bass in Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-07": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Catch and cook a Monkfish in Piscatoris",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Swan Song"
+            ],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-08": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Fish and cook 5 Sharks in Catherby using the Cooking gauntlets",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Family Crest"
+            ],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-09": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Catch an anglerfish and cook it whilst in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-10": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Bake a Wild pie at the Nardah clay oven",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Cooking-11": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Fish and cook a Dark crab in the Resource Area",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-12": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Catch a Manta ray in the Fishing Trawler and cook it in Port Khazard",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Fishing"
+            ]
+        }
+    },
+    "Cooking-13": {
+        "diary": "Varrock",
+        "difficulty": "Elite",
+        "task": "Bake a Summer pie in the Cooking Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Cooking"
+            ]
+        }
+    },
+    "Crafting-01": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Spin a Bowl on the pottery wheel and fire in the oven in Barbarian Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-02": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Create a Yew longbow from scratch around Seers' Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Fletching",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Crafting-03": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Make a Rune crossbow yourself from scratch within Witchaven or Yanille",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Smithing",
+                "Fletching"
+            ]
+        }
+    },
+    "Crafting-04": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Craft any Snelm from scratch in Morytania",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-05": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Craft a Tiara from scratch in Rellekka",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Mining",
+                "Smithing"
+            ]
+        }
+    },
+    "Crafting-06": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Repair a crane within Port Piscarilius",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-07": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Craft a Fruit basket on the Falador farm loom",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-08": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Craft a Coif in the Lumbridge cow pen (eastern cows)",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-09": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Craft one or more blood runes from Dark essence fragments",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Mining",
+                "Runecraft"
+            ]
+        }
+    },
+    "Crafting-10": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Mine some Gold ore at the Crafting Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Mining"
+            ]
+        }
+    },
+    "Crafting-11": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Claim buckets of sand from Bert in Yanille",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Hand in the Sand"
+            ],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-12": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Craft, string, and enchant an Amulet of power in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Magic"
+            ]
+        }
+    },
+    "Crafting-13": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Craft a Dragonstone amulet in the Neitiznot furnace",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Isles"
+            ],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-14": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Craft a Black dragonhide body in Canifis bank",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Crafting-15": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Construct a pyre ship from Magic logs",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Firemaking"
+            ]
+        }
+    },
+    "Defence-01": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Slay a Dust devil in the desert cave with a Slayer helmet equipped",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Defence",
+                "Slayer",
+                "Crafting"
+            ]
+        }
+    },
+    "Defence-02": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Recruitment Drive"
+            ],
+            "skills": [
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Defence-03": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Recharge your prayer in Port Sarim church while wearing full Proselyte",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Slug Menace"
+            ],
+            "skills": [
+                "Defence"
+            ]
+        }
+    },
+    "Defence-04": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Equip a Dwarven helmet within the Dwarven mines",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Grim Tales"
+            ],
+            "skills": [
+                "Defence"
+            ]
+        }
+    },
+    "Defence-05": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Purchase and equip a Granite body from Barbarian Assault",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Defence",
+                "Strength"
+            ]
+        }
+    },
+    "Defence-06": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Enter the Seers' Village courthouse with Piety turned on",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "King's Ransom"
+            ],
+            "skills": [
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Defence-07": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Pray at the Altar of Nature with Piety activated ",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Nature Spirit",
+                "King's Ransom"
+            ],
+            "skills": [
+                "Defence",
+                "Prayer"
+            ]
+        }
+    },
+    "Farming-01": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Plant Jute seeds in the farming patch north of McGrubor's Wood",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-02": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Place a Scarecrow in the Falador farm patch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-03": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Place a Scarecrow in the Morytania flower patch",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-04": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Pick some Limpwurt root from the farming patch in Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-05": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Grow a healthy Fruit tree in the patch near Brimhaven",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-06": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Harvest some Strawberries from the Ardougne farming patch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-07": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Enter the Farming Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-08": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Harvest some Watermelon from the allotment patch on Harmony Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Great Brain Robbery"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-09": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Harvest some Bittercap mushrooms from the patch in Canifis",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-10": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Pick some Belladonna from the farming patch at Draynor Manor",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-11": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Collect at least 2 Yew roots from the tree patch in Varrock Palace",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Farming-12": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Check the health of a Palm tree near Tree Gnome Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-13": {
+        "diary": "Karamja",
+        "difficulty": "Elite",
+        "task": "Check the health of a Palm tree in Brimhaven",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-14": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Check the health of your Palm tree in Lletya",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Mourning's End Part I"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-15": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Pick some Poison ivy berries from the patch south of East Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-16": {
+        "diary": "Karamja",
+        "difficulty": "Elite",
+        "task": "Check the health of your Calquat tree patch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-17": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Plant some Logavano seeds at the Tithe Farm",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-18": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Have Prissy Scilla protect your Magic tree",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-19": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Pick some Dwarf weed from the herb patch at Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-20": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Pick some Torstol from the patch north of East Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming"
+            ]
+        }
+    },
+    "Farming-21": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Create your own battlestaff from scratch within the Farming Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming",
+                "Fletching"
+            ]
+        }
+    },
+    "Farming-22": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Find at least 3 Magic roots at once when digging up your Magic tree in Falador",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Farming",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-01": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Chop and burn some Oak logs in the Fremennik Province",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-02": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Chop and burn some Oak logs in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-03": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Chop and burn some Willow logs in Taverley",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-04": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Chop and burn some Teak logs on Ape Atoll",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-05": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Use the balloon to travel from Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Enlightened Journey"
+            ],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-06": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Light a Bullseye lantern at the Chemist's in Rimmington",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-07": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Travel to Castle Wars by hot air balloon",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Enlightened Journey"
+            ],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-08": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Subdue the Wintertodt",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-09": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Chop and burn some Mahogany logs on Mos Le'Harmless",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Cabin Fever"
+            ],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-10": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Chop and burn some Mahogany logs on Ape Atoll",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-11": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Burn some Yew logs on the Nardah Mayor's balcony ",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-12": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Chop some Yew logs in Varrock and burn them at the top of the Varrock church",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-13": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Burn some Maple logs with a bow in Seers' Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-14": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Light your Mining helmet in the Lumbridge Castle basement",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Lost Tribe"
+            ],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-15": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Cut and burn some Magic logs in the Resource Area",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Firemaking-16": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Cremate any Shade remains on a Magic pyre",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Shades of Mort'ton"
+            ],
+            "skills": [
+                "Firemaking"
+            ]
+        }
+    },
+    "Firemaking-17": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Construct a pyre ship from Magic logs",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Firemaking",
+                "Crafting"
+            ]
+        }
+    },
+    "Fishing-01": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Catch some Anchovies in Al-Kharid",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-02": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Go out fishing on the Fishing Trawler",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-03": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Catch a Mackerel at Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-04": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Fish a Trout from the River Molch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-05": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Catch some Trout in the River Lum at Barbarian Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-06": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Catch some Salmon in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-07": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Catch a Bluegill on Lake Molch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing",
+                "Hunter"
+            ]
+        }
+    },
+    "Fishing-08": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Fish some Bass on Ape Atoll",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-09": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Fish some Raw lava eel in the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Heroes' Quest"
+            ],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-10": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Catch a Karambwan",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tai Bwo Wannai Trio"
+            ],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Fishing-11": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Fish and cook 5 Sharks in Catherby using the Cooking gauntlets",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Family Crest"
+            ],
+            "skills": [
+                "Fishing",
+                "Cooking"
+            ]
+        }
+    },
+    "Fishing-12": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Catch a Shark in Burgh de Rott with your bare hands",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "In Aid of the Myreque"
+            ],
+            "skills": [
+                "Fishing",
+                "Strength"
+            ]
+        }
+    },
+    "Fletching-01": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Fletch an Oak shortbow in the Gnome Stronghold",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fletching"
+            ]
+        }
+    },
+    "Fletching-02": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "String a Maple shortbow in Seers' Village bank",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fletching"
+            ]
+        }
+    },
+    "Fletching-03": {
+        "diary": "Varrock",
+        "difficulty": "Elite",
+        "task": "Smith and fletch 10 Rune darts within Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Tourist Trap"
+            ],
+            "skills": [
+                "Fletching",
+                "Smithing"
+            ]
+        }
+    },
+    "Fletching-04": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Fletch a Magic longbow in the Elven lands",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Regicide"
+            ],
+            "skills": [
+                "Fletching"
+            ]
+        }
+    },
+    "Fletching-05": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Fletch some Dragon darts at the Bedabin Camp",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Tourist Trap"
+            ],
+            "skills": [
+                "Fletching"
+            ]
+        }
+    },
+    "Herblore-01": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Create a strength potion in the The Deeper Lode pub",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-02": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Mix a Guthix balance potion while in Morytania",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "In Aid of the Myreque",
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-03": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Create a Combat potion in the Desert",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-04": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Create a Superantipoison potion from scratch in the Seers'/Catherby area",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-05": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Mix a Super defence potion in the Fremennik Province",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-06": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Mix a Saradomin brew in Falador east bank",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-07": {
+        "diary": "Karamja",
+        "difficulty": "Elite",
+        "task": "Create an Anti-venom potion whilst standing in the Horseshoe mine",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Herblore-08": {
+        "diary": "Varrock",
+        "difficulty": "Elite",
+        "task": "Create a Super combat potion in Varrock west bank",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Herblore"
+            ]
+        }
+    },
+    "Hitpoints-01": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Kill the generals of Armadyl, Bandos, Saradomin, and Zamorak in the God Wars Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Troll Stronghold"
+            ],
+            "skills": [
+                "Agility",
+                "Strength",
+                "Ranged",
+                "Hitpoints"
+            ]
+        }
+    },
+    "Hunter-01": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Catch a Golden warbler",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-02": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Catch a Copper longtail",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-03": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Catch a Cerulean twitch",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-04": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Catch a Swamp lizard",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-05": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Trap a Spined Larupia",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-06": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Catch a Snowy knight",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-07": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Trap a Horned Graahk",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-08": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Catch an Essence or Eclectic impling in Puro-Puro",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-09": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Catch an Orange salamander",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-10": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Catch a chinchompa in the Kourend Woodland",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Eagles' Peak"
+            ],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-11": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Catch a sabre-toothed kyatt",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-12": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Catch a Red salamander",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-13": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Trade furs with the Fancy Dress Seller for a Spottier cape and equip it",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-14": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Catch a Black salamander",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Hunter-15": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Catch a Dashing kebbit",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        }
+    },
+    "Magic-01": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Cast Low Alchemy at the Fountain of Rune",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-02": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Cast the Teleport to Varrock spell",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-03": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Cast the Lumbridge Teleport spell",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-04": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Telegrab some Wine of Zamorak at the Chaos Temple by the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-05": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Teleport to Falador",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-06": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Teleport to Camelot",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-07": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Teleport to the Digsite using a Digsite pendant",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Dig Site"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-08": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Equip an Iban's upgraded staff",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Underground Pass"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-09": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Cast the Ardougne Teleport spell",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Plague City"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-10": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Teleport to Paddewwa",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-11": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Charge a water orb",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-12": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Craft, string, and enchant an Amulet of power in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic",
+                "Crafting"
+            ]
+        }
+    },
+    "Magic-13": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Teleport to the Watchtower",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Watchtower"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-14": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Cast Bones to Peaches in Al-Kharid Palace",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-15": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Charge an earth orb",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-16": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Cast one of the 3 God spells against another player in the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-17": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Teleport to Trollheim",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Eadgar's Ruse"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-18": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Teleport to Ape Atoll",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "RFD: Freeing King Awowogei"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-19": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Enter the Magic Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-20": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Cast Monster Examine on a mountain troll south of Mount Quidamortem",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Dream Mentor"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-21": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Charge an air orb",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-22": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Refill your Waterskins in the Desert using Lunar spells",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Dream Mentor"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-23": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Teleport to Waterbirth Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lunar Diplomacy"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-24": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Fertilise the Morytania herb patch using Lunar spells",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Lunar Diplomacy"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-25": {
+        "diary": "Varrock",
+        "difficulty": "Elite",
+        "task": "Use Lunar magic to make 20 Mahogany planks at the Lumber Yard",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Dream Mentor"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-26": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Teleport to Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lunar Diplomacy"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-27": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Create an Ape Atoll teleport tablet",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-28": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Cast Ice Barrage on another player in Castle Wars",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-29": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Cast Ice Barrage against a foe in the Desert",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Magic-30": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Teleport to Ghorrock",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Magic"
+            ]
+        }
+    },
+    "Mining-01": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Smith some Blurite limbs on Doric's anvil",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Knight's Sword",
+                "Doric's Quest"
+            ],
+            "skills": [
+                "Mining",
+                "Smithing"
+            ]
+        }
+    },
+    "Mining-02": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Mine some iron ore at the Mount Karuulm mine",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-03": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Mine some Iron ore at the Al-Kharid mine",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-04": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Mine some Iron in the south-east mining patch near Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-05": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Mine some Iron ore in the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-06": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Mine some Iron ore near Piscatoris",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-07": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Mine some Coal in Rellekka",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-08": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Craft one or more blood runes",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining",
+                "Crafting",
+                "Runecraft"
+            ]
+        }
+    },
+    "Mining-09": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Mine some Coal near the Coal trucks",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-10": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Mine some Gold ore at the Crafting Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining",
+                "Crafting"
+            ]
+        }
+    },
+    "Mining-11": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Mine some Gold at the Arzinian Mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Between a Rock..."
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-12": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Mine some Gold from the rocks on the north-west peninsula of Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-13": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Mine a Red topaz from a Gem rock",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Shilo Village"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-14": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Mine some Gold ore underneath the Grand Tree",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Grand Tree"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-15": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Mine some volcanic sulphur",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-16": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Mine some Granite",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-17": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Mine some Mithril ore in the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-18": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Mine some Mithril ore in the Abandoned Mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Haunted Mine"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-19": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Enter the Mining Guild wearing full Prospector",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-20": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Mine some Lovakite ore",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-21": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Mine 5 Adamantite ores on Jatizso",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Isles"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-22": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Mine some Adamantite ore in Tirannwn",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Regicide"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Mining-23": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Smith a Rune scimitar from scratch in the Resource Area",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining",
+                "Smithing"
+            ]
+        }
+    },
+    "Prayer-01": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Recharge your prayer at the Emir's Arena with Smite activated",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Prayer"
+            ]
+        }
+    },
+    "Prayer-02": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Pray at the altar in Varrock Palace with Smite active",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Prayer"
+            ]
+        }
+    },
+    "Prayer-03": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Restore at least 85 Prayer points when praying at the altar in Sophanem",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
+            "skills": [
+                "Prayer"
+            ]
+        }
+    },
+    "Ranged-01": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Enter the Ranging Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Ranged-02": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Purchase an upgraded device from Ava",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Animal Magnetism"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Runecraft-01": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Craft some Water runes",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-02": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Craft some Earth runes",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-03": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Craft some Lava runes at the Fire Altar in Al-Kharid",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-04": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Craft some Nature runes",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-05": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Craft 140 Mind runes simultaneously",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-06": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Craft 56 Cosmic runes simultaneously",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lost City"
+            ],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-07": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Craft some Death runes",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Mourning's End Part II"
+            ],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-08": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Craft 140 or more Water runes at once",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-09": {
+        "diary": "Varrock",
+        "difficulty": "Elite",
+        "task": "Craft 100 or more Earth runes simultaneously",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-10": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Craft 56 Astral runes at once",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lunar Diplomacy"
+            ],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-11": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Craft 252 Air runes at once",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Runecraft-12": {
+        "diary": "Karamja",
+        "difficulty": "Elite",
+        "task": "Craft 56 Nature runes at once",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Runecraft"
+            ]
+        }
+    },
+    "Slayer-01": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Slay a Cave bug in the Lumbridge Swamp Caves",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-02": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Kill a Banshee in the Slayer Tower",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-03": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Slay a Desert lizard",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-04": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Kill a Mogre at Mudskipper Point",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Skippy and the Mogres"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-05": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Kill a Terror dog",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Haunted Mine"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-06": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Kill a Fever spider on Braindeath Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Rum Deal"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-07": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Slay a Brine rat",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Olaf's Quest"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-08": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Be assigned a Slayer task by Duradel in Shilo Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-09": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Kill a Bloodveld in the Wilderness God Wars Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-10": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Kill a Cave horror",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Cabin Fever"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-11": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Kill a wyrm in the Karuulm Slayer Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-12": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Kill a Spiritual warrior in the Wilderness God Wars Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-13": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Kill a Skeletal wyvern in the Asgarnia Ice Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-14": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Slay a Spiritual mage within the God Wars Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Troll Stronghold"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-15": {
+        "diary": "Morytania",
+        "difficulty": "Elite",
+        "task": "Kill an Abyssal demon in the Slayer Tower",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-16": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Kill the thermonuclear smoke devil",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Slayer-17": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Kill a hydra in the Karuulm Slayer Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Smithing-01": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Make a batch of Cannonballs at the Port Phasmatys furnace",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Ghosts Ahoy",
+                "Dwarf Cannon"
+            ],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-02": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Smith a Gold helmet in the Resource Area",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Between a Rock..."
+            ],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-03": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Smith a Dragon sq shield in West Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Legends' Quest"
+            ],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-04": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Obtain the Blast Furnace Foreman's permission to use the Blast Furnace for free",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-05": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Smith a Mithril platebody near Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-06": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Create a Mithril platebody in Nardah",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-07": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Smelt an adamantite bar in The Forsaken Tower",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Forsaken Tower"
+            ],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-08": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Smith an Adamant spear at Otto's Grotto",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-09": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Smith an Adamant scimitar in the Resource Area",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-10": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Smith an Adamant platebody down Draynor sewer",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Smithing-11": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Smith a Rune hasta at Otto's Grotto",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Strength-01": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Travel to the Desert via the Eagle transport system",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Eagles' Peak"
+            ],
+            "skills": [
+                "Strength"
+            ]
+        }
+    },
+    "Thieving-01": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Steal a Cake from the East Ardougne market stalls",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-02": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Steal from the Keldagrim crafting or baker's stall",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-03": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Steal from the Tea stall in Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-04": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Open the sarcophagus in the first room of Pyramid Plunder",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-05": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Steal a Phoenix feather from the Desert phoenix",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Golem"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-06": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Steal from a Hosidius Food Stall",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-07": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Pickpocket the Master Farmer north of East Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-08": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Pickpocket Martin the Master Gardener",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-09": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Pickpocket a Falador guard",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-10": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Steal from the Rellekka Fish stalls",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-11": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Steal from the chest in Hemenster",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-12": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Deliver an artefact to Captain Khaled",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-13": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Crack a wall safe within the Rogues' Den",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-14": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Knock out a Menaphite thug",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Feud"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-15": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Attempt to steal from a chest in Ardougne Castle",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-16": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Steal from the Keldagrim gem stall",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-17": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Pickpocket a Gnome",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-18": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Steal from a Dorgesh-Kaan rich chest",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Death to the Dorgeshuun"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-19": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Pickpocket a Hero",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-20": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Attempt to picklock the door to the basement of the Yanille Agility dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-21": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Steal from the Chest (Rogues' Castle)",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-22": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Pickpocket an Elf",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Mourning's End Part I"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Thieving-23": {
+        "diary": "Desert",
+        "difficulty": "Elite",
+        "task": "Steal from the Grand Gold Chest in the final room of Pyramid Plunder",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Woodcutting-01": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Earn 100% favour in the Tai Bwo Wannai Cleanup minigame",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Jungle Potion"
+            ],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-02": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Chop the vines to gain deeper access to Brimhaven Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-03": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Climb the stairs within Brimhaven Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutitng-04": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Collect 5 Palm leaves",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Legends' Quest"
+            ],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-05": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Chop some Willow logs in Draynor Village",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-06": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Chop some Teak logs near Uzer",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-07": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Cut a log from a Teak",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Jungle Potion"
+            ],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-08": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Obtain some Bark from a Hollow tree",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-09": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Cut a log from a Mahogany",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-10": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Chop some mahogany logs north of the Farming Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-11": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Craft a Fremennik shield on Neitiznot",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Isles"
+            ],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-12": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Travel from Lumbridge to Edgeville on a Waka canoe",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-13": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Make a Waka canoe near Edgeville",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-14": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Enter the Woodcutting Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-15": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Chop some Yew logs from an Ent",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-16": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Chop some Magic logs at the Mage Training Arena",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Woodcutting-17": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Chop some redwood logs",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Quest-01": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Have the Mage of Zamorak teleport you to the Abyss",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Into the Abyss"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-02": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Take the train from Dorgesh-Kaan to Keldagrim",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Another Slice of H.A.M."
+            ],
+            "skills": []
+        }
+    },
+    "Quest-03": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Teleport to Xeric's Heart using Xeric's talisman",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Architectural Alliance"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-04": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Ascent of Arceuus"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-05": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Kill a Mithril dragon",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Quest-06": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Enter the Combat Training Camp north of West Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Biohazard"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-07": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Defeat a locust rider with Keris",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Contact!"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-08": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Bake some Bread on the Lumbridge kitchen range",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Cook's Assistant"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-09": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Depths of Despair"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-10": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Activate Ancient Magicks",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-11": {
+        "diary": "Kandarin",
+        "difficulty": "Hard",
+        "task": "Kill a Shadow hound in the Shadow Dungeon",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-12": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Discover the hidden wall in the dungeon below the volcano",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Dragon Slayer I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-13": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Visit the Isle of Crandor via the dungeon below the volcano",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Dragon Slayer I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-14": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Travel to the Snowy Hunter Area via Eagle",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Eagles' Peak"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-15": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Travel from Eagles' Peak to the Feldip Hills by Eagle",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Eagles' Peak"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-16": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Teleport to Enakhra's Temple with the Camulet",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Enakhra's Lament"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-17": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Defeat one of each elemental in the Elemental Workshop",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Elemental Workshop I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-18": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Create a Mind helmet",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Elemental Workshop II"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-19": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Turn your crystal saw seed into a Crystal saw",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Eyes of Glouphrie"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-20": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Forsaken Tower"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-21": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Change your boots at Yrsa's Shoe Store",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-22": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Select a colour for your kitten",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Garden of Tranquillity",
+                "Gertrude's Cat"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-23": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Pick a White tree fruit",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Garden of Tranquillity"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-24": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Use an Ectophial to return to Port Phasmatys",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Ghosts Ahoy"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-25": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Browse the Stonemason's Shop",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Giant Dwarf"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-26": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Steal from the Keldagrim crafting or baker's stall",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Quest-27": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Travel to Uzer via Magic carpet",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Golem"
+            ],
+            "skills": []
+        }
+    },
+    "Quest=28": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Use the Gnome glider to travel to Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Grand Tree"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-29": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Charter a ship from the shipyard in the far east of Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Grand Tree"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-30": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Claim buckets of sand from Bert in Yanille",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Hand in the Sand"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-31": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Kill the Blue dragon under the Heroes' Guild",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Heroes' Quest"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-32": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Visit the Lighthouse from Waterbirth Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Horror from the Deep"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-33": {
+        "diary": "Morytania",
+        "difficulty": "Hard",
+        "task": "Complete a hard temple trek",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "In Aid of the Myreque"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-34": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Board the Swamp Boaty at the Hollows",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "In Search of the Myreque"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-35": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Exchange gems with Safta Doc for a Machete",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Jungle Potion"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-36": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Recharge some jewellery at the totem in the Legends' Guild",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Legends' Quest"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-37": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Eat an Oomlie wrap",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Legends' Quest"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-38": {
+        "diary": "Ardounge",
+        "difficulty": "Hard",
+        "task": "Have a Monkey Minder put you in Ardougne Zoo's monkey cage",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Monkey Madness I"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-39": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Restore your Prayer points at the Nature Grotto",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril",
+                "Nature Spirit"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-40": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Travel to the Feldip Hills by Gnome glider",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "One Small Favour",
+                "The Grand Tree"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-41": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Have Sbott tan something for you",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-42": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Enter Mort Myre Swamp",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-43": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Kill a Ghoul",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-44": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Offer some Bonemeal at the Ectofuntus",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-45": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Kill a Werewolf in its human form using the Wolfbane dagger",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-46": {
+        "diary": "Morytania",
+        "difficulty": "Medium",
+        "task": "Travel to Dragontooth Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-47": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Browse the Warrens General Store",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Queen of Thieves"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-48": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Queen of Thieves"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-49": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Visit the Port Sarim Rat Pits",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Ratcatchers"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-50": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Purchase some Barrows gloves from the Culinaromancer's Chest",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "RFD: Another Cook's Quest",
+                "RFD: Freeing the Mountain Dwarf",
+                "RFD: Freeing the Goblin generals",
+                "RFD: Freeing Pirate Pete",
+                "RFD: Freeing the Lumbridge Guide",
+                "RFD: Freeing Evil Dave",
+                "RFD: Freeing King Awowogei",
+                "RFD: Freeing Sir Amik Varze",
+                "RFD: Freeing Skrach Uglogwee",
+                "RFD: Defeating the Culinaromancer"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-51": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Kill Zulrah",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Regicide"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-52": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Have Wizard Cromperty teleport you to the Rune essence mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-53": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Have Archmage Sedridor teleport you to the Rune essence mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-54": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Have Aubury teleport you to the Rune essence mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-55": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Have Brimstail teleport you to the Rune essence mine",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-56": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Catch any fish on the Fishing Platform",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Sea Slug"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-57": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Use Vigroy and Hajedy's cart service",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Shilo Village"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-58": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Charter the Lady of the Waves from Cairn Isle to Port Khazard",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Shilo Village"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-59": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Enter the Tolna dungeon after completing A Soul's Bane",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "A Soul's Bane"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-60": {
+        "diary": "Desert",
+        "difficulty": "Medium",
+        "task": "Visit the genie",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Spirits of the Elid"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-61": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tale of the Righteous"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-62": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Hard",
+        "task": "Collect at least 100 Tears of Guthix in one visit",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tears of Guthix"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-63": {
+        "diary": "Fremennik",
+        "difficulty": "Hard",
+        "task": "Obtain 100% support from your kingdom subjects",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Throne of Miscellania"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-64": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Kill a Swordchick in the Tower of Life",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Tower of Life"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-65": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Use the Spirit tree north of Varrock",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tree Gnome Village"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-66": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Travel to the Tree Gnome Stronghold by Spirit tree",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Tree Gnome Village"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-67": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Enter the Troll Stronghold",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Troll Stronghold"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-68": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Purchase a White 2h sword from Sir Vyvin",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Wanted!"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-69": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Collect some Cave nightshade from the Skavid caves",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Watchtower"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-70": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Kill a Fire giant in the Waterfall Dungeon",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Waterfall Quest"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-71": {
+        "diary": "Ardounge",
+        "difficulty": "Elite",
+        "task": "Imbue a salve amulet at Nightmare Zone, or equip a salve amulet(i) that was imbued there",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Quest-72": {
+        "diary": "Falador",
+        "difficulty": "Elite",
+        "task": "Perform a Cape of Accomplishment or Quest point cape emote at the top of the White Knights' Castle",
+        "requirements": {
+            "qp": 300,
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Quest-73": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Elite",
+        "task": "Perform the Quest point cape emote in the Wise Old Man's house ",
+        "requirements": {
+            "qp": 300,
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Quest-74": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Speak to Haig Halen after obtaining at least 50 Kudos",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Dig Site"
+            ],
+            "skills": []
+        }
+    },
+    "Quest-75": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Enter the Champions' Guild",
+        "requirements": {
+            "qp": 32,
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Quest-76": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Speak to Orlando Smith when you have achieved 153 Kudos",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Dig Site",
+                "Demon Slayer",
+                "Rune Mysteries",
+                "Shield of Arrav",
+                "A Tail of Two Cats",
+                "Hazeel Cult",
+                "In Aid of the Myreque",
+                "Making History",
+                "Merlin's Crystal",
+                "Observatory Quest",
+                "Priest in Peril",
+                "Temple of Ikov",
+                "The Grand Tree",
+                "What Lies Below",
+                "Curse of the Empty Lord"
+            ],
+            "skills": []
+        }
+    },
+    "Combat-01": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Kill a Duck in Falador Park",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-02": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Kill 5 Rock Crabs",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-03": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Kill a zombie in the Draynor Sewers",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-04": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Kill a Sand Crab",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-05": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Kill a Terrorbird in the Terrorbird enclosure",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-06": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Kill a Vulture",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-07": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Deliver some intelligence to Captain Ginea",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-08": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Kill a Jogre in the Pothole Dungeon",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-09": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Kill a lizardman",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-10": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Kill a Green dragon",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-11": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Kill a Mammoth",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-12": {
+        "diary": "Varrock",
+        "difficulty": "Hard",
+        "task": "Teleport to Barbarian Village with a Skull sceptre",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-13": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Kill an Ankou in the Wilderness",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-14": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Kill a Metal dragon in the Brimhaven Dungeon",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Woodcutting"
+            ]
+        }
+    },
+    "Combat-15": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Kill a zombie in the Shayzien Crypts",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-16": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Hard",
+        "task": "Kill a lizardman shaman in Molch",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-17": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Kill the Crazy archaeologist, Chaos Fanatic and Scorpia",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-18": {
+        "diary": "Falador",
+        "difficulty": "Hard",
+        "task": "Kill the Giant Mole beneath Falador Park",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-19": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Kill a Lava dragon & bury the bones on Lava Dragon Isle",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-20": {
+        "diary": "Fremennik",
+        "difficulty": "Elite",
+        "task": "Kill each of the Dagannoth Kings",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-21": {
+        "diary": "Wilderness",
+        "difficulty": "Hard",
+        "task": "Kill the Chaos Elemental",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-22": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Defeat Skotizo in the Catacombs of Kourend",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-23": {
+        "diary": "Desert",
+        "difficulty": "Hard",
+        "task": "Kill the Kalphite Queen",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-24": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Kill a Ket-Zek in the Fight Caves",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-25": {
+        "diary": "Wilderness",
+        "difficulty": "Elite",
+        "task": "Kill Callisto, Venenatis & Vet'ion",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-26": {
+        "diary": "Karamja",
+        "difficulty": "Elite",
+        "task": "Equip a fire cape in Mor Ul Rek",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-27": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Kill Zulrah",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Combat-28": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Elite",
+        "task": "Complete a raid in the Chambers of Xeric",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-01": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Grapple across the River Lum",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Ranged",
+                "Strength"
+            ]
+        }
+    },
+    "Special-02": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Grapple up and then jump off the north Falador wall",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Ranged",
+                "Strength"
+            ]
+        }
+    },
+    "Special-03": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Use the grapple shortcut to get from the water obelisk to Catherby shore",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Ranged",
+                "Strength"
+            ]
+        }
+    },
+    "Special-04": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Grapple over Yanille's south wall",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Ranged",
+                "Strength"
+            ]
+        }
+    },
+    "Special-05": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Use the crossbow shortcut south of the volcano",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Ranged",
+                "Strength"
+            ]
+        }
+    },
+    "Special-06": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Claim any Chompy bird hat from Rantz",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Big Chompy Bird Hunting"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Special-07": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Claim a Chompy bird hat from Rantz after registering at least 125 kills",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Big Chompy Bird Hunting"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Special-08": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Claim a Chompy bird hat from Rantz after registering at least 300 kills",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Big Chompy Bird Hunting"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Special-09": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Claim a Chompy bird hat from Rantz after registering at least 1000 kills",
+        "requirements": {
+            "combat": true,
+            "quests": [
+                "Big Chompy Bird Hunting"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Special-10": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Teleport to Pest Control using the Minigame teleports",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-11": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Complete a novice game of Pest Control",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-12": {
+        "diary": "Western Provinces",
+        "difficulty": "Medium",
+        "task": "Complete an intermediate game of Pest Control",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-13": {
+        "diary": "Western Provinces",
+        "difficulty": "Hard",
+        "task": "Complete a veteran game of Pest Control",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-14": {
+        "diary": "Western Provinces",
+        "difficulty": "Elite",
+        "task": "Equip any complete void set",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Hitpoints",
+                "Magic",
+                "Ranged",
+                "Prayer"
+            ]
+        }
+    },
+    "Special-15": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Complete a wave of Barbarian Assault",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Special-16": {
+        "diary": "Kandarin",
+        "difficulty": "Elite",
+        "task": "Read the blackboard at Barbarian Assault after reaching Level 5 in every role",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": [
+                "Attack",
+                "Strength",
+                "Defence",
+                "Ranged"
+            ]
+        }
+    },
+    "Special-17": {
+        "diary": "Morytania",
+        "difficulty": "Easy",
+        "task": "Get a Slayer task from Mazchna",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Special-18": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Get a Slayer task from Vannaka",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Special-19": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Get a Slayer task from Chaeldar",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Lost City"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Special-20": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Be assigned a Slayer task by Duradel in Shilo Village",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Shilo Village"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        }
+    },
+    "Special-21": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Visit the island east of the Necromancer Tower",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Special-22": {
+        "diary": "Fremennik",
+        "difficulty": "Medium",
+        "task": "Travel to Miscellania by fairy ring",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Special-23": {
+        "diary": "Kandarin",
+        "difficulty": "Medium",
+        "task": "Travel to McGrubor's Wood by fairy ring",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Special-24": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Travel to the fairy ring south of Mount Karuulm",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Special-25": {
+        "diary": "Ardounge",
+        "difficulty": "Medium",
+        "task": "Enter the Unicorn pen in Ardougne Zoo using fairy rings",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Special-26": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Medium",
+        "task": "Travel to the Wizards' Tower by fairy ring",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "Fairytale I - Growing Pains",
+                "Fairytale II - Cure a Queen"
+            ],
+            "skills": []
+        }
+    },
+    "Misc-01": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Sell Silk to the Silk trader in East Ardougne for 60 coins each",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-02": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Use the altar in East Ardougne's church",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-03": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Have Tindel Marchant identify a Rusty sword for you",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-04": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Use the Ardougne lever to teleport to the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-05": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "View Aleck's Hunter Emporium. shop in Yanille",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-06": {
+        "diary": "Ardounge",
+        "difficulty": "Easy",
+        "task": "Check what pets you have insured with Probita in East Ardougne",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-07": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Enter the Kalphite Lair",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-08": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Mine five Clay in the north-eastern Desert",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        }
+    },
+    "Misc-09": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Enter the Desert with a set of Desert robes equipped",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-10": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Have the Nardah herbalist clean a herb for you",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-11": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Collect 5 Potato cacti from the Kalphite Lair",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-12": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Sell some artefacts to Simon Templeton",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-13": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Cut a desert cactus open to fill a Waterskin",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-14": {
+        "diary": "Desert",
+        "difficulty": "Easy",
+        "task": "Travel from the Shantay Pass to Pollnivneach by Magic carpet",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-15": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Browse Sarah's Farming Shop",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-16": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Fill a bucket from the pump north of Falador west Bank",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-17": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Take the boat to Entrana",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-18": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Make a mind tiara",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-19": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Repair a broken strut in the Motherlode Mine",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Smithing"
+            ]
+        }
+    },
+    "Misc-20": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Claim a Security book from the Security Guard at Port Sarim Jail",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-21": {
+        "diary": "Falador",
+        "difficulty": "Medium",
+        "task": "Unlock the Crystal chest in Taverley",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-22": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Collect 5 Snape grass on Waterbirth Island",
+        "requirements": {
+            "combat": false,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": []
+        }
+    },
+    "Misc-23": {
+        "diary": "Fremennik",
+        "difficulty": "Easy",
+        "task": "Fill a bucket with water at the Rellekka well",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-24": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Buy a Candle from the Candle maker in Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-25": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Collect 5 Flax from the Seers' Village flax field",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-26": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Play the Organ in the Seers' Village church",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-27": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Have Galahad make you a Cup of tea",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-28": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Get a Pet fish from Harry in Catherby",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        }
+    },
+    "Misc-29": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Buy a Stew from the Seers' Village pub",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-30": {
+        "diary": "Kandarin",
+        "difficulty": "Easy",
+        "task": "Speak to Sherlock",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-31": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Pick 5 Bananas from the plantation located east of the volcano",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-32": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Travel to Port Sarim via the dock east of Musa Point",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-33": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Travel to Ardougne via the port near Brimhaven",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-34": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Use the Fishing spots north of the banana plantation",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Fishing"
+            ]
+        }
+    },
+    "Misc-35": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Collect 5 Seaweed from anywhere on Karamja",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-36": {
+        "diary": "Karamja",
+        "difficulty": "Easy",
+        "task": "Attempt the TzHaar Fight Pit or Fight Cave",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-37": {
+        "diary": "Karamja",
+        "difficulty": "Medium",
+        "task": "Claim a ticket from the Agility Arena in Brimhaven",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Misc-38": {
+        "diary": "Karamja",
+        "difficulty": "Hard",
+        "task": "Become the champion of the Fight Pit",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-39": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Hand in a book at the Arceuus Library",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-40": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Medium",
+        "task": "Switch to the Arceuus spellbook via Tyss",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-41": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Take a boat to Land's End",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-42": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Pray at the altar on the top floor of the Kourend Castle",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-43": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Dig up some saltpetre",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-44": {
+        "diary": "Kourend & Kebos",
+        "difficulty": "Easy",
+        "task": "Heal a wounded Shayzien soldier",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-45": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Learn your age from Hans in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-46": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Pickpocket a Man or Woman in Lumbridge",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        }
+    },
+    "Misc-47": {
+        "diary": "Lumbridge & Draynor",
+        "difficulty": "Easy",
+        "task": "Enter the H.A.M. Hideout",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-48": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Browse Thessalia's Store",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-49": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Make a Plank at the Sawmill",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-50": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Enter the second level of the Stronghold of Security",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-51": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Chop down a dying tree in the Lumber Yard",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Misc-52": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Buy a newspaper",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-53": {
+        "diary": "Varrock",
+        "difficulty": "Easy",
+        "task": "Give a dog a bone!",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-54": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Have the Apothecary in Varrock make you a Strength potion",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-55": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Perform the 4 emotes from the Stronghold of Security",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-56": {
+        "diary": "Varrock",
+        "difficulty": "Medium",
+        "task": "Make 20 Mahogany planks in one go",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Woodcutting"
+            ]
+        }
+    },
+    "Misc-57": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Enter the Wilderness from the Ardougne or Edgeville lever",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-58": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Pray at the Chaos Altar in level 38 western Wilderness",
+        "requirements": {
+            "combat": true,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-59": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Enter the Chaos Runecraft temple",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-60": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Restore some Prayer points at the Demonic Ruins",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-61": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Enter the King Black Dragon Lair",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-62": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Collect 5 Red spider's eggs from the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-63": {
+        "diary": "Wilderness",
+        "difficulty": "Easy",
+        "task": "Equip any Team cape in the Wilderness",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-64": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Talk to the Emblem Trader in Edgeville about emblems",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-65": {
+        "diary": "Wilderness",
+        "difficulty": "Medium",
+        "task": "Open the Muddy chest in the Lava Maze",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-66": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Complete a lap of the Gnome Agility Course",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        }
+    },
+    "Misc-67": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Score a goal in a Gnome Ball match",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": [
+                "Ranged"
+            ]
+        }
+    },
+    "Misc-68": {
+        "diary": "Western Provinces",
+        "difficulty": "Easy",
+        "task": "Collect a swamp toad at the Tree Gnome Stronghold",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    }
+}
