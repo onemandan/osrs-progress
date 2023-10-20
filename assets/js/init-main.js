@@ -43,12 +43,9 @@
 
                 if ("unlocked" in data && "qp" in data && "complete" in data) {
                     userObj = data;
-                    
-                    for (const unlock of userObj.unlocked) {
-                        $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
-                    }
 
                     updateAllSections();
+                    updateInformation();
                     localStorage.setObject(userObjID, userObj);
                 }
             }
@@ -68,6 +65,7 @@
     const userObjID = "osrs-xosaat-user";
 
     let userObj = {
+        combat: false,
         unlocked: [],
         qp: 0,
         complete: {
@@ -97,29 +95,32 @@
     const _skillsSelector = "#skills-wrapper .skill-item";
     const _skillsTitleSelector = ".skill-title";
 
+    const _skillsProgressSelector = "#skills-progress";
+    const _qpProgressSelector = "#qp-progress";
+
     const _achievementsSelector = "#achievements-wrapper";
     const _achievementsItemsSelector = _achievementsSelector + " .json-item";
     const _achievementsCompletedSelector = "#achievements-completed";
     const _achievementsTotalSelector = "#achievements-total";
-    const _achievementsProgress = "#achievements-progress";
+    const _achievementsProgressSelector = "#achievements-progress";
 
     const _questsSelector = "#quests-wrapper";
     const _questsItemsSelector = _questsSelector + " .json-item";
     const _questsCompletedSelector = "#quests-completed";
     const _questsTotalSelector = "#quests-total";
-    const _questsProgress = "#quests-progress";
+    const _questsProgressSelector = "#quests-progress";
 
     const _petsSelector = "#pets-wrapper";
     const _petsItemsSelector = _petsSelector + " .json-item";
     const _petsCompletedSelector = "#pets-completed";
     const _petsTotalSelector = "#pets-total";
-    const _petsProgress = "#pets-progress";
+    const _petsProgressSelector = "#pets-progress";
 
     const _collectionsSelector = "#collections-wrapper";
     const _collectionsItemsSelector = _collectionsSelector + " .json-item";
     const _collectionsCompletedSelector = "#collections-completed";
     const _collectionsTotalSelector = "#collections-total";
-    const _collectionsProgress = "#collections-progress";
+    const _collectionsProgressSelector = "#collections-progress";
 
     const _showHideSelector = ".show-hide";
     const _downloadSelector = "#btn-download";
@@ -130,7 +131,7 @@
             data: {},
             dir: "/assets/json/achievements.json",
             update: function(){
-                updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, _achievementsProgress, function() {
+                updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, _achievementsProgressSelector, function() {
                     const hide = $("img[data-src='achievement,hide']").length > 0;
 
                     let nodes = [];
@@ -182,7 +183,7 @@
             data: {},
             dir: "/assets/json/quests.json",
             update: function() {
-                updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, _questsProgress, function() {
+                updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, _questsProgressSelector, function() {
                     const hide = $("img[data-src='quest,hide']").length > 0;
 
                     let nodes = [];
@@ -233,7 +234,7 @@
             data: {},
             dir: "/assets/json/pets.json",
             update: function(){
-                updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, _petsProgress, function() {
+                updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, _petsProgressSelector, function() {
                     const hide = $("img[data-src='pet,hide']").length > 0;
 
                     let nodes = [];
@@ -279,7 +280,7 @@
             data: {},
             dir: "/assets/json/collections.json",
             update: function() {
-                updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, _collectionsProgress, function() {
+                updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, _collectionsProgressSelector, function() {
                     const hide = $("img[data-src='collection,hide']").length > 0;
                     const maxItems = 5;
 
@@ -350,13 +351,21 @@
         } else {
             nodes.sort((a, b) => a[key].localeCompare(b[key]));
         }
-        
 
         for (const node of nodes) {
             html = html + node.html;
         }
 
         return html;
+    }
+
+    function updateInformation() {
+        for (const unlock of userObj.unlocked) {
+            $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
+        }
+
+        $(_qpProgressSelector).text(userObj.qp);
+        $(_skillsProgressSelector).text(userObj.unlocked.length);
     }
 
     function updateSection(wrapper, wrapperItems, completed, total, progress, callback) {
@@ -383,10 +392,8 @@
     }
 
     function isUnlocked(requirements) {
-        const combat = userObj.unlocked.includes("Combat");
-
         if (requirements) {
-            if ("combat" in requirements && (requirements.combat && !combat)) {
+            if ("combat" in requirements && (requirements.combat && !userObj.combat)) {
                 return false;
             }
     
@@ -424,10 +431,17 @@
     }
 
     function onSkillClick(e) {
+        const type = $(_skillsTitleSelector, this).text().trim();
         $(this).toggleClass("unlocked");
-        toggleArrayItem(userObj.unlocked, $(_skillsTitleSelector, this).text().trim());
 
+        if (type === "Combat") {
+            userObj.combat = !userObj.combat;
+        } else {
+            toggleArrayItem(userObj.unlocked, type);
+        }
+        
         updateAllSections();
+        $(_skillsProgressSelector).text(userObj.unlocked.length);
 
         localStorage.setObject(userObjID, userObj);
     }
@@ -441,8 +455,17 @@
             toggleArrayItem(userObj.complete.achievements, $(".json-description", this).text().trim());
             jsonObj.achievements.update();
         } else if (type === "quest") {
-            toggleArrayItem(userObj.complete.quests, $("h4", this).text().trim());
+            const quest = $("h4", this).text().trim();
+
+            if ($(this).hasClass("complete")) {
+                userObj.qp = userObj.qp + jsonObj.quests.data[quest].rewards.qp;
+            } else {
+                userObj.qp = userObj.qp - jsonObj.quests.data[quest].rewards.qp;
+            }
+            
+            toggleArrayItem(userObj.complete.quests, quest);
             updateAllSections();
+            $(_qpProgressSelector).text(userObj.qp);
         } else if (type === "pet") {
             toggleArrayItem(userObj.complete.pets, $("h4", this).text().trim());
             jsonObj.pets.update();
@@ -497,8 +520,6 @@
             }.bind(oObj));
         }
 
-        for (const unlock of userObj.unlocked) {
-            $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
-        }
+        updateInformation();
     });
 })();

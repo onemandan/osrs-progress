@@ -36,34 +36,46 @@
                         <img id="btn-download" class="cursor ms-3" src="/assets/images/svg/download.svg" height="32px" width="32px" alt="Download icon"/>
                     </div> 
                 </div>
-                <div id="progress-wrapper" class="row row-cols-2 row-cols-lg-4 g-2 g-md-3 mt-1">
+                <div id="progress-wrapper" class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-2 g-md-3 mt-1">
                     <div class="col">
-                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
-                            <h4>Achievements</h4>
+                        <div class="progress-item d-flex flex-column align-items-center py-2 px-3 rounded h-100">
+                            <h4>Skills</h4>
+                            <h5><span id="skills-progress">0</span>/23</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column align-items-center py-2 px-3 rounded h-100">
+                            <h4>Quest Points</h4>
+                            <h5><span id="qp-progress">0</span></h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
+                            <h4 class="text-center">Achievements</h4>
                             <div class="progress my-2" role="progressbar" aria-label="achievements progress">
                                 <div id="achievements-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
-                            <h4>Quests</h4>
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
+                            <h4 class="text-center">Quests</h4>
                             <div class="progress my-2" role="progressbar" aria-label="achievements progress">
                                 <div id="quests-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
-                            <h4>Pets</h4>
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
+                            <h4 class="text-center">Pets</h4>
                             <div class="progress my-2" role="progressbar" aria-label="achievements progress">
                                 <div id="pets-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
-                            <h4>Collections</h4>
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
+                            <h4 class="text-center">Collections</h4>
                             <div class="progress my-2" role="progressbar" aria-label="achievements progress">
                                 <div id="collections-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
