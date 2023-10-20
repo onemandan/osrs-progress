@@ -6178,7 +6178,7 @@
         "difficulty": "Medium",
         "task": "Open the Muddy chest in the Lava Maze",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": []
         }

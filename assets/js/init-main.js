@@ -72,6 +72,7 @@
             update: function(){
                 updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, function() {
                     let nodes = [];
+                    let completeNodes = [];
 
                     for (const oID in jsonObj.achievements.data) {
                         const data = jsonObj.achievements.data[oID];
@@ -94,15 +95,23 @@
                                 </div>
                             </div>`;
 
-                            nodes.push({
-                                "diary": data.diary,
-                                "difficulty": data.difficulty,
-                                "html": html
-                            });
+                            if (complete) {
+                                completeNodes.push({
+                                    "diary": data.diary,
+                                    "difficulty": data.difficulty,
+                                    "html": html
+                                });
+                            } else {
+                                nodes.push({
+                                    "diary": data.diary,
+                                    "difficulty": data.difficulty,
+                                    "html": html
+                                });
+                            }
                         }
                     }
 
-                    return sortNodesHTML(["diary", "difficulty"], nodes);
+                    return sortNodesHTML(["diary", "difficulty"], nodes) + sortNodesHTML(["diary", "difficulty"], completeNodes);
                 }.bind(this));
             }
         },
@@ -112,6 +121,7 @@
             update: function() {
                 updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, function() {
                     let nodes = [];
+                    let completeNodes = [];
                     
                     for (const oID in jsonObj.quests.data) {
                         const data = jsonObj.quests.data[oID];
@@ -135,14 +145,21 @@
                                 </div>
                             </div>`;
 
-                            nodes.push({
-                                "name": oID,
-                                "html": html
-                            });
+                            if (complete) {
+                                completeNodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            } else {
+                                nodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            }
                         }
                     }
 
-                    return sortNodesHTML("name", nodes);
+                    return sortNodesHTML("name", nodes) + sortNodesHTML("name", completeNodes);
                 }.bind(this));
             }
         },
@@ -152,6 +169,7 @@
             update: function(){
                 updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, function() {
                     let nodes = [];
+                    let completeNodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
@@ -170,14 +188,21 @@
                                 </div>
                             </div>`;
 
-                            nodes.push({
-                                "name": oID,
-                                "html": html
-                            });
+                            if (complete) {
+                                completeNodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            } else {
+                                nodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            }
                         }
                     }
 
-                    return sortNodesHTML("name", nodes);
+                    return sortNodesHTML("name", nodes) + sortNodesHTML("name", completeNodes);
                 }.bind(this));
             }
         },
@@ -188,6 +213,7 @@
                 updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, function() {
                     const maxItems = 5;
                     let nodes = [];
+                    let completeNodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
@@ -224,14 +250,21 @@
                                 </div>
                             </div>`;
 
-                            nodes.push({
-                                "name": oID,
-                                "html": html
-                            });
+                            if (complete) {
+                                completeNodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            } else {
+                                nodes.push({
+                                    "name": oID,
+                                    "html": html
+                                });
+                            }
                         }
                     }
 
-                    return sortNodesHTML("name", nodes);
+                    return sortNodesHTML("name", nodes) + sortNodesHTML("name", completeNodes);
                 }.bind(this));
             }
         }
@@ -324,12 +357,16 @@
 
         if (type === "achievement") {
             toggleArrayItem(userObj.complete.achievements, $(".json-description", this).text().trim());
+            jsonObj.achievements.update();
         } else if (type === "quest") {
             toggleArrayItem(userObj.complete.quests, $("h4", this).text().trim());
+            updateAllSections();
         } else if (type === "pet") {
             toggleArrayItem(userObj.complete.pets, $("h4", this).text().trim());
+            jsonObj.pets.update();
         } else if (type === "collection") {
             toggleArrayItem(userObj.complete.collections, $("h4", this).text().trim());
+            jsonObj.collections.update();
         }
     }
 
