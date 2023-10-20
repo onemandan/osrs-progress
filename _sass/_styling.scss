@@ -141,7 +141,7 @@ hr {
     background-color: $colour-background-featured;
 	right: 1rem;
 	top: calc(50% - 75px);
-	z-index: 1000;
+	z-index: 9999;
     height: 150px;
 	text-decoration: none;
 	transition: all $transition-fast;
