@@ -92,6 +92,8 @@
         Elite: 4
     });
 
+    const _assetsDir = "/osrs-progress/assets";
+
     const _skillsSelector = "#skills-wrapper .skill-item";
     const _skillsTitleSelector = ".skill-title";
 
@@ -129,7 +131,7 @@
     const jsonObj = {
         achievements: {
             data: {},
-            dir: "/assets/json/achievements.json",
+            dir: _assetsDir + "/json/achievements.json",
             update: function(){
                 updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, _achievementsProgressSelector, function() {
                     const hide = $("img[data-src='achievement,hide']").length > 0;
@@ -181,7 +183,7 @@
         },
         quests: {
             data: {},
-            dir: "/assets/json/quests.json",
+            dir: _assetsDir + "/json/quests.json",
             update: function() {
                 updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, _questsProgressSelector, function() {
                     const hide = $("img[data-src='quest,hide']").length > 0;
@@ -232,7 +234,7 @@
         },
         pets: {
             data: {},
-            dir: "/assets/json/pets.json",
+            dir: _assetsDir + "/json/pets.json",
             update: function(){
                 updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, _petsProgressSelector, function() {
                     const hide = $("img[data-src='pet,hide']").length > 0;
@@ -278,7 +280,7 @@
         },
         collections: {
             data: {},
-            dir: "/assets/json/collections.json",
+            dir: _assetsDir + "/json/collections.json",
             update: function() {
                 updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, _collectionsProgressSelector, function() {
                     const hide = $("img[data-src='collection,hide']").length > 0;
@@ -488,10 +490,10 @@
 
             if (current === "hide") {
                 $(this).attr("data-src", type + ",show");
-                $(this).attr("src","/assets/images/svg/show.svg");
+                $(this).attr("src",_assetsDir + "/images/svg/show.svg");
             } else {
                 $(this).attr("data-src", type + ",hide");
-                $(this).attr("src","/assets/images/svg/hide.svg");
+                $(this).attr("src",_assetsDir + "/images/svg/hide.svg");
             }
 
             if (type === "achievement") {
