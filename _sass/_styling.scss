@@ -135,3 +135,35 @@ hr {
 .difficulty-Master {
     color: $colour-difficulty-master;
 }
+
+.nav-menu {
+	position: fixed;
+    background-color: $colour-background-featured;
+	right: 1rem;
+	top: calc(50% - 75px);
+	z-index: 1000;
+    height: 150px;
+	text-decoration: none;
+	transition: all $transition-fast;
+}
+
+.nav-btn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: $colour-text-primary;
+    transition: transform $transition-fast;
+
+    &:hover {
+        transform: scale(1.2); 
+    }
+}
+
+.line {
+    height: 16px;
+    width: 2px;
+    background-color: $colour-text-primary;
+}
