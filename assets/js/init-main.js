@@ -28,25 +28,31 @@
         });
     
         link.dispatchEvent(evt);
-        link.remove()
+        link.remove();
     };
 
     const uploadFile = () => {
         const link = document.createElement("input");
 
         link.type = "file";
+        link.accept = ".json";
         link.addEventListener("change", function() {
             var reader = new FileReader();
             reader.onload = function (e) {
                 var target = e.target;
-                var data = JSON.parse(target.result);
 
-                if ("unlocked" in data && "qp" in data && "complete" in data) {
-                    userObj = data;
+                try {
+                    const data = JSON.parse(target.result);
 
-                    updateAllSections();
-                    updateInformation();
-                    localStorage.setObject(userObjID, userObj);
+                    if ("unlocked" in data && "qp" in data && "complete" in data) {
+                        userObj = data;
+
+                        updateAllSections();
+                        updateInformation();
+                        localStorage.setObject(userObjID, userObj);
+                    }
+                } catch (e) {
+                    console.error(e);
                 }
             }
             reader.readAsText(link.files[0]);
@@ -59,7 +65,7 @@
         });
     
         link.dispatchEvent(evt);
-        link.remove()
+        link.remove();
     };
 
     const userObjID = "osrs-xosaat-user";
