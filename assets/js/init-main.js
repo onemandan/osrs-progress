@@ -65,22 +65,27 @@
     const _collectionsCompletedSelector = "#collections-completed";
     const _collectionsTotalSelector = "#collections-total";
 
+    const _showHideSelector = ".show-hide";
+
     const jsonObj = {
         achievements: {
             data: {},
             dir: "/assets/json/achievements.json",
             update: function(){
                 updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, function() {
+                    const hide = $("img[data-src='achievement,hide']").length > 0;
+
                     let nodes = [];
                     let completeNodes = [];
 
                     for (const oID in jsonObj.achievements.data) {
                         const data = jsonObj.achievements.data[oID];
                         const complete = userObj.complete.achievements.includes(data.task) ? "complete" : "";
+                        const hidden = complete && hide ? "d-none" : "";
 
                         if (isUnlocked(data.requirements)) {
                             let html =  
-                            `<div class="col">
+                            `<div class="col ${hidden}">
                                 <div class="d-flex flex-column json-item h-100 p-3 rounded ${complete}" data-src="achievement">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <h4>${data.diary}</h4>
@@ -120,12 +125,15 @@
             dir: "/assets/json/quests.json",
             update: function() {
                 updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, function() {
+                    const hide = $("img[data-src='quest,hide']").length > 0;
+
                     let nodes = [];
                     let completeNodes = [];
                     
                     for (const oID in jsonObj.quests.data) {
                         const data = jsonObj.quests.data[oID];
                         const complete = userObj.complete.quests.includes(oID) ? "complete" : "";
+                        const hidden = complete && hide ? "d-none" : "";
 
                         if (data.rewards.skills.length > 0) {
                             const rSkills = new Set(data.requirements.skills.concat(data.rewards.skills));
@@ -134,7 +142,7 @@
                         
                         if (isUnlocked(data.requirements)) {
                             let html =  
-                            `<div class="col">
+                            `<div class="col ${hidden}">
                                 <div class="json-item h-100 p-3 rounded ${complete}" data-src="quest">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <h4>${oID}</h4>
@@ -168,16 +176,19 @@
             dir: "/assets/json/pets.json",
             update: function(){
                 updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, function() {
+                    const hide = $("img[data-src='pet,hide']").length > 0;
+
                     let nodes = [];
                     let completeNodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
                         const complete = userObj.complete.pets.includes(oID) ? "complete" : "";
+                        const hidden = complete && hide ? "d-none" : "";
                         
                         if (isUnlocked(data.requirements)) {
                             let html = 
-                            `<div class="col">
+                            `<div class="col ${hidden}">
                                 <div class="json-item h-100 p-3 rounded ${complete}" data-src="pet">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <h4>${oID}</h4>
@@ -211,17 +222,20 @@
             dir: "/assets/json/collections.json",
             update: function() {
                 updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, function() {
+                    const hide = $("img[data-src='collection,hide']").length > 0;
                     const maxItems = 5;
+
                     let nodes = [];
                     let completeNodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
                         const complete = userObj.complete.collections.includes(oID) ? "complete" : "";
+                        const hidden = complete && hide ? "d-none" : "";
                         
                         if (isUnlocked(data.requirements)) {
                             let html = 
-                            `<div class="col">
+                            `<div class="col ${hidden}">
                                 <div class="d-flex flex-column json-item h-100 p-3 rounded ${complete}" data-src="collection">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <h4>${oID}</h4>
@@ -373,6 +387,30 @@
     //On document ready
     $(document).ready(function () {
         $(_skillsSelector).on("click", onSkillClick);
+
+        $(_showHideSelector).on("click", function() {
+            const dSrc = $(this).attr("data-src").split(",");
+            const type = dSrc[0];
+            const current = dSrc[1];
+
+            if (current === "hide") {
+                $(this).attr("data-src", type + ",show");
+                $(this).attr("src","/assets/images/svg/show.svg");
+            } else {
+                $(this).attr("data-src", type + ",hide");
+                $(this).attr("src","/assets/images/svg/hide.svg");
+            }
+
+            if (type === "achievement") {
+                jsonObj.achievements.update();
+            } else if (type === "quest") {
+                jsonObj.quests.update();
+            } else if (type === "pet") {
+                jsonObj.pets.update();
+            } else if (type === "collection") {
+                jsonObj.collections.update();
+            }
+        });
 
         for (const oID in jsonObj) {
             const oObj = jsonObj[oID];
