@@ -24,15 +24,59 @@
 
     <body>
         <div class="container">
+
             <div class="container-fluid p-0 mt-3">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                <div class="d-flex align-items-center justify-content-start py-2 sticky-top">
+                    <img class="me-2" src="/assets/images/icons/Progress_icon.png" height="32px" width="32px" alt="Progress icon"/>
+                    <h2>Progress</h2>
+                </div>
+                <div id="progress-wrapper" class="row row-cols-2 row-cols-lg-4 g-2 g-md-3 mt-1">
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
+                            <h4>Achievements</h4>
+                            <div class="progress my-2" role="progressbar" aria-label="achievements progress">
+                                <div id="achievements-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
+                            <h4>Quests</h4>
+                            <div class="progress my-2" role="progressbar" aria-label="achievements progress">
+                                <div id="quests-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
+                            <h4>Pets</h4>
+                            <div class="progress my-2" role="progressbar" aria-label="achievements progress">
+                                <div id="pets-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress-item d-flex flex-column py-2 px-3 rounded">
+                            <h4>Collections</h4>
+                            <div class="progress my-2" role="progressbar" aria-label="achievements progress">
+                                <div id="collections-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-3"/>
+
+            <div class="container-fluid p-0">
+                <div class="d-flex align-items-center justify-content-start py-2 sticky-top">
                     <img class="me-2" src="/assets/images/icons/Stats_icon.png" height="32px" width="32px" alt="Stats icon"/>
                     <h2>Locked/Unlocked Skills</h2>
                 </div>
-                <div id="skills-wrapper" class="row row-cols-3 row-cols-xxl-12 row-cols-xl-10 row-cols-lg-8 row-cols-md-6 row-cols-sm-4 g-2 g-md-3">
+                <div id="skills-wrapper" class="row row-cols-3 row-cols-xxl-12 row-cols-xl-10 row-cols-lg-8 row-cols-md-6 row-cols-sm-4 g-2 g-md-3 mt-1">
                     {% for skill in site.data.skills %}
                     <div class="col">
-                        <div class="skill-item d-flex flex-column justify-content-center align-items-center py-2 rounded">
+                        <div class="skill-item d-flex flex-column justify-content-center align-items-center py-2 rounded" data-src="{{ skill.name }}">
                             <span class="skill-title">{{ skill.name }}</span>
                             <img src="{{ skill.icon }}" alt="{{ skill.name }} icon" width="64px" height="64px">
                             <span class="text-muted"></span>
@@ -45,7 +89,7 @@
             <hr class="my-3"/>
 
             <div class="container-fluid p-0">
-                <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center justify-content-between py-2 sticky-top">
                     <div class="d-flex align-items-center justify-content-start">
                         <img class="me-2" src="/assets/images/icons/Achievements_icon.png" height="32px" width="32px" alt="Achievements icon"/>
                         <h2>Achievements</h2>
@@ -56,7 +100,7 @@
                     </div> 
                 </div>
                 
-                <div id="achievements-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3">
+                <div id="achievements-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mt-1">
                     
                 </div>
             </div>
@@ -64,7 +108,7 @@
             <hr class="my-3"/>
 
             <div class="container-fluid p-0">
-                <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center justify-content-between py-2 sticky-top">
                     <div class="d-flex align-items-center justify-content-start">
                         <img class="me-2" src="/assets/images/icons/Quests_icon.png" height="32px" width="32px" alt="Quests icon"/>
                         <h2>Quests</h2>
@@ -75,7 +119,7 @@
                     </div> 
                 </div>
 
-                <div id="quests-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3">
+                <div id="quests-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3 mt-1">
                     
                 </div>
             </div>
@@ -83,7 +127,7 @@
             <hr class="my-3"/>
 
             <div class="container-fluid p-0">
-                <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center justify-content-between py-2 sticky-top">
                     <div class="d-flex align-items-center justify-content-start">
                         <img class="me-2" src="/assets/images/icons/Pets_icon.png" height="32px" width="32px" alt="Pets icon"/>
                         <h2>Pets</h2>
@@ -94,7 +138,7 @@
                     </div>
                 </div>
 
-                <div id="pets-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3">
+                <div id="pets-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3 mt-1">
                     
                 </div>
             </div>
@@ -102,7 +146,7 @@
             <hr class="my-3"/>
 
             <div class="container-fluid p-0">
-                <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center justify-content-between py-2 sticky-top">
                     <div class="d-flex align-items-center justify-content-start">
                         <img class="me-2" src="/assets/images/icons/Collections_icon.png" height="32px" width="32px" alt="Collections icon"/>
                         <h2>Collections</h2>
@@ -113,7 +157,7 @@
                     </div>
                 </div>
 
-                <div id="collections-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3">
+                <div id="collections-wrapper" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-md-3 mb-3 mt-1">
                     
                 </div>
             </div>

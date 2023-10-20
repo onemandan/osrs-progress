@@ -49,21 +49,25 @@
     const _achievementsItemsSelector = _achievementsSelector + " .json-item";
     const _achievementsCompletedSelector = "#achievements-completed";
     const _achievementsTotalSelector = "#achievements-total";
+    const _achievementsProgress = "#achievements-progress";
 
     const _questsSelector = "#quests-wrapper";
     const _questsItemsSelector = _questsSelector + " .json-item";
     const _questsCompletedSelector = "#quests-completed";
     const _questsTotalSelector = "#quests-total";
+    const _questsProgress = "#quests-progress";
 
     const _petsSelector = "#pets-wrapper";
     const _petsItemsSelector = _petsSelector + " .json-item";
     const _petsCompletedSelector = "#pets-completed";
     const _petsTotalSelector = "#pets-total";
+    const _petsProgress = "#pets-progress";
 
     const _collectionsSelector = "#collections-wrapper";
     const _collectionsItemsSelector = _collectionsSelector + " .json-item";
     const _collectionsCompletedSelector = "#collections-completed";
     const _collectionsTotalSelector = "#collections-total";
+    const _collectionsProgress = "#collections-progress";
 
     const _showHideSelector = ".show-hide";
 
@@ -72,7 +76,7 @@
             data: {},
             dir: "/assets/json/achievements.json",
             update: function(){
-                updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, function() {
+                updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, _achievementsProgress, function() {
                     const hide = $("img[data-src='achievement,hide']").length > 0;
 
                     let nodes = [];
@@ -124,7 +128,7 @@
             data: {},
             dir: "/assets/json/quests.json",
             update: function() {
-                updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, function() {
+                updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, _questsProgress, function() {
                     const hide = $("img[data-src='quest,hide']").length > 0;
 
                     let nodes = [];
@@ -175,7 +179,7 @@
             data: {},
             dir: "/assets/json/pets.json",
             update: function(){
-                updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, function() {
+                updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, _petsProgress, function() {
                     const hide = $("img[data-src='pet,hide']").length > 0;
 
                     let nodes = [];
@@ -221,7 +225,7 @@
             data: {},
             dir: "/assets/json/collections.json",
             update: function() {
-                updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, function() {
+                updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, _collectionsProgress, function() {
                     const hide = $("img[data-src='collection,hide']").length > 0;
                     const maxItems = 5;
 
@@ -301,11 +305,19 @@
         return html;
     }
 
-    function updateSection(wrapper, wrapperItems, completed, total, callback) {
+    function updateSection(wrapper, wrapperItems, completed, total, progress, callback) {
         $(wrapper).html("");
         $(wrapper).html(callback());
-        $(total).text($(wrapperItems).length);
-        $(completed).text($(wrapperItems + ".complete").length);
+
+        const nTotal = $(wrapperItems).length;
+        const nComplete = $(wrapperItems + ".complete").length;
+        const nProgress = Math.round((nComplete / nTotal) * 100);
+
+        $(total).text(nTotal);
+        $(completed).text(nComplete);
+        $(progress).width(nProgress + "%");
+        $(progress).text(nProgress + "%");
+
         $(wrapperItems).on("click", onJSONObjClick);
     }
 
@@ -362,6 +374,8 @@
         toggleArrayItem(userObj.unlocked, $(_skillsTitleSelector, this).text().trim());
 
         updateAllSections();
+
+        localStorage.setObject(userObjID, userObj);
     }
 
     function onJSONObjClick(e) {
@@ -382,6 +396,8 @@
             toggleArrayItem(userObj.complete.collections, $("h4", this).text().trim());
             jsonObj.collections.update();
         }
+
+        localStorage.setObject(userObjID, userObj);
     }
 
     //On document ready
@@ -419,6 +435,10 @@
                 this.data = data;
                 this.update();
             }.bind(oObj));
+        }
+
+        for (const unlock of userObj.unlocked) {
+            $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
         }
     });
 })();

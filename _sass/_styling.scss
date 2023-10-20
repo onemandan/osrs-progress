@@ -94,6 +94,18 @@ hr {
     }
 }
 
+.progress {
+    background-color: $colour-background-featured;
+}
+
+.progress-item {
+    background-color: $colour-background-secondary;
+}
+
+.sticky-top {
+    background-color: $colour-background-primary;
+}
+
 .json-description {
     color: $colour-text-tertiary;
 }
