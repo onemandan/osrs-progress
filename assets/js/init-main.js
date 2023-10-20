@@ -13,6 +13,58 @@
         return value && JSON.parse(value);
     }
 
+    const saveAsFile = (filename, dataObjToWrite) => {
+        const blob = new Blob([JSON.stringify(dataObjToWrite)], { type: "text/json" });
+        const link = document.createElement("a");
+    
+        link.download = filename;
+        link.href = window.URL.createObjectURL(blob);
+        link.dataset.downloadurl = ["text/json", link.download, link.href].join(":");
+    
+        const evt = new MouseEvent("click", {
+            view: window,
+            bubbles: true,
+            cancelable: true,
+        });
+    
+        link.dispatchEvent(evt);
+        link.remove()
+    };
+
+    const uploadFile = () => {
+        const link = document.createElement("input");
+
+        link.type = "file";
+        link.addEventListener("change", function() {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var target = e.target;
+                var data = JSON.parse(target.result);
+
+                if ("unlocked" in data && "qp" in data && "complete" in data) {
+                    userObj = data;
+                    
+                    for (const unlock of userObj.unlocked) {
+                        $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
+                    }
+
+                    updateAllSections();
+                    localStorage.setObject(userObjID, userObj);
+                }
+            }
+            reader.readAsText(link.files[0]);
+        }, false);
+
+        const evt = new MouseEvent("click", {
+            view: window,
+            bubbles: true,
+            cancelable: true,
+        });
+    
+        link.dispatchEvent(evt);
+        link.remove()
+    };
+
     const userObjID = "osrs-xosaat-user";
 
     let userObj = {
@@ -70,6 +122,8 @@
     const _collectionsProgress = "#collections-progress";
 
     const _showHideSelector = ".show-hide";
+    const _downloadSelector = "#btn-download";
+    const _uploadSelector = "#btn-upload";
 
     const jsonObj = {
         achievements: {
@@ -311,7 +365,7 @@
 
         const nTotal = $(wrapperItems).length;
         const nComplete = $(wrapperItems + ".complete").length;
-        const nProgress = Math.round((nComplete / nTotal) * 100);
+        const nProgress = Math.round((nComplete / nTotal) * 100) || 0;
 
         $(total).text(nTotal);
         $(completed).text(nComplete);
@@ -427,6 +481,12 @@
                 jsonObj.collections.update();
             }
         });
+
+        $(_downloadSelector).on("click", function() {
+            saveAsFile("data.json", userObj);
+        });
+
+        $(_uploadSelector).on("click", uploadFile);
 
         for (const oID in jsonObj) {
             const oObj = jsonObj[oID];
