@@ -9,8 +9,19 @@ $transition-fast: 0.3s;
 $colour-background-primary: #3e3529;
 $colour-background-secondary: #554c41;
 $colour-background-tertiary: #000001;
+$colour-background-featured: #28251e;
 $colour-text-primary: #ff9933;
 $colour-text-secondary: #0dc10d;
 $colour-text-tertiary: #ffff00;
 $colour-border-light: #726451;
 $colour-border-dark: #2e2b23;
+
+//Difficulty
+$colour-difficulty-easy: #238e26;
+$colour-difficulty-medium: #6bbabe;
+$colour-difficulty-hard: #a242bc;
+$colour-difficulty-elite: #e7cb1c;
+$colour-difficulty-master: #bd3a30;
+
+//Box Shadow
+$boxshadow-border: 0 0 0 2px;

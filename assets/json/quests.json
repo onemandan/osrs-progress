@@ -3868,7 +3868,9 @@
             "combat": false,
             "qp": 0,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Agility"
+            ]
         },
         "rewards": {
             "qp": 0,
@@ -4084,7 +4086,9 @@
         "requirements": {
             "combat": true,
             "qp": 0,
-            "quests": [],
+            "quests": [
+                "Beneath Cursed Sands"
+            ],
             "skills": []
         },
         "rewards": {

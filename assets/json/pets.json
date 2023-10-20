@@ -33,7 +33,7 @@
         }
     },
     "Baby chinchompa": {
-        "url": "https://oldschool.runescape.wiki/images/Baby_chinchompa_(grey).png",
+        "img": "https://oldschool.runescape.wiki/images/Baby_chinchompa_(grey).png",
         "droprate": "1/98373",
         "requirements": {
             "combat": false,
@@ -44,7 +44,7 @@
         }
     },
     "Giant squirrel": {
-        "url": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
+        "img": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
         "droprate": "1/34440",
         "requirements": {
             "combat": false,
@@ -55,7 +55,7 @@
         }
     },
     "Tangleroot": {
-        "url": "https://oldschool.runescape.wiki/images/Tangleroot.png",
+        "img": "https://oldschool.runescape.wiki/images/Tangleroot.png",
         "droprate": "1/173977",
         "requirements": {
             "combat": false,
@@ -66,7 +66,7 @@
         }
     },
     "Rocky": {
-        "url": "https://oldschool.runescape.wiki/images/Rocky.png",
+        "img": "https://oldschool.runescape.wiki/images/Rocky.png",
         "droprate": "1/257111",
         "requirements": {
             "combat": false,
@@ -77,7 +77,7 @@
         }
     },
     "Rift guardian": {
-        "url": "https://oldschool.runescape.wiki/images/Rift_guardian_(air).png",
+        "img": "https://oldschool.runescape.wiki/images/Rift_guardian_(air).png",
         "droprate": "1/804984",
         "requirements": {
             "combat": false,
@@ -88,7 +88,7 @@
         }
     },
     "Abyssal orphan": {
-        "url": "https://oldschool.runescape.wiki/images/Abyssal_orphan.png",
+        "img": "https://oldschool.runescape.wiki/images/Abyssal_orphan.png",
         "droprate": "1/26",
         "requirements": {
             "combat": true,
@@ -102,7 +102,7 @@
         }
     },
     "Ikkle hydra": {
-        "url": "https://oldschool.runescape.wiki/images/Ikkle_hydra_(serpentine).png",
+        "img": "https://oldschool.runescape.wiki/images/Ikkle_hydra_(serpentine).png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -114,7 +114,7 @@
         }
     },
     "Callisto cub": {
-        "url": "https://oldschool.runescape.wiki/images/Callisto_cub.png",
+        "img": "https://oldschool.runescape.wiki/images/Callisto_cub.png",
         "droprate": "1/2000",
         "requirements": {
             "combat": true,
@@ -128,7 +128,7 @@
         }
     },
     "Hellpuppy": {
-        "url": "https://oldschool.runescape.wiki/images/Hellpuppy.png",
+        "img": "https://oldschool.runescape.wiki/images/Hellpuppy.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -140,7 +140,7 @@
         }
     },
     "Pet chaos elemental": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_chaos_elemental.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_chaos_elemental.png",
         "droprate": "1/300",
         "requirements": {
             "combat": true,
@@ -153,11 +153,13 @@
         }
     },
     "Pet zilyana": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_zilyana.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_zilyana.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "The Frozen Door"
+            ],
             "skills": [
                 "Agility",
                 "Prayer",
@@ -167,7 +169,7 @@
         }
     },
     "Pet dark core": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_dark_core.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_dark_core.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
@@ -184,7 +186,7 @@
         }
     },
     "Pet dagannoth prime": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
@@ -199,7 +201,7 @@
         }
     },
     "Pet dagannoth supreme": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
@@ -215,7 +217,7 @@
         }
     },
     "Pet dagannoth rex": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_dagannoth_rex.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_dagannoth_rex.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
@@ -230,7 +232,7 @@
         }
     },
     "Tzrek-jad": {
-        "url": "https://oldschool.runescape.wiki/images/Tzrek-jad.png",
+        "img": "https://oldschool.runescape.wiki/images/Tzrek-jad.png",
         "droprate": "1/67",
         "requirements": {
             "combat": true,
@@ -244,11 +246,13 @@
         }
     },
     "Pet general graardor": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "The Frozen Door"
+            ],
             "skills": [
                 "Strength",
                 "Attack",
@@ -259,7 +263,7 @@
         }
     },
     "Baby mole": {
-        "url": "https://oldschool.runescape.wiki/images/Baby_mole.png",
+        "img": "https://oldschool.runescape.wiki/images/Baby_mole.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -271,7 +275,7 @@
         }
     },
     "Noon": {
-        "url": "https://oldschool.runescape.wiki/images/Noon.png",
+        "img": "https://oldschool.runescape.wiki/images/Noon.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -286,7 +290,7 @@
         }
     },
     "Jal-nib-rek": {
-        "url": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
+        "img": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
         "droprate": "1/100",
         "requirements": {
             "combat": true,
@@ -303,7 +307,7 @@
         }
     },
     "Kalphite princess": {
-        "url": "https://oldschool.runescape.wiki/images/Kalphite_princess.png",
+        "img": "https://oldschool.runescape.wiki/images/Kalphite_princess.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -319,7 +323,7 @@
         }
     },
     "Prince black dragon": {
-        "url": "https://oldschool.runescape.wiki/images/Prince_black_dragon.png",
+        "img": "https://oldschool.runescape.wiki/images/Prince_black_dragon.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -332,7 +336,7 @@
         }
     },
     "Pet kraken": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_kraken.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_kraken.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -346,11 +350,13 @@
         }
     },
     "Pet kree'arra": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_kree'arra.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_kree'arra.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "The Frozen Door"
+            ],
             "skills": [
                 "Ranged",
                 "Magic",
@@ -360,11 +366,13 @@
         }
     },
     "Pet k'ril tsutsaroth": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_k'ril_tsutsaroth.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_k'ril_tsutsaroth.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "The Frozen Door"
+            ],
             "skills": [
                 "Attack",
                 "Strength",
@@ -375,7 +383,7 @@
         }
     },
     "Scorpia's offspring": {
-        "url": "https://oldschool.runescape.wiki/images/Scorpia's_offspring.png",
+        "img": "https://oldschool.runescape.wiki/images/Scorpia's_offspring.png",
         "droprate": "1/2016",
         "requirements": {
             "combat": true,
@@ -388,7 +396,7 @@
         }
     },
     "Skotos": {
-        "url": "https://oldschool.runescape.wiki/images/Skotos.png",
+        "img": "https://oldschool.runescape.wiki/images/Skotos.png",
         "droprate": "1/65",
         "requirements": {
             "combat": true,
@@ -401,7 +409,7 @@
         }
     },
     "Pet smoke devil": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_smoke_devil.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_smoke_devil.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -417,7 +425,7 @@
         }
     },
     "Venenatis spiderling": {
-        "url": "https://oldschool.runescape.wiki/images/Venenatis_spiderling.png",
+        "img": "https://oldschool.runescape.wiki/images/Venenatis_spiderling.png",
         "droprate": "1/2000",
         "requirements": {
             "combat": true,
@@ -431,7 +439,7 @@
         }
     },
     "Vet'ion Jr.": {
-        "url": "https://oldschool.runescape.wiki/images/Vet'ion_jr..png",
+        "img": "https://oldschool.runescape.wiki/images/Vet'ion_jr..png",
         "droprate": "1/2000",
         "requirements": {
             "combat": true,
@@ -445,7 +453,7 @@
         }
     },
     "Vorki": {
-        "url": "https://oldschool.runescape.wiki/images/Vorki.png",
+        "img": "https://oldschool.runescape.wiki/images/Vorki.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -460,7 +468,7 @@
         }
     },
     "Phoenix": {
-        "url": "https://oldschool.runescape.wiki/images/Phoenix.png",
+        "img": "https://oldschool.runescape.wiki/images/Phoenix.png",
         "droprate": "1/5000",
         "requirements": {
             "combat": false,
@@ -472,7 +480,7 @@
         }
     },
     "Pet snakeling": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
         "droprate": "1/4000",
         "requirements": {
             "combat": true,
@@ -488,7 +496,7 @@
         }
     },
     "Olmlet": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
         "droprate": "1/53",
         "requirements": {
             "combat": true,
@@ -504,7 +512,7 @@
         }
     },
     "Lil'zik": {
-        "url": "https://oldschool.runescape.wiki/images/Lil'_zik.png",
+        "img": "https://oldschool.runescape.wiki/images/Lil'_zik.png",
         "droprate": "1/650",
         "requirements": {
             "combat": true,
@@ -522,7 +530,7 @@
         }
     },
     "Pet penance queen": {
-        "url": "https://oldschool.runescape.wiki/images/Pet_penance_queen.png",
+        "img": "https://oldschool.runescape.wiki/images/Pet_penance_queen.png",
         "droprate": "1/1000",
         "requirements": {
             "combat": true,
@@ -538,7 +546,7 @@
         }
     },
     "Herbi": {
-        "url": "https://oldschool.runescape.wiki/images/Herbi.png",
+        "img": "https://oldschool.runescape.wiki/images/Herbi.png",
         "droprate": "1/6500",
         "requirements": {
             "combat": false,
@@ -552,7 +560,7 @@
         }
     },
     "Sraracha": {
-        "url": "https://oldschool.runescape.wiki/images/Sraracha.png",
+        "img": "https://oldschool.runescape.wiki/images/Sraracha.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -566,7 +574,7 @@
         }
     },
     "Smolcano": {
-        "url": "https://oldschool.runescape.wiki/images/Smolcano.png",
+        "img": "https://oldschool.runescape.wiki/images/Smolcano.png",
         "droprate": "1/2250",
         "requirements": {
             "combat": false,
@@ -581,7 +589,7 @@
         }
     },
     "Youngllef": {
-        "url": "https://oldschool.runescape.wiki/images/Youngllef.png",
+        "img": "https://oldschool.runescape.wiki/images/Youngllef.png",
         "droprate": "1/2000",
         "requirements": {
             "combat": true,
@@ -599,7 +607,7 @@
         }
     },
     "Little nightmare": {
-        "url": "https://oldschool.runescape.wiki/images/Little_nightmare.png",
+        "img": "https://oldschool.runescape.wiki/images/Little_nightmare.png",
         "droprate": "1/4000",
         "requirements": {
             "combat": true,
@@ -616,7 +624,7 @@
         }
     },
     "Lil' creator": {
-        "url": "https://oldschool.runescape.wiki/images/Lil'_creator.png",
+        "img": "https://oldschool.runescape.wiki/images/Lil'_creator.png",
         "droprate": "1/400",
         "requirements": {
             "combat": true,
@@ -632,7 +640,7 @@
         }
     },
     "Tiny tempor": {
-        "url": "https://oldschool.runescape.wiki/images/Lil'_creator.png",
+        "img": "https://oldschool.runescape.wiki/images/Tiny_tempor.png",
         "droprate": "1/8000",
         "requirements": {
             "combat": false,
@@ -643,7 +651,7 @@
         }
     },
     "Nexling": {
-        "url": "https://oldschool.runescape.wiki/images/Nexling.png",
+        "img": "https://oldschool.runescape.wiki/images/Nexling.png",
         "droprate": "1/500",
         "requirements": {
             "combat": true,
@@ -662,7 +670,7 @@
         }
     },
     "Abyssal protector": {
-        "url": "https://oldschool.runescape.wiki/images/Abyssal_protector.png",
+        "img": "https://oldschool.runescape.wiki/images/Abyssal_protector.png",
         "droprate": "1/4000",
         "requirements": {
             "combat": false,
@@ -675,7 +683,7 @@
         }
     },
     "Tumeken's guardian": {
-        "url": "https://oldschool.runescape.wiki/images/Tumeken's_guardian.png",
+        "img": "https://oldschool.runescape.wiki/images/Tumeken's_guardian.png",
         "droprate": "1/100",
         "requirements": {
             "combat": true,
@@ -694,7 +702,7 @@
         }
     },
     "Muphin": {
-        "url": "https://oldschool.runescape.wiki/images/Muphin_(ranged).png",
+        "img": "https://oldschool.runescape.wiki/images/Muphin_(ranged).png",
         "droprate": "1/2500",
         "requirements": {
             "combat": true,
@@ -710,7 +718,7 @@
         }
     },
     "Wisp": {
-        "url": "https://oldschool.runescape.wiki/images/Wisp.png",
+        "img": "https://oldschool.runescape.wiki/images/Wisp.png",
         "droprate": "1/2000",
         "requirements": {
             "combat": true,
@@ -725,7 +733,7 @@
         }
     },
     "Baron": {
-        "url": "https://oldschool.runescape.wiki/images/Baron.png",
+        "img": "https://oldschool.runescape.wiki/images/Baron.png",
         "droprate": "1/2500",
         "requirements": {
             "combat": true,
@@ -741,7 +749,7 @@
         }
     },
     "Butch": {
-        "url": "https://oldschool.runescape.wiki/images/Butch.png",
+        "img": "https://oldschool.runescape.wiki/images/Butch.png",
         "droprate": "1/3000",
         "requirements": {
             "combat": true,
@@ -757,7 +765,7 @@
         }
     },
     "Lil'viathan": {
-        "url": "https://oldschool.runescape.wiki/images/Lil'viathan.png",
+        "img": "https://oldschool.runescape.wiki/images/Lil'viathan.png",
         "droprate": "1/2500",
         "requirements": {
             "combat": true,
@@ -772,7 +780,7 @@
         }
     },
     "Bloodhound": {
-        "url": "https://oldschool.runescape.wiki/images/Bloodhound.png",
+        "img": "https://oldschool.runescape.wiki/images/Bloodhound.png",
         "droprate": "1/1000",
         "requirements": {
             "combat": true,

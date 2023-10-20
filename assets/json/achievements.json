@@ -363,7 +363,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Agility"
+            ]
         }
     },
     "Agility-30": {
@@ -1046,7 +1048,7 @@
         "difficulty": "Hard",
         "task": "Slay a Dust devil in the desert cave with a Slayer helmet equipped",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Defence",
@@ -3082,7 +3084,7 @@
         "difficulty": "Easy",
         "task": "Slay a Cave bug in the Lumbridge Swamp Caves",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3094,7 +3096,7 @@
         "difficulty": "Easy",
         "task": "Kill a Banshee in the Slayer Tower",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Priest in Peril"
             ],
@@ -3108,7 +3110,7 @@
         "difficulty": "Medium",
         "task": "Slay a Desert lizard",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3120,7 +3122,7 @@
         "difficulty": "Medium",
         "task": "Kill a Mogre at Mudskipper Point",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Skippy and the Mogres"
             ],
@@ -3134,7 +3136,7 @@
         "difficulty": "Medium",
         "task": "Kill a Terror dog",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Haunted Mine"
             ],
@@ -3148,7 +3150,7 @@
         "difficulty": "Medium",
         "task": "Kill a Fever spider on Braindeath Island",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Priest in Peril",
                 "Rum Deal"
@@ -3163,7 +3165,7 @@
         "difficulty": "Medium",
         "task": "Slay a Brine rat",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Olaf's Quest"
             ],
@@ -3189,7 +3191,7 @@
         "difficulty": "Medium",
         "task": "Kill a Bloodveld in the Wilderness God Wars Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3201,7 +3203,7 @@
         "difficulty": "Hard",
         "task": "Kill a Cave horror",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Cabin Fever"
             ],
@@ -3215,7 +3217,7 @@
         "difficulty": "Hard",
         "task": "Kill a wyrm in the Karuulm Slayer Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3227,7 +3229,7 @@
         "difficulty": "Hard",
         "task": "Kill a Spiritual warrior in the Wilderness God Wars Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3239,7 +3241,7 @@
         "difficulty": "Hard",
         "task": "Kill a Skeletal wyvern in the Asgarnia Ice Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3247,25 +3249,23 @@
         }
     },
     "Slayer-14": {
-        "diary": "Fremennik",
+        "diary": "Morytania",
         "difficulty": "Elite",
-        "task": "Slay a Spiritual mage within the God Wars Dungeon",
+        "task": "Kill an Abyssal demon in the Slayer Tower",
         "requirements": {
-            "combat": false,
-            "quests": [
-                "Troll Stronghold"
-            ],
+            "combat": true,
+            "quests": [],
             "skills": [
                 "Slayer"
             ]
         }
     },
     "Slayer-15": {
-        "diary": "Morytania",
+        "diary": "Western Provinces",
         "difficulty": "Elite",
-        "task": "Kill an Abyssal demon in the Slayer Tower",
+        "task": "Kill the thermonuclear smoke devil",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -3273,23 +3273,11 @@
         }
     },
     "Slayer-16": {
-        "diary": "Western Provinces",
-        "difficulty": "Elite",
-        "task": "Kill the thermonuclear smoke devil",
-        "requirements": {
-            "combat": false,
-            "quests": [],
-            "skills": [
-                "Slayer"
-            ]
-        }
-    },
-    "Slayer-17": {
         "diary": "Kourend & Kebos",
         "difficulty": "Elite",
         "task": "Kill a hydra in the Karuulm Slayer Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": [
                 "Slayer"
@@ -4085,7 +4073,7 @@
         "difficulty": "Hard",
         "task": "Kill a Shadow hound in the Shadow Dungeon",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [
                 "Desert Treasure I"
             ],
@@ -4983,7 +4971,7 @@
         "difficulty": "Medium",
         "task": "Kill a lizardman",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "quests": [],
             "skills": []
         }
@@ -5549,7 +5537,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Fishing"
+            ]
         }
     },
     "Misc-04": {

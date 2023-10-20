@@ -1,8 +1,124 @@
 * {
     font-family: $font-primary;
     color: $colour-text-primary;
+    user-select: none;
+}
+
+h1, h2 {
+    text-shadow: 0 0 black, 0 3px black, 3px 0 black, 0 0 black;
+}
+
+h2, h3, h4, h5, p {
+    margin: 0 !important;
 }
 
 body {
     background-color: $colour-background-primary;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: $colour-background-tertiary;
+}
+
+#collections-wrapper {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        
+        li {
+            padding: 0.25rem 0.875rem 0.25rem 0.875rem;
+            color: $colour-text-tertiary;
+            background-color: $colour-background-featured;
+        }
+    }
+}
+
+.show-hide {
+    cursor: pointer;
+}
+
+.skill-item {
+    background-color: $colour-background-secondary;
+    cursor: pointer;
+    opacity: 60%;
+    transition: all $transition-fast;
+
+    .text-muted:after {
+        content: "Locked";
+    }
+
+    &:hover {
+        box-shadow: $boxshadow-border $colour-background-tertiary;
+    }
+
+    &.unlocked {
+        opacity: 100%;
+
+        .text-muted {
+            color: $colour-text-secondary !important;
+
+            &:after {
+                content: "Unlocked";
+            }
+        }
+    }
+}
+
+.json-item {
+    background-color: $colour-background-secondary;
+    cursor: pointer;
+    opacity: 100%;
+    transition: all $transition-fast;
+
+    .text-muted:after {
+        content: "Incomplete";
+    }
+
+    &:hover {
+        box-shadow: $boxshadow-border $colour-background-tertiary;
+    }
+
+    &.complete {
+        opacity: 60%;
+
+        .text-muted {
+            color: $colour-text-secondary !important;
+
+            &:after {
+                content: "Complete";
+            }
+        }
+    }
+}
+
+.json-description {
+    color: $colour-text-tertiary;
+}
+
+.difficulty-Easy,
+.difficulty-Novice {
+    color: $colour-difficulty-easy;
+}
+
+.difficulty-Intermediate,
+.difficulty-Medium {
+    color: $colour-difficulty-medium;
+}
+
+.difficulty-Experienced,
+.difficulty-Hard {
+    color: $colour-difficulty-hard;
+}
+
+.difficulty-Master,
+.difficulty-Elite {
+    color: $colour-difficulty-elite;
+}
+
+.difficulty-Grandmaster,
+.difficulty-Master {
+    color: $colour-difficulty-master;
 }
