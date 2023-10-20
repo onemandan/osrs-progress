@@ -1,6 +1,6 @@
 title: XOSAAT
 description: >- # this means to ignore newlines until "baseurl:"
   Simple progress tracker for the OSRS XOSAAT gamemode
-baseurl: "/onemandan.github.io" # the subpath of your site, e.g. /blog
-url: "https://xosaat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/osrs-progress" # the subpath of your site, e.g. /blog
+url: "https://onemandan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  onemandan
