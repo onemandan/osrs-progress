@@ -35,43 +35,50 @@
     ///////////////////////
     //End Local Storage
 
-    const skillsSelector = "#skills-wrapper .skill-item";
-    const skillsTitleSelector = ".skill-title";
+    const _difficulty = Object.freeze({
+        Easy: 1,
+        Medium: 2,
+        Hard: 3,
+        Elite: 4
+    });
 
-    const achievementsSelector = "#achievements-wrapper";
-    const achievementsItemsSelector = achievementsSelector + " .json-item";
-    const achievementsCompletedSelector = "#achievements-completed";
-    const achievementsTotalSelector = "#achievements-total";
+    const _skillsSelector = "#skills-wrapper .skill-item";
+    const _skillsTitleSelector = ".skill-title";
 
-    const questsSelector = "#quests-wrapper";
-    const questsItemsSelector = questsSelector + " .json-item";
-    const questsCompletedSelector = "#quests-completed";
-    const questsTotalSelector = "#quests-total";
+    const _achievementsSelector = "#achievements-wrapper";
+    const _achievementsItemsSelector = _achievementsSelector + " .json-item";
+    const _achievementsCompletedSelector = "#achievements-completed";
+    const _achievementsTotalSelector = "#achievements-total";
 
-    const petsSelector = "#pets-wrapper";
-    const petsItemsSelector = petsSelector + " .json-item";
-    const petsCompletedSelector = "#pets-completed";
-    const petsTotalSelector = "#pets-total";
+    const _questsSelector = "#quests-wrapper";
+    const _questsItemsSelector = _questsSelector + " .json-item";
+    const _questsCompletedSelector = "#quests-completed";
+    const _questsTotalSelector = "#quests-total";
 
-    const collectionsSelector = "#collections-wrapper";
-    const collectionsItemsSelector = collectionsSelector + " .json-item";
-    const collectionsCompletedSelector = "#collections-completed";
-    const collectionsTotalSelector = "#collections-total";
+    const _petsSelector = "#pets-wrapper";
+    const _petsItemsSelector = _petsSelector + " .json-item";
+    const _petsCompletedSelector = "#pets-completed";
+    const _petsTotalSelector = "#pets-total";
+
+    const _collectionsSelector = "#collections-wrapper";
+    const _collectionsItemsSelector = _collectionsSelector + " .json-item";
+    const _collectionsCompletedSelector = "#collections-completed";
+    const _collectionsTotalSelector = "#collections-total";
 
     const jsonObj = {
         achievements: {
             data: {},
             dir: "/assets/json/achievements.json",
             update: function(){
-                updateSection(achievementsSelector, achievementsItemsSelector, achievementsCompletedSelector, achievementsTotalSelector, function() {
-                    let html = "";
+                updateSection(_achievementsSelector, _achievementsItemsSelector, _achievementsCompletedSelector, _achievementsTotalSelector, function() {
+                    let nodes = [];
 
                     for (const oID in jsonObj.achievements.data) {
                         const data = jsonObj.achievements.data[oID];
                         const complete = userObj.complete.achievements.includes(data.task) ? "complete" : "";
 
                         if (isUnlocked(data.requirements)) {
-                            html = html + 
+                            let html =  
                             `<div class="col">
                                 <div class="d-flex flex-column json-item h-100 p-3 rounded ${complete}" data-src="achievement">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -86,10 +93,16 @@
                                     <span class="text-muted"></span>
                                 </div>
                             </div>`;
+
+                            nodes.push({
+                                "diary": data.diary,
+                                "difficulty": data.difficulty,
+                                "html": html
+                            });
                         }
                     }
 
-                    return html;
+                    return sortNodesHTML(["diary", "difficulty"], nodes);
                 }.bind(this));
             }
         },
@@ -97,9 +110,9 @@
             data: {},
             dir: "/assets/json/quests.json",
             update: function() {
-                updateSection(questsSelector, questsItemsSelector, questsCompletedSelector, questsTotalSelector, function() {
-                    let html = "";
-
+                updateSection(_questsSelector, _questsItemsSelector, _questsCompletedSelector, _questsTotalSelector, function() {
+                    let nodes = [];
+                    
                     for (const oID in jsonObj.quests.data) {
                         const data = jsonObj.quests.data[oID];
                         const complete = userObj.complete.quests.includes(oID) ? "complete" : "";
@@ -110,7 +123,7 @@
                         }
                         
                         if (isUnlocked(data.requirements)) {
-                            html = html + 
+                            let html =  
                             `<div class="col">
                                 <div class="json-item h-100 p-3 rounded ${complete}" data-src="quest">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -121,10 +134,15 @@
                                     <span class="text-muted"></span>
                                 </div>
                             </div>`;
+
+                            nodes.push({
+                                "name": oID,
+                                "html": html
+                            });
                         }
                     }
 
-                    return html;
+                    return sortNodesHTML("name", nodes);
                 }.bind(this));
             }
         },
@@ -132,15 +150,15 @@
             data: {},
             dir: "/assets/json/pets.json",
             update: function(){
-                updateSection(petsSelector, petsItemsSelector, petsCompletedSelector, petsTotalSelector, function() {
-                    let html = "";
+                updateSection(_petsSelector, _petsItemsSelector, _petsCompletedSelector, _petsTotalSelector, function() {
+                    let nodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
                         const complete = userObj.complete.pets.includes(oID) ? "complete" : "";
                         
                         if (isUnlocked(data.requirements)) {
-                            html = html + 
+                            let html = 
                             `<div class="col">
                                 <div class="json-item h-100 p-3 rounded ${complete}" data-src="pet">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -151,10 +169,15 @@
                                     <span class="text-muted"></span>
                                 </div>
                             </div>`;
+
+                            nodes.push({
+                                "name": oID,
+                                "html": html
+                            });
                         }
                     }
 
-                    return html;
+                    return sortNodesHTML("name", nodes);
                 }.bind(this));
             }
         },
@@ -162,16 +185,16 @@
             data: {},
             dir: "/assets/json/collections.json",
             update: function() {
-                updateSection(collectionsSelector, collectionsItemsSelector, collectionsCompletedSelector, collectionsTotalSelector, function() {
+                updateSection(_collectionsSelector, _collectionsItemsSelector, _collectionsCompletedSelector, _collectionsTotalSelector, function() {
                     const maxItems = 5;
-                    let html = "";
+                    let nodes = [];
 
                     for (const oID in this.data) {
                         const data = this.data[oID];
                         const complete = userObj.complete.collections.includes(oID) ? "complete" : "";
                         
                         if (isUnlocked(data.requirements)) {
-                            html = html + 
+                            let html = 
                             `<div class="col">
                                 <div class="d-flex flex-column json-item h-100 p-3 rounded ${complete}" data-src="collection">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -200,19 +223,42 @@
                                     <span class="text-muted"></span>
                                 </div>
                             </div>`;
+
+                            nodes.push({
+                                "name": oID,
+                                "html": html
+                            });
                         }
                     }
 
-                    return html;
+                    return sortNodesHTML("name", nodes);
                 }.bind(this));
             }
         }
     };
 
+    function sortNodesHTML(key, nodes) {
+        let html = "";
+
+        if (Array.isArray(key)) {
+            nodes.sort((a, b) => a[key[0]].localeCompare(b[key[0]]) || _difficulty[a[key[1]]] - _difficulty[b[key[1]]]);
+        } else {
+            nodes.sort((a, b) => a[key].localeCompare(b[key]));
+        }
+        
+
+        for (const node of nodes) {
+            html = html + node.html;
+        }
+
+        return html;
+    }
+
     function updateSection(wrapper, wrapperItems, completed, total, callback) {
         $(wrapper).html("");
         $(wrapper).html(callback());
         $(total).text($(wrapperItems).length);
+        $(completed).text($(wrapperItems + ".complete").length);
         $(wrapperItems).on("click", onJSONObjClick);
     }
 
@@ -266,7 +312,7 @@
 
     function onSkillClick(e) {
         $(this).toggleClass("unlocked");
-        toggleArrayItem(userObj.unlocked, $(skillsTitleSelector, this).text().trim());
+        toggleArrayItem(userObj.unlocked, $(_skillsTitleSelector, this).text().trim());
 
         updateAllSections();
     }
@@ -289,7 +335,7 @@
 
     //On document ready
     $(document).ready(function () {
-        $(skillsSelector).on("click", onSkillClick);
+        $(_skillsSelector).on("click", onSkillClick);
 
         for (const oID in jsonObj) {
             const oObj = jsonObj[oID];

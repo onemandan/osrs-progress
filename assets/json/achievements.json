@@ -5691,7 +5691,10 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Runecraft",
+                "Crafting"
+            ]
         }
     },
     "Misc-19": {
