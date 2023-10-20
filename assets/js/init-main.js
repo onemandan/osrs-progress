@@ -368,6 +368,12 @@
     }
 
     function updateInformation() {
+        $(_skillsSelector).each(function() {
+            if ($(this).hasClass("unlocked")) {
+                $(this).removeClass("unlocked");
+            }
+        })
+
         for (const unlock of userObj.unlocked) {
             $(".skill-item[data-src=" + unlock + "]").addClass("unlocked");
         }
