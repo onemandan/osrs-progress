@@ -362,7 +362,9 @@
         "task": "Take the Agility shortcut from Trollheim into the Wilderness",
         "requirements": {
             "combat": false,
-            "quests": [],
+            "quests": [
+                "Death Plateau"
+            ],
             "skills": [
                 "Agility"
             ]
@@ -5631,7 +5633,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Thieving"
+            ]
         }
     },
     "Misc-13": {
@@ -5996,7 +6000,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Thieving"
+            ]
         }
     },
     "Misc-48": {
@@ -6068,7 +6074,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Farming"
+            ]
         }
     },
     "Misc-55": {
@@ -6120,7 +6128,9 @@
         "requirements": {
             "combat": false,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Runecraft"
+            ]
         }
     },
     "Misc-60": {
@@ -6211,6 +6221,16 @@
         "diary": "Western Provinces",
         "difficulty": "Easy",
         "task": "Collect a swamp toad at the Tree Gnome Stronghold",
+        "requirements": {
+            "combat": false,
+            "quests": [],
+            "skills": []
+        }
+    },
+    "Misc-69": {
+        "diary": "Falador",
+        "difficulty": "Easy",
+        "task": "Get a Haircut or Shave from the Falador Hairdresser",
         "requirements": {
             "combat": false,
             "quests": [],
