@@ -123,6 +123,7 @@
 
     //Assets
     const _assetsDir = "/osrs-progress/assets";
+    const _confetti = new JSConfetti();
 
     //Selectors
     const _skillsSelector = "#skills-wrapper .skill-item";
@@ -486,6 +487,11 @@
 
         //Save @_userObj
         localStorage.setObject(_userObjID, _userObj);
+
+        //Confetti!
+        if ($(this).hasClass("complete")) {
+            _confetti.addConfetti();
+        }
     }
 
     //onShowHideClick
