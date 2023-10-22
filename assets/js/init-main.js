@@ -39,7 +39,7 @@
     }
 
     //uploadFile
-    //Loads a user selected .json file and updates @_userObj with the giiven data
+    //Loads a user selected .json file and updates @_userObj with the given data
     function uploadFile() {
         
         //Create an 'input' element
@@ -166,16 +166,16 @@
                 progress: "#achievements-progress",
             },
             data: {},
-            buildNode: function(data, title, hiddenClass, completeClass) {
-                return `<div class="col ${hiddenClass}">
-                            <div class="d-flex flex-column json-item h-100 p-3 rounded ${completeClass}" data-src="achievements">
+            buildNode: function(opts) {
+                return `<div class="col ${opts.classes.hidden}">
+                            <div class="d-flex flex-column json-item h-100 p-3 rounded ${opts.classes.complete}" data-src="achievements">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h4>${data.diary}</h4>
-                                    <span class="difficulty-${data.difficulty}">${data.difficulty}</span>
+                                    <h4>${opts.data.diary}</h4>
+                                    <span class="difficulty-${opts.data.difficulty}">${opts.data.difficulty}</span>
                                 </div>
                                 <hr/>
                                 <div class="flex-grow-1">
-                                    <span class="json-description">${data.task}</span>
+                                    <span class="json-description">${opts.data.task}</span>
                                 </div>
                                 <hr/>
                                 <span class="text-muted"></span>
@@ -197,12 +197,12 @@
                 progress: "#quests-progress",
             },
             data: {},
-            buildNode: function(data, title, hiddenClass, completeClass) {
-                return `<div class="col ${hiddenClass}">
-                            <div class="json-item h-100 p-3 rounded ${completeClass}" data-src="quests">
+            buildNode: function(opts) {
+                return `<div class="col ${opts.classes.hidden}">
+                            <div class="json-item h-100 p-3 rounded ${opts.classes.complete}" data-src="quests">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h4>${title}</h4>
-                                    <span class="difficulty-${data.difficulty}">${data.difficulty}</span>
+                                    <h4>${opts.title}</h4>
+                                    <span class="difficulty-${opts.data.difficulty}">${opts.data.difficulty}</span>
                                 </div>
                                 <hr/>
                                 <span class="text-muted"></span>
@@ -224,12 +224,12 @@
                 progress: "#pets-progress",
             },
             data: {},
-            buildNode: function(data, title, hiddenClass, completeClass) {
-                return `<div class="col ${hiddenClass}">
-                            <div class="json-item h-100 p-3 rounded ${completeClass}" data-src="pets">
+            buildNode: function(opts) {
+                return `<div class="col ${opts.classes.hidden}">
+                            <div class="json-item h-100 p-3 rounded ${opts.classes.complete}" data-src="pets">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h4>${title}</h4>
-                                    <img src="${data.img}" alt="${title} icon"/>
+                                    <h4>${opts.title}</h4>
+                                    <img src="${opts.data.img}" alt="${opts.title} icon"/>
                                 </div>
                                 <hr/>
                                 <span class="text-muted"></span>
@@ -251,26 +251,27 @@
                 progress: "#collections-progress",
             },
             data: {},
-            buildNode: function(data, title, hiddenClass, completeClass) {
+            buildNode: function(opts) {
                 const maxItems = 5;
+                const totalItems = opts.data.items.length;
 
-                let html = `<div class="col ${hiddenClass}">
-                                <div class="d-flex flex-column json-item h-100 p-3 rounded ${completeClass}" data-src="collections">
+                let html = `<div class="col ${opts.classes.hidden}">
+                                <div class="d-flex flex-column json-item h-100 p-3 rounded ${opts.classes.complete}" data-src="collections">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h4>${title}</h4>
-                                        <img src="${data.img}" alt="${title} icon"/>
+                                        <h4>${opts.title}</h4>
+                                        <img src="${opts.data.img}" alt="${opts.title} icon"/>
                                     </div>
                                     <hr/>
                                     <ul class="d-flex flex-wrap gap-2 py-2">`
             
-                for (let i = 0; i < Math.min(maxItems, data.items.length); i++) {
-                    html = html + `<li class="list-group-item rounded">${data.items[i]}</li>`;
+                for (let i = 0; i < Math.min(maxItems, totalItems); i++) {
+                    html = html + `<li class="list-group-item rounded">${opts.data.items[i]}</li>`;
                 }
             
                 html = html + `</ul><div class="d-flex flex-grow-1"></div>`;
 
-                if (data.items.length > maxItems) {
-                    html = html + `<span>and ${data.items.length - maxItems} others...</span>`;
+                if (totalItems > maxItems) {
+                    html = html + `<span>and ${totalItems - maxItems} others...</span>`;
                 }
                 
                 html = html + `<hr/><span class="text-muted"></span></div></div>`;
@@ -305,26 +306,43 @@
         buildNodes: function(type) {
             const hideCompletedItems = $(`img[data-src='${type},hide']`).length > 0;
 
+            //Node lists, as completed items are sent to the end of the DOM wrapper, maintain two lists to sort individually
             const nodes = [];
             const completedNodes = [];
 
             for (const oID in this[type].data) {
                 const data = this[type].data[oID];
 
-                const isComplete = _userObj.complete[type].includes(type === this.achievements.type ? data.task : oID);
-
-                const completeClass = isComplete ? "complete" : "";
-                const hiddenClass = isComplete && hideCompletedItems ? "d-none" : "";
-
+                //As quests cannot be started until all relevant skills are unlocked, treat quest skill rewards as requirements
                 if (type === this.quests.type) {
                     if (data.rewards.skills.length > 0) {
+
+                        //Append rewarded skills to requirements
                         const rSkills = new Set(data.requirements.skills.concat(data.rewards.skills));
                         data.requirements.skills = Array.from(rSkills);
                     }
                 }
                 
                 if (isUnlocked(data.requirements)) {
-                    const html = this[type].buildNode(data, oID, hiddenClass, completeClass);
+                    
+                    //Determine if the item has been completed by checking the @_userObj object
+                    const isComplete = _userObj.complete[type].includes(type === this.achievements.type ? data.task : oID);
+
+                    //Item CSS classes
+                    const completeClass = isComplete ? "complete" : "";
+                    const hiddenClass = isComplete && hideCompletedItems ? "d-none" : "";
+
+                    //Build the html node with options
+                    const html = this[type].buildNode({
+                        "data": data,
+                        "title": oID,
+                        "classes": {
+                            "hidden": hiddenClass,
+                            "complete": completeClass
+                        }
+                    });
+
+                    //Create the node object 
                     const node = type === this.achievements.type ? { "diary": data.diary, "difficulty": data.difficulty, "html": html } : { "name": oID, "html": html };
 
                     if (isComplete) {
@@ -476,7 +494,7 @@
                 //Update quest points indicator
                 $(_qpProgressSelector).text(_userObj.qp);
 
-                //Update achievements/pets/collections as they can be locked behind quest compeletions
+                //Update achievements/pets/collections as they can be locked behind quest completions
                 _progressSections.achievements.update();
                 _progressSections.pets.update();
                 _progressSections.collections.update();
