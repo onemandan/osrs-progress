@@ -22,6 +22,10 @@ hr {
     color: $colour-background-tertiary;
 }
 
+canvas {
+    z-index: 99999 !important;
+}
+
 #collections-wrapper {
     ul {
         padding: 0;
