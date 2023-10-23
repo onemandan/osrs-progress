@@ -770,7 +770,7 @@
 			"Shayzien platebody (2)",
 			"Shayzien platebody (3)",
 			"Shayzien platebody (4)",
-			"Shayzien platebody (5)"
+			"Shayzien body (5)"
 		],
 		"requirements": {
 			"combat": true,
@@ -875,12 +875,12 @@
 	"Arceuus Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Arceuus).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Arceuus)",
+			"Graceful cape (Arceuus)",
+			"Graceful gloves (Arceuus)",
+			"Graceful hood (Arceuus)",
+			"Graceful legs (Arceuus)",
+			"Graceful top (Arceuus)"
 		],
 		"requirements": {
 			"combat": false,
@@ -894,12 +894,12 @@
 	"Piscarilius Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Piscarilius).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Piscarilius)",
+			"Graceful cape (Piscarilius)",
+			"Graceful gloves (Piscarilius)",
+			"Graceful hood (Piscarilius)",
+			"Graceful legs (Piscarilius)",
+			"Graceful top (Piscarilius)"
 		],
 		"requirements": {
 			"combat": false,
@@ -913,12 +913,12 @@
 	"Lovakengj Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Lovakengj).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Lovakengj)",
+			"Graceful cape (Lovakengj)",
+			"Graceful gloves (Lovakengj)",
+			"Graceful hood (Lovakengj)",
+			"Graceful legs (Lovakengj)",
+			"Graceful top (Lovakengj)"
 		],
 		"requirements": {
 			"combat": false,
@@ -932,12 +932,12 @@
 	"Hosidius Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Hosidius).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Hosidius)",
+			"Graceful cape (Hosidius)",
+			"Graceful gloves (Hosidius)",
+			"Graceful hood (Hosidius)",
+			"Graceful legs (Hosidius)",
+			"Graceful top (Hosidius)"
 		],
 		"requirements": {
 			"combat": false,
@@ -951,12 +951,12 @@
 	"Great Kourend Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Kourend).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Kourend)",
+			"Graceful cape (Kourend)",
+			"Graceful gloves (Kourend)",
+			"Graceful hood (Kourend)",
+			"Graceful legs (Kourend)",
+			"Graceful top (Kourend)"
 		],
 		"requirements": {
 			"combat": false,
@@ -973,12 +973,12 @@
 	"Hallowed Graceful": {
 		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Hallowed).png",
 		"items": [
-			"Graceful boots",
-			"Graceful cape",
-			"Graceful gloves",
-			"Graceful hood",
-			"Graceful legs",
-			"Graceful top"
+			"Graceful boots (Hallowed)",
+			"Graceful cape (Hallowed)",
+			"Graceful gloves (Hallowed)",
+			"Graceful hood (Hallowed)",
+			"Graceful legs (Hallowed)",
+			"Graceful top (Hallowed)"
 		],
 		"requirements": {
 			"combat": false,
