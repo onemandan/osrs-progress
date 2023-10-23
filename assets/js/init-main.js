@@ -255,8 +255,8 @@
                 const maxItems = 5;
                 const totalItems = opts.data.items.length;
 
-                let html = `<div class="col ${opts.classes.hidden}">
-                                <div class="d-flex flex-column json-item h-100 p-3 rounded ${opts.classes.complete}" data-src="collections">
+                let html = `<div class="col col-sm-12 col-md-6 col-lg-4 ${opts.classes.hidden}">
+                                <div class="d-flex flex-column json-item p-3 rounded ${opts.classes.complete}" data-src="collections">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <h4>${opts.title}</h4>
                                         <img src="${opts.data.img}" alt="${opts.title} icon"/>
@@ -268,7 +268,7 @@
                     html = html + `<li class="list-group-item rounded">${opts.data.items[i]}</li>`;
                 }
             
-                html = html + `</ul><div class="d-flex flex-grow-1"></div>`;
+                html = html + `</ul>`;
 
                 if (totalItems > maxItems) {
                     html = html + `<span>and ${totalItems - maxItems} others...</span>`;
@@ -280,6 +280,7 @@
             },
             update: function() {
                 this.parent.updateSection(this.type, this.selectors);
+                updateMasonry();
             }
         },
         updateSection: function(type, selectors) {
@@ -392,6 +393,17 @@
         //Update skill and qp total amount progress indicators
         $(_qpProgressSelector).text(_userObj.qp);
         $(_skillsProgressSelector).text(_userObj.unlocked.length);
+    }
+
+    function updateMasonry() {
+        $(_progressSections.collections.selectors.wrapper).masonry({
+            itemSelector: ".col",
+            percentPosition: true,
+            transitionDuration: 0
+        });
+
+        $(_progressSections.collections.selectors.wrapper).masonry("reloadItems");
+        $(_progressSections.collections.selectors.wrapper).masonry("layout");
     }
 
     //isUnlocked
@@ -532,6 +544,10 @@
         //Only toggle the visibility of completed items
         //Section obtained from the img buttons 'data-src' attribute
         $(_progressSections[type].selectors.items + ".complete").parent().toggleClass("d-none");
+
+        if (type === _progressSections.collections.type) {
+            updateMasonry();
+        }
     }
 
     //--------------------
