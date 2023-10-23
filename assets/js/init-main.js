@@ -396,12 +396,6 @@
     }
 
     function updateMasonry() {
-        $(_progressSections.collections.selectors.wrapper).masonry({
-            itemSelector: ".col",
-            percentPosition: true,
-            transitionDuration: 0
-        });
-
         $(_progressSections.collections.selectors.wrapper).masonry("reloadItems");
         $(_progressSections.collections.selectors.wrapper).masonry("layout");
     }
