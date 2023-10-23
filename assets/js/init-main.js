@@ -85,7 +85,7 @@
     }
 
     //localStorage ID
-    const _userObjID = "osrs-xosaat-user";
+    const _userObjID = "osrs-xosaat-user-v2";
 
     //_userObj contains completed quests/achievements/collections/pets for persistent storage
     let _userObj = {
@@ -95,8 +95,14 @@
         complete: {
             quests: [],
             achievements: [],
-            collections: [],
             pets: [],
+            collections: {},
+        },
+        showHide: {
+            "collections": "show",
+            "pets": "show",
+            "quests": "show",
+            "achievements": "show"
         }
     };
 
@@ -123,7 +129,10 @@
 
     //Assets
     const _assetsDir = "/osrs-progress/assets";
+    const _wikiImagesDir = "https://oldschool.runescape.wiki/images/";
     const _confetti = new JSConfetti();
+
+    let _modal;
 
     //Selectors
     const _skillsSelector = "#skills-wrapper .skill-item";
@@ -135,6 +144,10 @@
     const _showHideSelector = ".show-hide";
     const _downloadSelector = "#btn-download";
     const _uploadSelector = "#btn-upload";
+
+    const _modalItemsSelector = ".modal-body li";
+    const _modalBtnSave = "#btn-modal-save";
+    const _modalBtnComplete = "#btn-modal-complete-all";
 
     //_progressSections
     //Object containing data and functions for each achievement/quest/pet/collection section, as well as utility functions
@@ -265,7 +278,9 @@
                                     <ul class="d-flex flex-wrap gap-2 py-2">`
             
                 for (let i = 0; i < Math.min(maxItems, totalItems); i++) {
-                    html = html + `<li class="list-group-item rounded">${opts.data.items[i]}</li>`;
+                    const completeClass = opts.title in _userObj.complete.collections && _userObj.complete.collections[opts.title].includes(opts.data.items[i]) ? "complete" : ""; 
+
+                    html = html + `<li class="list-group-item rounded ${completeClass}">${opts.data.items[i]}</li>`;
                 }
             
                 html = html + `</ul>`;
@@ -274,9 +289,36 @@
                     html = html + `<span>and ${totalItems - maxItems} others...</span>`;
                 }
                 
-                html = html + `<hr/><span class="text-muted"></span></div></div>`;
+                html = html + `<hr/>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted"></span>
+                            <div class="justify-content-end">
+                                <span>${opts.title in _userObj.complete.collections ? _userObj.complete.collections[opts.title].length : 0}/${totalItems}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
 
                 return html;
+            },
+            buildModal: function(collection){
+                let html = "";
+
+                for (const item of this.data[collection].items) {
+                    const completeClass = collection in _userObj.complete.collections && _userObj.complete.collections[collection].includes(item) ? "complete" : "";
+
+                    html = html + `<li class="list-group-item rounded d-flex justify-content-between ${completeClass}">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <img src="${_wikiImagesDir}${item.replaceAll(" ", "_")}.png" onerror="this.src='${_wikiImagesDir}Bank_filler.png'" width="16px" height="16px" alt="icon"/>
+                            <span class="collection-item ms-3">${item}</span>
+                        </div>
+                        <span class="text-muted"></span>
+                    </li>`;
+                }
+                
+                $(".modal-title").text(collection);
+                $(".modal-body ul").html(html);
+                $(_modalItemsSelector).on("click", onModalItemClick);
             },
             update: function() {
                 this.parent.updateSection(this.type, this.selectors);
@@ -284,7 +326,6 @@
             }
         },
         updateSection: function(type, selectors) {
-            $(selectors.wrapper).html("");
             $(selectors.wrapper).html(this.buildNodes(type));
     
             const nTotal = $(selectors.items).length;
@@ -305,7 +346,7 @@
             this.collections.update();
         },
         buildNodes: function(type) {
-            const hideCompletedItems = $(`img[data-src='${type},hide']`).length > 0;
+            const hideCompletedItems = _userObj.showHide[type] === "hide";
 
             //Node lists, as completed items are sent to the end of the DOM wrapper, maintain two lists to sort individually
             const nodes = [];
@@ -325,9 +366,14 @@
                 }
                 
                 if (isUnlocked(data.requirements)) {
-                    
+                    let isComplete;
+
                     //Determine if the item has been completed by checking the @_userObj object
-                    const isComplete = _userObj.complete[type].includes(type === this.achievements.type ? data.task : oID);
+                    if (type === this.collections.type) {
+                        isComplete = oID in _userObj.complete.collections && _userObj.complete.collections[oID].length === data.items.length;
+                    } else {
+                        isComplete = _userObj.complete[type].includes(type === this.achievements.type ? data.task : oID);
+                    }
 
                     //Item CSS classes
                     const completeClass = isComplete ? "complete" : "";
@@ -481,40 +527,45 @@
     function onItemClick() {
         const type = $(this).attr("data-src");
 
-        $(this).toggleClass("complete");
-
-        if (type === _progressSections.achievements.type) {
-            toggleArrayItem(_userObj.complete[type], $(".json-description", this).text().trim());
+        if (type === _progressSections.collections.type) {
+            _progressSections.collections.buildModal($("h4", this).text().trim());
+            _modal.show();
         } else {
-            const quest = $("h4", this).text().trim();
-            toggleArrayItem(_userObj.complete[type], quest);
+            $(this).toggleClass("complete");
 
-            //For quests, update the QP in the @userObj, the QP indicator and other sections
-            if (type === _progressSections.quests.type) {
-                if ($(this).hasClass("complete")) {
-                    _userObj.qp = _userObj.qp + _progressSections.quests.data[quest].rewards.qp;
-                } else {
-                    _userObj.qp = _userObj.qp - _progressSections.quests.data[quest].rewards.qp;
+            if (type === _progressSections.achievements.type) {
+                toggleArrayItem(_userObj.complete[type], $(".json-description", this).text().trim());
+            } else {
+                const title = $("h4", this).text().trim();
+                toggleArrayItem(_userObj.complete[type], title);
+
+                //For quests, update the QP in the @userObj, the QP indicator and other sections
+                if (type === _progressSections.quests.type) {
+                    if ($(this).hasClass("complete")) {
+                        _userObj.qp = _userObj.qp + _progressSections.quests.data[title].rewards.qp;
+                    } else {
+                        _userObj.qp = _userObj.qp - _progressSections.quests.data[title].rewards.qp;
+                    }
+
+                    //Update quest points indicator
+                    $(_qpProgressSelector).text(_userObj.qp);
+
+                    //Update achievements/pets/collections as they can be locked behind quest completions
+                    _progressSections.achievements.update();
+                    _progressSections.pets.update();
+                    _progressSections.collections.update();
                 }
-
-                //Update quest points indicator
-                $(_qpProgressSelector).text(_userObj.qp);
-
-                //Update achievements/pets/collections as they can be locked behind quest completions
-                _progressSections.achievements.update();
-                _progressSections.pets.update();
-                _progressSections.collections.update();
             }
-        }
 
-        _progressSections[type].update();
+            _progressSections[type].update();
 
-        //Save @_userObj
-        localStorage.setObject(_userObjID, _userObj);
+            //Save @_userObj
+            localStorage.setObject(_userObjID, _userObj);
 
-        //Confetti!
-        if ($(this).hasClass("complete")) {
-            _confetti.addConfetti();
+            //Confetti!
+            if ($(this).hasClass("complete")) {
+                _confetti.addConfetti();
+            }
         }
     }
 
@@ -526,14 +577,11 @@
         const dSrc = $(this).attr("data-src").split(",");
         const type = dSrc[0];
         const state = dSrc[1];
+        
+        const newState = state === "hide" ? "show": "hide";
 
-        if (state === "hide") {
-            $(this).attr("data-src", type + ",show");
-            $(this).attr("src",_assetsDir + "/images/svg/show.svg");
-        } else {
-            $(this).attr("data-src", type + ",hide");
-            $(this).attr("src",_assetsDir + "/images/svg/hide.svg");
-        }
+        $(this).attr("data-src", `${type},${newState}`);
+        $(this).attr("src", `${_assetsDir}/images/svg/${newState}.svg`);
 
         //Only toggle the visibility of completed items
         //Section obtained from the img buttons 'data-src' attribute
@@ -542,6 +590,47 @@
         if (type === _progressSections.collections.type) {
             updateMasonry();
         }
+
+        //Update @_userObj
+        _userObj.showHide[type] = newState;
+
+        //Save @_userObj
+        localStorage.setObject(_userObjID, _userObj);
+    }
+
+    //onModalItemClick
+    //Toggle the 'complete' class on the collection items within the modal when clicked
+    function onModalItemClick() {
+        $(this).toggleClass("complete");
+    }
+
+    //onModalSaveClick
+    //Update the @_userObj with completed collection items and update the collections section
+    function onModalSaveClick() {
+        const completeItemsLength = $(_modalItemsSelector + ".complete").length;
+        const collection = $(".modal-title").text();
+        const completeItems = [];
+
+        $(_modalItemsSelector + ".complete").each(function() {
+            completeItems.push($(".collection-item", this).text());
+        });
+
+        _userObj.complete.collections[collection] = completeItems;
+        _progressSections.collections.update();
+        
+        //Add confetti if all items completed and hide modal
+        if (completeItemsLength === _progressSections.collections.data[collection].items.length) {
+            _confetti.addConfetti();
+        }
+
+        _modal.hide();
+        
+         //Save @_userObj
+         localStorage.setObject(_userObjID, _userObj);
+    }
+
+    function onModalCompleteClick() {
+        $(_modalItemsSelector).addClass("complete");
     }
 
     //--------------------
@@ -552,6 +641,8 @@
 
     $(document).ready(function () {
 
+        _modal = new bootstrap.Modal($(".modal")[0]);
+
         //Click event listeners
         $(_skillsSelector).on("click", onSkillClick);
         $(_showHideSelector).on("click", onShowHideClick);
@@ -559,6 +650,16 @@
         $(_uploadSelector).on("click", uploadFile);
         $(_downloadSelector).on("click", function() {
             saveFile("data.json", _userObj);
+        });
+
+        $(_modalBtnComplete).on("click", onModalCompleteClick);
+        $(_modalBtnSave).on("click", onModalSaveClick);
+
+        $(_showHideSelector).each(function() {
+            const type = $(this).attr("data-src").split(",")[0];
+
+            $(this).attr("data-src", `${type},${_userObj.showHide[type]}`);
+            $(this).attr("src", `${_assetsDir}/images/svg/${_userObj.showHide[type]}.svg`);
         });
 
         //Load .json files and update functions

@@ -25,6 +25,27 @@
 
     <body>
 
+        <div class="modal fade" id="collection-modal" tabindex="-1" aria-labelledby="collection-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-3" id="collection-modal-label"></h1>
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body py-0">
+                        <ul class="d-flex flex-column gap-2">
+                            
+                        </ul>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button id="btn-modal-complete-all" type="button" class="btn btn-warning">Complete All</button>
+                        <button id="btn-modal-save" type="button" class="btn btn-warning">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+
         <div class="nav-menu flex-column align-items-center justify-content-center d-none d-md-flex p-3 rounded">
             <a class="nav-btn" href="#achievements"></a>
             <div class="line"></div>

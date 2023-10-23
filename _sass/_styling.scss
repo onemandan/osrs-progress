@@ -12,7 +12,8 @@ h2, h3, h4, h5, p {
     margin: 0 !important;
 }
 
-body {
+body,
+.modal-content {
     background-color: $colour-background-primary;
 }
 
@@ -36,6 +37,44 @@ canvas {
             padding: 0.25rem 0.875rem 0.25rem 0.875rem;
             color: $colour-text-tertiary;
             background-color: $colour-background-featured;
+
+            &.complete {
+                color: $colour-text-secondary;
+            }
+        }
+    }
+}
+
+.modal-body {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        
+        li {
+            padding: 0.25rem 0.875rem 0.25rem 0.875rem;
+            background-color: $colour-background-secondary;
+            cursor: pointer;
+
+            span {
+                &.text-muted:after {
+                    content: "Incomplete";
+                }
+            }
+
+            &.complete {
+                opacity: 60%;
+
+                span {
+                    &.text-muted {
+                        color: $colour-text-secondary !important;
+
+                        &:after {
+                            content: "Complete";
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -43,6 +82,11 @@ canvas {
 .show-hide,
 .cursor {
     cursor: pointer;
+}
+
+.modal-header,
+.modal-footer {
+    border: none !important;
 }
 
 .skill-item {

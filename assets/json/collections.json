@@ -1016,10 +1016,10 @@
 	"Golden Prospector": {
 		"img": "https://oldschool.runescape.wiki/images/Golden_prospector_helmet.png",
 		"items": [
-			"Golden Prospector boots",
-			"Golden Prospector helmet",
-			"Golden Prospector jacket",
-			"Golden Prospector legs"
+			"Golden prospector boots",
+			"Golden prospector helmet",
+			"Golden prospector jacket",
+			"Golden prospector legs"
 		],
 		"requirements": {
 			"combat": false,
@@ -1047,9 +1047,9 @@
 	"Big Fish": {
 		"img": "https://oldschool.runescape.wiki/images/Big_shark.png",
 		"items": [
-			"Big Bass",
-			"Big Shark",
-			"Big Swordfish"
+			"Big bass",
+			"Big shark",
+			"Big swordfish"
 		],
 		"requirements": {
 			"combat": false,
