@@ -21,6 +21,7 @@
     
         <!-- Local Styles -->
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/hint-min.css" />
     </head>
 
     <body>
@@ -68,48 +69,104 @@
                         <img id="btn-download" class="cursor ms-3" src="{{ site.baseurl }}/assets/images/svg/download.svg" height="32px" width="32px" alt="Download icon"/>
                     </div> 
                 </div>
-                <div id="progress-wrapper" class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-2 g-md-3 mt-1">
-                    <div class="col">
+                <div id="progress-wrapper" class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-6 g-2 g-md-3 mt-1">
+                    <div class="col order-sm-0">
                         <div class="progress-item d-flex flex-column align-items-center py-2 px-3 rounded h-100">
                             <h4>Skills</h4>
-                            <h5><span id="skills-progress">0</span>/23</h5>
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <h5 class="fs-3"><span id="skills-progress">0</span>/23</h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col order-sm-3 order-lg-4 order-xl-1">
                         <div class="progress-item d-flex flex-column align-items-center py-2 px-3 rounded h-100">
                             <h4>QPs</h4>
-                            <h5><span id="qp-progress">0</span></h5>
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <h5 class="fs-3"><span id="qp-progress">0</span>/300</h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col order-sm-1">
                         <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
                             <h4 class="text-center">Achievements</h4>
                             <div class="progress my-2" role="progressbar" aria-label="Cchievements progress">
                                 <div id="achievements-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
+                            <div class="container-fluid">
+                                <div class="row column-gap-1">
+                                    <div class="col d-flex justify-content-center progress-numeral _complete rounded-start hint--bottom hint--rounded" aria-label="completed">
+                                        <span class="achievements-completed"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _total hint--bottom hint--rounded" aria-label="total">
+                                        <span class="achievements-total"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _incomplete rounded-end hint--bottom hint--rounded" aria-label="incomplete">
+                                        <span class="achievements-incomplete"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col order-sm-2">
                         <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
                             <h4 class="text-center">Quests</h4>
                             <div class="progress my-2" role="progressbar" aria-label="Quests progress">
                                 <div id="quests-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
+                            <div class="container-fluid">
+                                <div class="row column-gap-1">
+                                    <div class="col d-flex justify-content-center progress-numeral _complete rounded-start hint--bottom hint--rounded" aria-label="completed">
+                                        <span class="quests-completed"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _total hint--bottom hint--rounded" aria-label="total">
+                                        <span class="quests-total"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _incomplete rounded-end hint--bottom hint--rounded" aria-label="incomplete">
+                                        <span class="quests-incomplete"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col order-sm-4 order-lg-3">
                         <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
                             <h4 class="text-center">Pets</h4>
                             <div class="progress my-2" role="progressbar" aria-label="Pets progress">
                                 <div id="pets-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
                             </div>
+                            <div class="container-fluid">
+                                <div class="row column-gap-1">
+                                    <div class="col d-flex justify-content-center progress-numeral _complete rounded-start hint--bottom hint--rounded" aria-label="completed">
+                                        <span class="pets-completed"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _total hint--bottom hint--rounded" aria-label="total">
+                                        <span class="pets-total"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _incomplete rounded-end hint--bottom hint--rounded" aria-label="incomplete">
+                                        <span class="pets-incomplete"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col order-sm-5">
                         <div class="progress-item d-flex flex-column py-2 px-3 rounded h-100">
                             <h4 class="text-center">Collections</h4>
                             <div class="progress my-2" role="progressbar" aria-label="Collections progress">
                                 <div id="collections-progress" class="progress-bar text-bg-warning" style="width: 0%">0%</div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row column-gap-1">
+                                    <div class="col d-flex justify-content-center progress-numeral _complete rounded-start hint--bottom hint--rounded" aria-label="complete">
+                                        <span class="collections-completed"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _total hint--bottom hint--rounded" aria-label="total">
+                                        <span class="collections-total"></span>
+                                    </div>
+                                    <div class="col d-flex justify-content-center progress-numeral _incomplete rounded-end hint--bottom hint--rounded" aria-label="incomplete">
+                                        <span class="collections-incomplete"></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,7 +202,7 @@
                         <h2>Achievements</h2>
                     </div>
                     <div class="d-flex align-items-center justifty-content-end">
-                        <span><span id="achievements-completed">0</span>/<span id="achievements-total">0</span></span>
+                        <span><span class="achievements-completed">0</span>/<span class="achievements-total">0</span></span>
                         <img class="ms-3 show-hide" src="{{ site.baseurl }}/assets/images/svg/show.svg" data-src="achievements,show" height="32px" width="32px" alt="Show/Hide icon"/>
                     </div> 
                 </div>
@@ -164,7 +221,7 @@
                         <h2>Quests</h2>
                     </div>
                     <div class="d-flex align-items-center justifty-content-end">
-                        <span><span id="quests-completed">0</span>/<span id="quests-total">0</span></span>
+                        <span><span class="quests-completed">0</span>/<span class="quests-total">0</span></span>
                         <img class="ms-3 show-hide" src="{{ site.baseurl }}/assets/images/svg/show.svg" data-src="quests,show" height="32px" width="32px" alt="Show/Hide icon"/>
                     </div> 
                 </div>
@@ -183,7 +240,7 @@
                         <h2>Pets</h2>
                     </div>
                     <div class="d-flex align-items-center justifty-content-end">
-                        <span><span id="pets-completed">0</span>/<span id="pets-total">0</span></span>
+                        <span><span class="pets-completed">0</span>/<span class="pets-total">0</span></span>
                         <img class="ms-3 show-hide" src="{{ site.baseurl }}/assets/images/svg/show.svg" data-src="pets,show" height="32px" width="32px" alt="Show/Hide icon"/>
                     </div>
                 </div>
@@ -202,7 +259,7 @@
                         <h2>Collections</h2>
                     </div>
                     <div class="d-flex align-items-center justifty-content-end">
-                        <span><span id="collections-completed">0</span>/<span id="collections-total">0</span></span>
+                        <span><span class="collections-completed">0</span>/<span class="collections-total">0</span></span>
                         <img class="ms-3 show-hide" src="{{ site.baseurl }}/assets/images/svg/show.svg" data-src="collections,show" height="32px" width="32px" alt="Show/Hide icon"/>
                     </div>
                 </div>

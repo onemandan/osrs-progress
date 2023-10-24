@@ -27,51 +27,61 @@ canvas {
     z-index: 99999 !important;
 }
 
-#collections-wrapper {
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        
-        li {
-            padding: 0.25rem 0.875rem 0.25rem 0.875rem;
-            color: $colour-text-tertiary;
-            background-color: $colour-background-featured;
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
-            &.complete {
-                color: $colour-text-secondary;
-            }
+#collections-wrapper {
+    li {
+        padding: 0.25rem 0.875rem 0.25rem 0.875rem;
+        color: $colour-text-tertiary;
+        background-color: $colour-background-featured;
+
+        &.complete {
+            color: $colour-text-secondary;
         }
+    } 
+}
+
+.progress-numeral {
+    background-color: $colour-background-featured;
+    
+    &._complete span {
+        color: $colour-text-secondary;
+    }
+
+    &._total span {
+        color: $colour-text-primary;
+    }
+
+    &._incomplete span {
+        color: $colour-text-tertiary;
     }
 }
 
 .modal-body {
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        
-        li {
-            padding: 0.25rem 0.875rem 0.25rem 0.875rem;
-            background-color: $colour-background-secondary;
-            cursor: pointer;
+    li {
+        padding: 0.25rem 0.875rem 0.25rem 0.875rem;
+        background-color: $colour-background-secondary;
+        cursor: pointer;
+
+        span {
+            &.text-muted:after {
+                content: "Incomplete";
+            }
+        }
+
+        &.complete {
+            opacity: 60%;
 
             span {
-                &.text-muted:after {
-                    content: "Incomplete";
-                }
-            }
+                &.text-muted {
+                    color: $colour-text-secondary !important;
 
-            &.complete {
-                opacity: 60%;
-
-                span {
-                    &.text-muted {
-                        color: $colour-text-secondary !important;
-
-                        &:after {
-                            content: "Complete";
-                        }
+                    &:after {
+                        content: "Complete";
                     }
                 }
             }

@@ -174,8 +174,9 @@
             selectors: {
                 wrapper: "#achievements-wrapper",
                 items: "#achievements-wrapper .json-item",
-                completed: "#achievements-completed",
-                total: "#achievements-total",
+                completed: ".achievements-completed",
+                total: ".achievements-total",
+                incomplete: ".achievements-incomplete",
                 progress: "#achievements-progress",
             },
             data: {},
@@ -205,8 +206,9 @@
             selectors: {
                 wrapper: "#quests-wrapper",
                 items: "#quests-wrapper .json-item",
-                completed: "#quests-completed",
-                total: "#quests-total",
+                completed: ".quests-completed",
+                total: ".quests-total",
+                incomplete: ".quests-incomplete",
                 progress: "#quests-progress",
             },
             data: {},
@@ -232,8 +234,9 @@
             selectors: {
                 wrapper: "#pets-wrapper",
                 items: "#pets-wrapper .json-item",
-                completed: "#pets-completed",
-                total: "#pets-total",
+                completed: ".pets-completed",
+                total: ".pets-total",
+                incomplete: ".pets-incomplete",
                 progress: "#pets-progress",
             },
             data: {},
@@ -259,8 +262,9 @@
             selectors: {
                 wrapper: "#collections-wrapper",
                 items: "#collections-wrapper .json-item",
-                completed: "#collections-completed",
-                total: "#collections-total",
+                completed: ".collections-completed",
+                total: ".collections-total",
+                incomplete: ".collections-incomplete",
                 progress: "#collections-progress",
             },
             data: {},
@@ -331,9 +335,11 @@
             const nTotal = $(selectors.items).length;
             const nComplete = $(selectors.items + ".complete").length;
             const nProgress = Math.round((nComplete / nTotal) * 100) || 0;
+            const nIncomplete = nTotal - nComplete;
     
             $(selectors.total).text(nTotal);
             $(selectors.completed).text(nComplete);
+            $(selectors.incomplete).text(nIncomplete);
             $(selectors.progress).width(nProgress + "%");
             $(selectors.progress).text(nProgress + "%");
     
