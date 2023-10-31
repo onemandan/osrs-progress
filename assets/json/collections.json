@@ -134,6 +134,22 @@
 			]
 		}
 	},
+	"Smiths Gloves": {
+		"img": "https://oldschool.runescape.wiki/images/Smiths_gloves_(i).png",
+		"items": [
+			"Ice gloves",
+			"Smith gloves (i)"
+		],
+		"requirements": {
+			"combat": false,
+			"quests": [
+				"Sleeping Giants"
+			],
+			"skills": [
+				"Smithing"
+			]
+		}
+	},
 	"Gnome Restaurant": {
 		"img": "https://oldschool.runescape.wiki/images/Gnome_scarf.png",
 		"items": [
@@ -583,18 +599,28 @@
 	"Forestry": {
 		"img": "https://oldschool.runescape.wiki/images/Lumberjack_hat.png",
 		"items": [
+			"Cape pouch",
 			"Clothes pouch blueprint",
+			"Felling axe handle",
 			"Forestry boots",
 			"Forestry hat",
 			"Forestry legs",
 			"Forestry top",
+			"Fox whistle",
 			"Funky shaped log",
+			"Golden pheasant egg",
 			"Log basket",
 			"Log brace",
 			"Lumberjack boots",
 			"Lumberjack hat",
 			"Lumberjack legs",
-			"Lumberjack top"
+			"Lumberjack top",
+			"Petal garland",
+			"Pheasant hat",
+			"Pheasant legs",
+			"Pheasant boots",
+			"Pheasant cape",
+			"Twitcher's gloves"
 		],
 		"requirements": {
 			"combat": false,

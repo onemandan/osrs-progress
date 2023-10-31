@@ -59,7 +59,7 @@
                     const data = JSON.parse(target.result);
 
                     //Arbitrary simple check
-                    if ("unlocked" in data && "qp" in data && "complete" in data) {
+                    if ("unlocked" in data && "qp" in data && "complete" in data && "showHide" in data) {
                         _userObj = data;
 
                         _progressSections.updateAllSections();
@@ -447,6 +447,8 @@
         $(_skillsProgressSelector).text(_userObj.unlocked.length);
     }
 
+    //updateMasonry
+    //The collections section uses the masonry layout, which needs to be reloaded and updated on change
     function updateMasonry() {
         $(_progressSections.collections.selectors.wrapper).masonry("reloadItems");
         $(_progressSections.collections.selectors.wrapper).masonry("layout");
@@ -470,8 +472,15 @@
             }
     
             if ("skills" in requirements) {
-                for (const skill of requirements.skills){
-                    if (!_userObj.unlocked.includes(skill)) {
+                for (const skill of requirements.skills) {
+
+                    //Determine if there is an either/or skill requirement
+                    if (skill.includes("||")) {
+                        if (!skill.split("||").some(s => _userObj.unlocked.includes(s))) {
+                            return false;
+                        }
+
+                    } else if (!_userObj.unlocked.includes(skill)) {
                         return false;
                     }
                 }
