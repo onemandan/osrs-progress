@@ -43,6 +43,7 @@
             "combat": false,
             "quests": [],
             "skills": [
+                "Woodcutting",
                 "Agility"
             ]
         }
@@ -151,7 +152,9 @@
         "task": "Take the Agility shortcut from the Grand Tree to Otto's Grotto",
         "requirements": {
             "combat": false,
-            "quests": [],
+            "quests": [
+                "The Grand Tree"
+            ],
             "skills": [
                 "Agility"
             ]
@@ -4043,7 +4046,9 @@
             "quests": [
                 "Cook's Assistant"
             ],
-            "skills": []
+            "skills": [
+                "Cooking"
+            ]
         }
     },
     "Quest-09": {
