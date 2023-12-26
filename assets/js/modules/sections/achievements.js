@@ -4,10 +4,14 @@
 import { Section } from '{{ "assets/js/modules/sections/section.js" | relative_url }}';
 
 export class Achievements extends Section {
-    constructor(selectors, data) {
-        super(data);
+    constructor(data, onClick) {
+        super(data, onClick);
 
-        this.selectors = selectors;
+        this.selectors = {
+            'jsonKey': 'task',
+            'wrapper': '#achievements-wrapper',
+            'items': '#achievements-wrapper>div'
+        };
 
         this.difficulty = Object.freeze({
             'Easy': {
@@ -27,26 +31,29 @@ export class Achievements extends Section {
                 'colour': 'text-yellow-400'
             }
         });
+
+        this.compare = this.compare.bind(this);
     }
 
-    update(fUnlocked) {
-        const available = super.getAvailable(fUnlocked, this.compare.bind(this));
+    update(fUnlocked, completed) {
+        const available = super.getAvailable(fUnlocked, completed, this.compare, this.selectors.jsonKey);
         const html = [];
 
         for (const obj of available) {
-            html.push(this.template(obj.diary, obj.banner, obj.difficulty, obj.task, this.difficulty[obj.difficulty].colour))
+            html.push(this.template(obj.diary, obj.banner, obj.difficulty, obj.task, this.difficulty[obj.difficulty].colour, obj.active))
         }
 
         $(this.selectors.wrapper).html(html.join(''));
+        $(this.selectors.items).on('click', this.onItemClick);
     }
 
     compare(a, b) {
-        return a.diary.localeCompare(b.diary) || this.difficulty[a.difficulty].compare - this.difficulty[b.difficulty].compare;
+        return (+a.active) - (+b.active) || a.diary.localeCompare(b.diary) || this.difficulty[a.difficulty].compare - this.difficulty[b.difficulty].compare;
     }
 
-    template(diary, banner, difficulty, task, colour) {
+    template(diary, banner, difficulty, task, colour, active) {
         return `
-        <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 _active _ic' data-src='achievement'>
+        <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic' data-src='achievement'>
             <div class='flex flex-row justify-between items-center'>
                 <div class='flex flex-row items-center'>
                     <img src='${this.imagesURL}${banner.replaceAll(' ', '_')}.png' alt="${banner} icon" width='16px' height='auto'/>

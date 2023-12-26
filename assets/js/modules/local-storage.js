@@ -21,6 +21,8 @@ class Store {
                 collections: {},
             }
         }
+
+        this.isUnlocked = this.isUnlocked.bind(this);
     }
 
     init() {
@@ -90,8 +92,7 @@ class Store {
     //saveFile
     //Saves @dataObjToWrite as a .json file
     //@filename resulting name of the file
-    //@dataObjToWrite the object to save as a .json file
-    saveFile(filename, dataObjToWrite) {
+    saveFile(filename) {
 
         //Create blob data stream from @dataObjToWrite with 'text/json' mimetype
         const blob = new Blob([JSON.stringify(this.obj)], { type: "text/json" });

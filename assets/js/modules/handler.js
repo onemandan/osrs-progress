@@ -2,14 +2,14 @@
 ---
 
 import { Achievements } from '{{ "assets/js/modules/sections/achievements.js" | relative_url }}';
+import { SkillsFactory } from '{{ "assets/js/modules/sections/skills.js" | relative_url }}';
 import { StoreFactory } from '{{ "assets/js/modules/local-storage.js" | relative_url }}';
 
 class Handler {
-    constructor(selectors) {
-        this.selectors = selectors;
-
+    constructor() {
         this.achievements = null;
         this.storage = null;
+        this.skills = null;
         
         this.sections = Object.freeze({
             achievements: 'achievements',
@@ -17,45 +17,35 @@ class Handler {
             pets: 'pets',
             collections: 'collections'
         });
-
-        this.selectors = {
-            'wrappers': {
-                'skills': '#skills-wrapper>div'
-            }
-        };
     }
 
     init() {
         this.storage = StoreFactory();
-
-        $(this.selectors.wrappers.skills).on('click', function(event) {
-            $(event.currentTarget).toggleClass('_active');
-            $(event.currentTarget).toggleClass('_inactive');
-
-            this.onSkillClicked($(event.currentTarget).children()[0].innerText);
-        }.bind(this));
-
+        this.skills = SkillsFactory(this.onSkillClicked.bind(this), this.storage.obj.complete.skills);
+        
         return this;
     }
 
-    initSection(section, selectors, data) {
+    initSection(section, data) {
         switch(section) {
             case this.sections.achievements:
-                this.achievements = new Achievements(selectors, data);
+                this.achievements = new Achievements(data, this.onAcievementClicked.bind(this));
                 break;
         }
 
-        this[section].update(this.isUnlocked.bind(this));
-    }
-
-    isUnlocked(requirements) {
-        return this.storage.isUnlocked(requirements);
+        this[section].update(this.storage.isUnlocked, this.storage.obj.complete[section]);
     }
 
     onSkillClicked(id) {
         this.storage.toggleComplete('skills', id);
 
-        this.achievements.update(this.isUnlocked.bind(this));
+        this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
+    }
+
+    onAcievementClicked(id) {
+        this.storage.toggleComplete('achievements', id);
+
+        this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
     }
 }
 
