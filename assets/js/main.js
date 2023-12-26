@@ -12,7 +12,8 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
         [_handler.sections.achievements]: {
             'json': '{{ "assets/json/achievements.json" | relative_url}}',
             'selectors': {
-                'wrapper': '#achievements-wrapper'
+                'wrapper': '#achievements-wrapper',
+                'tiles': '#achievevments-wrapper>div'
             }
         }
     };

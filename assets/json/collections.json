@@ -1,6 +1,6 @@
 {
 	"Barbarian Assault": {
-		"img": "https://oldschool.runescape.wiki/images/Fighter_hat.png",
+		"img": "Fighter_hat",
 		"items": [
 			"Fighter hat",
 			"Fighter torso",
@@ -27,7 +27,7 @@
 		}
 	},
 	"Brimhaven Agility Arena": {
-		"img": "https://oldschool.runescape.wiki/images/Agility_arena_ticket.png",
+		"img": "Agility_arena_ticket",
 		"items": [
 			"Agility arena ticket",
 			"Graceful boots (Agility Arena)",
@@ -47,7 +47,7 @@
 		}
 	},
 	"Castle Wars": {
-		"img": "https://oldschool.runescape.wiki/images/Decorative_armour_(red_platebody).png",
+		"img": "Decorative_armour_(red_platebody)",
 		"items": [
 			"Castlewars cloak (Saradomin)",
 			"Castlewars cloak (Zamorak)",
@@ -96,7 +96,7 @@
 		}
 	},
 	"Fishing Trawler": {
-		"img": "https://oldschool.runescape.wiki/images/Angler_hat.png",
+		"img": "Angler_hat",
 		"items": [
 			"Angler boots",
 			"Angler hat",
@@ -112,7 +112,7 @@
 		}
 	},
 	"Giants' Foundry": {
-		"img": "https://oldschool.runescape.wiki/images/Smiths_tunic.png",
+		"img": "Smiths_tunic",
 		"items": [
 			"Colossal blade",
 			"Double ammo mould",
@@ -135,7 +135,7 @@
 		}
 	},
 	"Smiths Gloves": {
-		"img": "https://oldschool.runescape.wiki/images/Smiths_gloves_(i).png",
+		"img": "Smiths_gloves_(i)",
 		"items": [
 			"Ice gloves",
 			"Smith gloves (i)"
@@ -151,7 +151,7 @@
 		}
 	},
 	"Gnome Restaurant": {
-		"img": "https://oldschool.runescape.wiki/images/Gnome_scarf.png",
+		"img": "Gnome_scarf",
 		"items": [
 			"Gnome goggles",
 			"Gnome scarf",
@@ -168,7 +168,7 @@
 		}
 	},
 	"Guardians of the Rift": {
-		"img": "https://oldschool.runescape.wiki/images/Hat_of_the_eye.png",
+		"img": "Hat_of_the_eye",
 		"items": [
 			"Abyssal blue dye",
 			"Abyssal green dye",
@@ -198,7 +198,7 @@
 		}
 	},
 	"Hallowed Sepulchre": {
-		"img": "https://oldschool.runescape.wiki/images/Ring_of_endurance.png",
+		"img": "Ring_of_endurance",
 		"items": [
 			"Dark acorn",
 			"Dark dye",
@@ -233,7 +233,7 @@
 		}
 	},
 	"Magic Training Arena": {
-		"img": "https://oldschool.runescape.wiki/images/Infinity_hat.png",
+		"img": "Infinity_hat",
 		"items": [
 			"Apprentice wand",
 			"Beginner wand",
@@ -256,7 +256,7 @@
 		}
 	},
 	"Mahogany Homes": {
-		"img": "https://oldschool.runescape.wiki/images/Carpenter's_shirt.png",
+		"img": "Carpenter's_shirt",
 		"items": [
 			"Amy's saw",
 			"Carpenter's boots",
@@ -279,7 +279,7 @@
 		}
 	},
 	"Pest Control": {
-		"img": "https://oldschool.runescape.wiki/images/Void_ranger_helm.png",
+		"img": "Void_ranger_helm",
 		"items": [
 			"Elite void robe",
 			"Elite void top",
@@ -307,7 +307,7 @@
 		}
 	},
 	"Rogues' Den": {
-		"img": "https://oldschool.runescape.wiki/images/Rogue_mask.png",
+		"img": "Rogue_mask",
 		"items": [
 			"Rogue boots",
 			"Rogue gloves",
@@ -325,7 +325,7 @@
 		}
 	},
 	"Shades of Mort'ton": {
-		"img": "https://oldschool.runescape.wiki/images/Rogue_mask.png",
+		"img": "Rogue_mask",
 		"items": [
 			"Amulet of the damned",
 			"Black locks",
@@ -360,7 +360,7 @@
 		}
 	},
 	"Tithe Farm": {
-		"img": "https://oldschool.runescape.wiki/images/Farmer's_strawhat.png",
+		"img": "Farmer's_strawhat",
 		"items": [
 			"Farmer's boots",
 			"Farmer's boro trousers",
@@ -378,7 +378,7 @@
 		}
 	},
 	"Tithe Farm 2": {
-		"img": "https://oldschool.runescape.wiki/images/Herb_sack.png",
+		"img": "Herb_sack",
 		"items": [
 			"Herb sack"
 		],
@@ -392,7 +392,7 @@
 		}
 	},
 	"Volcanic Mine": {
-		"img": "https://oldschool.runescape.wiki/images/Dragon_pickaxe_(broken).png",
+		"img": "Dragon_pickaxe_(broken)",
 		"items": [
 			"Ash covered tome",
 			"Dragon pickaxe (broken)",
@@ -412,7 +412,7 @@
 		}
 	},
 	"Trouble Brewing": {
-		"img": "https://oldschool.runescape.wiki/images/Blue_tricorn_hat.png",
+		"img": "Blue_tricorn_hat",
 		"items": [
 			"Black naval shirt",
 			"Black navy slacks",
@@ -456,7 +456,7 @@
 		}
 	},
 	"Ariel Fishing": {
-		"img": "https://oldschool.runescape.wiki/images/Golden_tench.png",
+		"img": "Golden_tench",
 		"items": [
 			"Fish sack",
 			"Golden tench",
@@ -474,7 +474,7 @@
 		}
 	},
 	"Camdozal": {
-		"img": "https://oldschool.runescape.wiki/images/Imcando_hammer.png",
+		"img": "Imcando_hammer",
 		"items": [
 			"Ancient astroscope",
 			"Ancient carcanet",
@@ -496,7 +496,7 @@
 		}
 	},
 	"Camdozal 2": {
-		"img": "https://oldschool.runescape.wiki/images/Barronite_handle.png",
+		"img": "Barronite_handle",
 		"items": [
 			"Barronite handle"
 		],
@@ -511,7 +511,7 @@
 		}
 	},
 	"Camdozal 3": {
-		"img": "https://oldschool.runescape.wiki/images/Barronite_guard.png",
+		"img": "Barronite_guard",
 		"items": [
 			"Barronite guard",
 			"Barronite mace"
@@ -525,7 +525,7 @@
 		}
 	},
 	"Chompy Bird Hunting": {
-		"img": "https://oldschool.runescape.wiki/images/Chompy_bird_hat_(expert_dragon_archer).png",
+		"img": "Chompy_bird_hat_(expert_dragon_archer)",
 		"items": [
 			"Chompy bird hat (bowman)",
 			"Chompy bird hat (bowmaster)",
@@ -557,7 +557,7 @@
 		}
 	},
 	"Creature Creation": {
-		"img": "https://oldschool.runescape.wiki/images/Tea_flask.png",
+		"img": "Tea_flask",
 		"items": [
 			"Black satchel",
 			"Gold satchel",
@@ -576,7 +576,7 @@
 		}
 	},
 	"Cyclopes": {
-		"img": "https://oldschool.runescape.wiki/images/Dragon_defender.png",
+		"img": "Dragon_defender",
 		"items": [
 			"Adamant defender",
 			"Black defender",
@@ -597,7 +597,7 @@
 		}
 	},
 	"Forestry": {
-		"img": "https://oldschool.runescape.wiki/images/Lumberjack_hat.png",
+		"img": "Lumberjack_hat",
 		"items": [
 			"Cape pouch",
 			"Clothes pouch blueprint",
@@ -631,7 +631,7 @@
 		}
 	},
 	"Monkey Backpacks": {
-		"img": "https://oldschool.runescape.wiki/images/Karamjan_monkey_(item).png",
+		"img": "Karamjan_monkey_(item)",
 		"items": [
 			"Karamjan monkey",
 			"Kruk jr",
@@ -649,7 +649,7 @@
 		}
 	},
 	"Glough's Experiments": {
-		"img": "https://oldschool.runescape.wiki/images/Zenyte_shard.png",
+		"img": "Zenyte_shard",
 		"items": [
 			"Ballista limbs",
 			"Ballista spring",
@@ -672,7 +672,7 @@
 		}
 	},
 	"Fossil Island Notes": {
-		"img": "https://oldschool.runescape.wiki/images/Scribbled_note.png",
+		"img": "Scribbled_note",
 		"items": [
 			"Ancient note",
 			"Ancient writings",
@@ -694,7 +694,7 @@
 		}
 	},
 	"Motherlode Mine": {
-		"img": "https://oldschool.runescape.wiki/images/Prospector_helmet.png",
+		"img": "Prospector_helmet",
 		"items": [
 			"Coal bag",
 			"Gem bag",
@@ -712,7 +712,7 @@
 		}
 	},
 	"My Notes": {
-		"img": "https://oldschool.runescape.wiki/images/Ancient_page.png",
+		"img": "Ancient_page",
 		"items": [
 			"Ancient page",
 			"Ancient page",
@@ -751,7 +751,7 @@
 		}
 	},
 	"Rooftop Agility": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood.png",
+		"img": "Graceful_hood",
 		"items": [
 			"Graceful boots",
 			"Graceful cape",
@@ -770,7 +770,7 @@
 		}
 	},
 	"Shayzien Armour": {
-		"img": "https://oldschool.runescape.wiki/images/Shayzien_helm_(5).png",
+		"img": "Shayzien_helm_(5)",
 		"items": [
 			"Shayzien boots (1)",
 			"Shayzien boots (2)",
@@ -807,7 +807,7 @@
 		}
 	},
 	"Shooting Stars": {
-		"img": "https://oldschool.runescape.wiki/images/Star_fragment.png",
+		"img": "Star_fragment",
 		"items": [
 			"Celestial ring (uncharged)",
 			"Star fragment"
@@ -821,7 +821,7 @@
 		}
 	},
 	"Chaos Druids": {
-		"img": "https://oldschool.runescape.wiki/images/Elder_chaos_hood.png",
+		"img": "Elder_chaos_hood",
 		"items": [
 			"Elder chaos hood",
 			"Elder chaos robe",
@@ -836,7 +836,7 @@
 		}
 	},
 	"Wintertodt": {
-		"img": "https://oldschool.runescape.wiki/images/Pyromancer_hood.png",
+		"img": "Pyromancer_hood",
 		"items": [
 			"Bruma torch",
 			"Burnt page",
@@ -858,7 +858,7 @@
 		}
 	},
 	"Tempoross": {
-		"img": "https://oldschool.runescape.wiki/images/Spirit_angler_headband.png",
+		"img": "Spirit_angler_headband",
 		"items": [
 			"Big harpoonfish",
 			"Dragon harpoon",
@@ -881,7 +881,7 @@
 		}
 	},
 	"Shayzien Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Shayzien).png",
+		"img": "Graceful_hood_(Shayzien)",
 		"items": [
 			"Graceful boots (Shayzien)",
 			"Graceful cape (Shayzien)",
@@ -899,7 +899,7 @@
 		}
 	},
 	"Arceuus Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Arceuus).png",
+		"img": "Graceful_hood_(Arceuus)",
 		"items": [
 			"Graceful boots (Arceuus)",
 			"Graceful cape (Arceuus)",
@@ -918,7 +918,7 @@
 		}
 	},
 	"Piscarilius Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Piscarilius).png",
+		"img": "Graceful_hood_(Piscarilius)",
 		"items": [
 			"Graceful boots (Piscarilius)",
 			"Graceful cape (Piscarilius)",
@@ -937,7 +937,7 @@
 		}
 	},
 	"Lovakengj Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Lovakengj).png",
+		"img": "Graceful_hood_(Lovakengj)",
 		"items": [
 			"Graceful boots (Lovakengj)",
 			"Graceful cape (Lovakengj)",
@@ -956,7 +956,7 @@
 		}
 	},
 	"Hosidius Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Hosidius).png",
+		"img": "Graceful_hood_(Hosidius)",
 		"items": [
 			"Graceful boots (Hosidius)",
 			"Graceful cape (Hosidius)",
@@ -975,7 +975,7 @@
 		}
 	},
 	"Great Kourend Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Kourend).png",
+		"img": "Graceful_hood_(Kourend)",
 		"items": [
 			"Graceful boots (Kourend)",
 			"Graceful cape (Kourend)",
@@ -997,7 +997,7 @@
 		}
 	},
 	"Hallowed Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Hallowed).png",
+		"img": "Graceful_hood_(Hallowed)",
 		"items": [
 			"Graceful boots (Hallowed)",
 			"Graceful cape (Hallowed)",
@@ -1022,7 +1022,7 @@
 		}
 	},
 	"Speedrunning Graceful": {
-		"img": "https://oldschool.runescape.wiki/images/Graceful_hood_(Adventurer).png",
+		"img": "Graceful_hood_(Adventurer)",
 		"items": [
 			"Adventurer's boots (t3)",
 			"Adventurer's cape",
@@ -1040,7 +1040,7 @@
 		}
 	},
 	"Golden Prospector": {
-		"img": "https://oldschool.runescape.wiki/images/Golden_prospector_helmet.png",
+		"img": "Golden_prospector_helmet",
 		"items": [
 			"Golden prospector boots",
 			"Golden prospector helmet",
@@ -1056,7 +1056,7 @@
 		}
 	},
 	"Mining Gloves": {
-		"img": "https://oldschool.runescape.wiki/images/Expert_mining_gloves.png",
+		"img": "Expert_mining_gloves",
 		"items": [
 			"Expert mining gloves",
 			"Mining gloves",
@@ -1071,7 +1071,7 @@
 		}
 	},
 	"Big Fish": {
-		"img": "https://oldschool.runescape.wiki/images/Big_shark.png",
+		"img": "Big_shark",
 		"items": [
 			"Big bass",
 			"Big shark",
@@ -1086,7 +1086,7 @@
 		}
 	},
 	"Dark Totem": {
-		"img": "https://oldschool.runescape.wiki/images/Dark_totem_base.png",
+		"img": "Dark_totem_base",
 		"items": [
 			"Dark totem base",
 			"Dark totem middle",
@@ -1099,7 +1099,7 @@
 		}
 	},
 	"Skull Sceptre": {
-		"img": "https://oldschool.runescape.wiki/images/Right_skull_half.png",
+		"img": "Right_skull_half",
 		"items": [
 			"Bottom of sceptre",
 			"Left skull half",
@@ -1113,7 +1113,7 @@
 		}
 	},
 	"Talisman": {
-		"img": "https://oldschool.runescape.wiki/images/Xeric's_talisman_(inert).png",
+		"img": "Xeric's_talisman_(inert)",
 		"items": [
 			"Xeric's talisman (inert)"
 		],

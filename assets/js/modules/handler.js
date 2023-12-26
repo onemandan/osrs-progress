@@ -1,8 +1,7 @@
 ---
 ---
 
-import { AchievementsFactory } from '{{ "assets/js/modules/achievements.js" | relative_url }}';
-import { SkillsFactory } from '{{ "assets/js/modules/skills.js" | relative_url }}';
+import { Achievements } from '{{ "assets/js/modules/sections/achievements.js" | relative_url }}';
 import { StoreFactory } from '{{ "assets/js/modules/local-storage.js" | relative_url }}';
 
 class Handler {
@@ -10,7 +9,6 @@ class Handler {
         this.selectors = selectors;
 
         this.achievements = null;
-        this.skills = null;
         this.storage = null;
         
         this.sections = Object.freeze({
@@ -29,7 +27,13 @@ class Handler {
 
     init() {
         this.storage = StoreFactory();
-        this.skills = SkillsFactory(this.selectors.wrappers.skills, this.onSkillClicked.bind(this));
+
+        $(this.selectors.wrappers.skills).on('click', function(event) {
+            $(event.currentTarget).toggleClass('_active');
+            $(event.currentTarget).toggleClass('_inactive');
+
+            this.onSkillClicked($(event.currentTarget).children()[0].innerText);
+        }.bind(this));
 
         return this;
     }
@@ -37,7 +41,7 @@ class Handler {
     initSection(section, selectors, data) {
         switch(section) {
             case this.sections.achievements:
-                this.achievements = AchievementsFactory(selectors, data, function(){console.log(this)}.bind(this));
+                this.achievements = new Achievements(selectors, data);
                 break;
         }
 
