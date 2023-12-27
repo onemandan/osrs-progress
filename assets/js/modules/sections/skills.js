@@ -4,7 +4,7 @@ class Skills {
 
         this.selectors = {
             items: '#skills-wrapper>div',
-            activeItems: '#skills-wrapper>div._active',
+            activeItems: '#skills-wrapper>div._active>._id:not(:contains("Combat"))',
             progress: '#skills-progress'
         };
     }

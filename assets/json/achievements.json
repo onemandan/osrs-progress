@@ -5194,7 +5194,9 @@
         "task": "Imbue a salve amulet at Nightmare Zone, or equip a salve amulet(i) that was imbued there",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "Haunted Mine"
+            ],
             "skills": []
         }
     },
