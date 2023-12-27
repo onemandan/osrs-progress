@@ -19,6 +19,7 @@ export class Achievements extends Section {
             }
         };
 
+        //Provides colours and sort function comparison values based on difficulty
         this.difficulty = {
             Easy: {
                 'compare': 1,
@@ -58,6 +59,8 @@ export class Achievements extends Section {
         });
     }
 
+    //compare
+    //Compares active status > diary name > diary difficulty
     compare(a, b) {
         return (+a.active) - (+b.active) || a.diary.localeCompare(b.diary) || this.difficulty[a.difficulty].compare - this.difficulty[b.difficulty].compare;
     }
