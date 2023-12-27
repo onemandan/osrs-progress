@@ -1,15 +1,15 @@
 ---
 ---
 
-import { Achievements } from '{{ "assets/js/modules/sections/achievements.js" | relative_url }}';
-import { SkillsFactory } from '{{ "assets/js/modules/sections/skills.js" | relative_url }}';
-import { StoreFactory } from '{{ "assets/js/modules/local-storage.js" | relative_url }}';
+import { Achievements, Pets } from '{{ "assets/js/modules/sections.js" | relative_url }}';
+import { SkillsFactory, StoreFactory } from '{{ "assets/js/modules/factories.js" | relative_url }}';
 
 class Handler {
     constructor() {
         this.achievements = null;
         this.storage = null;
         this.skills = null;
+        this.pets = null;
 
         this.sections = Object.freeze({
             achievements: 'achievements',
@@ -31,6 +31,9 @@ class Handler {
             case this.sections.achievements:
                 this.achievements = new Achievements(data, this.onAcievementClicked.bind(this));
                 break;
+            case this.sections.pets:
+                this.pets = new Pets(data, this.onPetsClicked.bind(this));
+                break;
         }
 
         this[section].update(this.storage.isUnlocked, this.storage.obj.complete[section]);
@@ -38,14 +41,18 @@ class Handler {
 
     onSkillClicked(id) {
         this.storage.toggleComplete('skills', id);
-
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
+        this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
     }
 
     onAcievementClicked(id) {
         this.storage.toggleComplete('achievements', id);
-
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
+    }
+
+    onPetsClicked(id) {
+        this.storage.toggleComplete('pets', id);
+        this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
     }
 }
 
