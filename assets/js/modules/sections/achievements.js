@@ -8,35 +8,43 @@ export class Achievements extends Section {
         super(data, onClick);
 
         this.selectors = {
-            'jsonKey': 'task',
-            'wrapper': '#achievements-wrapper',
-            'items': '#achievements-wrapper>div'
+            jsonKey: 'task',
+            wrapper: '#achievements-wrapper',
+            items: '#achievements-wrapper>div',
+            progress: {
+                bar: '#achievements-bar',
+                total: '#achievements-total',
+                complete: '#achievements-complete',
+                incomplete: '#achievements-incomplete'
+            }
         };
 
-        this.difficulty = Object.freeze({
-            'Easy': {
+        this.difficulty = {
+            Easy: {
                 'compare': 1,
                 'colour': 'text-lime-500'
             },
-            'Medium': {
+            Medium: {
                 'compare': 2,
                 'colour': 'text-sky-500'
             },
-            'Hard': {
+            Hard: {
                 'compare': 3,
                 'colour': 'text-fuchsia-400'
             },
-            'Elite': {
+            Elite: {
                 'compare': 4,
                 'colour': 'text-yellow-400'
             }
-        });
+        };
 
         this.compare = this.compare.bind(this);
     }
 
     update(fUnlocked, completed) {
         const available = super.getAvailable(fUnlocked, completed, this.compare, this.selectors.jsonKey);
+        super.updateProgress(this.selectors.progress);
+
         const html = [];
 
         for (const obj of available) {
@@ -44,7 +52,10 @@ export class Achievements extends Section {
         }
 
         $(this.selectors.wrapper).html(html.join(''));
-        $(this.selectors.items).on('click', this.onItemClick);
+        $(this.selectors.items).on('click', (event) => {
+            super.onItemClick(event);
+            super.updateProgress(this.selectors.progress);
+        });
     }
 
     compare(a, b) {

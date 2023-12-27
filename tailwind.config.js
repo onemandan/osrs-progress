@@ -6,6 +6,9 @@ module.exports = {
 	],
     theme: {
         extend: {
+            transitionProperty: {
+                'width': 'width'
+            },
             gridTemplateColumns: {
                 '24': 'repeat(24, minmax(0, 1fr))'
             },

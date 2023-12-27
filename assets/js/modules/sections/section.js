@@ -4,11 +4,17 @@ export class Section {
         this.data = data;
         this.onClick = onClick;
 
-        this.onItemClick = this.onItemClick.bind(this);
+        this.progress = {
+            total: 0,
+            complete: 0
+        };
     }
 
     getAvailable(fUnlocked, completed, fSort, completedKey) {
         const available = [];
+
+        this.progress.complete = 0;
+        this.progress.total = 0;
 
         for(const key of Object.keys(this.data)) {
             const obj = this.data[key];
@@ -16,6 +22,9 @@ export class Section {
             if (fUnlocked(obj.requirements)) {
                 obj.active = completed.includes(obj[completedKey]);
                 available.push(obj);
+                
+                this.progress.complete += (+obj.active);
+                this.progress.total++;
             }
         }
 
@@ -27,5 +36,13 @@ export class Section {
         $(event.currentTarget).toggleClass('_inactive');
 
         this.onClick($(event.currentTarget).find('._id').text());
+    }
+
+    updateProgress(selectors) {
+        $(selectors.total).text(this.progress.total);
+        $(selectors.complete).text(this.progress.complete);
+        $(selectors.incomplete).text(this.progress.total - this.progress.complete);
+
+        $(selectors.bar).css('width', `${(this.progress.complete / this.progress.total) * 100}%`);
     }
 }

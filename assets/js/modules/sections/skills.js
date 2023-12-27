@@ -3,7 +3,9 @@ class Skills {
         this.onClick = onClick;
 
         this.selectors = {
-            'items': '#skills-wrapper>div'
+            items: '#skills-wrapper>div',
+            activeItems: '#skills-wrapper>div._active',
+            progress: '#skills-progress'
         };
     }
 
@@ -15,14 +17,20 @@ class Skills {
             }
         });
 
-        $(this.selectors.items).on('click', function(event) {
+        $(this.selectors.items).on('click', (event) => {
             $(event.currentTarget).toggleClass('_active');
             $(event.currentTarget).toggleClass('_inactive');
 
             this.onClick($(event.currentTarget).find('._id').text());
-        }.bind(this));
+            this.updateProgress();
+        });
 
+        this.updateProgress();
         return this;
+    }
+
+    updateProgress() {
+        $(this.selectors.progress).text($(this.selectors.activeItems).length);
     }
 }
 

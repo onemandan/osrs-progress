@@ -10,7 +10,7 @@ class Handler {
         this.achievements = null;
         this.storage = null;
         this.skills = null;
-        
+
         this.sections = Object.freeze({
             achievements: 'achievements',
             quests: 'quests',

@@ -5483,7 +5483,9 @@
         "requirements": {
             "combat": true,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Prayer"
+            ]
         }
     },
     "Combat-20": {

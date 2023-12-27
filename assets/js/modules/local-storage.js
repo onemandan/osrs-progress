@@ -11,7 +11,6 @@ class Store {
     constructor() {
         this.id = 'osrs-xosaat-user-v3';
         this.obj = {
-            combat: false,
             qp: 0,
             complete: {
                 skills: [],
@@ -38,7 +37,7 @@ class Store {
 
     isUnlocked(requirements) {
         if (requirements) {
-            if ('combat' in requirements && (requirements.combat && !this.obj.combat)) {
+            if ('combat' in requirements && (requirements.combat && !this.obj.complete.skills.includes('Combat'))) {
                 return false;
             }
 
