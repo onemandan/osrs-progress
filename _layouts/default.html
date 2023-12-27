@@ -26,7 +26,10 @@
 
         <main class='container mx-auto gap-5'>
             {% include skills.html %}
-            {% include achievements.html %}
+            {% include partials/section.html title='Achievements' %}
+            {% include partials/section.html title='Quests' %}
+            {% include partials/section.html title='Pets' %}
+            {% include partials/section.html title='Collections' %}
         </main>
 
         <script src='{{ "assets/js/jquery-3.7.1.min.js" | relative_url }}'></script>
