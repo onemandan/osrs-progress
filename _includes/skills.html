@@ -1,9 +1,9 @@
-<section class='p-5'>
-    <div class='flex flex-row items-center'>
+<section class='px-5'>
+    <div class='flex flex-row py-5 items-center sticky top-0 z-10 bg-birch-800'>
         <img class='me-2' src='{{ "assets/images/icons/Stats_icon.png" | relative_url }}' height='32px' width='32px' alt='Skills icon'>
         <h2 class='font-medium text-3xl'>Locked / Unlocked Skills</h2>
     </div>
-    <div id='skills-wrapper' class='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-5 lg:gap-4 xl:gap-3 mt-5'>
+    <div id='skills-wrapper' class='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-5 lg:gap-4 xl:gap-3 pt-1 px-1 pb-5'>
         {% for skill in site.data.skills %}
             <div class='flex flex-col items-center rounded-lg p-2 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 _inactive _lu' data-src='skill'>
                 <span class='text-md _id'>{{ skill.name }}</span>
