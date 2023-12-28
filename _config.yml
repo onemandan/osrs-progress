@@ -1,5 +1,6 @@
-title: 'Simple OSRS OSAAT Progress Tracker'
+title: 'Simple OSRS Tracker'
 description: 'Simple progress tracker for the OSRS XOSAAT gamemode'
+tagline: 'Lovingly made by Sequenter'
 baseurl: '/osrs-progress' 
 url: 'https://sequenter.github.io'
 github_username: 'sequenter'
