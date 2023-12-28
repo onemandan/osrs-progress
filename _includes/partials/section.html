@@ -1,11 +1,14 @@
 {% capture url %}assets/images/icons/{{ include.title }}_icon.png{% endcapture %}
 
 <section class='container mx-auto p-5'>
-    <div class='flex flex-row items-center'>
-        <img class='me-2' src='{{ url | relative_url }}' height='32px' width='32px' alt='{{ include.title }} icon'>
-        <h2 class='font-medium text-3xl'>{{ include.title }}</h2>
+    <div class='flex flex-row justify-between items-center'>
+        <div class='flex flex-row items-center'>
+            <img class='me-2' src='{{ url | relative_url }}' height='32px' width='32px' alt='{{ include.title }} icon'>
+            <h2 class='font-medium text-3xl'>{{ include.title }}</h2>
+        </div>
+        <img id='{{ include.title | downcase }}-visible' class='cursor-pointer _visible' src='{{ "assets/images/svg/show.svg" | relative_url }}' height='32px' width='32px' alt='Show/Hide icon'/>
     </div>
-    <div id='{{ include.title | downcase }}-wrapper' class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-5 gap-5">
+    <div id='{{ include.title | downcase }}-wrapper' class="{{ include.wrapper | default: 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-5 gap-5' }}">
 
     </div>
 </section>

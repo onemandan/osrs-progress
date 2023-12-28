@@ -1,21 +1,31 @@
+---
+---
+
 class Section {
-    constructor(data, onClick) {
+    constructor(data, selectors, onClick, onVisible) {
         this.imagesURL = 'https://oldschool.runescape.wiki/images/';
+        this.showPath = '{{ "assets/images/svg/show.svg" | relative_url }}';
+        this.hidePath = '{{ "assets/images/svg/hide.svg" | relative_url }}';
+
         this.data = data;
         this.onClick = onClick;
+        this.onVisible = onVisible;
+        this.selectors = selectors;
 
         this.progress = {
             total: 0,
             complete: 0
         };
+
+        $(this.selectors.visible).on('click', this.onVisibleClick.bind(this));
     }
 
-    update(fUnlocked, fSort, fHtml, completed, selectors) {
-        const available = this.getAvailable(fUnlocked, fSort, completed, selectors.jsonKey);
-        this.updateProgress(selectors.progress);
+    update(fUnlocked, fSort, fHtml, completed) {
+        const available = this.getAvailable(fUnlocked, fSort, completed);
+        this.updateProgress();
 
-        $(selectors.wrapper).html(fHtml(available));
-        $(selectors.items).on('click', (event) => {
+        $(this.selectors.wrapper).html(fHtml(available));
+        $(this.selectors.items).on('click', (event) => {
             this.onItemClick(event);
         });
     }
@@ -25,8 +35,7 @@ class Section {
     //@fUnlocked - callback function to obtain item unlock status
     //@fSort - sort comparison function
     //@completed - completed localStorage object
-    //@completedKey - key to use for the @completed object
-    getAvailable(fUnlocked, fSort, completed, completedKey) {
+    getAvailable(fUnlocked, fSort, completed) {
         const available = [];
 
         //Reset progress counts
@@ -38,13 +47,17 @@ class Section {
 
             //Add data item and update counts if unlocked
             if (fUnlocked(obj.requirements)) {
+                const visible = $(this.selectors.visible).hasClass('_visible');
+
                 if (completed.constructor === Array) {
-                    obj.active = completed.includes(obj[completedKey]);
+                    obj.active = completed.includes(obj[this.selectors.jsonKey]);
                 } else if (completed.constructor === Object) {
-                    obj.active = obj[completedKey] in completed && obj.items.length - completed[obj[completedKey]].length === 0;
+                    obj.active = obj[this.selectors.jsonKey] in completed && obj.items.length - completed[obj[this.selectors.jsonKey]].length === 0;
                 }
-                
-                available.push(obj);
+
+                if (visible || (!visible && !obj.active)) {
+                    available.push(obj);
+                }
                 
                 this.progress.complete += (+obj.active);
                 this.progress.total++;
@@ -66,18 +79,32 @@ class Section {
         this.onClick($(event.currentTarget).find('._id').text(), opts);
     }
 
+    //onVisibleClick
+    //Toggles item visibility status and updates images src correspondingly
+    //@event - click event target
+    onVisibleClick(event) {
+        $(event.currentTarget).toggleClass('_visible');
+        
+        if ($(event.currentTarget).hasClass('_visible')) {
+            $(event.currentTarget).attr("src", this.showPath);
+        } else {
+            $(event.currentTarget).attr("src", this.hidePath);
+        }
+
+        this.onVisible();
+    }
+
     //updateProgress
     //Updates progress elements with @progress counts
-    //@selectors - element CSS selectors to update
-    updateProgress(selectors) {
+    updateProgress() {
 
         //Update total, complete and incomplete progress counts
-        $(selectors.total).text(this.progress.total);
-        $(selectors.complete).text(this.progress.complete);
-        $(selectors.incomplete).text(this.progress.total - this.progress.complete);
+        $(this.selectors.progress.total).text(this.progress.total);
+        $(this.selectors.progress.complete).text(this.progress.complete);
+        $(this.selectors.progress.incomplete).text(this.progress.total - this.progress.complete);
 
         //Update progress bar width
-        $(selectors.bar).css('width', `${(this.progress.complete / this.progress.total) * 100}%`);
+        $(this.selectors.progress.bar).css('width', `${(this.progress.complete / this.progress.total) * 100}%`);
     }
 }
 
@@ -85,20 +112,8 @@ class Section {
 // Achievements
 //----------------------------
 class Achievements extends Section {
-    constructor(data, onClick) {
-        super(data, onClick);
-
-        this.selectors = {
-            jsonKey: 'task',
-            wrapper: '#achievements-wrapper',
-            items: '#achievements-wrapper>div',
-            progress: {
-                bar: '#achievements-bar',
-                total: '#achievements-total',
-                complete: '#achievements-complete',
-                incomplete: '#achievements-incomplete'
-            }
-        };
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         //Provides colours and sort function comparison values based on difficulty
         this.difficulty = {
@@ -132,7 +147,7 @@ class Achievements extends Section {
             }
 
             return nodes.join('');
-        }, completed, this.selectors);
+        }, completed);
     }
 
     //compare
@@ -164,8 +179,8 @@ class Achievements extends Section {
 // Quests
 //----------------------------
 class Quests extends Section {
-    constructor(data, onClick) {
-        super(data, onClick);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         //As quests cannot be started until all relevant skills are unlocked, treat quest skill rewards as requirements
         for(const key of Object.keys(this.data)) {
@@ -176,20 +191,6 @@ class Quests extends Section {
                 this.data[key].requirements.skills = Array.from(rSkills);
             }
         }
-
-        this.selectors = {
-            jsonKey: 'name',
-            wrapper: '#quests-wrapper',
-            items: '#quests-wrapper>div',
-            itemsInactive: '#quests-wrapper>div._inactive',
-            progress: {
-                bar: '#quests-bar',
-                total: '#quests-total',
-                complete: '#quests-complete',
-                incomplete: '#quests-incomplete',
-                questPoints: '#quests-progress'
-            }
-        };
 
         //Provides colours based on difficulty
         this.difficulty = {
@@ -212,7 +213,7 @@ class Quests extends Section {
             }
 
             return nodes.join('');
-        }, completed, this.selectors);
+        }, completed);
 
         //Update quest point count
         $(this.selectors.progress.questPoints).text(qp);
@@ -253,20 +254,8 @@ class Quests extends Section {
 // Pets
 //----------------------------
 class Pets extends Section {
-    constructor(data, onClick) {
-        super(data, onClick);
-
-        this.selectors = {
-            jsonKey: 'name',
-            wrapper: '#pets-wrapper',
-            items: '#pets-wrapper>div',
-            progress: {
-                bar: '#pets-bar',
-                total: '#pets-total',
-                complete: '#pets-complete',
-                incomplete: '#pets-incomplete'
-            }
-        };
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         this.compare = this.compare.bind(this);
     }
@@ -280,7 +269,7 @@ class Pets extends Section {
             }
 
             return nodes.join('');
-        }, completed, this.selectors);
+        }, completed);
     }
 
     //compare
@@ -306,29 +295,16 @@ class Pets extends Section {
 // Collections
 //----------------------------
 class Collections extends Section {
-    constructor(data, onClick) {
-        super(data, onClick);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         this.maxItemsDisplay = 5;
-
-        this.selectors = {
-            jsonKey: 'name',
-            wrapper: '#collections-wrapper',
-            items: '#collections-wrapper>div',
-            progress: {
-                bar: '#collections-bar',
-                total: '#collections-total',
-                complete: '#collections-complete',
-                incomplete: '#collections-incomplete'
-            }
-        };
-
         this.compare = this.compare.bind(this);
     }
 
     update(fUnlocked, completed) {
-        const available = super.getAvailable(fUnlocked, this.compare, completed, this.selectors.jsonKey);
-        super.updateProgress(this.selectors.progress);
+        const available = super.getAvailable(fUnlocked, this.compare, completed);
+        super.updateProgress();
 
         const nodes = [];
 
@@ -367,9 +343,12 @@ class Collections extends Section {
         
         return `
         <div class='flex flex-col mb-5 break-inside-avoid-column rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
-            <div class='flex flex-row items-center'>
-                <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${collection} icon'/>
-                <h3 class='text-2xl ms-3 _id'>${collection}</h3>
+            <div class='flex flex-row justify-between items-center'>
+                <div class='flex flex-row items-center'>
+                    <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${collection} icon'/>
+                    <h3 class='text-2xl ms-3 _id'>${collection}</h3>
+                </div>
+                <span class='text-md'>${collection in completed ? completed[collection].length : '0'}/${items.length}</span>
             </div>
             <hr class='h-px my-2 bg-birch-800 border-0'>
             <ul class='flex flex-wrap my-2 list-none gap-2'>
