@@ -66,7 +66,6 @@ class Store {
                         if (!skill.split("||").some(s => this.obj.complete.skills.includes(s))) {
                             return false;
                         }
-
                     } else if (!this.obj.complete.skills.includes(skill)) {
                         return false;
                     }
@@ -89,6 +88,15 @@ class Store {
         } else {
             arr.push(item);
         }
+
+        localStorage.setObject(this.id, this.obj);
+    }
+
+    //updateQuestPoints
+    //Updates @obj quest points count
+    //@qp - amount of quest points to update @obj with
+    updateQuestPoints(qp) {
+        this.obj.qp += qp;
 
         localStorage.setObject(this.id, this.obj);
     }

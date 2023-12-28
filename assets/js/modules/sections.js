@@ -9,11 +9,11 @@ class Section {
             complete: 0
         };
 
-        for(const key of Object.keys(this.data)) {
+        /*for(const key of Object.keys(this.data)) {
             this.data[key].name = key;
         }
 
-        console.log(this.data);
+        console.log(this.data);*/
     }
 
     update(fUnlocked, fSort, fHtml, completed, selectors) {
@@ -23,7 +23,6 @@ class Section {
         $(selectors.wrapper).html(fHtml(available));
         $(selectors.items).on('click', (event) => {
             this.onItemClick(event);
-            this.updateProgress(selectors.progress);
         });
     }
 
@@ -82,6 +81,9 @@ class Section {
     }
 }
 
+//----------------------------
+// Achievements
+//----------------------------
 class Achievements extends Section {
     constructor(data, onClick) {
         super(data, onClick);
@@ -144,7 +146,7 @@ class Achievements extends Section {
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex flex-row justify-between items-center'>
                 <div class='flex flex-row items-center'>
-                    <img src='${this.imagesURL}${banner.replaceAll(' ', '_')}.png' alt='${banner} icon'/>
+                    <img class='h-6 w-auto' src='${this.imagesURL}${banner.replaceAll(' ', '_')}.png' alt='${banner} icon'/>
                     <h3 class='text-2xl ms-3'>${diary}</h3>
                 </div>
                 
@@ -158,6 +160,93 @@ class Achievements extends Section {
     }
 }
 
+//----------------------------
+// Quests
+//----------------------------
+class Quests extends Section {
+    constructor(data, onClick) {
+        super(data, onClick);
+
+        //As quests cannot be started until all relevant skills are unlocked, treat quest skill rewards as requirements
+        for(const key of Object.keys(this.data)) {
+            if (this.data[key].rewards.skills.length > 0) {
+
+                //Append rewarded skills to requirements
+                const rSkills = new Set(this.data[key].requirements.skills.concat(this.data[key].rewards.skills));
+                this.data[key].requirements.skills = Array.from(rSkills);
+            }
+        }
+
+        this.selectors = {
+            jsonKey: 'name',
+            wrapper: '#quests-wrapper',
+            items: '#quests-wrapper>div',
+            itemsInactive: '#quests-wrapper>div._inactive',
+            progress: {
+                bar: '#quests-bar',
+                total: '#quests-total',
+                complete: '#quests-complete',
+                incomplete: '#quests-incomplete',
+                questPoints: '#quests-progress'
+            }
+        };
+
+        //Provides colours based on difficulty
+        this.difficulty = {
+            Novice: 'text-lime-500',
+            Intermediate: 'text-sky-500',
+            Experienced: 'text-fuchsia-400',
+            Master: 'text-yellow-400',
+            Grandmaster: 'text-red-400'
+        };
+
+        this.compare = this.compare.bind(this);
+    }
+
+    update(fUnlocked, completed, qp) {
+        super.update(fUnlocked, this.compare, (arr) => {
+            const nodes = [];
+
+            for (const obj of arr) {
+                nodes.push(this.template(obj.name, obj.difficulty, this.difficulty[obj.difficulty], obj.active))
+            }
+
+            return nodes.join('');
+        }, completed, this.selectors);
+
+        $(this.selectors.progress.questPoints).text(qp);
+    }
+
+    //compare
+    //Compares active status > quest name 
+    compare(a, b) {
+        return (+a.active) - (+b.active) || a.name.localeCompare(b.name);
+    }
+
+    template(quest, difficulty, colour, active) {
+        return `
+        <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
+            <div class='flex flex-row justify-between items-center'>
+                <div class='flex flex-row items-center'>
+                    <img class='h-6 w-auto' src='' alt='icon'/>
+                    <h3 class='text-2xl ms-3 _id'>${quest}</h3>
+                </div>
+                
+                <span class='text-md ${colour}'>${difficulty}</span>
+            </div>
+            <hr class='h-px my-2 bg-birch-800 border-0'>
+            <span class='text-status text-md'></span>
+        </div>`
+    }
+
+    getQuestPoints(quest) {
+        return this.data[quest].rewards.qp * ($(this.selectors.itemsInactive + `:contains(${quest})`).length > 0 ? 1 : -1);
+    }
+}
+
+//----------------------------
+// Pets
+//----------------------------
 class Pets extends Section {
     constructor(data, onClick) {
         super(data, onClick);
@@ -199,7 +288,7 @@ class Pets extends Section {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex flex-row items-center'>
-                <img src='${img}' alt='${pet} icon'/>
+                <img class='h-6 w-auto' src='${img}' alt='${pet} icon'/>
                 <h3 class='text-2xl ms-3 _id'>${pet}</h3>
             </div>
             <hr class='h-px my-2 bg-birch-800 border-0'>
@@ -208,4 +297,8 @@ class Pets extends Section {
     }
 }
 
-export { Achievements, Pets }
+export { Achievements, Quests, Pets }
+
+    //updateProgress
+    //@Update calls the @super.Update function, which will call @this.updateProgress, overriding @super.updateProgress.  This allows further functionality
+    //while still being able to call @super.updateProgress

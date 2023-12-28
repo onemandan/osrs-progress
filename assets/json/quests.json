@@ -1,26 +1,60 @@
 {
-    "Cook's Assistant": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "4 January 2001",
+    "A Kingdom Divided": {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "name": "A Kingdom Divided",
+        "release": "16 June 2021",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "qp": 0,
-            "quests": [],
+            "quests": [
+                "Architectural Alliance",
+                "Tale of the Righteous",
+                "The Ascent of Arceuus",
+                "The Depths of Despair",
+                "The Forsaken Tower",
+                "The Queen of Thieves"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Herblore",
+                "Magic",
+                "Mining",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": []
+        },
+        "series": "Great Kourend, #8"
+    },
+    "A Night at the Theatre": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "A Night at the Theatre",
+        "release": "3 June 2021",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "A Taste of Hope"
+            ],
             "skills": []
         },
         "rewards": {
-            "qp": 1,
-            "skills": [
-                "Cooking"
-            ]
+            "qp": 2,
+            "skills": []
         },
         "series": ""
     },
-    "Demon Slayer": {
+    "A Porcine of Interest": {
         "difficulty": "Novice",
-        "length": "Short",
-        "release": "4 January 2001",
+        "length": "Very Short",
+        "name": "A Porcine of Interest",
+        "release": "10 September 2020",
         "requirements": {
             "combat": true,
             "qp": 0,
@@ -28,17 +62,20 @@
             "skills": []
         },
         "rewards": {
-            "qp": 3,
-            "skills": []
+            "qp": 1,
+            "skills": [
+                "Slayer"
+            ]
         },
-        "series": "Demon Slayer, #1"
+        "series": ""
     },
-    "The Restless Ghost": {
-        "difficulty": "Novice",
+    "A Soul's Bane": {
+        "difficulty": "Intermediate",
         "length": "Short",
-        "release": "4 January 2001",
+        "name": "A Soul's Bane",
+        "release": "3 April 2006",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "qp": 0,
             "quests": [],
             "skills": []
@@ -46,329 +83,177 @@
         "rewards": {
             "qp": 1,
             "skills": [
+                "Defence",
+                "Hitpoints"
+            ]
+        },
+        "series": ""
+    },
+    "A Tail of Two Cats": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "A Tail of Two Cats",
+        "release": "26 September 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Icthlarin's Little Helper"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": []
+        },
+        "series": "Dragonkin, #2"
+    },
+    "A Taste of Hope": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "A Taste of Hope",
+        "release": "24 May 2018",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Darkness of Hallowvale"
+            ],
+            "skills": [
+                "Agility",
+                "Attack",
+                "Crafting",
+                "Herblore",
+                "Slayer"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Myreque, #4"
+    },
+    "Alfred Grimhand's Barcrawl": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Medium",
+        "name": "Alfred Grimhand's Barcrawl",
+        "release": "25 March 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Animal Magnetism": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Animal Magnetism",
+        "release": "12 December 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Ernest the Chicken",
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                "Crafting",
+                "Ranged",
+                "Slayer",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Fletching",
+                "Slayer",
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "Another Slice of H.A.M.": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Another Slice of H.A.M.",
+        "release": "24 April 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Death to the Dorgeshuun",
+                "The Dig Site",
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Attack",
                 "Prayer"
             ]
         },
-        "series": ""
-    },
-    "Romeo & Juliet": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "4 January 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Sheep Shearer": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "4 January 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": ["Crafting"]
-        },
-        "series": ""
-    },
-    "Shield of Arrav": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "4 January 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Ernest the Chicken": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "21 January 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 4,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Vampyre Slayer": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "28 January 2001",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Attack"
-            ]
-        },
-        "series": ""
-    },
-    "Imp Catcher": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "16 February 2001",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Magic"
+                "Mining",
+                "Prayer"
             ]
         },
-        "series": ""
+        "series": "Dorgeshuun, #3"
     },
-    "Prince Ali Rescue": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "28 February 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": []
-        },
-        "series": "Kharidian, #1"
-    },
-    "Doric's Quest": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "6 April 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Mining"
-            ]
-        },
-        "series": ""
-    },
-    "Black Knights' Fortress": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "6 April 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 12,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Witch's Potion": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "6 April 2001",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Magic"
-            ]
-        },
-        "series": ""
-    },
-    "The Knight's Sword": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "6 April 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Mining", 
-                "Cooking",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Smithing"
-            ]
-        },
-        "series": ""
-    },
-    "Goblin Diplomacy": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "8 May 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Pirate's Treasure": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "11 June 2001",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Dragon Slayer I": {
+    "Architectural Alliance": {
         "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "23 September 2001",
-        "requirements": {
-            "combat": true,
-            "qp": 32,
-            "quests": [],
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Strength",
-                "Defence"
-            ]
-        },
-        "series": "Dragonkin, #1"
-    },
-    "Rune Mysteries": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "29 March 2004",
+        "length": "Long",
+        "name": "Architectural Alliance",
+        "release": "3 March 2016",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Order of Wizards, #1"
-    },
-    "Misthalin Mystery": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "26 January 2017",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
             "skills": [
-                "Crafting"
+                "Farming",
+                "Fishing",
+                "Mining"
             ]
         },
-        "series": ""
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": "Great Kourend"
     },
-    "The Corsair Curse": {
+    "Bear Your Soul": {
+        "active": false,
         "difficulty": "Intermediate",
         "length": "Short",
-        "release": "7 December 2017",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": ""
-    },
-    "X Marks the Spot": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "7 February 2019",
+        "name": "Bear Your Soul",
+        "release": "19 May 2016",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Agility"
+            ]
         },
         "rewards": {
-            "qp": 1,
+            "qp": 0,
             "skills": []
         },
-        "series": "Great Kourend, #1"
+        "series": "Great Kourend"
     },
     "Below Ice Mountain": {
         "difficulty": "Novice",
         "length": "Short",
+        "name": "Below Ice Mountain",
         "release": "14 April 2021",
         "requirements": {
             "combat": false,
@@ -384,402 +269,80 @@
         },
         "series": ""
     },
-    "Druidic Ritual": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "27 February 2002",
+    "Beneath Cursed Sands": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Beneath Cursed Sands",
+        "release": "27 April 2022",
         "requirements": {
             "combat": true,
             "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 4,
+            "quests": [
+                "Contact!"
+            ],
             "skills": [
-                "Herblore"
-            ]
-        },
-        "series": ""
-    },
-    "Lost City": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "27 February 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
+                "Agility",
                 "Crafting",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Witch's House": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "27 February 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 4,
-            "skills": [
-                "Hitpoints"
-            ]
-        },
-        "series": ""
-    },
-    "Merlin's Crystal": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "27 February 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 6,
-            "skills": []
-        },
-        "series": "Camelot, #1"
-    },
-    "Heroes' Quest": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "27 February 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 55,
-            "quests": [
-                "Shield of Arrav",
-                "Lost City",
-                "Merlin's Crystal",
-                "Dragon Slayer I"
-            ],
-            "skills": [
-                "Cooking",
-                "Fishing",
-                "Herblore",
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Attack",
-                "Defence",
-                "Strength",
-                "Hitpoints",
-                "Ranged",
-                "Fishing",
-                "Cooking",
-                "Woodcutting",
-                "Firemaking",
-                "Smithing",
-                "Mining",
-                "Herblore"
-            ]
-        },
-        "series": ""
-    },
-    "Scorpion Catcher": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "25 March 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Alfred Grimhand's Barcrawl"
-            ],
-            "skills": [
-                "Prayer"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Strength"
-            ]
-        },
-        "series": ""
-    },
-    "Family Crest": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "9 April 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Mining",
-                "Smithing",
-                "Magic",
-                "Crafting",
-                "Fishing",
-                "Cooking"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Tribal Totem": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "30 April 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": ""
-    },
-    "Fishing Contest": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "28 May 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Fishing"
-            ]
-        },
-        "series": ""
-    },
-    "Monk's Friend": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "28 May 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Woodcutting"
-            ]
-        },
-        "series": ""
-    },
-    "Temple of Ikov": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "17 June 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Thieving",
-                "Ranged"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Ranged",
-                "Fletching"
-            ]
-        },
-        "series": "Mahjarrat, #5"
-    },
-    "Clock Tower": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "17 June 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Holy Grail": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "23 July 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Merlin's Crystal"
-            ],
-            "skills": [
-                "Attack"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Prayer",
-                "Defence"
-            ]
-        },
-        "series": "Camelot, #2"
-    },
-    "Tree Gnome Village": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "23 July 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Attack"
-            ]
-        },
-        "series": ""
-    },
-    "Fight Arena": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "23 July 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Attack",
-                "Thieving"
-            ]
-        },
-        "series": "Mahjarrat, #3"
-    },
-    "Hazeel Cult": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "15 August 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": "Mahjarrat, #2"
-    },
-    "Sheep Herder": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "15 August 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 4,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Plague City": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "27 August 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Mining"
-            ]
-        },
-        "series": "Elf, #1"
-    },
-    "Sea Slug": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "9 September 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
                 "Firemaking"
             ]
         },
         "rewards": {
-            "qp": 1,
+            "qp": 2,
             "skills": [
-                "Fishing"
+                "Agility"
             ]
         },
-        "series": "Temple Knight, #3"
+        "series": "Kharidian, #4"
     },
-    "Waterfall Quest": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "24 September 2002",
+    "Between a Rock...": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Between a Rock...",
+        "release": "21 March 2005",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "qp": 0,
-            "quests": [],
-            "skills": []
+            "quests": [
+                "Dwarf Cannon",
+                "Fishing Contest"
+            ],
+            "skills": [
+                "Defence",
+                "Mining",
+                "Smithing"
+            ]
         },
         "rewards": {
-            "qp": 1,
+            "qp": 2,
             "skills": [
-                "Attack",
-                "Strength"
+                "Defence",
+                "Mining",
+                "Smithing"
+            ]
+        },
+        "series": ""
+    },
+    "Big Chompy Bird Hunting": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Big Chompy Bird Hunting",
+        "release": "18 May 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Fletching",
+                "Ranged"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Cooking",
+                "Fletching",
+                "Ranged"
             ]
         },
         "series": ""
@@ -787,6 +350,7 @@
     "Biohazard": {
         "difficulty": "Novice",
         "length": "Short",
+        "name": "Biohazard",
         "release": "23 October 2002",
         "requirements": {
             "combat": false,
@@ -804,9 +368,1379 @@
         },
         "series": "Elf, #2"
     },
+    "Black Knights' Fortress": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Black Knights' Fortress",
+        "release": "6 April 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 12,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Bone Voyage": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Bone Voyage",
+        "release": "7 September 2017",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "The Dig Site"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Cabin Fever": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Cabin Fever",
+        "release": "7 February 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Pirate's Treasure",
+                "Rum Deal"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Ranged",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Smithing"
+            ]
+        },
+        "series": "Pirate, #2"
+    },
+    "Client of Kourend": {
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Client of Kourend",
+        "release": "20 April 2017",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "X Marks the Spot"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Great Kourend, #2"
+    },
+    "Clock Tower": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Clock Tower",
+        "release": "17 June 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Cold War": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Cold War",
+        "release": "29 January 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Construction",
+                "Crafting",
+                "Hunter",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Agility",
+                "Construction",
+                "Crafting"
+            ]
+        },
+        "series": "Penguin, #1"
+    },
+    "Contact!": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Contact!",
+        "release": "10 January 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Icthlarin's Little Helper",
+                "Prince Ali Rescue"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": "Kharidian, #3"
+    },
+    "Cook's Assistant": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Cook's Assistant",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking"
+            ]
+        },
+        "series": ""
+    },
+    "Creature of Fenkenstrain": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Creature of Fenkenstrain",
+        "release": "31 January 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": [
+                "Crafting",
+                "Smithing",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "Curse of the Empty Lord": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Curse of the Empty Lord",
+        "release": "26 July 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Desert Treasure I",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                "Prayer",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": "Mahjarrat, #7"
+    },
+    "Daddy's Home": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Daddy's Home",
+        "release": "26 August 2020",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": [
+                "Construction"
+            ]
+        },
+        "series": ""
+    },
+    "Darkness of Hallowvale": {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "name": "Darkness of Hallowvale",
+        "release": "4 September 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "In Aid of the Myreque"
+            ],
+            "skills": [
+                "Agility",
+                "Construction",
+                "Crafting",
+                "Magic",
+                "Mining",
+                "Strength",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility",
+                "Construction",
+                "Thieving"
+            ]
+        },
+        "series": "Myreque, #3"
+    },
+    "Death Plateau": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Death Plateau",
+        "release": "9 August 2004",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Attack"
+            ]
+        },
+        "series": "Troll, #1"
+    },
+    "Death to the Dorgeshuun": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Death to the Dorgeshuun",
+        "release": "21 June 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "The Lost Tribe"
+            ],
+            "skills": [
+                "Agility",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Ranged",
+                "Thieving"
+            ]
+        },
+        "series": "Dorgeshuun, #2"
+    },
+    "Demon Slayer": {
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Demon Slayer",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": []
+        },
+        "series": "Demon Slayer, #1"
+    },
+    "Desert Treasure I": {
+        "difficulty": "Master",
+        "length": "Long",
+        "name": "Desert Treasure I",
+        "release": "18 April 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril",
+                "Temple of Ikov",
+                "The Dig Site",
+                "The Tourist Trap",
+                "Troll Stronghold",
+                "Waterfall Quest"
+            ],
+            "skills": [
+                "Firemaking",
+                "Magic",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Magic"
+            ]
+        },
+        "series": "Mahjarrat, #6"
+    },
+    "Desert Treasure II - The Fallen Empire": {
+        "difficulty": "Grandmaster",
+        "length": "Very Long",
+        "name": "Desert Treasure II - The Fallen Empire",
+        "release": "26 July 2023",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Below Ice Mountain",
+                "Desert Treasure I",
+                "Enakhra's Lament",
+                "His Faithful Servants",
+                "Secrets of the North",
+                "Temple of the Eye",
+                "The Garden of Death"
+            ],
+            "skills": [
+                "Construction",
+                "Firemaking",
+                "Herblore",
+                "Magic",
+                "Runecraft",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": []
+        },
+        "series": "Mahjarrat, #12"
+    },
+    "Devious Minds": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Devious Minds",
+        "release": "19 December 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Doric's Quest",
+                "Enter the Abyss",
+                "Troll Stronghold",
+                "Wanted!"
+            ],
+            "skills": [
+                "Fletching",
+                "Runecraft",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Fletching",
+                "Runecraft",
+                "Smithing"
+            ]
+        },
+        "series": "Mahjarrat, #9"
+    },
+    "Doric's Quest": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Doric's Quest",
+        "release": "6 April 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Mining"
+            ]
+        },
+        "series": ""
+    },
+    "Dragon Slayer I": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Dragon Slayer I",
+        "release": "23 September 2001",
+        "requirements": {
+            "combat": true,
+            "qp": 32,
+            "quests": [],
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Defence",
+                "Strength"
+            ]
+        },
+        "series": "Dragonkin, #1"
+    },
+    "Dragon Slayer II": {
+        "difficulty": "Grandmaster",
+        "length": "Very Long",
+        "name": "Dragon Slayer II",
+        "release": "4 January 2018",
+        "requirements": {
+            "combat": true,
+            "qp": 200,
+            "quests": [
+                "A Tail of Two Cats",
+                "Animal Magnetism",
+                "Bone Voyage",
+                "Client of Kourend",
+                "Dream Mentor",
+                "Ghosts Ahoy",
+                "Legends' Quest"
+            ],
+            "skills": [
+                "Agility",
+                "Construction",
+                "Crafting",
+                "Hitpoints",
+                "Magic",
+                "Mining",
+                "Smithing",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": [
+                "Agility",
+                "Mining",
+                "Smithing",
+                "Thieving"
+            ]
+        },
+        "series": "Dragonkin, #3"
+    },
+    "Dream Mentor": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Dream Mentor",
+        "release": "15 May 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Eadgar's Ruse",
+                "Lunar Diplomacy"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Hitpoints",
+                "Magic"
+            ]
+        },
+        "series": ""
+    },
+    "Druidic Ritual": {
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Druidic Ritual",
+        "release": "27 February 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": [
+                "Herblore"
+            ]
+        },
+        "series": ""
+    },
+    "Dwarf Cannon": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Dwarf Cannon",
+        "release": "27 May 2003",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "Eadgar's Ruse": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Eadgar's Ruse",
+        "release": "5 October 2004",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Druidic Ritual",
+                "Troll Stronghold"
+            ],
+            "skills": [
+                "Herblore"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Herblore"
+            ]
+        },
+        "series": "Troll, #3"
+    },
+    "Eagles' Peak": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Eagles' Peak",
+        "release": "28 November 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Hunter"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Hunter"
+            ]
+        },
+        "series": ""
+    },
+    "Elemental Workshop I": {
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Elemental Workshop I",
+        "release": "2 June 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Mining",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Smithing"
+            ]
+        },
+        "series": "Elemental Workshop, #1"
+    },
+    "Elemental Workshop II": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Elemental Workshop II",
+        "release": "2 October 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Elemental Workshop I"
+            ],
+            "skills": [
+                "Magic",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Smithing"
+            ]
+        },
+        "series": "Elemental Workshop, #2"
+    },
+    "Enakhra's Lament": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Enakhra's Lament",
+        "release": "23 January 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Firemaking",
+                "Magic",
+                "Mining",
+                "Prayer"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Crafting",
+                "Firemaking",
+                "Magic",
+                "Mining"
+            ]
+        },
+        "series": "Mahjarrat, #4"
+    },
+    "Enlightened Journey": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Enlightened Journey",
+        "release": "6 November 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 20,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Farming",
+                "Firemaking"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Farming",
+                "Firemaking",
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "Enter the Abyss": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Enter the Abyss",
+        "release": "13 June 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": [
+                "Runecraft"
+            ]
+        },
+        "series": "Order of Wizards, #2"
+    },
+    "Ernest the Chicken": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Ernest the Chicken",
+        "release": "21 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Fairytale I - Growing Pains": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Fairytale I - Growing Pains",
+        "release": "27 February 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Lost City",
+                "Nature Spirit"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
+                "Farming",
+                "Magic"
+            ]
+        },
+        "series": "Fairytale, #1"
+    },
+    "Fairytale II - Cure a Queen": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Fairytale II - Cure a Queen",
+        "release": "11 July 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Fairytale I - Growing Pains"
+            ],
+            "skills": [
+                "Farming",
+                "Herblore",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Herblore",
+                "Thieving"
+            ]
+        },
+        "series": "Fairytale, #2"
+    },
+    "Family Crest": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Family Crest",
+        "release": "9 April 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Crafting",
+                "Fishing",
+                "Magic",
+                "Mining",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Family Pest": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Family Pest",
+        "release": "1 September 2016",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Family Crest"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Fight Arena": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Fight Arena",
+        "release": "23 July 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
+                "Thieving"
+            ]
+        },
+        "series": "Mahjarrat, #3"
+    },
+    "Fishing Contest": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Fishing Contest",
+        "release": "28 May 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Fishing"
+            ]
+        },
+        "series": ""
+    },
+    "Forgettable Tale...": {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "name": "Forgettable Tale...",
+        "release": "26 July 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Fishing Contest",
+                "The Giant Dwarf"
+            ],
+            "skills": [
+                "Cooking",
+                "Farming"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Cooking",
+                "Farming"
+            ]
+        },
+        "series": "Red Axe, #2"
+    },
+    "Garden of Tranquillity": {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "name": "Garden of Tranquillity",
+        "release": "30 August 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Creature of Fenkenstrain"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Farming"
+            ]
+        },
+        "series": ""
+    },
+    "Gertrude's Cat": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Gertrude's Cat",
+        "release": "28 July 2003",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking"
+            ]
+        },
+        "series": ""
+    },
+    "Getting Ahead": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Getting Ahead",
+        "release": "25 November 2020",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Construction",
+                "Crafting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Construction",
+                "Crafting"
+            ]
+        },
+        "series": "Twisted Tales"
+    },
+    "Ghosts Ahoy": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Ghosts Ahoy",
+        "release": "15 February 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                "Agility",
+                "Cooking"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "series": ""
+    },
+    "Goblin Diplomacy": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Goblin Diplomacy",
+        "release": "8 May 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "Grim Tales": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Grim Tales",
+        "release": "4 June 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Witch's House"
+            ],
+            "skills": [
+                "Agility",
+                "Farming",
+                "Herblore",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Agility",
+                "Farming",
+                "Herblore",
+                "Hitpoints",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "Haunted Mine": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Haunted Mine",
+        "release": "21 December 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Strength"
+            ]
+        },
+        "series": ""
+    },
+    "Hazeel Cult": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Hazeel Cult",
+        "release": "15 August 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": "Mahjarrat, #2"
+    },
+    "Heroes' Quest": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Heroes' Quest",
+        "release": "27 February 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 55,
+            "quests": [
+                "Dragon Slayer I",
+                "Lost City",
+                "Merlin's Crystal",
+                "Shield of Arrav"
+            ],
+            "skills": [
+                "Cooking",
+                "Fishing",
+                "Herblore",
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Attack",
+                "Cooking",
+                "Defence",
+                "Firemaking",
+                "Fishing",
+                "Herblore",
+                "Hitpoints",
+                "Mining",
+                "Ranged",
+                "Smithing",
+                "Strength",
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "His Faithful Servants": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "His Faithful Servants",
+        "release": "14 June 2023",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": "Mahjarrat, #10"
+    },
+    "Holy Grail": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Holy Grail",
+        "release": "23 July 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Merlin's Crystal"
+            ],
+            "skills": [
+                "Attack"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Defence",
+                "Prayer"
+            ]
+        },
+        "series": "Camelot, #2"
+    },
+    "Hopespear's Will": {
+        "difficulty": "Master",
+        "length": "Short",
+        "name": "Hopespear's Will",
+        "release": "9 February 2022",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Desert Treasure I",
+                "Fairytale II - Cure a Queen",
+                "Land of the Goblins",
+                "The Restless Ghost"
+            ],
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "series": ""
+    },
+    "Horror from the Deep": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Horror from the Deep",
+        "release": "17 November 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Alfred Grimhand's Barcrawl"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Magic",
+                "Ranged",
+                "Strength"
+            ]
+        },
+        "series": ""
+    },
+    "Icthlarin's Little Helper": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Icthlarin's Little Helper",
+        "release": "26 April 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Gertrude's Cat"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "series": "Kharidian, #2"
+    },
+    "Imp Catcher": {
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Imp Catcher",
+        "release": "16 February 2001",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Magic"
+            ]
+        },
+        "series": ""
+    },
+    "In Aid of the Myreque": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "In Aid of the Myreque",
+        "release": "22 March 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "In Search of the Myreque"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Magic",
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
+                "Crafting",
+                "Defence",
+                "Strength"
+            ]
+        },
+        "series": "Myreque, #2"
+    },
+    "In Search of Knowledge": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "In Search of Knowledge",
+        "release": "4 July 2019",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "In Search of the Myreque": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "In Search of the Myreque",
+        "release": "10 January 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Nature Spirit"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
+                "Crafting",
+                "Defence",
+                "Hitpoints",
+                "Strength"
+            ]
+        },
+        "series": "Myreque, #1"
+    },
+    "Into the Tombs": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Into the Tombs",
+        "release": "24 August 2022",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Beneath Cursed Sands"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": "Kharidian, #5"
+    },
     "Jungle Potion": {
         "difficulty": "Novice",
         "length": "Short",
+        "name": "Jungle Potion",
         "release": "23 October 2002",
         "requirements": {
             "combat": false,
@@ -826,182 +1760,73 @@
         },
         "series": ""
     },
-    "The Grand Tree": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "12 December 2002",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": [
-                "Attack",
-                "Agility",
-                "Magic"
-            ]
-        },
-        "series": "Gnome, #1"
-    },
-    "Shilo Village": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "27 January 2003",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Jungle Potion"
-            ],
-            "skills": [
-                "Agility",
-                "Crafting",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Underground Pass": {
+    "King's Ransom": {
         "difficulty": "Experienced",
-        "length": "Long",
-        "release": "3 March 2003",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Biohazard"
-            ],
-            "skills": [
-                "Ranged"
-            ]
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": [
-                "Agility",
-                "Attack"
-            ]
-        },
-        "series": "Elf, #3"
-    },
-    "Observatory Quest": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "17 March 2003",
+        "length": "Medium",
+        "name": "King's Ransom",
+        "release": "24 July 2007",
         "requirements": {
             "combat": false,
             "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
+            "quests": [
+                "Black Knights' Fortress",
+                "Holy Grail",
+                "Murder Mystery",
+                "One Small Favour"
+            ],
             "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "The Tourist Trap": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "14 April 2003",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Fletching",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Watchtower": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "7 May 2003",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
+                "Defence",
                 "Magic",
-                "Thieving",
-                "Agility",
-                "Herblore",
                 "Mining"
             ]
         },
         "rewards": {
-            "qp": 4,
+            "qp": 1,
             "skills": [
+                "Defence",
                 "Magic"
             ]
         },
-        "series": ""
+        "series": "Camelot, #3"
     },
-    "Dwarf Cannon": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "27 May 2003",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Murder Mystery": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "9 June 2003",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "The Dig Site": {
-        "difficulty": "Intermediate",
+    "Lair of Tarn Razorlor": {
+        "difficulty": "Experienced",
         "length": "Medium",
-        "release": "9 July 2003",
+        "name": "Lair of Tarn Razorlor",
+        "release": "22 January 2007",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "qp": 0,
-            "quests": [],
+            "quests": [
+                "Haunted Mine"
+            ],
+            "skills": [
+                "Slayer"
+            ]
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": [
+                "Slayer"
+            ]
+        },
+        "series": ""
+    },
+    "Land of the Goblins": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Land of the Goblins",
+        "release": "9 February 2022",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Another Slice of H.A.M.",
+                "Fishing Contest"
+            ],
             "skills": [
                 "Agility",
+                "Fishing",
                 "Herblore",
                 "Thieving"
             ]
@@ -1009,33 +1834,18 @@
         "rewards": {
             "qp": 2,
             "skills": [
-                "Mining",
-                "Herblore"
+                "Agility",
+                "Fishing",
+                "Herblore",
+                "Thieving"
             ]
         },
-        "series": "Mahjarrat, #1"
-    },
-    "Gertrude's Cat": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "28 July 2003",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Cooking"
-            ]
-        },
-        "series": ""
+        "series": "Dorgeshuun, #4"
     },
     "Legends' Quest": {
         "difficulty": "Master",
         "length": "Long",
+        "name": "Legends' Quest",
         "release": "20 August 2003",
         "requirements": {
             "combat": true,
@@ -1066,57 +1876,159 @@
         },
         "series": ""
     },
-    "Big Chompy Bird Hunting": {
+    "Lost City": {
         "difficulty": "Intermediate",
         "length": "Short",
-        "release": "18 May 2004",
+        "name": "Lost City",
+        "release": "27 February 2002",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [],
             "skills": [
-                "Fletching",
-                "Cooking",
-                "Ranged"
+                "Crafting",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Lunar Diplomacy": {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "name": "Lunar Diplomacy",
+        "release": "24 July 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Lost City",
+                "Rune Mysteries",
+                "Shilo Village",
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Crafting",
+                "Defence",
+                "Firemaking",
+                "Herblore",
+                "Magic",
+                "Mining",
+                "Woodcutting"
             ]
         },
         "rewards": {
             "qp": 2,
             "skills": [
-                "Fletching",
-                "Cooking",
-                "Ranged"
+                "Magic",
+                "Runecraft"
             ]
         },
-        "series": ""
+        "series": "Fremennik, #3"
     },
-    "Elemental Workshop I": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "2 June 2004",
+    "Mage Arena I": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Mage Arena I",
+        "release": "22 September 2003",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [],
             "skills": [
-                "Mining",
-                "Smithing",
-                "Crafting"
+                "Magic"
             ]
         },
         "rewards": {
-            "qp": 1,
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Mage Arena II": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Mage Arena II",
+        "release": "23 November 2017",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Mage Arena I"
+            ],
             "skills": [
-                "Crafting",
-                "Smithing"
+                "Magic"
             ]
         },
-        "series": "Elemental Workshop, #1"
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
     },
-    "Priest in Peril": {
-        "difficulty": "Novice",
+    "Making Friends with My Arm": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Making Friends with My Arm",
+        "release": "6 September 2018",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Cold War",
+                "My Arm's Big Adventure",
+                "Romeo & Juliet",
+                "Swan Song"
+            ],
+            "skills": [
+                "Agility",
+                "Construction",
+                "Firemaking",
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility",
+                "Construction",
+                "Firemaking",
+                "Mining"
+            ]
+        },
+        "series": "Troll, #5"
+    },
+    "Making History": {
+        "difficulty": "Intermediate",
         "length": "Short",
-        "release": "29 June 2004",
+        "name": "Making History",
+        "release": "22 November 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Priest in Peril",
+                "The Restless Ghost"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Crafting",
+                "Prayer"
+            ]
+        },
+        "series": ""
+    },
+    "Merlin's Crystal": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Merlin's Crystal",
+        "release": "27 February 2002",
         "requirements": {
             "combat": true,
             "qp": 0,
@@ -1124,16 +2036,227 @@
             "skills": []
         },
         "rewards": {
+            "qp": 6,
+            "skills": []
+        },
+        "series": "Camelot, #1"
+    },
+    "Misthalin Mystery": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Misthalin Mystery",
+        "release": "26 January 2017",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
             "qp": 1,
             "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "Monk's Friend": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Monk's Friend",
+        "release": "28 May 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "Monkey Madness I": {
+        "difficulty": "Master",
+        "length": "Long",
+        "name": "Monkey Madness I",
+        "release": "6 December 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "The Grand Tree",
+                "Tree Gnome Village"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": []
+        },
+        "series": "Gnome, #4"
+    },
+    "Monkey Madness II": {
+        "difficulty": "Grandmaster",
+        "length": "Very Long",
+        "name": "Monkey Madness II",
+        "release": "6 May 2016",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Enlightened Journey",
+                "RFD: Freeing King Awowogei",
+                "The Eyes of Glouphrie",
+                "Troll Stronghold",
+                "Watchtower"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Firemaking",
+                "Hunter",
+                "Slayer",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": [
+                "Agility",
+                "Hunter",
+                "Slayer",
+                "Thieving"
+            ]
+        },
+        "series": "Gnome, #5"
+    },
+    "Mountain Daughter": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Mountain Daughter",
+        "release": "7 March 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
                 "Prayer"
             ]
         },
-        "series": "Myreque"
+        "series": ""
+    },
+    "Mourning's End Part I": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Mourning's End Part I",
+        "release": "19 July 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Big Chompy Bird Hunting",
+                "Roving Elves",
+                "Sheep Herder"
+            ],
+            "skills": [
+                "Ranged",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Hitpoints",
+                "Thieving"
+            ]
+        },
+        "series": "Elf, #6"
+    },
+    "Mourning's End Part II": {
+        "difficulty": "Master",
+        "length": "Long",
+        "name": "Mourning's End Part II",
+        "release": "17 October 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Mourning's End Part I"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility"
+            ]
+        },
+        "series": "Elf, #7"
+    },
+    "Murder Mystery": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Murder Mystery",
+        "release": "9 June 2003",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "My Arm's Big Adventure": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "My Arm's Big Adventure",
+        "release": "23 October 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Eadgar's Ruse",
+                "Jungle Potion",
+                "The Feud"
+            ],
+            "skills": [
+                "Farming",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Farming",
+                "Herblore"
+            ]
+        },
+        "series": "Troll, #4"
     },
     "Nature Spirit": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "name": "Nature Spirit",
         "release": "13 July 2004",
         "requirements": {
             "combat": true,
@@ -1156,10 +2279,12 @@
         },
         "series": ""
     },
-    "Death Plateau": {
-        "difficulty": "Novice",
+    "Observatory Quest": {
+        "active": false,
+        "difficulty": "Intermediate",
         "length": "Short",
-        "release": "9 August 2004",
+        "name": "Observatory Quest",
+        "release": "17 March 2003",
         "requirements": {
             "combat": false,
             "qp": 0,
@@ -1167,356 +2292,33 @@
             "skills": []
         },
         "rewards": {
-            "qp": 1,
-            "skills": [
-                "Attack"
-            ]
-        },
-        "series": "Troll, #1"
-    },
-    "Troll Stronghold": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "24 August 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Death Plateau"
-            ],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Troll, #2"
-    },
-    "Tai Bwo Wannai Trio": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "14 September 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Jungle Potion"
-            ],
-            "skills": [
-                "Agility",
-                "Cooking",
-                "Fishing"
-            ]
-        },
-        "rewards": {
             "qp": 2,
             "skills": [
-                "Cooking",
-                "Fishing",
-                "Attack"
-            ]
-        },
-        "series": ""
-    },
-    "Regicide": {
-        "difficulty": "Experienced",
-        "length": "Long",
-        "release": "20 September 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Underground Pass"
-            ],
-            "skills": [
-                "Crafting",
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Agility"
-            ]
-        },
-        "series": "Elf, #4"
-    },
-    "Eadgar's Ruse": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "5 October 2004",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Druidic Ritual",
-                "Troll Stronghold"
-            ],
-            "skills": [
-                "Herblore"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Herblore"
-            ]
-        },
-        "series": "Troll, #3"
-    },
-    "Shades of Mort'ton": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "18 October 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 3,
-            "quests": [
-                "Priest in Peril"
-            ],
-            "skills": [
-                "Crafting",
-                "Herblore",
-                "Firemaking"
-            ]
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Herblore",
                 "Crafting"
             ]
         },
         "series": ""
     },
-    "The Fremennik Trials": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "2 November 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Agility",
-                "Attack",
-                "Crafting",
-                "Defence",
-                "Fishing",
-                "Fletching",
-                "Hitpoints",
-                "Strength",
-                "Thieving",
-                "Woodcutting"
-            ]
-        },
-        "series": "Fremennik, #1"
-    },
-    "Horror from the Deep": {
+    "Olaf's Quest": {
         "difficulty": "Intermediate",
         "length": "Short",
-        "release": "17 November 2004",
+        "name": "Olaf's Quest",
+        "release": "10 April 2007",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Alfred Grimhand's Barcrawl"
-            ],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Magic",
-                "Strength",
-                "Ranged"
-            ]
-        },
-        "series": ""
-    },
-    "Throne of Miscellania": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "29 November 2004",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Heroes' Quest",
                 "The Fremennik Trials"
             ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Miscellania, #1"
-    },
-    "Monkey Madness I": {
-        "difficulty": "Master",
-        "length": "Long",
-        "release": "6 December 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Grand Tree",
-                "Tree Gnome Village"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": []
-        },
-        "series": "Gnome, #4"
-    },
-    "Haunted Mine": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "21 December 2004",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Priest in Peril"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
             "skills": [
-                "Strength"
-            ]
-        },
-        "series": ""
-    },
-    "Troll Romance": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "5 January 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Troll Stronghold"
-            ],
-            "skills": [
-                "Agility",
+                "Firemaking",
                 "Woodcutting"
             ]
         },
         "rewards": {
-            "qp": 2,
-            "skills": [
-                "Agility",
-                "Strength"
-            ]
-        },
-        "series": ""
-    },
-    "In Search of the Myreque": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "10 January 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Nature Spirit"
-            ],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Attack",
-                "Defence",
-                "Strength",
-                "Hitpoints",
-                "Crafting"
-            ]
-        },
-        "series": "Myreque, #1"
-    },
-    "Creature of Fenkenstrain": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "31 January 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Priest in Peril"
-            ],
-            "skills": [
-                "Crafting",
-                "Thieving",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": ""
-    },
-    "Roving Elves": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "7 February 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Regicide",
-                "Waterfall Quest"
-            ],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
             "qp": 1,
             "skills": [
-                "Strength"
-            ]
-        },
-        "series": "Elf, #5"
-    },
-    "Ghosts Ahoy": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "15 February 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": [
-                "Agility",
-                "Cooking"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Prayer"
+                "Defence"
             ]
         },
         "series": ""
@@ -1524,6 +2326,7 @@
     "One Small Favour": {
         "difficulty": "Experienced",
         "length": "Long",
+        "name": "One Small Favour",
         "release": "28 February 2005",
         "requirements": {
             "combat": true,
@@ -1545,481 +2348,133 @@
         },
         "series": ""
     },
-    "Mountain Daughter": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "7 March 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Prayer",
-                "Attack"
-            ]
-        },
-        "series": ""
-    },
-    "Between a Rock...": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "21 March 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Dwarf Cannon",
-                "Fishing Contest"
-            ],
-            "skills": [
-                "Defence",
-                "Mining",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Defence",
-                "Mining",
-                "Smithing"
-            ]
-        },
-        "series": ""
-    },
-    "The Feud": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "4 April 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": ""
-    },
-    "The Golem": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "11 April 2005",
+    "Pirate's Treasure": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Pirate's Treasure",
+        "release": "11 June 2001",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [],
-            "skills": [
-                "Crafting",
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving",
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Desert Treasure I": {
-        "difficulty": "Master",
-        "length": "Long",
-        "release": "18 April 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Dig Site",
-                "Temple of Ikov",
-                "The Tourist Trap",
-                "Troll Stronghold",
-                "Priest in Peril",
-                "Waterfall Quest"
-            ],
-            "skills": [
-                "Thieving",
-                "Magic",
-                "Firemaking"
-            ]
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Magic"
-            ]
-        },
-        "series": "Mahjarrat, #6"
-    },
-    "Icthlarin's Little Helper": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "26 April 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Gertrude's Cat"
-            ],
             "skills": []
         },
         "rewards": {
             "qp": 2,
-            "skills": [
-                "Thieving",
-                "Agility",
-                "Woodcutting"
-            ]
+            "skills": []
         },
-        "series": "Kharidian, #2"
+        "series": ""
     },
-    "Tears of Guthix": {
-        "difficulty": "Intermediate",
+    "Plague City": {
+        "active": false,
+        "difficulty": "Novice",
         "length": "Very Short",
-        "release": "4 May 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 43,
-            "quests": [],
-            "skills": [
-                "Firemaking",
-                "Crafting",
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Zogre Flesh Eaters": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "17 May 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Big Chompy Bird Hunting",
-                "Jungle Potion"
-            ],
-            "skills": [
-                "Smithing",
-                "Herblore",
-                "Ranged"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Fletching",
-                "Ranged",
-                "Herblore"
-            ]
-        },
-        "series": ""
-    },
-    "The Lost Tribe": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "31 May 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Goblin Diplomacy",
-                "Rune Mysteries"
-            ],
-            "skills": [
-                "Agility",
-                "Thieving",
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Mining"
-            ]
-        },
-        "series": "Dorgeshuun, #1"
-    },
-    "The Giant Dwarf": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "31 May 2005",
+        "name": "Plague City",
+        "release": "27 August 2002",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [],
-            "skills": [
-                "Crafting",
-                "Firemaking",
-                "Magic",
-                "Thieving"
-            ]
+            "skills": []
         },
         "rewards": {
-            "qp": 2,
+            "qp": 1,
             "skills": [
-                "Mining",
-                "Smithing",
-                "Crafting",
-                "Magic",
-                "Thieving",
-                "Firemaking"
+                "Mining"
             ]
         },
-        "series": "Red Axe, #1"
+        "series": "Elf, #1"
     },
-    "Recruitment Drive": {
+    "Priest in Peril": {
         "difficulty": "Novice",
         "length": "Short",
-        "release": "27 June 2005",
+        "name": "Priest in Peril",
+        "release": "29 June 2004",
         "requirements": {
             "combat": true,
             "qp": 0,
-            "quests": [
-                "Black Knights' Fortress",
-                "Druidic Ritual"
-            ],
+            "quests": [],
             "skills": []
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Prayer",
-                "Herblore",
-                "Agility"
-            ]
-        },
-        "series": "Temple Knight, #1"
-    },
-    "Mourning's End Part I": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "19 July 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Roving Elves",
-                "Big Chompy Bird Hunting",
-                "Sheep Herder"
-            ],
-            "skills": [
-                "Ranged",
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Thieving",
-                "Hitpoints"
-            ]
-        },
-        "series": "Elf, #6"
-    },
-    "Forgettable Tale...": {
-        "difficulty": "Intermediate",
-        "length": "Long",
-        "release": "26 July 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "The Giant Dwarf",
-                "Fishing Contest"
-            ],
-            "skills": [
-                "Cooking",
-                "Farming"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Cooking",
-                "Farming"
-            ]
-        },
-        "series": "Red Axe, #2"
-    },
-    "Garden of Tranquillity": {
-        "difficulty": "Intermediate",
-        "length": "Long",
-        "release": "30 August 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Creature of Fenkenstrain"
-            ],
-            "skills": [
-                "Farming"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Farming"
-            ]
-        },
-        "series": ""
-    },
-    "A Tail of Two Cats": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "26 September 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Icthlarin's Little Helper"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": "Dragonkin, #2"
-    },
-    "Wanted!": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "17 October 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 32,
-            "quests": [
-                "Recruitment Drive",
-                "The Lost Tribe",
-                "Priest in Peril",
-                "Enter the Abyss"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Slayer"
-            ]
-        },
-        "series": "Temple Knight, #2"
-    },
-    "Mourning's End Part II": {
-        "difficulty": "Master",
-        "length": "Long",
-        "release": "17 October 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Mourning's End Part I"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Agility"
-            ]
-        },
-        "series": "Elf, #7"
-    },
-    "Rum Deal": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "31 October 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Zogre Flesh Eaters",
-                "Priest in Peril"
-            ],
-            "skills": [
-                "Crafting",
-                "Fishing",
-                "Farming",
-                "Prayer",
-                "Slayer"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Fishing",
-                "Prayer",
-                "Farming"
-            ]
-        },
-        "series": "Pirate, #1"
-    },
-    "Shadow of the Storm": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "14 November 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Golem",
-                "Demon Slayer"
-            ],
-            "skills": [
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Demon Slayer, #2"
-    },
-    "Making History": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "22 November 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Priest in Peril",
-                "The Restless Ghost"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 3,
-            "skills": [
-                "Crafting",
                 "Prayer"
             ]
         },
-        "series": ""
+        "series": "Myreque"
+    },
+    "Prince Ali Rescue": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Prince Ali Rescue",
+        "release": "28 February 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": []
+        },
+        "series": "Kharidian, #1"
+    },
+    "Rag and Bone Man I": {
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Rag and Bone Man I",
+        "release": "10 April 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking",
+                "Prayer"
+            ]
+        },
+        "series": "Rag and Bone Man, #1"
+    },
+    "Rag and Bone Man II": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Rag and Bone Man II",
+        "release": "10 April 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Horror from the Deep",
+                "Rag and Bone Man I",
+                "Skippy and the Mogres"
+            ],
+            "skills": [
+                "Defence",
+                "Slayer"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "series": "Rag and Bone Man, #2"
     },
     "Ratcatchers": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "name": "Ratcatchers",
         "release": "28 November 2005",
         "requirements": {
             "combat": false,
@@ -2038,163 +2493,58 @@
         },
         "series": ""
     },
-    "Spirits of the Elid": {
-        "difficulty": "Intermediate",
+    "Recruitment Drive": {
+        "difficulty": "Novice",
         "length": "Short",
-        "release": "5 December 2005",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Magic",
-                "Ranged",
-                "Mining",
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Prayer",
-                "Thieving",
-                "Magic"
-            ]
-        },
-        "series": ""
-    },
-    "Devious Minds": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "19 December 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Wanted!",
-                "Troll Stronghold",
-                "Doric's Quest",
-                "Enter the Abyss"
-            ],
-            "skills": [
-                "Smithing",
-                "Runecraft",
-                "Fletching"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Fletching",
-                "Runecraft",
-                "Smithing"
-            ]
-        },
-        "series": "Mahjarrat, #9"
-    },
-    "The Hand in the Sand": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "10 January 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Thieving",
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving",
-                "Crafting"
-            ]
-        },
-        "series": ""
-    },
-    "Enakhra's Lament": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "23 January 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Crafting",
-                "Firemaking",
-                "Prayer",
-                "Magic",
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Crafting",
-                "Mining",
-                "Firemaking",
-                "Magic"
-            ]
-        },
-        "series": "Mahjarrat, #4"
-    },
-    "Cabin Fever": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "7 February 2006",
+        "name": "Recruitment Drive",
+        "release": "27 June 2005",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Pirate's Treasure",
-                "Rum Deal"
-            ],
-            "skills": [
-                "Agility",
-                "Crafting",
-                "Smithing",
-                "Ranged"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Crafting",
-                "Smithing",
-                "Agility"
-            ]
-        },
-        "series": "Pirate, #2"
-    },
-    "Fairytale I - Growing Pains": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "27 February 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Lost City",
-                "Nature Spirit"
+                "Black Knights' Fortress",
+                "Druidic Ritual"
             ],
             "skills": []
         },
         "rewards": {
-            "qp": 2,
+            "qp": 1,
             "skills": [
-                "Farming",
-                "Attack",
-                "Magic"
+                "Agility",
+                "Herblore",
+                "Prayer"
             ]
         },
-        "series": "Fairytale, #1"
+        "series": "Temple Knight, #1"
+    },
+    "Regicide": {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "name": "Regicide",
+        "release": "20 September 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Underground Pass"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting"
+            ]
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Agility"
+            ]
+        },
+        "series": "Elf, #4"
     },
     "RFD: Another Cook's Quest": {
         "difficulty": "Special",
         "length": "Short",
+        "name": "RFD: Another Cook's Quest",
         "release": "15 March 2006",
         "requirements": {
             "combat": false,
@@ -2212,47 +2562,82 @@
         },
         "series": ""
     },
-    "RFD: Freeing the Mountain Dwarf": {
+    "RFD: Defeating the Culinaromancer": {
         "difficulty": "Special",
         "length": "Short",
+        "name": "RFD: Defeating the Culinaromancer",
         "release": "15 March 2006",
         "requirements": {
-            "combat": false,
-            "qp": 0,
+            "combat": true,
+            "qp": 175,
             "quests": [
+                "Desert Treasure I",
+                "Horror from the Deep",
                 "RFD: Another Cook's Quest",
-                "Fishing Contest"
+                "RFD: Freeing Evil Dave",
+                "RFD: Freeing King Awowogei",
+                "RFD: Freeing Pirate Pete",
+                "RFD: Freeing Sir Amik Varze",
+                "RFD: Freeing Skrach Uglogwee",
+                "RFD: Freeing the Goblin generals",
+                "RFD: Freeing the Lumbridge Guide",
+                "RFD: Freeing the Mountain Dwarf"
             ],
             "skills": []
         },
         "rewards": {
             "qp": 1,
+            "skills": []
+        },
+        "series": ""
+    },
+    "RFD: Freeing Evil Dave": {
+        "difficulty": "Special",
+        "length": "Medium",
+        "name": "RFD: Freeing Evil Dave",
+        "release": "15 March 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Gertrude's Cat",
+                "RFD: Another Cook's Quest",
+                "Shadow of the Storm"
+            ],
             "skills": [
-                "Slayer",
+                "Cooking"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
                 "Cooking"
             ]
         },
         "series": ""
     },
-    "RFD: Freeing the Goblin generals": {
+    "RFD: Freeing King Awowogei": {
         "difficulty": "Special",
-        "length": "Short",
+        "length": "Long",
+        "name": "RFD: Freeing King Awowogei",
         "release": "15 March 2006",
         "requirements": {
-            "combat": false,
+            "combat": true,
             "qp": 0,
             "quests": [
-                "RFD: Another Cook's Quest",
-                "Goblin Diplomacy"
+                "Monkey Madness I",
+                "RFD: Another Cook's Quest"
             ],
-            "skills": []
+            "skills": [
+                "Agility",
+                "Cooking"
+            ]
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Cooking",
-                "Farming",
-                "Crafting"
+                "Agility",
+                "Cooking"
             ]
         },
         "series": ""
@@ -2260,6 +2645,7 @@
     "RFD: Freeing Pirate Pete": {
         "difficulty": "Special",
         "length": "Medium",
+        "name": "RFD: Freeing Pirate Pete",
         "release": "15 March 2006",
         "requirements": {
             "combat": true,
@@ -2283,9 +2669,93 @@
         },
         "series": ""
     },
+    "RFD: Freeing Sir Amik Varze": {
+        "difficulty": "Special",
+        "length": "Medium",
+        "name": "RFD: Freeing Sir Amik Varze",
+        "release": "15 March 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 107,
+            "quests": [
+                "Family Crest",
+                "Heroes' Quest",
+                "Legends' Quest",
+                "RFD: Another Cook's Quest",
+                "Shilo Village",
+                "Underground Pass",
+                "Waterfall Quest"
+            ],
+            "skills": [
+                "Farming"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking",
+                "Hitpoints"
+            ]
+        },
+        "series": ""
+    },
+    "RFD: Freeing Skrach Uglogwee": {
+        "difficulty": "Special",
+        "length": "Medium",
+        "name": "RFD: Freeing Skrach Uglogwee",
+        "release": "15 March 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Big Chompy Bird Hunting",
+                "RFD: Another Cook's Quest"
+            ],
+            "skills": [
+                "Cooking",
+                "Firemaking",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking",
+                "Crafting",
+                "Ranged",
+                "Woodcutting"
+            ]
+        },
+        "series": ""
+    },
+    "RFD: Freeing the Goblin generals": {
+        "difficulty": "Special",
+        "length": "Short",
+        "name": "RFD: Freeing the Goblin generals",
+        "release": "15 March 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Goblin Diplomacy",
+                "RFD: Another Cook's Quest"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Cooking",
+                "Crafting",
+                "Farming"
+            ]
+        },
+        "series": ""
+    },
     "RFD: Freeing the Lumbridge Guide": {
         "difficulty": "Special",
         "length": "Short",
+        "name": "RFD: Freeing the Lumbridge Guide",
         "release": "15 March 2006",
         "requirements": {
             "combat": false,
@@ -2312,239 +2782,75 @@
         },
         "series": ""
     },
-    "RFD: Freeing Evil Dave": {
+    "RFD: Freeing the Mountain Dwarf": {
         "difficulty": "Special",
-        "length": "Medium",
+        "length": "Short",
+        "name": "RFD: Freeing the Mountain Dwarf",
         "release": "15 March 2006",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [
-                "Gertrude's Cat",
-                "RFD: Another Cook's Quest",
-                "Shadow of the Storm"
+                "Fishing Contest",
+                "RFD: Another Cook's Quest"
             ],
-            "skills": [
-                "Cooking"
-            ]
+            "skills": []
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Cooking"
+                "Cooking",
+                "Slayer"
             ]
         },
         "series": ""
     },
-    "RFD: Freeing King Awowogei": {
-        "difficulty": "Special",
-        "length": "Long",
-        "release": "15 March 2006",
+    "Romeo & Juliet": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Romeo & Juliet",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Roving Elves": {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "name": "Roving Elves",
+        "release": "7 February 2005",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Monkey Madness I",
-                "RFD: Another Cook's Quest"
-            ],
-            "skills": [
-                "Cooking",
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Cooking",
-                "Agility"
-            ]
-        },
-        "series": ""
-    },
-    "RFD: Freeing Sir Amik Varze": {
-        "difficulty": "Special",
-        "length": "Medium",
-        "release": "15 March 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 107,
-            "quests": [
-                "Legends' Quest",
-                "Family Crest",
-                "Heroes' Quest",
-                "RFD: Another Cook's Quest",
-                "Shilo Village",
-                "Underground Pass",
+                "Regicide",
                 "Waterfall Quest"
             ],
             "skills": [
-                "Farming"
+                "Agility"
             ]
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Cooking",
-                "Hitpoints"
+                "Strength"
             ]
         },
-        "series": ""
-    },
-    "RFD: Freeing Skrach Uglogwee": {
-        "difficulty": "Special",
-        "length": "Medium",
-        "release": "15 March 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Big Chompy Bird Hunting",
-                "RFD: Another Cook's Quest"
-            ],
-            "skills": [
-                "Cooking",
-                "Firemaking",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Woodcutting",
-                "Cooking",
-                "Crafting",
-                "Ranged"
-            ]
-        },
-        "series": ""
-    },
-    "RFD: Defeating the Culinaromancer": {
-        "difficulty": "Special",
-        "length": "Short",
-        "release": "15 March 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 175,
-            "quests": [
-                "Desert Treasure I",
-                "Horror from the Deep",
-                "RFD: Another Cook's Quest",
-                "RFD: Freeing Evil Dave",
-                "RFD: Freeing the Goblin generals",
-                "RFD: Freeing the Lumbridge Guide",
-                "RFD: Freeing the Mountain Dwarf",
-                "RFD: Freeing Pirate Pete",
-                "RFD: Freeing Sir Amik Varze",
-                "RFD: Freeing Skrach Uglogwee",
-                "RFD: Freeing King Awowogei"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": ""
-    },
-    "In Aid of the Myreque": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "22 March 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "In Search of the Myreque"
-            ],
-            "skills": [
-                "Agility",
-                "Crafting",
-                "Mining",
-                "Magic"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Attack",
-                "Strength",
-                "Crafting",
-                "Defence"
-            ]
-        },
-        "series": "Myreque, #2"
-    },
-    "A Soul's Bane": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "3 April 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Defence",
-                "Hitpoints"
-            ]
-        },
-        "series": ""
-    },
-    "Rag and Bone Man I": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "10 April 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Cooking",
-                "Prayer"
-            ]
-        },
-        "series": "Rag and Bone Man, #1"
-    },
-    "Swan Song": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "2 May 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 100,
-            "quests": [
-                "One Small Favour",
-                "Garden of Tranquillity"
-            ],
-            "skills": [
-                "Magic",
-                "Cooking",
-                "Fishing",
-                "Smithing",
-                "Firemaking",
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Magic",
-                "Prayer",
-                "Fishing"
-            ]
-        },
-        "series": ""
+        "series": "Elf, #5"
     },
     "Royal Trouble": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "name": "Royal Trouble",
         "release": "22 May 2006",
         "requirements": {
             "combat": true,
@@ -2561,892 +2867,343 @@
             "qp": 1,
             "skills": [
                 "Agility",
-                "Slayer",
-                "Hitpoints"
+                "Hitpoints",
+                "Slayer"
             ]
         },
         "series": "Miscellania, #2"
     },
-    "Death to the Dorgeshuun": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "21 June 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Lost Tribe"
-            ],
-            "skills": [
-                "Agility",
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving",
-                "Ranged"
-            ]
-        },
-        "series": "Dorgeshuun, #2"
-    },
-    "Fairytale II - Cure a Queen": {
+    "Rum Deal": {
         "difficulty": "Experienced",
         "length": "Medium",
-        "release": "11 July 2006",
+        "name": "Rum Deal",
+        "release": "31 October 2005",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Fairytale I - Growing Pains"
+                "Priest in Peril",
+                "Zogre Flesh Eaters"
             ],
-            "skills": [
-                "Thieving",
-                "Farming",
-                "Herblore"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Herblore",
-                "Thieving"
-            ]
-        },
-        "series": "Fairytale, #2"
-    },
-    "Lunar Diplomacy": {
-        "difficulty": "Experienced",
-        "length": "Long",
-        "release": "24 July 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Fremennik Trials",
-                "Lost City",
-                "Rune Mysteries",
-                "Shilo Village"
-            ],
-            "skills": [
-                "Herblore",
-                "Crafting",
-                "Defence",
-                "Firemaking",
-                "Magic",
-                "Mining",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Magic",
-                "Runecraft"
-            ]
-        },
-        "series": "Fremennik, #3"
-    },
-    "The Eyes of Glouphrie": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "15 August 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "The Grand Tree"
-            ],
-            "skills": [
-                "Magic",
-                "Construction",
-                "Woodcutting",
-                "Runecraft"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Magic",
-                "Woodcutting",
-                "Runecraft",
-                "Construction"
-            ]
-        },
-        "series": "Gnome, #2"
-    },
-    "Darkness of Hallowvale": {
-        "difficulty": "Experienced",
-        "length": "Long",
-        "release": "4 September 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "In Aid of the Myreque"
-            ],
-            "skills": [
-                "Construction",
-                "Mining",
-                "Thieving",
-                "Agility",
-                "Crafting",
-                "Magic",
-                "Strength"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Agility",
-                "Thieving",
-                "Construction"
-            ]
-        },
-        "series": "Myreque, #3"
-    },
-    "The Slug Menace": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "20 September 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Wanted!",
-                "Sea Slug"
-            ],
-            "skills": [
-                "Crafting",
-                "Runecraft",
-                "Slayer",
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Crafting",
-                "Runecraft",
-                "Thieving"
-            ]
-        },
-        "series": "Temple Knight, #4"
-    },
-    "Elemental Workshop II": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "2 October 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Elemental Workshop I"
-            ],
-            "skills": [
-                "Magic",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Smithing",
-                "Crafting"
-            ]
-        },
-        "series": "Elemental Workshop, #2"
-    },
-    "My Arm's Big Adventure": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "23 October 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Eadgar's Ruse",
-                "The Feud",
-                "Jungle Potion"
-            ],
-            "skills": [
-                "Farming",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Herblore",
-                "Farming"
-            ]
-        },
-        "series": "Troll, #4"
-    },
-    "Enlightened Journey": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "6 November 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 20,
-            "quests": [],
-            "skills": [
-                "Firemaking",
-                "Farming",
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
             "skills": [
                 "Crafting",
                 "Farming",
-                "Woodcutting",
-                "Firemaking"
-            ]
-        },
-        "series": ""
-    },
-    "Eagles' Peak": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "28 November 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Hunter"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Hunter"
-            ]
-        },
-        "series": ""
-    },
-    "Animal Magnetism": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "12 December 2006",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "The Restless Ghost",
-                "Ernest the Chicken",
-                "Priest in Peril"
-            ],
-            "skills": [
-                "Slayer",
-                "Crafting",
-                "Ranged",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Crafting",
-                "Fletching",
-                "Slayer",
-                "Woodcutting"
-            ]
-        },
-        "series": ""
-    },
-    "Contact!": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "10 January 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Prince Ali Rescue",
-                "Icthlarin's Little Helper"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": "Kharidian, #3"
-    },
-    "Cold War": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "29 January 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Hunter",
-                "Agility",
-                "Crafting",
-                "Construction",
-                "Thieving",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Crafting",
-                "Agility",
-                "Construction"
-            ]
-        },
-        "series": "Penguin, #1"
-    },
-    "The Fremennik Isles": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "6 February 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Fremennik Trials"
-            ],
-            "skills": [
-                "Construction",
-                "Woodcutting",
-                "Crafting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Construction",
-                "Crafting",
-                "Woodcutting"
-            ]
-        },
-        "series": "Fremennik, #2"
-    },
-    "Tower of Life": {
-        "difficulty": "Novice",
-        "length": "Medium",
-        "release": "19 February 2007",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Construction"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Construction",
-                "Crafting",
-                "Thieving"
-            ]
-        },
-        "series": ""
-    },
-    "The Great Brain Robbery": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "6 March 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Creature of Fenkenstrain",
-                "Cabin Fever",
-                "RFD: Freeing Pirate Pete"
-            ],
-            "skills": [
-                "Crafting",
-                "Construction",
-                "Prayer"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
+                "Fishing",
                 "Prayer",
-                "Crafting",
-                "Construction"
-            ]
-        },
-        "series": "Pirate, #3"
-    },
-    "What Lies Below": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "27 March 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Rune Mysteries"
-            ],
-            "skills": [
-                "Runecraft"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Runecraft",
-                "Defence"
-            ]
-        },
-        "series": ""
-    },
-    "Olaf's Quest": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "10 April 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Fremennik Trials"
-            ],
-            "skills": [
-                "Firemaking",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Defence"
-            ]
-        },
-        "series": ""
-    },
-    "Another Slice of H.A.M.": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "24 April 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Death to the Dorgeshuun",
-                "The Giant Dwarf",
-                "The Dig Site"
-            ],
-            "skills": [
-                "Attack",
-                "Prayer"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Mining",
-                "Prayer"
-            ]
-        },
-        "series": "Dorgeshuun, #3"
-    },
-    "Dream Mentor": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "15 May 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Lunar Diplomacy",
-                "Eadgar's Ruse"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Hitpoints",
-                "Magic"
-            ]
-        },
-        "series": ""
-    },
-    "Grim Tales": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "4 June 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Witch's House"
-            ],
-            "skills": [
-                "Farming",
-                "Herblore",
-                "Thieving",
-                "Agility",
-                "Woodcutting"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Farming",
-                "Herblore",
-                "Hitpoints",
-                "Woodcutting",
-                "Agility",
-                "Thieving"
-            ]
-        },
-        "series": ""
-    },
-    "King's Ransom": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "24 July 2007",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Black Knights' Fortress",
-                "Holy Grail",
-                "Murder Mystery",
-                "One Small Favour"
-            ],
-            "skills": [
-                "Magic",
-                "Mining",
-                "Defence"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Defence",
-                "Magic"
-            ]
-        },
-        "series": "Camelot, #3"
-    },
-    "Monkey Madness II": {
-        "difficulty": "Grandmaster",
-        "length": "Very Long",
-        "release": "6 May 2016",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Enlightened Journey",
-                "The Eyes of Glouphrie",
-                "RFD: Freeing King Awowogei",
-                "Troll Stronghold",
-                "Watchtower"
-            ],
-            "skills": [
-                "Slayer",
-                "Crafting",
-                "Hunter",
-                "Agility",
-                "Thieving",
-                "Firemaking"
-            ]
-        },
-        "rewards": {
-            "qp": 4,
-            "skills": [
-                "Slayer",
-                "Agility",
-                "Thieving",
-                "Hunter"
-            ]
-        },
-        "series": "Gnome, #5"
-    },
-    "Client of Kourend": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "20 April 2017",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "X Marks the Spot"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Great Kourend, #2"
-    },
-    "Rag and Bone Man II": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "10 April 2006",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Rag and Bone Man I",
-                "Skippy and the Mogres",
-                "Horror from the Deep"
-            ],
-            "skills": [
-                "Slayer",
-                "Defence"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Prayer"
-            ]
-        },
-        "series": "Rag and Bone Man, #2"
-    },
-    "Bone Voyage": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "7 September 2017",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "The Dig Site"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": ""
-    },
-    "The Queen of Thieves": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "9 November 2017",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Thieving"
-            ]
-        },
-        "series": "Great Kourend, #3"
-    },
-    "The Depths of Despair": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "9 November 2017",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [
-                "Farming",
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Agility"
-            ]
-        },
-        "series": "Great Kourend, #4"
-    },
-    "Dragon Slayer II": {
-        "difficulty": "Grandmaster",
-        "length": "Very Long",
-        "release": "4 January 2018",
-        "requirements": {
-            "combat": true,
-            "qp": 200,
-            "quests": [
-                "Legends' Quest",
-                "Dream Mentor",
-                "A Tail of Two Cats",
-                "Animal Magnetism",
-                "Ghosts Ahoy",
-                "Bone Voyage",
-                "Client of Kourend"
-            ],
-            "skills": [
-                "Magic",
-                "Smithing",
-                "Mining",
-                "Crafting",
-                "Agility",
-                "Thieving",
-                "Construction",
-                "Hitpoints"
-            ]
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": [
-                "Smithing",
-                "Mining",
-                "Agility",
-                "Thieving"
-            ]
-        },
-        "series": "Dragonkin, #3"
-    },
-    "Tale of the Righteous": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "19 April 2018",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Client of Kourend"
-            ],
-            "skills": [
-                "Strength",
-                "Mining"
-            ]
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": []
-        },
-        "series": "Great Kourend, #7"
-    },
-    "A Taste of Hope": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "24 May 2018",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Darkness of Hallowvale"
-            ],
-            "skills": [
-                "Crafting",
-                "Agility",
-                "Attack",
-                "Herblore",
                 "Slayer"
             ]
         },
         "rewards": {
+            "qp": 2,
+            "skills": [
+                "Farming",
+                "Fishing",
+                "Prayer"
+            ]
+        },
+        "series": "Pirate, #1"
+    },
+    "Rune Mysteries": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Rune Mysteries",
+        "release": "29 March 2004",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
             "qp": 1,
             "skills": []
         },
-        "series": "Myreque, #4"
+        "series": "Order of Wizards, #1"
     },
-    "Making Friends with My Arm": {
+    "Scorpion Catcher": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Scorpion Catcher",
+        "release": "25 March 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Alfred Grimhand's Barcrawl"
+            ],
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Strength"
+            ]
+        },
+        "series": ""
+    },
+    "Sea Slug": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Sea Slug",
+        "release": "9 September 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Firemaking"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Fishing"
+            ]
+        },
+        "series": "Temple Knight, #3"
+    },
+    "Secrets of the North": {
         "difficulty": "Master",
         "length": "Medium",
-        "release": "6 September 2018",
+        "name": "Secrets of the North",
+        "release": "11 January 2023",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "My Arm's Big Adventure",
-                "Swan Song",
-                "Cold War",
-                "Romeo & Juliet"
+                "Devious Minds",
+                "Hazeel Cult",
+                "Making Friends with My Arm",
+                "The General's Shadow"
             ],
             "skills": [
-                "Firemaking",
-                "Mining",
-                "Construction",
-                "Agility"
+                "Agility",
+                "Hunter",
+                "Thieving"
             ]
         },
         "rewards": {
             "qp": 2,
             "skills": [
-                "Construction",
-                "Firemaking",
-                "Mining",
-                "Agility"
+                "Agility",
+                "Hunter",
+                "Thieving"
             ]
         },
-        "series": "Troll, #5"
+        "series": "Mahjarrat, #11"
     },
-    "The Forsaken Tower": {
+    "Shades of Mort'ton": {
         "difficulty": "Intermediate",
         "length": "Short",
-        "release": "10 January 2019",
+        "name": "Shades of Mort'ton",
+        "release": "18 October 2004",
         "requirements": {
-            "combat": false,
-            "qp": 0,
+            "combat": true,
+            "qp": 3,
             "quests": [
-                "Client of Kourend"
+                "Priest in Peril"
             ],
             "skills": [
-                "Mining"
+                "Crafting",
+                "Firemaking",
+                "Herblore"
             ]
         },
         "rewards": {
-            "qp": 1,
+            "qp": 3,
             "skills": [
-                "Mining",
-                "Smithing"
+                "Crafting",
+                "Herblore"
             ]
         },
-        "series": "Great Kourend, #6"
+        "series": ""
     },
-    "The Ascent of Arceuus": {
+    "Shadow of the Storm": {
         "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "10 January 2019",
+        "length": "Medium",
+        "name": "Shadow of the Storm",
+        "release": "14 November 2005",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Client of Kourend"
+                "Demon Slayer",
+                "The Golem"
             ],
             "skills": [
-                "Hunter"
+                "Crafting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Demon Slayer, #2"
+    },
+    "Sheep Herder": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Sheep Herder",
+        "release": "15 August 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Sheep Shearer": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Sheep Shearer",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "Shield of Arrav": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "Shield of Arrav",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Shilo Village": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Shilo Village",
+        "release": "27 January 2003",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Jungle Potion"
+            ],
+            "skills": [
+                "Agility",
+                "Crafting",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Crafting"
+            ]
+        },
+        "series": ""
+    },
+    "Sins of the Father": {
+        "difficulty": "Master",
+        "length": "Long",
+        "name": "Sins of the Father",
+        "release": "4 June 2020",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "A Taste of Hope",
+                "Vampyre Slayer"
+            ],
+            "skills": [
+                "Agility",
+                "Attack",
+                "Crafting",
+                "Fletching",
+                "Magic",
+                "Slayer",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": []
+        },
+        "series": "Myreque, #5"
+    },
+    "Skippy and the Mogres": {
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Skippy and the Mogres",
+        "release": "24 October 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Cooking"
+            ]
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Sleeping Giants": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Sleeping Giants",
+        "release": "8 June 2022",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Smithing"
             ]
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Hunter",
-                "Runecraft"
+                "Smithing"
             ]
         },
-        "series": "Great Kourend, #5"
+        "series": ""
     },
     "Song of the Elves": {
         "difficulty": "Grandmaster",
         "length": "Very Long",
+        "name": "Song of the Elves",
         "release": "25 July 2019",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Mourning's End Part II",
+                "Druidic Ritual",
                 "Making History",
-                "Druidic Ritual"
+                "Mourning's End Part II"
             ],
             "skills": [
                 "Agility",
@@ -3474,185 +3231,162 @@
         },
         "series": "Elf, #8"
     },
-    "The Fremennik Exiles": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "26 September 2019",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Fremennik Isles",
-                "Lunar Diplomacy",
-                "Mountain Daughter",
-                "Heroes' Quest"
-            ],
-            "skills": [
-                "Crafting",
-                "Slayer",
-                "Smithing",
-                "Fishing",
-                "Runecraft"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Slayer",
-                "Crafting",
-                "Runecraft"
-            ]
-        },
-        "series": ""
-    },
-    "Sins of the Father": {
-        "difficulty": "Master",
-        "length": "Long",
-        "release": "4 June 2020",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Vampyre Slayer",
-                "A Taste of Hope"
-            ],
-            "skills": [
-                "Woodcutting",
-                "Fletching",
-                "Crafting",
-                "Agility",
-                "Attack",
-                "Slayer",
-                "Magic"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": "Myreque, #5"
-    },
-    "A Porcine of Interest": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "10 September 2020",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 1,
-            "skills": [
-                "Slayer"
-            ]
-        },
-        "series": ""
-    },
-    "Getting Ahead": {
+    "Spirits of the Elid": {
         "difficulty": "Intermediate",
         "length": "Short",
-        "release": "25 November 2020",
+        "name": "Spirits of the Elid",
+        "release": "5 December 2005",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [],
             "skills": [
+                "Magic",
+                "Mining",
+                "Ranged",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Magic",
+                "Prayer",
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "Swan Song": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "Swan Song",
+        "release": "2 May 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 100,
+            "quests": [
+                "Garden of Tranquillity",
+                "One Small Favour"
+            ],
+            "skills": [
+                "Cooking",
                 "Crafting",
-                "Construction"
+                "Firemaking",
+                "Fishing",
+                "Magic",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Fishing",
+                "Magic",
+                "Prayer"
+            ]
+        },
+        "series": ""
+    },
+    "Tai Bwo Wannai Trio": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Tai Bwo Wannai Trio",
+        "release": "14 September 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Jungle Potion"
+            ],
+            "skills": [
+                "Agility",
+                "Cooking",
+                "Fishing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack",
+                "Cooking",
+                "Fishing"
+            ]
+        },
+        "series": ""
+    },
+    "Tale of the Righteous": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Tale of the Righteous",
+        "release": "19 April 2018",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                "Mining",
+                "Strength"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Great Kourend, #7"
+    },
+    "Tears of Guthix": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Tears of Guthix",
+        "release": "4 May 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 43,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Firemaking",
+                "Mining"
             ]
         },
         "rewards": {
             "qp": 1,
             "skills": [
-                "Crafting",
-                "Construction"
+                "Crafting"
             ]
-        },
-        "series": "Twisted Tales"
-    },
-    "A Night at the Theatre": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "3 June 2021",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "A Taste of Hope"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
         },
         "series": ""
     },
-    "A Kingdom Divided": {
-        "difficulty": "Experienced",
-        "length": "Long",
-        "release": "16 June 2021",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Architectural Alliance",
-                "The Depths of Despair",
-                "The Queen of Thieves",
-                "The Ascent of Arceuus",
-                "The Forsaken Tower",
-                "Tale of the Righteous"
-            ],
-            "skills": [
-                "Agility",
-                "Thieving",
-                "Woodcutting",
-                "Herblore",
-                "Mining",
-                "Crafting",
-                "Magic"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": "Great Kourend, #8"
-    },
-    "Land of the Goblins": {
-        "difficulty": "Experienced",
+    "Temple of Ikov": {
+        "difficulty": "Intermediate",
         "length": "Medium",
-        "release": "9 February 2022",
+        "name": "Temple of Ikov",
+        "release": "17 June 2002",
         "requirements": {
             "combat": true,
             "qp": 0,
-            "quests": [
-                "Another Slice of H.A.M.",
-                "Fishing Contest"
-            ],
+            "quests": [],
             "skills": [
-                "Agility",
-                "Fishing",
-                "Thieving",
-                "Herblore"
+                "Ranged",
+                "Thieving"
             ]
         },
         "rewards": {
-            "qp": 2,
+            "qp": 1,
             "skills": [
-                "Agility",
-                "Fishing",
-                "Thieving",
-                "Herblore"
+                "Fletching",
+                "Ranged"
             ]
         },
-        "series": "Dorgeshuun, #4"
+        "series": "Mahjarrat, #5"
     },
     "Temple of the Eye": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "name": "Temple of the Eye",
         "release": "23 March 2022",
         "requirements": {
             "combat": false,
@@ -3672,53 +3406,304 @@
         },
         "series": "Order of Wizards, #3"
     },
-    "Beneath Cursed Sands": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "27 April 2022",
+    "The Ascent of Arceuus": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Ascent of Arceuus",
+        "release": "10 January 2019",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
-                "Contact!"
+                "Client of Kourend"
             ],
             "skills": [
-                "Agility",
-                "Crafting",
-                "Firemaking"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Agility"
-            ]
-        },
-        "series": "Kharidian, #4"
-    },
-    "Sleeping Giants": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "8 June 2022",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Smithing"
+                "Hunter"
             ]
         },
         "rewards": {
             "qp": 1,
             "skills": [
+                "Hunter",
+                "Runecraft"
+            ]
+        },
+        "series": "Great Kourend, #5"
+    },
+    "The Corsair Curse": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Corsair Curse",
+        "release": "7 December 2017",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": []
+        },
+        "series": ""
+    },
+    "The Depths of Despair": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Depths of Despair",
+        "release": "9 November 2017",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                "Agility",
+                "Farming"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Agility"
+            ]
+        },
+        "series": "Great Kourend, #4"
+    },
+    "The Dig Site": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Dig Site",
+        "release": "9 July 2003",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Herblore",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Herblore",
+                "Mining"
+            ]
+        },
+        "series": "Mahjarrat, #1"
+    },
+    "The Enchanted Key": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Enchanted Key",
+        "release": "22 November 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Making History"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
+        },
+        "series": ""
+    },
+    "The Eyes of Glouphrie": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Eyes of Glouphrie",
+        "release": "15 August 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "The Grand Tree"
+            ],
+            "skills": [
+                "Construction",
+                "Magic",
+                "Runecraft",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Construction",
+                "Magic",
+                "Runecraft",
+                "Woodcutting"
+            ]
+        },
+        "series": "Gnome, #2"
+    },
+    "The Feud": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Feud",
+        "release": "4 April 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "The Forsaken Tower": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Forsaken Tower",
+        "release": "10 January 2019",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                "Mining"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Mining",
                 "Smithing"
             ]
+        },
+        "series": "Great Kourend, #6"
+    },
+    "The Fremennik Exiles": {
+        "difficulty": "Master",
+        "length": "Medium",
+        "name": "The Fremennik Exiles",
+        "release": "26 September 2019",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Heroes' Quest",
+                "Lunar Diplomacy",
+                "Mountain Daughter",
+                "The Fremennik Isles"
+            ],
+            "skills": [
+                "Crafting",
+                "Fishing",
+                "Runecraft",
+                "Slayer",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Crafting",
+                "Runecraft",
+                "Slayer"
+            ]
+        },
+        "series": ""
+    },
+    "The Fremennik Isles": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "The Fremennik Isles",
+        "release": "6 February 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "The Fremennik Trials"
+            ],
+            "skills": [
+                "Construction",
+                "Crafting",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Construction",
+                "Crafting",
+                "Woodcutting"
+            ]
+        },
+        "series": "Fremennik, #2"
+    },
+    "The Fremennik Trials": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Fremennik Trials",
+        "release": "2 November 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Agility",
+                "Attack",
+                "Crafting",
+                "Defence",
+                "Fishing",
+                "Fletching",
+                "Hitpoints",
+                "Strength",
+                "Thieving",
+                "Woodcutting"
+            ]
+        },
+        "series": "Fremennik, #1"
+    },
+    "The Frozen Door": {
+        "difficulty": "Master",
+        "length": "Short",
+        "name": "The Frozen Door",
+        "release": "16 December 2021",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Desert Treasure I"
+            ],
+            "skills": [
+                "Agility",
+                "Hitpoints",
+                "Ranged",
+                "Smithing",
+                "Strength"
+            ]
+        },
+        "rewards": {
+            "qp": 0,
+            "skills": []
         },
         "series": ""
     },
     "The Garden of Death": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "name": "The Garden of Death",
         "release": "30 November 2022",
         "requirements": {
             "combat": false,
@@ -3736,279 +3721,18 @@
         },
         "series": "Twisted Tales"
     },
-    "Secrets of the North": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "11 January 2023",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Making Friends with My Arm",
-                "The General's Shadow",
-                "Devious Minds",
-                "Hazeel Cult"
-            ],
-            "skills": [
-                "Agility",
-                "Thieving",
-                "Hunter"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": [
-                "Agility",
-                "Thieving",
-                "Hunter"
-            ]
-        },
-        "series": "Mahjarrat, #11"
-    },
-    "Desert Treasure II - The Fallen Empire": {
-        "difficulty": "Grandmaster",
-        "length": "Very Long",
-        "release": "26 July 2023",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Desert Treasure I",
-                "Secrets of the North",
-                "Enakhra's Lament",
-                "Temple of the Eye",
-                "The Garden of Death",
-                "Below Ice Mountain",
-                "His Faithful Servants"
-            ],
-            "skills": [
-                "Firemaking",
-                "Magic",
-                "Thieving",
-                "Herblore",
-                "Runecraft",
-                "Construction"
-            ]
-        },
-        "rewards": {
-            "qp": 5,
-            "skills": []
-        },
-        "series": "Mahjarrat, #12"
-    },
-    "The Path of Glouphrie": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "13 September 2023",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "The Eyes of Glouphrie",
-                "Waterfall Quest",
-                "Tree Gnome Village"
-            ],
-            "skills": [
-                "Slayer",
-                "Strength",
-                "Thieving",
-                "Ranged",
-                "Agility",
-                "Fletching",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 2,
-            "skills": []
-        },
-        "series": "Gnome, #3"
-    },
-    "Alfred Grimhand's Barcrawl": {
-        "difficulty": "Novice",
-        "length": "Medium",
-        "release": "25 March 2002",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Architectural Alliance": {
-        "difficulty": "Experienced",
-        "length": "Long",
-        "release": "3 March 2016",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Mining",
-                "Farming",
-                "Fishing"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": "Great Kourend"
-    },
-    "Bear Your Soul": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "19 May 2016",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Agility"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": "Great Kourend"
-    },
-    "Curse of the Empty Lord": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "26 July 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Desert Treasure I",
-                "The Restless Ghost"
-            ],
-            "skills": [
-                "Thieving",
-                "Prayer"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": "Mahjarrat, #7"
-    },
-    "Daddy's Home": {
-        "difficulty": "Novice",
-        "length": "Short",
-        "release": "26 August 2020",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": [
-                "Construction"
-            ]
-        },
-        "series": ""
-    },
-    "The Enchanted Key": {
-        "difficulty": "Intermediate",
-        "length": "Medium",
-        "release": "22 November 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Making History"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Enter the Abyss": {
-        "difficulty": "Intermediate",
-        "length": "Very Short",
-        "release": "13 June 2005",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Rune Mysteries"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": [
-                "Runecraft"
-            ]
-        },
-        "series": "Order of Wizards, #2"
-    },
-    "Family Pest": {
-        "difficulty": "Intermediate",
-        "length": "Short",
-        "release": "1 September 2016",
-        "requirements": {
-            "combat": false,
-            "qp": 0,
-            "quests": [
-                "Family Crest"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "The Frozen Door": {
-        "difficulty": "Master",
-        "length": "Short",
-        "release": "16 December 2021",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Desert Treasure I"
-            ],
-            "skills": [
-                "Agility",
-                "Hitpoints",
-                "Ranged",
-                "Strength",
-                "Smithing"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
     "The General's Shadow": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "name": "The General's Shadow",
         "release": "12 February 2007",
         "requirements": {
             "combat": true,
             "qp": 0,
             "quests": [
                 "Curse of the Empty Lord",
-                "Fight Arena",
-                "Desert Treasure I"
+                "Desert Treasure I",
+                "Fight Arena"
             ],
             "skills": []
         },
@@ -4020,158 +3744,650 @@
         },
         "series": "Mahjarrat, #8"
     },
-    "His Faithful Servants": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "14 June 2023",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Priest in Peril"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": "Mahjarrat, #10"
-    },
-    "Hopespear's Will": {
-        "difficulty": "Master",
-        "length": "Short",
-        "release": "9 February 2022",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "The Restless Ghost",
-                "Desert Treasure I",
-                "Fairytale II - Cure a Queen",
-                "Land of the Goblins"
-            ],
-            "skills": [
-                "Prayer"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": [
-                "Prayer"
-            ]
-        },
-        "series": ""
-    },
-    "In Search of Knowledge": {
-        "difficulty": "Experienced",
+    "The Giant Dwarf": {
+        "difficulty": "Intermediate",
         "length": "Medium",
-        "release": "4 July 2019",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Into the Tombs": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "24 August 2022",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Beneath Cursed Sands"
-            ],
-            "skills": []
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": "Kharidian, #5"
-    },
-    "Lair of Tarn Razorlor": {
-        "difficulty": "Experienced",
-        "length": "Medium",
-        "release": "22 January 2007",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Haunted Mine"
-            ],
-            "skills": [
-                "Slayer"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": [
-                "Slayer"
-            ]
-        },
-        "series": ""
-    },
-    "Mage Arena I": {
-        "difficulty": "Experienced",
-        "length": "Short",
-        "release": "22 September 2003",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [],
-            "skills": [
-                "Magic"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Mage Arena II": {
-        "difficulty": "Master",
-        "length": "Medium",
-        "release": "23 November 2017",
-        "requirements": {
-            "combat": true,
-            "qp": 0,
-            "quests": [
-                "Mage Arena I"
-            ],
-            "skills": [
-                "Magic"
-            ]
-        },
-        "rewards": {
-            "qp": 0,
-            "skills": []
-        },
-        "series": ""
-    },
-    "Skippy and the Mogres": {
-        "difficulty": "Novice",
-        "length": "Very Short",
-        "release": "24 October 2005",
+        "name": "The Giant Dwarf",
+        "release": "31 May 2005",
         "requirements": {
             "combat": false,
             "qp": 0,
             "quests": [],
             "skills": [
-                "Cooking"
+                "Crafting",
+                "Firemaking",
+                "Magic",
+                "Thieving"
             ]
         },
         "rewards": {
+            "qp": 2,
+            "skills": [
+                "Crafting",
+                "Firemaking",
+                "Magic",
+                "Mining",
+                "Smithing",
+                "Thieving"
+            ]
+        },
+        "series": "Red Axe, #1"
+    },
+    "The Golem": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Golem",
+        "release": "11 April 2005",
+        "requirements": {
+            "combat": false,
             "qp": 0,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "The Grand Tree": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Grand Tree",
+        "release": "12 December 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Agility"
+            ]
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": [
+                "Agility",
+                "Attack",
+                "Magic"
+            ]
+        },
+        "series": "Gnome, #1"
+    },
+    "The Great Brain Robbery": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "The Great Brain Robbery",
+        "release": "6 March 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Cabin Fever",
+                "Creature of Fenkenstrain",
+                "RFD: Freeing Pirate Pete"
+            ],
+            "skills": [
+                "Construction",
+                "Crafting",
+                "Prayer"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Construction",
+                "Crafting",
+                "Prayer"
+            ]
+        },
+        "series": "Pirate, #3"
+    },
+    "The Hand in the Sand": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Hand in the Sand",
+        "release": "10 January 2006",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Crafting",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "The Knight's Sword": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Knight's Sword",
+        "release": "6 April 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Cooking",
+                "Mining",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Smithing"
+            ]
+        },
+        "series": ""
+    },
+    "The Lost Tribe": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "The Lost Tribe",
+        "release": "31 May 2005",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Goblin Diplomacy",
+                "Rune Mysteries"
+            ],
+            "skills": [
+                "Agility",
+                "Mining",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Mining"
+            ]
+        },
+        "series": "Dorgeshuun, #1"
+    },
+    "The Path of Glouphrie": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "The Path of Glouphrie",
+        "release": "13 September 2023",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "The Eyes of Glouphrie",
+                "Tree Gnome Village",
+                "Waterfall Quest"
+            ],
+            "skills": [
+                "Agility",
+                "Fletching",
+                "Ranged",
+                "Slayer",
+                "Smithing",
+                "Strength",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
             "skills": []
+        },
+        "series": "Gnome, #3"
+    },
+    "The Queen of Thieves": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "The Queen of Thieves",
+        "release": "9 November 2017",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Client of Kourend"
+            ],
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": "Great Kourend, #3"
+    },
+    "The Restless Ghost": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Short",
+        "name": "The Restless Ghost",
+        "release": "4 January 2001",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Prayer"
+            ]
+        },
+        "series": ""
+    },
+    "The Slug Menace": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Slug Menace",
+        "release": "20 September 2006",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Sea Slug",
+                "Wanted!"
+            ],
+            "skills": [
+                "Crafting",
+                "Runecraft",
+                "Slayer",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Crafting",
+                "Runecraft",
+                "Thieving"
+            ]
+        },
+        "series": "Temple Knight, #4"
+    },
+    "The Tourist Trap": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "The Tourist Trap",
+        "release": "14 April 2003",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Fletching",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": []
+        },
+        "series": ""
+    },
+    "Throne of Miscellania": {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "name": "Throne of Miscellania",
+        "release": "29 November 2004",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [
+                "Heroes' Quest",
+                "The Fremennik Trials"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Miscellania, #1"
+    },
+    "Tower of Life": {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "name": "Tower of Life",
+        "release": "19 February 2007",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Construction"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Construction",
+                "Crafting",
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "Tree Gnome Village": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Tree Gnome Village",
+        "release": "23 July 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Attack"
+            ]
+        },
+        "series": ""
+    },
+    "Tribal Totem": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Tribal Totem",
+        "release": "30 April 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Thieving"
+            ]
+        },
+        "series": ""
+    },
+    "Troll Romance": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Troll Romance",
+        "release": "5 January 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Troll Stronghold"
+            ],
+            "skills": [
+                "Agility",
+                "Woodcutting"
+            ]
+        },
+        "rewards": {
+            "qp": 2,
+            "skills": [
+                "Agility",
+                "Strength"
+            ]
+        },
+        "series": ""
+    },
+    "Troll Stronghold": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Troll Stronghold",
+        "release": "24 August 2004",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Death Plateau"
+            ],
+            "skills": [
+                "Agility"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Troll, #2"
+    },
+    "Underground Pass": {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "name": "Underground Pass",
+        "release": "3 March 2003",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Biohazard"
+            ],
+            "skills": [
+                "Ranged"
+            ]
+        },
+        "rewards": {
+            "qp": 5,
+            "skills": [
+                "Agility",
+                "Attack"
+            ]
+        },
+        "series": "Elf, #3"
+    },
+    "Vampyre Slayer": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Vampyre Slayer",
+        "release": "28 January 2001",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 3,
+            "skills": [
+                "Attack"
+            ]
+        },
+        "series": ""
+    },
+    "Wanted!": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Wanted!",
+        "release": "17 October 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 32,
+            "quests": [
+                "Enter the Abyss",
+                "Priest in Peril",
+                "Recruitment Drive",
+                "The Lost Tribe"
+            ],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Slayer"
+            ]
+        },
+        "series": "Temple Knight, #2"
+    },
+    "Watchtower": {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "name": "Watchtower",
+        "release": "7 May 2003",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": [
+                "Agility",
+                "Herblore",
+                "Magic",
+                "Mining",
+                "Thieving"
+            ]
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": [
+                "Magic"
+            ]
+        },
+        "series": ""
+    },
+    "Waterfall Quest": {
+        "active": false,
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Waterfall Quest",
+        "release": "24 September 2002",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Attack",
+                "Strength"
+            ]
+        },
+        "series": ""
+    },
+    "What Lies Below": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "What Lies Below",
+        "release": "27 March 2007",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Rune Mysteries"
+            ],
+            "skills": [
+                "Runecraft"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Defence",
+                "Runecraft"
+            ]
+        },
+        "series": ""
+    },
+    "Witch's House": {
+        "difficulty": "Intermediate",
+        "length": "Very Short",
+        "name": "Witch's House",
+        "release": "27 February 2002",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 4,
+            "skills": [
+                "Hitpoints"
+            ]
+        },
+        "series": ""
+    },
+    "Witch's Potion": {
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "Witch's Potion",
+        "release": "6 April 2001",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Magic"
+            ]
+        },
+        "series": ""
+    },
+    "X Marks the Spot": {
+        "active": false,
+        "difficulty": "Novice",
+        "length": "Very Short",
+        "name": "X Marks the Spot",
+        "release": "7 February 2019",
+        "requirements": {
+            "combat": false,
+            "qp": 0,
+            "quests": [],
+            "skills": []
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": []
+        },
+        "series": "Great Kourend, #1"
+    },
+    "Zogre Flesh Eaters": {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "name": "Zogre Flesh Eaters",
+        "release": "17 May 2005",
+        "requirements": {
+            "combat": true,
+            "qp": 0,
+            "quests": [
+                "Big Chompy Bird Hunting",
+                "Jungle Potion"
+            ],
+            "skills": [
+                "Herblore",
+                "Ranged",
+                "Smithing"
+            ]
+        },
+        "rewards": {
+            "qp": 1,
+            "skills": [
+                "Fletching",
+                "Herblore",
+                "Ranged"
+            ]
         },
         "series": ""
     }
