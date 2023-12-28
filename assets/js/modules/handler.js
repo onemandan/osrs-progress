@@ -1,7 +1,7 @@
 ---
 ---
 
-import { Achievements, Quests, Pets } from '{{ "assets/js/modules/sections.js" | relative_url }}';
+import { Achievements, Quests, Pets, Collections } from '{{ "assets/js/modules/sections.js" | relative_url }}';
 import { SkillsFactory, StoreFactory } from '{{ "assets/js/modules/factories.js" | relative_url }}';
 
 class Handler {
@@ -41,6 +41,10 @@ class Handler {
                 this.pets = new Pets(data, this.onPetsClicked.bind(this));
                 this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
                 break;
+            case this.sections.collections:
+                this.collections = new Collections(data, this.onCollectionsClicked.bind(this));
+                this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
+                break;
         }
     }
 
@@ -50,6 +54,7 @@ class Handler {
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
         this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
+        this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
     }
 
     onAcievementClicked(id) {
@@ -65,12 +70,19 @@ class Handler {
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
         this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
+        this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
     }
 
     onPetsClicked(id) {
         this.storage.toggleComplete('pets', id);
 
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
+    }
+
+    onCollectionsClicked(id, items) {
+        this.storage.updateCollections(id, items);
+
+        this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
     }
 }
 

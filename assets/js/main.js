@@ -12,6 +12,7 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
         [_handler.sections.achievements]: '{{ "assets/json/achievements.json" | relative_url }}',
         [_handler.sections.quests]: '{{ "assets/json/quests.json" | relative_url }}',
         [_handler.sections.pets]: '{{ "assets/json/pets.json" | relative_url }}',
+        [_handler.sections.collections]: '{{ "assets/json/collections.json" | relative_url }}'
     };
 
     //

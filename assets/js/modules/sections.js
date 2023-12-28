@@ -8,12 +8,6 @@ class Section {
             total: 0,
             complete: 0
         };
-
-        /*for(const key of Object.keys(this.data)) {
-            this.data[key].name = key;
-        }
-
-        console.log(this.data);*/
     }
 
     update(fUnlocked, fSort, fHtml, completed, selectors) {
@@ -44,7 +38,12 @@ class Section {
 
             //Add data item and update counts if unlocked
             if (fUnlocked(obj.requirements)) {
-                obj.active = completed.includes(obj[completedKey]);
+                if (completed.constructor === Array) {
+                    obj.active = completed.includes(obj[completedKey]);
+                } else if (completed.constructor === Object) {
+                    obj.active = obj[completedKey] in completed && obj.items.length - completed[obj[completedKey]].length === 0;
+                }
+                
                 available.push(obj);
                 
                 this.progress.complete += (+obj.active);
@@ -58,12 +57,13 @@ class Section {
     //onItemClick
     //Toggles item active status
     //@event - click event target
-    onItemClick(event) {
+    //@opts - additional options, default null
+    onItemClick(event, opts = null) {
         $(event.currentTarget).toggleClass('_active');
         $(event.currentTarget).toggleClass('_inactive');
 
         //Item click callback with item id
-        this.onClick($(event.currentTarget).find('._id').text());
+        this.onClick($(event.currentTarget).find('._id').text(), opts);
     }
 
     //updateProgress
@@ -128,7 +128,7 @@ class Achievements extends Section {
             const nodes = [];
 
             for (const obj of arr) {
-                nodes.push(this.template(obj.diary, obj.banner, obj.difficulty, obj.task, this.difficulty[obj.difficulty].colour, obj.active))
+                nodes.push(this.template(obj.diary, obj.img, obj.difficulty, obj.task, this.difficulty[obj.difficulty].colour, obj.active))
             }
 
             return nodes.join('');
@@ -141,12 +141,12 @@ class Achievements extends Section {
         return (+a.active) - (+b.active) || a.diary.localeCompare(b.diary) || this.difficulty[a.difficulty].compare - this.difficulty[b.difficulty].compare;
     }
 
-    template(diary, banner, difficulty, task, colour, active) {
+    template(diary, img, difficulty, task, colour, active) {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex flex-row justify-between items-center'>
                 <div class='flex flex-row items-center'>
-                    <img class='h-6 w-auto' src='${this.imagesURL}${banner.replaceAll(' ', '_')}.png' alt='${banner} icon'/>
+                    <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${img} icon'/>
                     <h3 class='text-2xl ms-3'>${diary}</h3>
                 </div>
                 
@@ -214,6 +214,7 @@ class Quests extends Section {
             return nodes.join('');
         }, completed, this.selectors);
 
+        //Update quest point count
         $(this.selectors.progress.questPoints).text(qp);
     }
 
@@ -239,7 +240,11 @@ class Quests extends Section {
         </div>`
     }
 
+    //getQuestPoints
+    //Obtains quest points based on the given @quest from @data
+    //@quest - name of the quest to obtain corresponding quest points
     getQuestPoints(quest) {
+        //Ensure that negative quest points are returned if it is currently active (incomplete)
         return this.data[quest].rewards.qp * ($(this.selectors.itemsInactive + `:contains(${quest})`).length > 0 ? 1 : -1);
     }
 }
@@ -288,7 +293,7 @@ class Pets extends Section {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex flex-row items-center'>
-                <img class='h-6 w-auto' src='${img}' alt='${pet} icon'/>
+                <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${pet} icon'/>
                 <h3 class='text-2xl ms-3 _id'>${pet}</h3>
             </div>
             <hr class='h-px my-2 bg-birch-800 border-0'>
@@ -297,8 +302,84 @@ class Pets extends Section {
     }
 }
 
-export { Achievements, Quests, Pets }
+//----------------------------
+// Collections
+//----------------------------
+class Collections extends Section {
+    constructor(data, onClick) {
+        super(data, onClick);
 
-    //updateProgress
-    //@Update calls the @super.Update function, which will call @this.updateProgress, overriding @super.updateProgress.  This allows further functionality
-    //while still being able to call @super.updateProgress
+        this.maxItemsDisplay = 5;
+
+        this.selectors = {
+            jsonKey: 'name',
+            wrapper: '#collections-wrapper',
+            items: '#collections-wrapper>div',
+            progress: {
+                bar: '#collections-bar',
+                total: '#collections-total',
+                complete: '#collections-complete',
+                incomplete: '#collections-incomplete'
+            }
+        };
+
+        this.compare = this.compare.bind(this);
+    }
+
+    update(fUnlocked, completed) {
+        const available = super.getAvailable(fUnlocked, this.compare, completed, this.selectors.jsonKey);
+        super.updateProgress(this.selectors.progress);
+
+        const nodes = [];
+
+        for (const obj of available) {
+            nodes.push(this.template(obj.name, obj.img, obj.active, obj.items, completed))
+        }
+
+        $(this.selectors.wrapper).html(nodes.join(''));
+        $(this.selectors.items).on('click', (event) => {
+            const id = $(event.currentTarget).find('._id').text();
+            const items = this.data[id].items;
+
+            super.onItemClick(event, items);
+        });
+    }
+
+    //compare
+    //Compares active status > collection name 
+    compare(a, b) {
+        return (+a.active) - (+b.active) || a.name.localeCompare(b.name);
+    }
+
+    template(collection, img, active, items, completed) {
+        const nodes = [];
+        let additional = '';
+        
+        for (let i = 0; i < Math.min(this.maxItemsDisplay, items.length); i++) {
+            const colour = collection in completed && completed[collection].includes(items[i]) ? 'text-green-400' : '';
+            nodes.push(`<li class='text-md p-2 rounded-xl bg-birch-950 ${colour}'>${items[i]}</li>`);
+        }
+
+        if (items.length > this.maxItemsDisplay) {
+            const remaining = items.length - this.maxItemsDisplay;
+            additional = `and ${remaining} other${remaining > 1 ? 's' : ''}...`;
+        }
+        
+        return `
+        <div class='flex flex-col mb-5 break-inside-avoid-column rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
+            <div class='flex flex-row items-center'>
+                <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${collection} icon'/>
+                <h3 class='text-2xl ms-3 _id'>${collection}</h3>
+            </div>
+            <hr class='h-px my-2 bg-birch-800 border-0'>
+            <ul class='flex flex-wrap my-2 list-none gap-2'>
+                ${nodes.join('')}
+            </ul>
+            <div><span class='text-md'>${additional}</span></div>
+            <hr class='h-px my-2 bg-birch-800 border-0'>
+            <span class='text-status text-md'></span>
+        </div>`
+    }
+}
+
+export { Achievements, Quests, Pets, Collections }

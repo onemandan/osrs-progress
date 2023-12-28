@@ -92,6 +92,12 @@ class Store {
         localStorage.setObject(this.id, this.obj);
     }
 
+    updateCollections(id, items) {
+        this.obj.complete.collections[id] = items;
+
+        localStorage.setObject(this.id, this.obj);
+    }
+
     //updateQuestPoints
     //Updates @obj quest points count
     //@qp - amount of quest points to update @obj with
