@@ -3,10 +3,13 @@
 <section class='container mx-auto px-5'>
     <div class='flex flex-row py-5 justify-between items-center sticky top-0 z-10 bg-birch-800'>
         <div class='flex flex-row items-center'>
-            <img class='me-2' src='{{ url | relative_url }}' height='32px' width='32px' alt='{{ include.title }} icon'>
+            <img class='me-3' src='{{ url | relative_url }}' height='32px' width='32px' alt='{{ include.title }} icon'>
             <h2 class='font-medium text-3xl'>{{ include.title }}</h2>
         </div>
-        <img id='{{ include.title | downcase }}-visible' class='cursor-pointer _visible' src='{{ "assets/images/svg/show.svg" | relative_url }}' height='32px' width='32px' alt='Show/Hide icon'/>
+        <div class='flex flex-row items-center'>
+            <h3 class='font-medium text-2xl me-3'><span class='{{ include.title | downcase }}-complete'></span>/<span class='{{ include.title | downcase }}-total'></span></h3>
+            <img id='{{ include.title | downcase }}-visible' class='cursor-pointer _visible' src='{{ "assets/images/svg/show.svg" | relative_url }}' height='32px' width='32px' alt='Show/Hide icon'/>
+        </div>
     </div>
     <div id='{{ include.title | downcase }}-wrapper' class='{{ include.wrapper | default: "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5" }} px-1 pt-1 pb-5'>
 

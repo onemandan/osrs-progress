@@ -19,8 +19,8 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
                 visible: '#achievements-visible',
                 progress: {
                     bar: '#achievements-bar',
-                    total: '#achievements-total',
-                    complete: '#achievements-complete',
+                    total: '.achievements-total',
+                    complete: '.achievements-complete',
                     incomplete: '#achievements-incomplete'
                 }
             }
@@ -35,8 +35,8 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
                 visible: '#quests-visible',
                 progress: {
                     bar: '#quests-bar',
-                    total: '#quests-total',
-                    complete: '#quests-complete',
+                    total: '.quests-total',
+                    complete: '.quests-complete',
                     incomplete: '#quests-incomplete',
                     questPoints: '#quests-progress'
                 }
@@ -52,8 +52,8 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
                 visible: '#pets-visible',
                 progress: {
                     bar: '#pets-bar',
-                    total: '#pets-total',
-                    complete: '#pets-complete',
+                    total: '.pets-total',
+                    complete: '.pets-complete',
                     incomplete: '#pets-incomplete'
                 }
             }
@@ -68,8 +68,8 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
                 visible: '#collections-visible',
                 progress: {
                     bar: '#collections-bar',
-                    total: '#collections-total',
-                    complete: '#collections-complete',
+                    total: '.collections-total',
+                    complete: '.collections-complete',
                     incomplete: '#collections-incomplete'
                 }
             }
