@@ -14,10 +14,16 @@ class Store {
             qp: 0,
             complete: {
                 skills: [],
-                quests: [],
                 achievements: [],
+                quests: [],
                 pets: [],
                 collections: {},
+            },
+            visible: {
+                achievements: true,
+                quests: true,
+                pets: true,
+                collections: true,
             }
         }
 
@@ -88,6 +94,15 @@ class Store {
         } else {
             arr.push(item);
         }
+
+        localStorage.setObject(this.id, this.obj);
+    }
+
+    //toggleVisible
+    //Update the visible status
+    //@type - section visibility to update
+    toggleVisible(type) {
+        this.obj.visible[type] = !this.obj.visible[type];
 
         localStorage.setObject(this.id, this.obj);
     }

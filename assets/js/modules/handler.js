@@ -30,19 +30,19 @@ class Handler {
     initSection(section, data, selectors) {
         switch(section) {
             case this.sections.achievements:
-                this.achievements = new Achievements(data, selectors, this.onAcievementsClicked.bind(this), this.onAchievementsVisibleClicked.bind(this));
+                this.achievements = new Achievements(data, selectors, this.onAcievementsClicked.bind(this), this.onAchievementsVisibleClicked.bind(this), this.storage.obj.visible.achievements);
                 this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
                 break;
             case this.sections.quests:
-                this.quests = new Quests(data, selectors, this.onQuestsClicked.bind(this), this.onQuestsVisibleClicked.bind(this));
+                this.quests = new Quests(data, selectors, this.onQuestsClicked.bind(this), this.onQuestsVisibleClicked.bind(this), this.storage.obj.visible.quests);
                 this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
                 break;
             case this.sections.pets:
-                this.pets = new Pets(data, selectors, this.onPetsClicked.bind(this), this.onPetsVisibleClicked.bind(this));
+                this.pets = new Pets(data, selectors, this.onPetsClicked.bind(this), this.onPetsVisibleClicked.bind(this), this.storage.obj.visible.pets);
                 this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
                 break;
             case this.sections.collections:
-                this.collections = new Collections(data, selectors, this.onCollectionsClicked.bind(this), this.onCollectionsVisibleClicked.bind(this));
+                this.collections = new Collections(data, selectors, this.onCollectionsClicked.bind(this), this.onCollectionsVisibleClicked.bind(this), this.storage.obj.visible.collections);
                 this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
                 break;
         }
@@ -52,7 +52,7 @@ class Handler {
     // On item click events
     //----------------------------
     onSkillClicked(id) {
-        this.storage.toggleComplete('skills', id);
+        this.storage.toggleComplete(this.sections.skills, id);
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
         this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
@@ -60,12 +60,12 @@ class Handler {
     }
 
     onAcievementsClicked(id) {
-        this.storage.toggleComplete('achievements', id);
+        this.storage.toggleComplete(this.sections.achievements, id);
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
     }
 
     onQuestsClicked(id) {
-        this.storage.toggleComplete('quests', id);
+        this.storage.toggleComplete(this.sections.quests, id);
         this.storage.updateQuestPoints(this.quests.getQuestPoints(id));
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
         this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
@@ -74,7 +74,7 @@ class Handler {
     }
 
     onPetsClicked(id) {
-        this.storage.toggleComplete('pets', id);
+        this.storage.toggleComplete(this.sections.pets, id);
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
     }
 
@@ -87,18 +87,22 @@ class Handler {
     // On visible click events
     //----------------------------
     onAchievementsVisibleClicked() {
+        this.storage.toggleVisible(this.sections.achievements);
         this.achievements.update(this.storage.isUnlocked, this.storage.obj.complete.achievements);
     }
 
     onQuestsVisibleClicked() {
+        this.storage.toggleVisible(this.sections.quests);
         this.quests.update(this.storage.isUnlocked, this.storage.obj.complete.quests, this.storage.obj.qp);
     }
 
     onPetsVisibleClicked() {
+        this.storage.toggleVisible(this.sections.pets);
         this.pets.update(this.storage.isUnlocked, this.storage.obj.complete.pets);
     }
 
     onCollectionsVisibleClicked() {
+        this.storage.toggleVisible(this.sections.collections);
         this.collections.update(this.storage.isUnlocked, this.storage.obj.complete.collections);
     }
 }

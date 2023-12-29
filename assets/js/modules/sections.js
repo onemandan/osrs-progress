@@ -2,7 +2,7 @@
 ---
 
 class Section {
-    constructor(data, selectors, onClick, onVisible) {
+    constructor(data, selectors, onClick, onVisible, visible) {
         this.imagesURL = 'https://oldschool.runescape.wiki/images/';
         this.showPath = '{{ "assets/images/svg/show.svg" | relative_url }}';
         this.hidePath = '{{ "assets/images/svg/hide.svg" | relative_url }}';
@@ -16,6 +16,12 @@ class Section {
             total: 0,
             complete: 0
         };
+
+        //Set initial state of visible button
+        if (!visible) {
+            $(this.selectors.visible).removeClass('_visible');
+            $(this.selectors.visible).attr("src", this.hidePath);
+        }
 
         $(this.selectors.visible).on('click', this.onVisibleClick.bind(this));
     }
@@ -112,8 +118,8 @@ class Section {
 // Achievements
 //----------------------------
 class Achievements extends Section {
-    constructor(data, selectors, onClick, onVisible) {
-        super(data, selectors, onClick, onVisible);
+    constructor(data, selectors, onClick, onVisible, visible) {
+        super(data, selectors, onClick, onVisible, visible);
 
         //Provides colours and sort function comparison values based on difficulty
         this.difficulty = {
@@ -181,8 +187,8 @@ class Achievements extends Section {
 // Quests
 //----------------------------
 class Quests extends Section {
-    constructor(data, selectors, onClick, onVisible) {
-        super(data, selectors, onClick, onVisible);
+    constructor(data, selectors, onClick, onVisible, visible) {
+        super(data, selectors, onClick, onVisible, visible);
 
         //As quests cannot be started until all relevant skills are unlocked, treat quest skill rewards as requirements
         for(const key of Object.keys(this.data)) {
@@ -258,8 +264,8 @@ class Quests extends Section {
 // Pets
 //----------------------------
 class Pets extends Section {
-    constructor(data, selectors, onClick, onVisible) {
-        super(data, selectors, onClick, onVisible);
+    constructor(data, selectors, onClick, onVisible, visible) {
+        super(data, selectors, onClick, onVisible, visible);
 
         this.compare = this.compare.bind(this);
     }
@@ -301,8 +307,8 @@ class Pets extends Section {
 // Collections
 //----------------------------
 class Collections extends Section {
-    constructor(data, selectors, onClick, onVisible) {
-        super(data, selectors, onClick, onVisible);
+    constructor(data, selectors, onClick, onVisible, visible) {
+        super(data, selectors, onClick, onVisible, visible);
 
         this.maxItemsDisplay = 5;
         this.dialog = $(this.selectors.dialog.modal)[0];
