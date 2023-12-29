@@ -1,6 +1,7 @@
 {
     "Agility-01": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Climb over the western Falador wall",
         "requirements": {
@@ -13,6 +14,7 @@
     },
     "Agility-02": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Complete a lap of the Draynor Village Rooftop Course",
         "requirements": {
@@ -25,6 +27,7 @@
     },
     "Agility-03": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Use the rope swing to travel to the Moss Giant Island north-west of Karamja",
         "requirements": {
@@ -37,6 +40,7 @@
     },
     "Agility-04": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Cross the lava using the stepping stones within Brimhaven Dungeon",
         "requirements": {
@@ -50,6 +54,7 @@
     },
     "Agility-05": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Jump over the fence south of Varrock",
         "requirements": {
@@ -62,6 +67,7 @@
     },
     "Agility-06": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Explore Cairn Island to the west of Karamja",
         "requirements": {
@@ -74,6 +80,7 @@
     },
     "Agility-07": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Kill an Earth warrior in the Wilderness beneath Edgeville",
         "requirements": {
@@ -86,6 +93,7 @@
     },
     "Agility-08": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Cross the Coal Trucks log balance",
         "requirements": {
@@ -98,6 +106,7 @@
     },
     "Agility-09": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Complete a lap of the Al Kharid Rooftop Course",
         "requirements": {
@@ -110,6 +119,7 @@
     },
     "Agility-10": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Climb to the summit of the Agility Pyramid",
         "requirements": {
@@ -122,6 +132,7 @@
     },
     "Agility-11": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Complete a lap of the Varrock Rooftop Course",
         "requirements": {
@@ -134,6 +145,7 @@
     },
     "Agility-12": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Complete a lap of the Barbarian Agility Course",
         "requirements": {
@@ -148,6 +160,7 @@
     },
     "Agility-13": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Take the Agility shortcut from the Grand Tree to Otto's Grotto",
         "requirements": {
@@ -162,6 +175,7 @@
     },
     "Agility-14": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Complete a lap of the Canifis Rooftop Agility Course",
         "requirements": {
@@ -176,6 +190,7 @@
     },
     "Agility-15": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Squeeze through the crevice in the Dwarven Mines",
         "requirements": {
@@ -188,6 +203,7 @@
     },
     "Agility-16": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Catch a Leaping sturgeon",
         "requirements": {
@@ -202,6 +218,7 @@
     },
     "Agility-17": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Squeeze past the jutting wall on your way to the Cosmic Altar",
         "requirements": {
@@ -216,6 +233,7 @@
     },
     "Agility-18": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Complete a lap of the Ape Atoll Agility Course",
         "requirements": {
@@ -230,6 +248,7 @@
     },
     "Agility-19": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use the boulder leap shortcut in the dense essence mine",
         "requirements": {
@@ -242,6 +261,7 @@
     },
     "Agility-20": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Complete a lap of the Falador Rooftop Agility Course",
         "requirements": {
@@ -254,6 +274,7 @@
     },
     "Agility-21": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Deathwing in the dungeon under the Kharazi Jungle",
         "requirements": {
@@ -272,6 +293,7 @@
     },
     "Agility-22": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Kill an Elf with a Crystal bow",
         "requirements": {
@@ -287,6 +309,7 @@
     },
     "Agility-23": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Squeeze through the obstacle pipe in Edgeville Dungeon",
         "requirements": {
@@ -299,6 +322,7 @@
     },
     "Agility-24": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Complete a lap of the Wilderness Agility Course",
         "requirements": {
@@ -311,6 +335,7 @@
     },
     "Agility-25": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Complete a lap of the Seers' Village Rooftop Course",
         "requirements": {
@@ -323,6 +348,7 @@
     },
     "Agility-26": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Mix a Stamina mix on top of the Seers' Village bank",
         "requirements": {
@@ -336,6 +362,7 @@
     },
     "Agility-27": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Enter the Wilderness God Wars Dungeon",
         "requirements": {
@@ -348,6 +375,7 @@
     },
     "Agility-28": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Slay a Spiritual mage within the Wilderness God Wars Dungeon",
         "requirements": {
@@ -361,6 +389,7 @@
     },
     "Agility-29": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Take the Agility shortcut from Trollheim into the Wilderness",
         "requirements": {
@@ -375,6 +404,7 @@
     },
     "Agility-30": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Use the shortcut to get to the bridge over the Salve",
         "requirements": {
@@ -389,6 +419,7 @@
     },
     "Agility-31": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Pickpocket Movario on the Dorgesh-Kaan Agility Course",
         "requirements": {
@@ -403,6 +434,7 @@
     },
     "Agility-32": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Complete a lap of the Pollnivneach Rooftop Course",
         "requirements": {
@@ -415,6 +447,7 @@
     },
     "Agility-33": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Climb the advanced spike chain within the Slayer Tower",
         "requirements": {
@@ -429,6 +462,7 @@
     },
     "Agility-34": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Elite",
         "task": "Complete a lap of the Rellekka Rooftop Course",
         "requirements": {
@@ -441,6 +475,7 @@
     },
     "Agility-35": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Jump over the strange floor in Taverley Dungeon",
         "requirements": {
@@ -453,6 +488,7 @@
     },
     "Agility-36": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Use the Elven Overpass advanced cliffside shortcut",
         "requirements": {
@@ -467,6 +503,7 @@
     },
     "Agility-37": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Complete a lap of Ardougne's Rooftop Agility Course",
         "requirements": {
@@ -479,6 +516,7 @@
     },
     "Attack-01": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Enter the Warriors' Guild",
         "requirements": {
@@ -492,6 +530,7 @@
     },
     "Attack-02": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Defeat a Locust Rider with Keris",
         "requirements": {
@@ -506,6 +545,7 @@
     },
     "Attack-03": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Equip Iban's upgraded staff or upgrade an Iban staff",
         "requirements": {
@@ -521,6 +561,7 @@
     },
     "Attack-04": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Loot the Barrows chest while wearing any complete Barrows set",
         "requirements": {
@@ -536,6 +577,7 @@
     },
     "Construction-01": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Find out what your family crest is from Sir Renitee",
         "requirements": {
@@ -548,6 +590,7 @@
     },
     "Construction-02": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Change your family crest to the Saradomin symbol",
         "requirements": {
@@ -561,6 +604,7 @@
     },
     "Construction-03": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Teleport to Pollnivneach with a redirected Teleport to House tablet",
         "requirements": {
@@ -573,6 +617,7 @@
     },
     "Construction-04": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Enter your player-owned house from Hosidius",
         "requirements": {
@@ -585,6 +630,7 @@
     },
     "Construction-05": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Pick up your Pet rock from your POH Menagerie",
         "requirements": {
@@ -599,6 +645,7 @@
     },
     "Construction-06": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Enter your POH from Yanille",
         "requirements": {
@@ -611,6 +658,7 @@
     },
     "Construction-07": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Have the Seers' Estate agent decorate your house with Fancy Stone",
         "requirements": {
@@ -623,6 +671,7 @@
     },
     "Construction-08": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Enter the Kharyrll portal in your POH",
         "requirements": {
@@ -639,6 +688,7 @@
     },
     "Construction-09": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Have the Varrock Estate agent decorate your house with Fancy Stone",
         "requirements": {
@@ -651,6 +701,7 @@
     },
     "Construction-10": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Build an Isafdar painting in your POH Quest Hall",
         "requirements": {
@@ -665,6 +716,7 @@
     },
     "Construction-11": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Speak to the Kq head in your POH",
         "requirements": {
@@ -677,6 +729,7 @@
     },
     "Cooking-01": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Cook a Thin snail on the Port Phasmatys range",
         "requirements": {
@@ -692,6 +745,7 @@
     },
     "Cooking-02": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Cook a Spider on a stick",
         "requirements": {
@@ -704,6 +758,7 @@
     },
     "Cooking-03": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Cook a Karambwan thoroughly",
         "requirements": {
@@ -718,6 +773,7 @@
     },
     "Cooking-04": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Complete a game of Trouble Brewing",
         "requirements": {
@@ -733,6 +789,7 @@
     },
     "Cooking-05": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Make a Chocolate bomb at the Grand Tree",
         "requirements": {
@@ -745,6 +802,7 @@
     },
     "Cooking-06": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Catch and cook a Bass in Catherby",
         "requirements": {
@@ -758,6 +816,7 @@
     },
     "Cooking-07": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Catch and cook a Monkfish in Piscatoris",
         "requirements": {
@@ -773,6 +832,7 @@
     },
     "Cooking-08": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Fish and cook 5 Sharks in Catherby using the Cooking gauntlets",
         "requirements": {
@@ -788,6 +848,7 @@
     },
     "Cooking-09": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Catch an anglerfish and cook it whilst in Great Kourend",
         "requirements": {
@@ -801,6 +862,7 @@
     },
     "Cooking-10": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Bake a Wild pie at the Nardah clay oven",
         "requirements": {
@@ -813,6 +875,7 @@
     },
     "Cooking-11": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Fish and cook a Dark crab in the Resource Area",
         "requirements": {
@@ -826,6 +889,7 @@
     },
     "Cooking-12": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Catch a Manta ray in the Fishing Trawler and cook it in Port Khazard",
         "requirements": {
@@ -839,6 +903,7 @@
     },
     "Cooking-13": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Elite",
         "task": "Bake a Summer pie in the Cooking Guild",
         "requirements": {
@@ -851,6 +916,7 @@
     },
     "Crafting-01": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Spin a Bowl on the pottery wheel and fire in the oven in Barbarian Village",
         "requirements": {
@@ -863,6 +929,7 @@
     },
     "Crafting-02": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Create a Yew longbow from scratch around Seers' Village",
         "requirements": {
@@ -877,6 +944,7 @@
     },
     "Crafting-03": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Make a Rune crossbow yourself from scratch within Witchaven or Yanille",
         "requirements": {
@@ -891,6 +959,7 @@
     },
     "Crafting-04": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Craft any Snelm from scratch in Morytania",
         "requirements": {
@@ -905,6 +974,7 @@
     },
     "Crafting-05": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Craft a Tiara from scratch in Rellekka",
         "requirements": {
@@ -919,6 +989,7 @@
     },
     "Crafting-06": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Repair a crane within Port Piscarilius",
         "requirements": {
@@ -931,6 +1002,7 @@
     },
     "Crafting-07": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Craft a Fruit basket on the Falador farm loom",
         "requirements": {
@@ -943,6 +1015,7 @@
     },
     "Crafting-08": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Craft a Coif in the Lumbridge cow pen (eastern cows)",
         "requirements": {
@@ -955,6 +1028,7 @@
     },
     "Crafting-09": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Craft one or more blood runes from Dark essence fragments",
         "requirements": {
@@ -969,6 +1043,7 @@
     },
     "Crafting-10": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Gold ore at the Crafting Guild",
         "requirements": {
@@ -982,6 +1057,7 @@
     },
     "Crafting-11": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Claim buckets of sand from Bert in Yanille",
         "requirements": {
@@ -996,6 +1072,7 @@
     },
     "Crafting-12": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Craft, string, and enchant an Amulet of power in Lumbridge",
         "requirements": {
@@ -1009,6 +1086,7 @@
     },
     "Crafting-13": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Elite",
         "task": "Craft a Dragonstone amulet in the Neitiznot furnace",
         "requirements": {
@@ -1023,6 +1101,7 @@
     },
     "Crafting-14": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Craft a Black dragonhide body in Canifis bank",
         "requirements": {
@@ -1037,6 +1116,7 @@
     },
     "Crafting-15": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Construct a pyre ship from Magic logs",
         "requirements": {
@@ -1050,6 +1130,7 @@
     },
     "Defence-01": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Slay a Dust devil in the desert cave with a Slayer helmet equipped",
         "requirements": {
@@ -1064,6 +1145,7 @@
     },
     "Defence-02": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour",
         "requirements": {
@@ -1079,6 +1161,7 @@
     },
     "Defence-03": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Recharge your prayer in Port Sarim church while wearing full Proselyte",
         "requirements": {
@@ -1093,6 +1176,7 @@
     },
     "Defence-04": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Equip a Dwarven helmet within the Dwarven mines",
         "requirements": {
@@ -1107,6 +1191,7 @@
     },
     "Defence-05": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Purchase and equip a Granite body from Barbarian Assault",
         "requirements": {
@@ -1120,6 +1205,7 @@
     },
     "Defence-06": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Enter the Seers' Village courthouse with Piety turned on",
         "requirements": {
@@ -1135,6 +1221,7 @@
     },
     "Defence-07": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Pray at the Altar of Nature with Piety activated ",
         "requirements": {
@@ -1151,6 +1238,7 @@
     },
     "Farming-01": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Plant Jute seeds in the farming patch north of McGrubor's Wood",
         "requirements": {
@@ -1163,6 +1251,7 @@
     },
     "Farming-02": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Place a Scarecrow in the Falador farm patch",
         "requirements": {
@@ -1175,6 +1264,7 @@
     },
     "Farming-03": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Place a Scarecrow in the Morytania flower patch",
         "requirements": {
@@ -1189,6 +1279,7 @@
     },
     "Farming-04": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Pick some Limpwurt root from the farming patch in Catherby",
         "requirements": {
@@ -1201,6 +1292,7 @@
     },
     "Farming-05": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Grow a healthy Fruit tree in the patch near Brimhaven",
         "requirements": {
@@ -1213,6 +1305,7 @@
     },
     "Farming-06": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Harvest some Strawberries from the Ardougne farming patch",
         "requirements": {
@@ -1225,6 +1318,7 @@
     },
     "Farming-07": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Enter the Farming Guild",
         "requirements": {
@@ -1237,6 +1331,7 @@
     },
     "Farming-08": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Harvest some Watermelon from the allotment patch on Harmony Island",
         "requirements": {
@@ -1251,6 +1346,7 @@
     },
     "Farming-09": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Harvest some Bittercap mushrooms from the patch in Canifis",
         "requirements": {
@@ -1265,6 +1361,7 @@
     },
     "Farming-10": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Pick some Belladonna from the farming patch at Draynor Manor",
         "requirements": {
@@ -1277,6 +1374,7 @@
     },
     "Farming-11": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Collect at least 2 Yew roots from the tree patch in Varrock Palace",
         "requirements": {
@@ -1290,6 +1388,7 @@
     },
     "Farming-12": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Check the health of a Palm tree near Tree Gnome Village",
         "requirements": {
@@ -1302,6 +1401,7 @@
     },
     "Farming-13": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Elite",
         "task": "Check the health of a Palm tree in Brimhaven",
         "requirements": {
@@ -1314,6 +1414,7 @@
     },
     "Farming-14": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Check the health of your Palm tree in Lletya",
         "requirements": {
@@ -1328,6 +1429,7 @@
     },
     "Farming-15": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Pick some Poison ivy berries from the patch south of East Ardougne",
         "requirements": {
@@ -1340,6 +1442,7 @@
     },
     "Farming-16": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Elite",
         "task": "Check the health of your Calquat tree patch",
         "requirements": {
@@ -1352,6 +1455,7 @@
     },
     "Farming-17": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Plant some Logavano seeds at the Tithe Farm",
         "requirements": {
@@ -1364,6 +1468,7 @@
     },
     "Farming-18": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Have Prissy Scilla protect your Magic tree",
         "requirements": {
@@ -1376,6 +1481,7 @@
     },
     "Farming-19": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Pick some Dwarf weed from the herb patch at Catherby",
         "requirements": {
@@ -1388,6 +1494,7 @@
     },
     "Farming-20": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Pick some Torstol from the patch north of East Ardougne",
         "requirements": {
@@ -1400,6 +1507,7 @@
     },
     "Farming-21": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Create your own battlestaff from scratch within the Farming Guild",
         "requirements": {
@@ -1413,6 +1521,7 @@
     },
     "Farming-22": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Find at least 3 Magic roots at once when digging up your Magic tree in Falador",
         "requirements": {
@@ -1426,6 +1535,7 @@
     },
     "Firemaking-01": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Chop and burn some Oak logs in the Fremennik Province",
         "requirements": {
@@ -1439,6 +1549,7 @@
     },
     "Firemaking-02": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Chop and burn some Oak logs in Lumbridge",
         "requirements": {
@@ -1452,6 +1563,7 @@
     },
     "Firemaking-03": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Chop and burn some Willow logs in Taverley",
         "requirements": {
@@ -1465,6 +1577,7 @@
     },
     "Firemaking-04": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Chop and burn some Teak logs on Ape Atoll",
         "requirements": {
@@ -1480,6 +1593,7 @@
     },
     "Firemaking-05": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Use the balloon to travel from Varrock",
         "requirements": {
@@ -1494,6 +1608,7 @@
     },
     "Firemaking-06": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Light a Bullseye lantern at the Chemist's in Rimmington",
         "requirements": {
@@ -1506,6 +1621,7 @@
     },
     "Firemaking-07": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Travel to Castle Wars by hot air balloon",
         "requirements": {
@@ -1520,6 +1636,7 @@
     },
     "Firemaking-08": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Subdue the Wintertodt",
         "requirements": {
@@ -1532,6 +1649,7 @@
     },
     "Firemaking-09": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Chop and burn some Mahogany logs on Mos Le'Harmless",
         "requirements": {
@@ -1548,6 +1666,7 @@
     },
     "Firemaking-10": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Chop and burn some Mahogany logs on Ape Atoll",
         "requirements": {
@@ -1563,6 +1682,7 @@
     },
     "Firemaking-11": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Burn some Yew logs on the Nardah Mayor's balcony ",
         "requirements": {
@@ -1575,6 +1695,7 @@
     },
     "Firemaking-12": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Chop some Yew logs in Varrock and burn them at the top of the Varrock church",
         "requirements": {
@@ -1588,6 +1709,7 @@
     },
     "Firemaking-13": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Burn some Maple logs with a bow in Seers' Village",
         "requirements": {
@@ -1600,6 +1722,7 @@
     },
     "Firemaking-14": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Light your Mining helmet in the Lumbridge Castle basement",
         "requirements": {
@@ -1614,6 +1737,7 @@
     },
     "Firemaking-15": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Cut and burn some Magic logs in the Resource Area",
         "requirements": {
@@ -1627,6 +1751,7 @@
     },
     "Firemaking-16": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Cremate any Shade remains on a Magic pyre",
         "requirements": {
@@ -1642,6 +1767,7 @@
     },
     "Firemaking-17": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Construct a pyre ship from Magic logs",
         "requirements": {
@@ -1655,6 +1781,7 @@
     },
     "Fishing-01": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Catch some Anchovies in Al-Kharid",
         "requirements": {
@@ -1667,6 +1794,7 @@
     },
     "Fishing-02": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Go out fishing on the Fishing Trawler",
         "requirements": {
@@ -1679,6 +1807,7 @@
     },
     "Fishing-03": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Catch a Mackerel at Catherby",
         "requirements": {
@@ -1691,6 +1820,7 @@
     },
     "Fishing-04": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Fish a Trout from the River Molch",
         "requirements": {
@@ -1703,6 +1833,7 @@
     },
     "Fishing-05": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Catch some Trout in the River Lum at Barbarian Village",
         "requirements": {
@@ -1715,6 +1846,7 @@
     },
     "Fishing-06": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Catch some Salmon in Lumbridge",
         "requirements": {
@@ -1727,6 +1859,7 @@
     },
     "Fishing-07": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Catch a Bluegill on Lake Molch",
         "requirements": {
@@ -1740,6 +1873,7 @@
     },
     "Fishing-08": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Fish some Bass on Ape Atoll",
         "requirements": {
@@ -1754,6 +1888,7 @@
     },
     "Fishing-09": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Fish some Raw lava eel in the Wilderness",
         "requirements": {
@@ -1768,6 +1903,7 @@
     },
     "Fishing-10": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Catch a Karambwan",
         "requirements": {
@@ -1782,6 +1918,7 @@
     },
     "Fishing-11": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Fish and cook 5 Sharks in Catherby using the Cooking gauntlets",
         "requirements": {
@@ -1797,6 +1934,7 @@
     },
     "Fishing-12": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Catch a Shark in Burgh de Rott with your bare hands",
         "requirements": {
@@ -1812,6 +1950,7 @@
     },
     "Fletching-01": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Fletch an Oak shortbow in the Gnome Stronghold",
         "requirements": {
@@ -1824,6 +1963,7 @@
     },
     "Fletching-02": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "String a Maple shortbow in Seers' Village bank",
         "requirements": {
@@ -1836,6 +1976,7 @@
     },
     "Fletching-03": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Elite",
         "task": "Smith and fletch 10 Rune darts within Varrock",
         "requirements": {
@@ -1851,6 +1992,7 @@
     },
     "Fletching-04": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Fletch a Magic longbow in the Elven lands",
         "requirements": {
@@ -1865,6 +2007,7 @@
     },
     "Fletching-05": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Fletch some Dragon darts at the Bedabin Camp",
         "requirements": {
@@ -1879,6 +2022,7 @@
     },
     "Herblore-01": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Create a strength potion in the The Deeper Lode pub",
         "requirements": {
@@ -1891,6 +2035,7 @@
     },
     "Herblore-02": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Mix a Guthix balance potion while in Morytania",
         "requirements": {
@@ -1906,6 +2051,7 @@
     },
     "Herblore-03": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Create a Combat potion in the Desert",
         "requirements": {
@@ -1918,6 +2064,7 @@
     },
     "Herblore-04": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Create a Superantipoison potion from scratch in the Seers'/Catherby area",
         "requirements": {
@@ -1930,6 +2077,7 @@
     },
     "Herblore-05": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Mix a Super defence potion in the Fremennik Province",
         "requirements": {
@@ -1942,6 +2090,7 @@
     },
     "Herblore-06": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Mix a Saradomin brew in Falador east bank",
         "requirements": {
@@ -1954,6 +2103,7 @@
     },
     "Herblore-07": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Elite",
         "task": "Create an Anti-venom potion whilst standing in the Horseshoe mine",
         "requirements": {
@@ -1966,6 +2116,7 @@
     },
     "Herblore-08": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Elite",
         "task": "Create a Super combat potion in Varrock west bank",
         "requirements": {
@@ -1978,6 +2129,7 @@
     },
     "Hitpoints-01": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Elite",
         "task": "Kill the generals of Armadyl, Bandos, Saradomin, and Zamorak in the God Wars Dungeon",
         "requirements": {
@@ -1995,6 +2147,7 @@
     },
     "Hunter-01": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Catch a Golden warbler",
         "requirements": {
@@ -2007,6 +2160,7 @@
     },
     "Hunter-02": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Catch a Copper longtail",
         "requirements": {
@@ -2019,6 +2173,7 @@
     },
     "Hunter-03": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Catch a Cerulean twitch",
         "requirements": {
@@ -2031,6 +2186,7 @@
     },
     "Hunter-04": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Catch a Swamp lizard",
         "requirements": {
@@ -2045,6 +2201,7 @@
     },
     "Hunter-05": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Trap a Spined Larupia",
         "requirements": {
@@ -2057,6 +2214,7 @@
     },
     "Hunter-06": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Catch a Snowy knight",
         "requirements": {
@@ -2069,6 +2227,7 @@
     },
     "Hunter-07": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Trap a Horned Graahk",
         "requirements": {
@@ -2081,6 +2240,7 @@
     },
     "Hunter-08": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Catch an Essence or Eclectic impling in Puro-Puro",
         "requirements": {
@@ -2093,6 +2253,7 @@
     },
     "Hunter-09": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Catch an Orange salamander",
         "requirements": {
@@ -2105,6 +2266,7 @@
     },
     "Hunter-10": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Catch a chinchompa in the Kourend Woodland",
         "requirements": {
@@ -2119,6 +2281,7 @@
     },
     "Hunter-11": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Catch a sabre-toothed kyatt",
         "requirements": {
@@ -2131,6 +2294,7 @@
     },
     "Hunter-12": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Catch a Red salamander",
         "requirements": {
@@ -2143,6 +2307,7 @@
     },
     "Hunter-13": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Trade furs with the Fancy Dress Seller for a Spottier cape and equip it",
         "requirements": {
@@ -2155,6 +2320,7 @@
     },
     "Hunter-14": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Catch a Black salamander",
         "requirements": {
@@ -2167,6 +2333,7 @@
     },
     "Hunter-15": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Catch a Dashing kebbit",
         "requirements": {
@@ -2179,6 +2346,7 @@
     },
     "Magic-01": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Cast Low Alchemy at the Fountain of Rune",
         "requirements": {
@@ -2191,6 +2359,7 @@
     },
     "Magic-02": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Cast the Teleport to Varrock spell",
         "requirements": {
@@ -2203,6 +2372,7 @@
     },
     "Magic-03": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Cast the Lumbridge Teleport spell",
         "requirements": {
@@ -2215,6 +2385,7 @@
     },
     "Magic-04": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Telegrab some Wine of Zamorak at the Chaos Temple by the Wilderness",
         "requirements": {
@@ -2227,6 +2398,7 @@
     },
     "Magic-05": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Teleport to Falador",
         "requirements": {
@@ -2239,6 +2411,7 @@
     },
     "Magic-06": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Teleport to Camelot",
         "requirements": {
@@ -2251,6 +2424,7 @@
     },
     "Magic-07": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Teleport to the Digsite using a Digsite pendant",
         "requirements": {
@@ -2265,6 +2439,7 @@
     },
     "Magic-08": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Equip an Iban's upgraded staff",
         "requirements": {
@@ -2279,6 +2454,7 @@
     },
     "Magic-09": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Cast the Ardougne Teleport spell",
         "requirements": {
@@ -2293,6 +2469,7 @@
     },
     "Magic-10": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Teleport to Paddewwa",
         "requirements": {
@@ -2307,6 +2484,7 @@
     },
     "Magic-11": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Charge a water orb",
         "requirements": {
@@ -2319,6 +2497,7 @@
     },
     "Magic-12": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Craft, string, and enchant an Amulet of power in Lumbridge",
         "requirements": {
@@ -2332,6 +2511,7 @@
     },
     "Magic-13": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Teleport to the Watchtower",
         "requirements": {
@@ -2346,6 +2526,7 @@
     },
     "Magic-14": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Cast Bones to Peaches in Al-Kharid Palace",
         "requirements": {
@@ -2358,6 +2539,7 @@
     },
     "Magic-15": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Charge an earth orb",
         "requirements": {
@@ -2370,6 +2552,7 @@
     },
     "Magic-16": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Cast one of the 3 God spells against another player in the Wilderness",
         "requirements": {
@@ -2382,6 +2565,7 @@
     },
     "Magic-17": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Teleport to Trollheim",
         "requirements": {
@@ -2396,6 +2580,7 @@
     },
     "Magic-18": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Teleport to Ape Atoll",
         "requirements": {
@@ -2410,6 +2595,7 @@
     },
     "Magic-19": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Enter the Magic Guild",
         "requirements": {
@@ -2422,6 +2608,7 @@
     },
     "Magic-20": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Cast Monster Examine on a mountain troll south of Mount Quidamortem",
         "requirements": {
@@ -2436,6 +2623,7 @@
     },
     "Magic-21": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Charge an air orb",
         "requirements": {
@@ -2448,6 +2636,7 @@
     },
     "Magic-22": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Refill your Waterskins in the Desert using Lunar spells",
         "requirements": {
@@ -2462,6 +2651,7 @@
     },
     "Magic-23": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Teleport to Waterbirth Island",
         "requirements": {
@@ -2476,6 +2666,7 @@
     },
     "Magic-24": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Fertilise the Morytania herb patch using Lunar spells",
         "requirements": {
@@ -2491,6 +2682,7 @@
     },
     "Magic-25": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Elite",
         "task": "Use Lunar magic to make 20 Mahogany planks at the Lumber Yard",
         "requirements": {
@@ -2505,6 +2697,7 @@
     },
     "Magic-26": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Teleport to Catherby",
         "requirements": {
@@ -2519,6 +2712,7 @@
     },
     "Magic-27": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Create an Ape Atoll teleport tablet",
         "requirements": {
@@ -2533,6 +2727,7 @@
     },
     "Magic-28": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Cast Ice Barrage on another player in Castle Wars",
         "requirements": {
@@ -2547,6 +2742,7 @@
     },
     "Magic-29": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Cast Ice Barrage against a foe in the Desert",
         "requirements": {
@@ -2561,6 +2757,7 @@
     },
     "Magic-30": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Teleport to Ghorrock",
         "requirements": {
@@ -2575,6 +2772,7 @@
     },
     "Mining-01": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Smith some Blurite limbs on Doric's anvil",
         "requirements": {
@@ -2591,6 +2789,7 @@
     },
     "Mining-02": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Mine some iron ore at the Mount Karuulm mine",
         "requirements": {
@@ -2603,6 +2802,7 @@
     },
     "Mining-03": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Mine some Iron ore at the Al-Kharid mine",
         "requirements": {
@@ -2615,6 +2815,7 @@
     },
     "Mining-04": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Mine some Iron in the south-east mining patch near Varrock",
         "requirements": {
@@ -2627,6 +2828,7 @@
     },
     "Mining-05": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Mine some Iron ore in the Wilderness",
         "requirements": {
@@ -2639,6 +2841,7 @@
     },
     "Mining-06": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Mine some Iron ore near Piscatoris",
         "requirements": {
@@ -2651,6 +2854,7 @@
     },
     "Mining-07": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Coal in Rellekka",
         "requirements": {
@@ -2663,6 +2867,7 @@
     },
     "Mining-08": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Craft one or more blood runes",
         "requirements": {
@@ -2677,6 +2882,7 @@
     },
     "Mining-09": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Coal near the Coal trucks",
         "requirements": {
@@ -2689,6 +2895,7 @@
     },
     "Mining-10": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Gold ore at the Crafting Guild",
         "requirements": {
@@ -2702,6 +2909,7 @@
     },
     "Mining-11": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Gold at the Arzinian Mine",
         "requirements": {
@@ -2716,6 +2924,7 @@
     },
     "Mining-12": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Mine some Gold from the rocks on the north-west peninsula of Karamja",
         "requirements": {
@@ -2728,6 +2937,7 @@
     },
     "Mining-13": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Mine a Red topaz from a Gem rock",
         "requirements": {
@@ -2742,6 +2952,7 @@
     },
     "Mining-14": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Mine some Gold ore underneath the Grand Tree",
         "requirements": {
@@ -2756,6 +2967,7 @@
     },
     "Mining-15": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Mine some volcanic sulphur",
         "requirements": {
@@ -2768,6 +2980,7 @@
     },
     "Mining-16": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Mine some Granite",
         "requirements": {
@@ -2780,6 +2993,7 @@
     },
     "Mining-17": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Mine some Mithril ore in the Wilderness",
         "requirements": {
@@ -2792,6 +3006,7 @@
     },
     "Mining-18": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Mine some Mithril ore in the Abandoned Mine",
         "requirements": {
@@ -2807,6 +3022,7 @@
     },
     "Mining-19": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Enter the Mining Guild wearing full Prospector",
         "requirements": {
@@ -2819,6 +3035,7 @@
     },
     "Mining-20": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Mine some Lovakite ore",
         "requirements": {
@@ -2831,6 +3048,7 @@
     },
     "Mining-21": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Mine 5 Adamantite ores on Jatizso",
         "requirements": {
@@ -2845,6 +3063,7 @@
     },
     "Mining-22": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Mine some Adamantite ore in Tirannwn",
         "requirements": {
@@ -2859,6 +3078,7 @@
     },
     "Mining-23": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Smith a Rune scimitar from scratch in the Resource Area",
         "requirements": {
@@ -2872,6 +3092,7 @@
     },
     "Prayer-01": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Recharge your prayer at the Emir's Arena with Smite activated",
         "requirements": {
@@ -2884,6 +3105,7 @@
     },
     "Prayer-02": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Pray at the altar in Varrock Palace with Smite active",
         "requirements": {
@@ -2896,6 +3118,7 @@
     },
     "Prayer-03": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Restore at least 85 Prayer points when praying at the altar in Sophanem",
         "requirements": {
@@ -2910,6 +3133,7 @@
     },
     "Ranged-01": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Enter the Ranging Guild",
         "requirements": {
@@ -2922,6 +3146,7 @@
     },
     "Ranged-02": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Purchase an upgraded device from Ava",
         "requirements": {
@@ -2936,6 +3161,7 @@
     },
     "Runecraft-01": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Craft some Water runes",
         "requirements": {
@@ -2948,6 +3174,7 @@
     },
     "Runecraft-02": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Craft some Earth runes",
         "requirements": {
@@ -2960,6 +3187,7 @@
     },
     "Runecraft-03": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Craft some Lava runes at the Fire Altar in Al-Kharid",
         "requirements": {
@@ -2972,6 +3200,7 @@
     },
     "Runecraft-04": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Craft some Nature runes",
         "requirements": {
@@ -2984,6 +3213,7 @@
     },
     "Runecraft-05": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Craft 140 Mind runes simultaneously",
         "requirements": {
@@ -2996,6 +3226,7 @@
     },
     "Runecraft-06": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Craft 56 Cosmic runes simultaneously",
         "requirements": {
@@ -3010,6 +3241,7 @@
     },
     "Runecraft-07": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Craft some Death runes",
         "requirements": {
@@ -3024,6 +3256,7 @@
     },
     "Runecraft-08": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Craft 140 or more Water runes at once",
         "requirements": {
@@ -3036,6 +3269,7 @@
     },
     "Runecraft-09": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Elite",
         "task": "Craft 100 or more Earth runes simultaneously",
         "requirements": {
@@ -3048,6 +3282,7 @@
     },
     "Runecraft-10": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Elite",
         "task": "Craft 56 Astral runes at once",
         "requirements": {
@@ -3062,6 +3297,7 @@
     },
     "Runecraft-11": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Craft 252 Air runes at once",
         "requirements": {
@@ -3074,6 +3310,7 @@
     },
     "Runecraft-12": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Elite",
         "task": "Craft 56 Nature runes at once",
         "requirements": {
@@ -3086,6 +3323,7 @@
     },
     "Slayer-01": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Slay a Cave bug in the Lumbridge Swamp Caves",
         "requirements": {
@@ -3098,6 +3336,7 @@
     },
     "Slayer-02": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Banshee in the Slayer Tower",
         "requirements": {
@@ -3112,6 +3351,7 @@
     },
     "Slayer-03": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Slay a Desert lizard",
         "requirements": {
@@ -3124,6 +3364,7 @@
     },
     "Slayer-04": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Mogre at Mudskipper Point",
         "requirements": {
@@ -3138,6 +3379,7 @@
     },
     "Slayer-05": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Terror dog",
         "requirements": {
@@ -3152,6 +3394,7 @@
     },
     "Slayer-06": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Fever spider on Braindeath Island",
         "requirements": {
@@ -3167,6 +3410,7 @@
     },
     "Slayer-07": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Slay a Brine rat",
         "requirements": {
@@ -3181,6 +3425,7 @@
     },
     "Slayer-08": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Be assigned a Slayer task by Duradel in Shilo Village",
         "requirements": {
@@ -3193,6 +3438,7 @@
     },
     "Slayer-09": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Bloodveld in the Wilderness God Wars Dungeon",
         "requirements": {
@@ -3205,6 +3451,7 @@
     },
     "Slayer-10": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Cave horror",
         "requirements": {
@@ -3219,6 +3466,7 @@
     },
     "Slayer-11": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Kill a wyrm in the Karuulm Slayer Dungeon",
         "requirements": {
@@ -3231,6 +3479,7 @@
     },
     "Slayer-12": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Spiritual warrior in the Wilderness God Wars Dungeon",
         "requirements": {
@@ -3243,6 +3492,7 @@
     },
     "Slayer-13": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Skeletal wyvern in the Asgarnia Ice Dungeon",
         "requirements": {
@@ -3255,6 +3505,7 @@
     },
     "Slayer-14": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Elite",
         "task": "Kill an Abyssal demon in the Slayer Tower",
         "requirements": {
@@ -3267,6 +3518,7 @@
     },
     "Slayer-15": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Kill the thermonuclear smoke devil",
         "requirements": {
@@ -3279,6 +3531,7 @@
     },
     "Slayer-16": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Kill a hydra in the Karuulm Slayer Dungeon",
         "requirements": {
@@ -3291,6 +3544,7 @@
     },
     "Smithing-01": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Make a batch of Cannonballs at the Port Phasmatys furnace",
         "requirements": {
@@ -3307,6 +3561,7 @@
     },
     "Smithing-02": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Smith a Gold helmet in the Resource Area",
         "requirements": {
@@ -3321,6 +3576,7 @@
     },
     "Smithing-03": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Smith a Dragon sq shield in West Ardougne",
         "requirements": {
@@ -3335,6 +3591,7 @@
     },
     "Smithing-04": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Obtain the Blast Furnace Foreman's permission to use the Blast Furnace for free",
         "requirements": {
@@ -3349,6 +3606,7 @@
     },
     "Smithing-05": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Smith a Mithril platebody near Ardougne",
         "requirements": {
@@ -3361,6 +3619,7 @@
     },
     "Smithing-06": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Create a Mithril platebody in Nardah",
         "requirements": {
@@ -3373,6 +3632,7 @@
     },
     "Smithing-07": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Smelt an adamantite bar in The Forsaken Tower",
         "requirements": {
@@ -3387,6 +3647,7 @@
     },
     "Smithing-08": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Smith an Adamant spear at Otto's Grotto",
         "requirements": {
@@ -3399,6 +3660,7 @@
     },
     "Smithing-09": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Smith an Adamant scimitar in the Resource Area",
         "requirements": {
@@ -3411,6 +3673,7 @@
     },
     "Smithing-10": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Smith an Adamant platebody down Draynor sewer",
         "requirements": {
@@ -3423,6 +3686,7 @@
     },
     "Smithing-11": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Smith a Rune hasta at Otto's Grotto",
         "requirements": {
@@ -3435,6 +3699,7 @@
     },
     "Strength-01": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Travel to the Desert via the Eagle transport system",
         "requirements": {
@@ -3449,6 +3714,7 @@
     },
     "Thieving-01": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Steal a Cake from the East Ardougne market stalls",
         "requirements": {
@@ -3461,6 +3727,7 @@
     },
     "Thieving-02": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Steal from the Keldagrim crafting or baker's stall",
         "requirements": {
@@ -3475,6 +3742,7 @@
     },
     "Thieving-03": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Steal from the Tea stall in Varrock",
         "requirements": {
@@ -3487,6 +3755,7 @@
     },
     "Thieving-04": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Open the sarcophagus in the first room of Pyramid Plunder",
         "requirements": {
@@ -3501,6 +3770,7 @@
     },
     "Thieving-05": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Steal a Phoenix feather from the Desert phoenix",
         "requirements": {
@@ -3515,6 +3785,7 @@
     },
     "Thieving-06": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Steal from a Hosidius Food Stall",
         "requirements": {
@@ -3527,6 +3798,7 @@
     },
     "Thieving-07": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Pickpocket the Master Farmer north of East Ardougne",
         "requirements": {
@@ -3539,6 +3811,7 @@
     },
     "Thieving-08": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Pickpocket Martin the Master Gardener",
         "requirements": {
@@ -3551,6 +3824,7 @@
     },
     "Thieving-09": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Pickpocket a Falador guard",
         "requirements": {
@@ -3563,6 +3837,7 @@
     },
     "Thieving-10": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Steal from the Rellekka Fish stalls",
         "requirements": {
@@ -3577,6 +3852,7 @@
     },
     "Thieving-11": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Steal from the chest in Hemenster",
         "requirements": {
@@ -3589,6 +3865,7 @@
     },
     "Thieving-12": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Deliver an artefact to Captain Khaled",
         "requirements": {
@@ -3601,6 +3878,7 @@
     },
     "Thieving-13": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Crack a wall safe within the Rogues' Den",
         "requirements": {
@@ -3613,6 +3891,7 @@
     },
     "Thieving-14": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Knock out a Menaphite thug",
         "requirements": {
@@ -3627,6 +3906,7 @@
     },
     "Thieving-15": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Attempt to steal from a chest in Ardougne Castle",
         "requirements": {
@@ -3639,6 +3919,7 @@
     },
     "Thieving-16": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Steal from the Keldagrim gem stall",
         "requirements": {
@@ -3653,6 +3934,7 @@
     },
     "Thieving-17": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Pickpocket a Gnome",
         "requirements": {
@@ -3665,6 +3947,7 @@
     },
     "Thieving-18": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Steal from a Dorgesh-Kaan rich chest",
         "requirements": {
@@ -3679,6 +3962,7 @@
     },
     "Thieving-19": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Pickpocket a Hero",
         "requirements": {
@@ -3691,6 +3975,7 @@
     },
     "Thieving-20": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Attempt to picklock the door to the basement of the Yanille Agility dungeon",
         "requirements": {
@@ -3703,6 +3988,7 @@
     },
     "Thieving-21": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Steal from the Chest (Rogues' Castle)",
         "requirements": {
@@ -3715,6 +4001,7 @@
     },
     "Thieving-22": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Pickpocket an Elf",
         "requirements": {
@@ -3729,6 +4016,7 @@
     },
     "Thieving-23": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Elite",
         "task": "Steal from the Grand Gold Chest in the final room of Pyramid Plunder",
         "requirements": {
@@ -3743,6 +4031,7 @@
     },
     "Woodcutting-01": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Earn 100% favour in the Tai Bwo Wannai Cleanup minigame",
         "requirements": {
@@ -3757,6 +4046,7 @@
     },
     "Woodcutting-02": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Chop the vines to gain deeper access to Brimhaven Dungeon",
         "requirements": {
@@ -3769,6 +4059,7 @@
     },
     "Woodcutting-03": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Climb the stairs within Brimhaven Dungeon",
         "requirements": {
@@ -3781,6 +4072,7 @@
     },
     "Woodcutitng-04": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Collect 5 Palm leaves",
         "requirements": {
@@ -3795,6 +4087,7 @@
     },
     "Woodcutting-05": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Chop some Willow logs in Draynor Village",
         "requirements": {
@@ -3807,6 +4100,7 @@
     },
     "Woodcutting-06": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Chop some Teak logs near Uzer",
         "requirements": {
@@ -3819,6 +4113,7 @@
     },
     "Woodcutting-07": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Cut a log from a Teak",
         "requirements": {
@@ -3833,6 +4128,7 @@
     },
     "Woodcutting-08": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Obtain some Bark from a Hollow tree",
         "requirements": {
@@ -3847,6 +4143,7 @@
     },
     "Woodcutting-09": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Cut a log from a Mahogany",
         "requirements": {
@@ -3859,6 +4156,7 @@
     },
     "Woodcutting-10": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Chop some mahogany logs north of the Farming Guild",
         "requirements": {
@@ -3871,6 +4169,7 @@
     },
     "Woodcutting-11": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Craft a Fremennik shield on Neitiznot",
         "requirements": {
@@ -3885,6 +4184,7 @@
     },
     "Woodcutting-12": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Travel from Lumbridge to Edgeville on a Waka canoe",
         "requirements": {
@@ -3897,6 +4197,7 @@
     },
     "Woodcutting-13": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Make a Waka canoe near Edgeville",
         "requirements": {
@@ -3909,6 +4210,7 @@
     },
     "Woodcutting-14": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Enter the Woodcutting Guild",
         "requirements": {
@@ -3921,6 +4223,7 @@
     },
     "Woodcutting-15": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Chop some Yew logs from an Ent",
         "requirements": {
@@ -3933,6 +4236,7 @@
     },
     "Woodcutting-16": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Chop some Magic logs at the Mage Training Arena",
         "requirements": {
@@ -3945,6 +4249,7 @@
     },
     "Woodcutting-17": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Chop some redwood logs",
         "requirements": {
@@ -3957,6 +4262,7 @@
     },
     "Quest-01": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Have the Mage of Zamorak teleport you to the Abyss",
         "requirements": {
@@ -3969,6 +4275,7 @@
     },
     "Quest-02": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Take the train from Dorgesh-Kaan to Keldagrim",
         "requirements": {
@@ -3981,6 +4288,7 @@
     },
     "Quest-03": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Teleport to Xeric's Heart using Xeric's talisman",
         "requirements": {
@@ -3993,6 +4301,7 @@
     },
     "Quest-04": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
         "requirements": {
@@ -4005,6 +4314,7 @@
     },
     "Quest-05": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Mithril dragon",
         "requirements": {
@@ -4015,6 +4325,7 @@
     },
     "Quest-06": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Enter the Combat Training Camp north of West Ardougne",
         "requirements": {
@@ -4027,6 +4338,7 @@
     },
     "Quest-07": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Defeat a locust rider with Keris",
         "requirements": {
@@ -4039,6 +4351,7 @@
     },
     "Quest-08": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Bake some Bread on the Lumbridge kitchen range",
         "requirements": {
@@ -4053,6 +4366,7 @@
     },
     "Quest-09": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
         "requirements": {
@@ -4065,6 +4379,7 @@
     },
     "Quest-10": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Activate Ancient Magicks",
         "requirements": {
@@ -4077,6 +4392,7 @@
     },
     "Quest-11": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Shadow hound in the Shadow Dungeon",
         "requirements": {
@@ -4089,6 +4405,7 @@
     },
     "Quest-12": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Discover the hidden wall in the dungeon below the volcano",
         "requirements": {
@@ -4101,6 +4418,7 @@
     },
     "Quest-13": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Visit the Isle of Crandor via the dungeon below the volcano",
         "requirements": {
@@ -4113,6 +4431,7 @@
     },
     "Quest-14": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Travel to the Snowy Hunter Area via Eagle",
         "requirements": {
@@ -4125,6 +4444,7 @@
     },
     "Quest-15": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Travel from Eagles' Peak to the Feldip Hills by Eagle",
         "requirements": {
@@ -4137,6 +4457,7 @@
     },
     "Quest-16": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Teleport to Enakhra's Temple with the Camulet",
         "requirements": {
@@ -4149,6 +4470,7 @@
     },
     "Quest-17": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Defeat one of each elemental in the Elemental Workshop",
         "requirements": {
@@ -4161,6 +4483,7 @@
     },
     "Quest-18": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Create a Mind helmet",
         "requirements": {
@@ -4173,6 +4496,7 @@
     },
     "Quest-19": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Turn your crystal saw seed into a Crystal saw",
         "requirements": {
@@ -4185,6 +4509,7 @@
     },
     "Quest-20": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
         "requirements": {
@@ -4197,6 +4522,7 @@
     },
     "Quest-21": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Change your boots at Yrsa's Shoe Store",
         "requirements": {
@@ -4209,6 +4535,7 @@
     },
     "Quest-22": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Select a colour for your kitten",
         "requirements": {
@@ -4222,6 +4549,7 @@
     },
     "Quest-23": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Pick a White tree fruit",
         "requirements": {
@@ -4234,6 +4562,7 @@
     },
     "Quest-24": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Use an Ectophial to return to Port Phasmatys",
         "requirements": {
@@ -4247,6 +4576,7 @@
     },
     "Quest-25": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Browse the Stonemason's Shop",
         "requirements": {
@@ -4259,6 +4589,7 @@
     },
     "Quest-26": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Steal from the Keldagrim crafting or baker's stall",
         "requirements": {
@@ -4273,6 +4604,7 @@
     },
     "Quest-27": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Travel to Uzer via Magic carpet",
         "requirements": {
@@ -4285,6 +4617,7 @@
     },
     "Quest=28": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Use the Gnome glider to travel to Karamja",
         "requirements": {
@@ -4297,6 +4630,7 @@
     },
     "Quest-29": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Charter a ship from the shipyard in the far east of Karamja",
         "requirements": {
@@ -4309,6 +4643,7 @@
     },
     "Quest-30": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Claim buckets of sand from Bert in Yanille",
         "requirements": {
@@ -4321,6 +4656,7 @@
     },
     "Quest-31": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Kill the Blue dragon under the Heroes' Guild",
         "requirements": {
@@ -4333,6 +4669,7 @@
     },
     "Quest-32": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Visit the Lighthouse from Waterbirth Island",
         "requirements": {
@@ -4345,6 +4682,7 @@
     },
     "Quest-33": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Hard",
         "task": "Complete a hard temple trek",
         "requirements": {
@@ -4358,6 +4696,7 @@
     },
     "Quest-34": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Board the Swamp Boaty at the Hollows",
         "requirements": {
@@ -4371,6 +4710,7 @@
     },
     "Quest-35": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Exchange gems with Safta Doc for a Machete",
         "requirements": {
@@ -4383,6 +4723,7 @@
     },
     "Quest-36": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Recharge some jewellery at the totem in the Legends' Guild",
         "requirements": {
@@ -4395,6 +4736,7 @@
     },
     "Quest-37": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Eat an Oomlie wrap",
         "requirements": {
@@ -4407,6 +4749,7 @@
     },
     "Quest-38": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Hard",
         "task": "Have a Monkey Minder put you in Ardougne Zoo's monkey cage",
         "requirements": {
@@ -4419,6 +4762,7 @@
     },
     "Quest-39": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Restore your Prayer points at the Nature Grotto",
         "requirements": {
@@ -4432,6 +4776,7 @@
     },
     "Quest-40": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Travel to the Feldip Hills by Gnome glider",
         "requirements": {
@@ -4445,6 +4790,7 @@
     },
     "Quest-41": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Have Sbott tan something for you",
         "requirements": {
@@ -4457,6 +4803,7 @@
     },
     "Quest-42": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Enter Mort Myre Swamp",
         "requirements": {
@@ -4469,6 +4816,7 @@
     },
     "Quest-43": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Ghoul",
         "requirements": {
@@ -4481,6 +4829,7 @@
     },
     "Quest-44": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Offer some Bonemeal at the Ectofuntus",
         "requirements": {
@@ -4493,6 +4842,7 @@
     },
     "Quest-45": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Werewolf in its human form using the Wolfbane dagger",
         "requirements": {
@@ -4505,6 +4855,7 @@
     },
     "Quest-46": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Medium",
         "task": "Travel to Dragontooth Island",
         "requirements": {
@@ -4517,6 +4868,7 @@
     },
     "Quest-47": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Browse the Warrens General Store",
         "requirements": {
@@ -4529,6 +4881,7 @@
     },
     "Quest-48": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
         "requirements": {
@@ -4541,6 +4894,7 @@
     },
     "Quest-49": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Visit the Port Sarim Rat Pits",
         "requirements": {
@@ -4553,6 +4907,7 @@
     },
     "Quest-50": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Purchase some Barrows gloves from the Culinaromancer's Chest",
         "requirements": {
@@ -4574,6 +4929,7 @@
     },
     "Quest-51": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Kill Zulrah",
         "requirements": {
@@ -4586,6 +4942,7 @@
     },
     "Quest-52": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Have Wizard Cromperty teleport you to the Rune essence mine",
         "requirements": {
@@ -4598,6 +4955,7 @@
     },
     "Quest-53": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Have Archmage Sedridor teleport you to the Rune essence mine",
         "requirements": {
@@ -4610,6 +4968,7 @@
     },
     "Quest-54": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Have Aubury teleport you to the Rune essence mine",
         "requirements": {
@@ -4622,6 +4981,7 @@
     },
     "Quest-55": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Have Brimstail teleport you to the Rune essence mine",
         "requirements": {
@@ -4634,6 +4994,7 @@
     },
     "Quest-56": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Catch any fish on the Fishing Platform",
         "requirements": {
@@ -4646,6 +5007,7 @@
     },
     "Quest-57": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Use Vigroy and Hajedy's cart service",
         "requirements": {
@@ -4658,6 +5020,7 @@
     },
     "Quest-58": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Charter the Lady of the Waves from Cairn Isle to Port Khazard",
         "requirements": {
@@ -4670,6 +5033,7 @@
     },
     "Quest-59": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Enter the Tolna dungeon after completing A Soul's Bane",
         "requirements": {
@@ -4682,6 +5046,7 @@
     },
     "Quest-60": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Medium",
         "task": "Visit the genie",
         "requirements": {
@@ -4694,6 +5059,7 @@
     },
     "Quest-61": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Use Kharedst's memoirs to teleport to all five cities in Great Kourend",
         "requirements": {
@@ -4706,6 +5072,7 @@
     },
     "Quest-62": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Hard",
         "task": "Collect at least 100 Tears of Guthix in one visit",
         "requirements": {
@@ -4718,6 +5085,7 @@
     },
     "Quest-63": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Hard",
         "task": "Obtain 100% support from your kingdom subjects",
         "requirements": {
@@ -4730,6 +5098,7 @@
     },
     "Quest-64": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Kill a Swordchick in the Tower of Life",
         "requirements": {
@@ -4742,6 +5111,7 @@
     },
     "Quest-65": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Use the Spirit tree north of Varrock",
         "requirements": {
@@ -4754,6 +5124,7 @@
     },
     "Quest-66": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Travel to the Tree Gnome Stronghold by Spirit tree",
         "requirements": {
@@ -4766,6 +5137,7 @@
     },
     "Quest-67": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Enter the Troll Stronghold",
         "requirements": {
@@ -4778,6 +5150,7 @@
     },
     "Quest-68": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Purchase a White 2h sword from Sir Vyvin",
         "requirements": {
@@ -4790,6 +5163,7 @@
     },
     "Quest-69": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Collect some Cave nightshade from the Skavid caves",
         "requirements": {
@@ -4802,6 +5176,7 @@
     },
     "Quest-70": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Fire giant in the Waterfall Dungeon",
         "requirements": {
@@ -4814,16 +5189,20 @@
     },
     "Quest-71": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Elite",
         "task": "Imbue a salve amulet at Nightmare Zone, or equip a salve amulet(i) that was imbued there",
         "requirements": {
             "combat": true,
-            "quests": [],
+            "quests": [
+                "Haunted Mine"
+            ],
             "skills": []
         }
     },
     "Quest-72": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Elite",
         "task": "Perform a Cape of Accomplishment or Quest point cape emote at the top of the White Knights' Castle",
         "requirements": {
@@ -4835,6 +5214,7 @@
     },
     "Quest-73": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Elite",
         "task": "Perform the Quest point cape emote in the Wise Old Man's house ",
         "requirements": {
@@ -4846,6 +5226,7 @@
     },
     "Quest-74": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Speak to Haig Halen after obtaining at least 50 Kudos",
         "requirements": {
@@ -4858,6 +5239,7 @@
     },
     "Quest-75": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Enter the Champions' Guild",
         "requirements": {
@@ -4869,6 +5251,7 @@
     },
     "Quest-76": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Speak to Orlando Smith when you have achieved 153 Kudos",
         "requirements": {
@@ -4895,6 +5278,7 @@
     },
     "Combat-01": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Duck in Falador Park",
         "requirements": {
@@ -4905,6 +5289,7 @@
     },
     "Combat-02": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Kill 5 Rock Crabs",
         "requirements": {
@@ -4915,6 +5300,7 @@
     },
     "Combat-03": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Kill a zombie in the Draynor Sewers",
         "requirements": {
@@ -4925,6 +5311,7 @@
     },
     "Combat-04": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Sand Crab",
         "requirements": {
@@ -4935,6 +5322,7 @@
     },
     "Combat-05": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Kill a Terrorbird in the Terrorbird enclosure",
         "requirements": {
@@ -4945,6 +5333,7 @@
     },
     "Combat-06": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Vulture",
         "requirements": {
@@ -4955,6 +5344,7 @@
     },
     "Combat-07": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Deliver some intelligence to Captain Ginea",
         "requirements": {
@@ -4965,6 +5355,7 @@
     },
     "Combat-08": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Jogre in the Pothole Dungeon",
         "requirements": {
@@ -4975,6 +5366,7 @@
     },
     "Combat-09": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Kill a lizardman",
         "requirements": {
@@ -4985,6 +5377,7 @@
     },
     "Combat-10": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Kill a Green dragon",
         "requirements": {
@@ -4995,6 +5388,7 @@
     },
     "Combat-11": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Kill a Mammoth",
         "requirements": {
@@ -5005,6 +5399,7 @@
     },
     "Combat-12": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Hard",
         "task": "Teleport to Barbarian Village with a Skull sceptre",
         "requirements": {
@@ -5015,6 +5410,7 @@
     },
     "Combat-13": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Kill an Ankou in the Wilderness",
         "requirements": {
@@ -5025,6 +5421,7 @@
     },
     "Combat-14": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Metal dragon in the Brimhaven Dungeon",
         "requirements": {
@@ -5038,6 +5435,7 @@
     },
     "Combat-15": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Kill a zombie in the Shayzien Crypts",
         "requirements": {
@@ -5048,6 +5446,7 @@
     },
     "Combat-16": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Hard",
         "task": "Kill a lizardman shaman in Molch",
         "requirements": {
@@ -5058,6 +5457,7 @@
     },
     "Combat-17": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Kill the Crazy archaeologist, Chaos Fanatic and Scorpia",
         "requirements": {
@@ -5068,6 +5468,7 @@
     },
     "Combat-18": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Hard",
         "task": "Kill the Giant Mole beneath Falador Park",
         "requirements": {
@@ -5078,16 +5479,20 @@
     },
     "Combat-19": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Lava dragon & bury the bones on Lava Dragon Isle",
         "requirements": {
             "combat": true,
             "quests": [],
-            "skills": []
+            "skills": [
+                "Prayer"
+            ]
         }
     },
     "Combat-20": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Elite",
         "task": "Kill each of the Dagannoth Kings",
         "requirements": {
@@ -5098,6 +5503,7 @@
     },
     "Combat-21": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Hard",
         "task": "Kill the Chaos Elemental",
         "requirements": {
@@ -5108,6 +5514,7 @@
     },
     "Combat-22": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Defeat Skotizo in the Catacombs of Kourend",
         "requirements": {
@@ -5118,6 +5525,7 @@
     },
     "Combat-23": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Hard",
         "task": "Kill the Kalphite Queen",
         "requirements": {
@@ -5128,6 +5536,7 @@
     },
     "Combat-24": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Kill a Ket-Zek in the Fight Caves",
         "requirements": {
@@ -5138,6 +5547,7 @@
     },
     "Combat-25": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Elite",
         "task": "Kill Callisto, Venenatis & Vet'ion",
         "requirements": {
@@ -5148,6 +5558,7 @@
     },
     "Combat-26": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Elite",
         "task": "Equip a fire cape in Mor Ul Rek",
         "requirements": {
@@ -5158,6 +5569,7 @@
     },
     "Combat-27": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Kill Zulrah",
         "requirements": {
@@ -5168,6 +5580,7 @@
     },
     "Combat-28": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Elite",
         "task": "Complete a raid in the Chambers of Xeric",
         "requirements": {
@@ -5178,6 +5591,7 @@
     },
     "Special-01": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Grapple across the River Lum",
         "requirements": {
@@ -5192,6 +5606,7 @@
     },
     "Special-02": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Grapple up and then jump off the north Falador wall",
         "requirements": {
@@ -5206,6 +5621,7 @@
     },
     "Special-03": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Use the grapple shortcut to get from the water obelisk to Catherby shore",
         "requirements": {
@@ -5220,6 +5636,7 @@
     },
     "Special-04": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Grapple over Yanille's south wall",
         "requirements": {
@@ -5234,6 +5651,7 @@
     },
     "Special-05": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Use the crossbow shortcut south of the volcano",
         "requirements": {
@@ -5248,6 +5666,7 @@
     },
     "Special-06": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Claim any Chompy bird hat from Rantz",
         "requirements": {
@@ -5262,6 +5681,7 @@
     },
     "Special-07": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Claim a Chompy bird hat from Rantz after registering at least 125 kills",
         "requirements": {
@@ -5276,6 +5696,7 @@
     },
     "Special-08": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Claim a Chompy bird hat from Rantz after registering at least 300 kills",
         "requirements": {
@@ -5290,6 +5711,7 @@
     },
     "Special-09": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Claim a Chompy bird hat from Rantz after registering at least 1000 kills",
         "requirements": {
@@ -5304,6 +5726,7 @@
     },
     "Special-10": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Teleport to Pest Control using the Minigame teleports",
         "requirements": {
@@ -5314,6 +5737,7 @@
     },
     "Special-11": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Complete a novice game of Pest Control",
         "requirements": {
@@ -5324,6 +5748,7 @@
     },
     "Special-12": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Medium",
         "task": "Complete an intermediate game of Pest Control",
         "requirements": {
@@ -5334,6 +5759,7 @@
     },
     "Special-13": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Hard",
         "task": "Complete a veteran game of Pest Control",
         "requirements": {
@@ -5344,6 +5770,7 @@
     },
     "Special-14": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Elite",
         "task": "Equip any complete void set",
         "requirements": {
@@ -5362,6 +5789,7 @@
     },
     "Special-15": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Complete a wave of Barbarian Assault",
         "requirements": {
@@ -5372,6 +5800,7 @@
     },
     "Special-16": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Elite",
         "task": "Read the blackboard at Barbarian Assault after reaching Level 5 in every role",
         "requirements": {
@@ -5387,6 +5816,7 @@
     },
     "Special-17": {
         "diary": "Morytania",
+        "img": "Morytania Area Badge",
         "difficulty": "Easy",
         "task": "Get a Slayer task from Mazchna",
         "requirements": {
@@ -5401,6 +5831,7 @@
     },
     "Special-18": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Get a Slayer task from Vannaka",
         "requirements": {
@@ -5413,6 +5844,7 @@
     },
     "Special-19": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Get a Slayer task from Chaeldar",
         "requirements": {
@@ -5427,6 +5859,7 @@
     },
     "Special-20": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Be assigned a Slayer task by Duradel in Shilo Village",
         "requirements": {
@@ -5441,6 +5874,7 @@
     },
     "Special-21": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Visit the island east of the Necromancer Tower",
         "requirements": {
@@ -5454,6 +5888,7 @@
     },
     "Special-22": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Medium",
         "task": "Travel to Miscellania by fairy ring",
         "requirements": {
@@ -5467,6 +5902,7 @@
     },
     "Special-23": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Medium",
         "task": "Travel to McGrubor's Wood by fairy ring",
         "requirements": {
@@ -5480,6 +5916,7 @@
     },
     "Special-24": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Travel to the fairy ring south of Mount Karuulm",
         "requirements": {
@@ -5493,6 +5930,7 @@
     },
     "Special-25": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Medium",
         "task": "Enter the Unicorn pen in Ardougne Zoo using fairy rings",
         "requirements": {
@@ -5506,6 +5944,7 @@
     },
     "Special-26": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Medium",
         "task": "Travel to the Wizards' Tower by fairy ring",
         "requirements": {
@@ -5519,6 +5958,7 @@
     },
     "Misc-01": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Sell Silk to the Silk trader in East Ardougne for 60 coins each",
         "requirements": {
@@ -5529,6 +5969,7 @@
     },
     "Misc-02": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Use the altar in East Ardougne's church",
         "requirements": {
@@ -5539,6 +5980,7 @@
     },
     "Misc-03": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Have Tindel Marchant identify a Rusty sword for you",
         "requirements": {
@@ -5551,6 +5993,7 @@
     },
     "Misc-04": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Use the Ardougne lever to teleport to the Wilderness",
         "requirements": {
@@ -5561,6 +6004,7 @@
     },
     "Misc-05": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "View Aleck's Hunter Emporium. shop in Yanille",
         "requirements": {
@@ -5571,6 +6015,7 @@
     },
     "Misc-06": {
         "diary": "Ardounge",
+        "img": "Banner (Kandarin)",
         "difficulty": "Easy",
         "task": "Check what pets you have insured with Probita in East Ardougne",
         "requirements": {
@@ -5581,6 +6026,7 @@
     },
     "Misc-07": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Enter the Kalphite Lair",
         "requirements": {
@@ -5591,6 +6037,7 @@
     },
     "Misc-08": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Mine five Clay in the north-eastern Desert",
         "requirements": {
@@ -5603,6 +6050,7 @@
     },
     "Misc-09": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Enter the Desert with a set of Desert robes equipped",
         "requirements": {
@@ -5613,6 +6061,7 @@
     },
     "Misc-10": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Have the Nardah herbalist clean a herb for you",
         "requirements": {
@@ -5623,6 +6072,7 @@
     },
     "Misc-11": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Collect 5 Potato cacti from the Kalphite Lair",
         "requirements": {
@@ -5633,6 +6083,7 @@
     },
     "Misc-12": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Sell some artefacts to Simon Templeton",
         "requirements": {
@@ -5645,6 +6096,7 @@
     },
     "Misc-13": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Cut a desert cactus open to fill a Waterskin",
         "requirements": {
@@ -5655,6 +6107,7 @@
     },
     "Misc-14": {
         "diary": "Desert",
+        "img": "Desert Area Badge",
         "difficulty": "Easy",
         "task": "Travel from the Shantay Pass to Pollnivneach by Magic carpet",
         "requirements": {
@@ -5665,6 +6118,7 @@
     },
     "Misc-15": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Browse Sarah's Farming Shop",
         "requirements": {
@@ -5675,6 +6129,7 @@
     },
     "Misc-16": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Fill a bucket from the pump north of Falador west Bank",
         "requirements": {
@@ -5685,6 +6140,7 @@
     },
     "Misc-17": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Take the boat to Entrana",
         "requirements": {
@@ -5695,6 +6151,7 @@
     },
     "Misc-18": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Make a mind tiara",
         "requirements": {
@@ -5708,6 +6165,7 @@
     },
     "Misc-19": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Repair a broken strut in the Motherlode Mine",
         "requirements": {
@@ -5720,6 +6178,7 @@
     },
     "Misc-20": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Claim a Security book from the Security Guard at Port Sarim Jail",
         "requirements": {
@@ -5730,6 +6189,7 @@
     },
     "Misc-21": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Medium",
         "task": "Unlock the Crystal chest in Taverley",
         "requirements": {
@@ -5740,6 +6200,7 @@
     },
     "Misc-22": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Collect 5 Snape grass on Waterbirth Island",
         "requirements": {
@@ -5752,6 +6213,7 @@
     },
     "Misc-23": {
         "diary": "Fremennik",
+        "img": "Fremennik Area Badge",
         "difficulty": "Easy",
         "task": "Fill a bucket with water at the Rellekka well",
         "requirements": {
@@ -5762,6 +6224,7 @@
     },
     "Misc-24": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Buy a Candle from the Candle maker in Catherby",
         "requirements": {
@@ -5772,6 +6235,7 @@
     },
     "Misc-25": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Collect 5 Flax from the Seers' Village flax field",
         "requirements": {
@@ -5782,6 +6246,7 @@
     },
     "Misc-26": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Play the Organ in the Seers' Village church",
         "requirements": {
@@ -5792,6 +6257,7 @@
     },
     "Misc-27": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Have Galahad make you a Cup of tea",
         "requirements": {
@@ -5802,6 +6268,7 @@
     },
     "Misc-28": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Get a Pet fish from Harry in Catherby",
         "requirements": {
@@ -5814,6 +6281,7 @@
     },
     "Misc-29": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Buy a Stew from the Seers' Village pub",
         "requirements": {
@@ -5824,6 +6292,7 @@
     },
     "Misc-30": {
         "diary": "Kandarin",
+        "img": "Kandarin Area Badge",
         "difficulty": "Easy",
         "task": "Speak to Sherlock",
         "requirements": {
@@ -5834,6 +6303,7 @@
     },
     "Misc-31": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Pick 5 Bananas from the plantation located east of the volcano",
         "requirements": {
@@ -5844,6 +6314,7 @@
     },
     "Misc-32": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Travel to Port Sarim via the dock east of Musa Point",
         "requirements": {
@@ -5854,6 +6325,7 @@
     },
     "Misc-33": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Travel to Ardougne via the port near Brimhaven",
         "requirements": {
@@ -5864,6 +6336,7 @@
     },
     "Misc-34": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Use the Fishing spots north of the banana plantation",
         "requirements": {
@@ -5876,6 +6349,7 @@
     },
     "Misc-35": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Collect 5 Seaweed from anywhere on Karamja",
         "requirements": {
@@ -5886,6 +6360,7 @@
     },
     "Misc-36": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Easy",
         "task": "Attempt the TzHaar Fight Pit or Fight Cave",
         "requirements": {
@@ -5896,6 +6371,7 @@
     },
     "Misc-37": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Medium",
         "task": "Claim a ticket from the Agility Arena in Brimhaven",
         "requirements": {
@@ -5908,6 +6384,7 @@
     },
     "Misc-38": {
         "diary": "Karamja",
+        "img": "Karamja Area Badge",
         "difficulty": "Hard",
         "task": "Become the champion of the Fight Pit",
         "requirements": {
@@ -5918,6 +6395,7 @@
     },
     "Misc-39": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Hand in a book at the Arceuus Library",
         "requirements": {
@@ -5930,6 +6408,7 @@
     },
     "Misc-40": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Medium",
         "task": "Switch to the Arceuus spellbook via Tyss",
         "requirements": {
@@ -5942,6 +6421,7 @@
     },
     "Misc-41": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Take a boat to Land's End",
         "requirements": {
@@ -5952,6 +6432,7 @@
     },
     "Misc-42": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Pray at the altar on the top floor of the Kourend Castle",
         "requirements": {
@@ -5962,6 +6443,7 @@
     },
     "Misc-43": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Dig up some saltpetre",
         "requirements": {
@@ -5972,6 +6454,7 @@
     },
     "Misc-44": {
         "diary": "Kourend & Kebos",
+        "img": "Kourend Area Badge",
         "difficulty": "Easy",
         "task": "Heal a wounded Shayzien soldier",
         "requirements": {
@@ -5982,6 +6465,7 @@
     },
     "Misc-45": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Learn your age from Hans in Lumbridge",
         "requirements": {
@@ -5992,6 +6476,7 @@
     },
     "Misc-46": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Pickpocket a Man or Woman in Lumbridge",
         "requirements": {
@@ -6004,6 +6489,7 @@
     },
     "Misc-47": {
         "diary": "Lumbridge & Draynor",
+        "img": "Misthalin Area Badge",
         "difficulty": "Easy",
         "task": "Enter the H.A.M. Hideout",
         "requirements": {
@@ -6016,6 +6502,7 @@
     },
     "Misc-48": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Browse Thessalia's Store",
         "requirements": {
@@ -6026,6 +6513,7 @@
     },
     "Misc-49": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Make a Plank at the Sawmill",
         "requirements": {
@@ -6036,6 +6524,7 @@
     },
     "Misc-50": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Enter the second level of the Stronghold of Security",
         "requirements": {
@@ -6046,6 +6535,7 @@
     },
     "Misc-51": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Chop down a dying tree in the Lumber Yard",
         "requirements": {
@@ -6058,6 +6548,7 @@
     },
     "Misc-52": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Buy a newspaper",
         "requirements": {
@@ -6068,6 +6559,7 @@
     },
     "Misc-53": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Easy",
         "task": "Give a dog a bone!",
         "requirements": {
@@ -6078,6 +6570,7 @@
     },
     "Misc-54": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Have the Apothecary in Varrock make you a Strength potion",
         "requirements": {
@@ -6090,6 +6583,7 @@
     },
     "Misc-55": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Perform the 4 emotes from the Stronghold of Security",
         "requirements": {
@@ -6100,6 +6594,7 @@
     },
     "Misc-56": {
         "diary": "Varrock",
+        "img": "Banner (Varrock)",
         "difficulty": "Medium",
         "task": "Make 20 Mahogany planks in one go",
         "requirements": {
@@ -6112,6 +6607,7 @@
     },
     "Misc-57": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Enter the Wilderness from the Ardougne or Edgeville lever",
         "requirements": {
@@ -6122,6 +6618,7 @@
     },
     "Misc-58": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Pray at the Chaos Altar in level 38 western Wilderness",
         "requirements": {
@@ -6132,6 +6629,7 @@
     },
     "Misc-59": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Enter the Chaos Runecraft temple",
         "requirements": {
@@ -6144,6 +6642,7 @@
     },
     "Misc-60": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Restore some Prayer points at the Demonic Ruins",
         "requirements": {
@@ -6154,6 +6653,7 @@
     },
     "Misc-61": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Enter the King Black Dragon Lair",
         "requirements": {
@@ -6164,6 +6664,7 @@
     },
     "Misc-62": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Collect 5 Red spider's eggs from the Wilderness",
         "requirements": {
@@ -6174,6 +6675,7 @@
     },
     "Misc-63": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Easy",
         "task": "Equip any Team cape in the Wilderness",
         "requirements": {
@@ -6184,6 +6686,7 @@
     },
     "Misc-64": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Talk to the Emblem Trader in Edgeville about emblems",
         "requirements": {
@@ -6194,6 +6697,7 @@
     },
     "Misc-65": {
         "diary": "Wilderness",
+        "img": "Wilderness Area Badge",
         "difficulty": "Medium",
         "task": "Open the Muddy chest in the Lava Maze",
         "requirements": {
@@ -6204,6 +6708,7 @@
     },
     "Misc-66": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Complete a lap of the Gnome Agility Course",
         "requirements": {
@@ -6216,6 +6721,7 @@
     },
     "Misc-67": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Score a goal in a Gnome Ball match",
         "requirements": {
@@ -6228,6 +6734,7 @@
     },
     "Misc-68": {
         "diary": "Western Provinces",
+        "img": "Gnome child icon",
         "difficulty": "Easy",
         "task": "Collect a swamp toad at the Tree Gnome Stronghold",
         "requirements": {
@@ -6238,6 +6745,7 @@
     },
     "Misc-69": {
         "diary": "Falador",
+        "img": "Asgarnia Area Badge",
         "difficulty": "Easy",
         "task": "Get a Haircut or Shave from the Falador Hairdresser",
         "requirements": {

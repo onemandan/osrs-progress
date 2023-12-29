@@ -1,0 +1,53 @@
+---
+---
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    html {
+        font-family: "VT323", monospace;
+        scrollbar-gutter: stable both-edges;
+    }
+
+    html:has(dialog[open]:modal) {
+        overflow: hidden;
+      }
+
+    ._inactive {
+        opacity: 60%;
+    }
+    
+    ._active {
+        opacity: 100%;
+    }
+    
+    ._inactive._lu .text-status:after {
+        content: "Locked";
+        @apply text-gray-400;
+    }
+    
+    ._active._lu .text-status:after {
+        content: "Unlocked";
+        @apply text-green-400;
+    }
+
+    ._active._ic .text-status:after {
+        content: "Incomplete";
+        @apply text-gray-400;
+    }
+
+    ._inactive._ic .text-status:after {
+        content: "Complete";
+        @apply text-green-400;
+    }
+
+    dialog {
+        opacity: 0;
+    }
+
+    dialog[open] {
+        opacity: 1;
+    }
+}
