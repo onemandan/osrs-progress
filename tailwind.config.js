@@ -1,8 +1,8 @@
 module.exports = {
     content: [
-        './_site/**/*.js',
-		'./_site/**/*.html',
-		'./_site/*.html'
+        './_includes/**/*.html',
+        './_layouts/**/*.html',
+        './assets/js/**/*.js'
 	],
     theme: {
         extend: {
