@@ -2,6 +2,7 @@
     "A Kingdom Divided": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Book of the dead",
         "name": "A Kingdom Divided",
         "release": "16 June 2021",
         "requirements": {
@@ -34,6 +35,7 @@
     "A Night at the Theatre": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Scythe of vitur",
         "name": "A Night at the Theatre",
         "release": "3 June 2021",
         "requirements": {
@@ -53,6 +55,7 @@
     "A Porcine of Interest": {
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Reinforced goggles",
         "name": "A Porcine of Interest",
         "release": "10 September 2020",
         "requirements": {
@@ -72,6 +75,7 @@
     "A Soul's Bane": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Anger sword",
         "name": "A Soul's Bane",
         "release": "3 April 2006",
         "requirements": {
@@ -92,6 +96,7 @@
     "A Tail of Two Cats": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Present",
         "name": "A Tail of Two Cats",
         "release": "26 September 2005",
         "requirements": {
@@ -111,6 +116,7 @@
     "A Taste of Hope": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Ivandis flail",
         "name": "A Taste of Hope",
         "release": "24 May 2018",
         "requirements": {
@@ -137,6 +143,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Medium",
+        "img": "Beer",
         "name": "Alfred Grimhand's Barcrawl",
         "release": "25 March 2002",
         "requirements": {
@@ -154,6 +161,7 @@
     "Animal Magnetism": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Ava's accumulator",
         "name": "Animal Magnetism",
         "release": "12 December 2006",
         "requirements": {
@@ -185,6 +193,7 @@
     "Another Slice of H.A.M.": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Ancient mace",
         "name": "Another Slice of H.A.M.",
         "release": "24 April 2007",
         "requirements": {
@@ -212,6 +221,7 @@
     "Architectural Alliance": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Graceful hood (Kourend)",
         "name": "Architectural Alliance",
         "release": "3 March 2016",
         "requirements": {
@@ -234,6 +244,7 @@
         "active": false,
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Soul bearer",
         "name": "Bear Your Soul",
         "release": "19 May 2016",
         "requirements": {
@@ -253,6 +264,7 @@
     "Below Ice Mountain": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Steak sandwich",
         "name": "Below Ice Mountain",
         "release": "14 April 2021",
         "requirements": {
@@ -272,6 +284,7 @@
     "Beneath Cursed Sands": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Keris partisan",
         "name": "Beneath Cursed Sands",
         "release": "27 April 2022",
         "requirements": {
@@ -297,6 +310,7 @@
     "Between a Rock...": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Gold helmet",
         "name": "Between a Rock...",
         "release": "21 March 2005",
         "requirements": {
@@ -325,6 +339,7 @@
     "Big Chompy Bird Hunting": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Ogre bow",
         "name": "Big Chompy Bird Hunting",
         "release": "18 May 2004",
         "requirements": {
@@ -350,6 +365,7 @@
     "Biohazard": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Plague sample",
         "name": "Biohazard",
         "release": "23 October 2002",
         "requirements": {
@@ -371,6 +387,7 @@
     "Black Knights' Fortress": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Black med helm",
         "name": "Black Knights' Fortress",
         "release": "6 April 2001",
         "requirements": {
@@ -388,6 +405,7 @@
     "Bone Voyage": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Unidentified rare fossil",
         "name": "Bone Voyage",
         "release": "7 September 2017",
         "requirements": {
@@ -407,6 +425,7 @@
     "Cabin Fever": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Book o' piracy",
         "name": "Cabin Fever",
         "release": "7 February 2006",
         "requirements": {
@@ -436,6 +455,7 @@
     "Client of Kourend": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Enchanted quill",
         "name": "Client of Kourend",
         "release": "20 April 2017",
         "requirements": {
@@ -456,6 +476,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Blue cog",
         "name": "Clock Tower",
         "release": "17 June 2002",
         "requirements": {
@@ -473,6 +494,7 @@
     "Cold War": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Clockwork suit",
         "name": "Cold War",
         "release": "29 January 2007",
         "requirements": {
@@ -501,6 +523,7 @@
     "Contact!": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Keris",
         "name": "Contact!",
         "release": "10 January 2007",
         "requirements": {
@@ -524,6 +547,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Cake",
         "name": "Cook's Assistant",
         "release": "4 January 2001",
         "requirements": {
@@ -543,6 +567,7 @@
     "Creature of Fenkenstrain": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Pickled brain",
         "name": "Creature of Fenkenstrain",
         "release": "31 January 2005",
         "requirements": {
@@ -568,6 +593,7 @@
     "Curse of the Empty Lord": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Ghostly hood",
         "name": "Curse of the Empty Lord",
         "release": "26 July 2005",
         "requirements": {
@@ -592,6 +618,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Hammer",
         "name": "Daddy's Home",
         "release": "26 August 2020",
         "requirements": {
@@ -611,6 +638,7 @@
     "Darkness of Hallowvale": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Silver sickle (b)",
         "name": "Darkness of Hallowvale",
         "release": "4 September 2006",
         "requirements": {
@@ -643,6 +671,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Climbing boots",
         "name": "Death Plateau",
         "release": "9 August 2004",
         "requirements": {
@@ -662,6 +691,7 @@
     "Death to the Dorgeshuun": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Dorgeshuun crossbow",
         "name": "Death to the Dorgeshuun",
         "release": "21 June 2006",
         "requirements": {
@@ -687,6 +717,7 @@
     "Demon Slayer": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Silverlight",
         "name": "Demon Slayer",
         "release": "4 January 2001",
         "requirements": {
@@ -704,6 +735,7 @@
     "Desert Treasure I": {
         "difficulty": "Master",
         "length": "Long",
+        "img": "Ancient staff",
         "name": "Desert Treasure I",
         "release": "18 April 2005",
         "requirements": {
@@ -734,6 +766,7 @@
     "Desert Treasure II - The Fallen Empire": {
         "difficulty": "Grandmaster",
         "length": "Very Long",
+        "img": "Ring of shadows",
         "name": "Desert Treasure II - The Fallen Empire",
         "release": "26 July 2023",
         "requirements": {
@@ -766,6 +799,7 @@
     "Devious Minds": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Bow-sword",
         "name": "Devious Minds",
         "release": "19 December 2005",
         "requirements": {
@@ -797,6 +831,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Copper ore",
         "name": "Doric's Quest",
         "release": "6 April 2001",
         "requirements": {
@@ -818,6 +853,7 @@
     "Dragon Slayer I": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Elvarg's head",
         "name": "Dragon Slayer I",
         "release": "23 September 2001",
         "requirements": {
@@ -840,6 +876,7 @@
     "Dragon Slayer II": {
         "difficulty": "Grandmaster",
         "length": "Very Long",
+        "img": "Vorkath's head",
         "name": "Dragon Slayer II",
         "release": "4 January 2018",
         "requirements": {
@@ -879,6 +916,7 @@
     "Dream Mentor": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Dream vial",
         "name": "Dream Mentor",
         "release": "15 May 2007",
         "requirements": {
@@ -902,6 +940,7 @@
     "Druidic Ritual": {
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Enchanted beef",
         "name": "Druidic Ritual",
         "release": "27 February 2002",
         "requirements": {
@@ -922,6 +961,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Cannon barrels",
         "name": "Dwarf Cannon",
         "release": "27 May 2003",
         "requirements": {
@@ -941,6 +981,7 @@
     "Eadgar's Ruse": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Goutweed",
         "name": "Eadgar's Ruse",
         "release": "5 October 2004",
         "requirements": {
@@ -966,6 +1007,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Eagle cape",
         "name": "Eagles' Peak",
         "release": "28 November 2006",
         "requirements": {
@@ -987,6 +1029,7 @@
     "Elemental Workshop I": {
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Elemental shield",
         "name": "Elemental Workshop I",
         "release": "2 June 2004",
         "requirements": {
@@ -1011,6 +1054,7 @@
     "Elemental Workshop II": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Mind shield",
         "name": "Elemental Workshop II",
         "release": "2 October 2006",
         "requirements": {
@@ -1036,6 +1080,7 @@
     "Enakhra's Lament": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Camulet",
         "name": "Enakhra's Lament",
         "release": "23 January 2006",
         "requirements": {
@@ -1064,6 +1109,7 @@
     "Enlightened Journey": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Bomber jacket",
         "name": "Enlightened Journey",
         "release": "6 November 2006",
         "requirements": {
@@ -1090,6 +1136,7 @@
     "Enter the Abyss": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Small pouch",
         "name": "Enter the Abyss",
         "release": "13 June 2005",
         "requirements": {
@@ -1112,6 +1159,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Pressure gauge",
         "name": "Ernest the Chicken",
         "release": "21 January 2001",
         "requirements": {
@@ -1129,6 +1177,7 @@
     "Fairytale I - Growing Pains": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Magic secateurs",
         "name": "Fairytale I - Growing Pains",
         "release": "27 February 2006",
         "requirements": {
@@ -1153,6 +1202,7 @@
     "Fairytale II - Cure a Queen": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Nuff's certificate",
         "name": "Fairytale II - Cure a Queen",
         "release": "11 July 2006",
         "requirements": {
@@ -1179,6 +1229,7 @@
     "Family Crest": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Goldsmith gauntlets",
         "name": "Family Crest",
         "release": "9 April 2002",
         "requirements": {
@@ -1203,6 +1254,7 @@
     "Family Pest": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Chaos gauntlets",
         "name": "Family Pest",
         "release": "1 September 2016",
         "requirements": {
@@ -1222,6 +1274,7 @@
     "Fight Arena": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Khazard helmet",
         "name": "Fight Arena",
         "release": "23 July 2002",
         "requirements": {
@@ -1243,6 +1296,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Fishing trophy",
         "name": "Fishing Contest",
         "release": "28 May 2002",
         "requirements": {
@@ -1262,6 +1316,7 @@
     "Forgettable Tale...": {
         "difficulty": "Intermediate",
         "length": "Long",
+        "img": "Dwarven stout(m)",
         "name": "Forgettable Tale...",
         "release": "26 July 2005",
         "requirements": {
@@ -1288,6 +1343,7 @@
     "Garden of Tranquillity": {
         "difficulty": "Intermediate",
         "length": "Long",
+        "img": "White tree fruit",
         "name": "Garden of Tranquillity",
         "release": "30 August 2005",
         "requirements": {
@@ -1312,6 +1368,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Pet cat (grey and black)",
         "name": "Gertrude's Cat",
         "release": "28 July 2003",
         "requirements": {
@@ -1331,6 +1388,7 @@
     "Getting Ahead": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Bloody head",
         "name": "Getting Ahead",
         "release": "25 November 2020",
         "requirements": {
@@ -1354,6 +1412,7 @@
     "Ghosts Ahoy": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Bedsheet (ectoplasm)",
         "name": "Ghosts Ahoy",
         "release": "15 February 2005",
         "requirements": {
@@ -1380,6 +1439,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Goblin mail",
         "name": "Goblin Diplomacy",
         "release": "8 May 2001",
         "requirements": {
@@ -1399,6 +1459,7 @@
     "Grim Tales": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Dwarven helmet",
         "name": "Grim Tales",
         "release": "4 June 2007",
         "requirements": {
@@ -1431,6 +1492,7 @@
     "Haunted Mine": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Salve amulet",
         "name": "Haunted Mine",
         "release": "21 December 2004",
         "requirements": {
@@ -1453,6 +1515,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Hazeel's mark",
         "name": "Hazeel Cult",
         "release": "15 August 2002",
         "requirements": {
@@ -1472,6 +1535,7 @@
     "Heroes' Quest": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Dragon mace",
         "name": "Heroes' Quest",
         "release": "27 February 2002",
         "requirements": {
@@ -1512,6 +1576,7 @@
     "His Faithful Servants": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Dusty lamp",
         "name": "His Faithful Servants",
         "release": "14 June 2023",
         "requirements": {
@@ -1531,6 +1596,7 @@
     "Holy Grail": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Holy grail",
         "name": "Holy Grail",
         "release": "23 July 2002",
         "requirements": {
@@ -1555,6 +1621,7 @@
     "Hopespear's Will": {
         "difficulty": "Master",
         "length": "Short",
+        "img": "Strongbones' bone",
         "name": "Hopespear's Will",
         "release": "9 February 2022",
         "requirements": {
@@ -1581,6 +1648,7 @@
     "Horror from the Deep": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Damaged book (Zamorak)",
         "name": "Horror from the Deep",
         "release": "17 November 2004",
         "requirements": {
@@ -1606,6 +1674,7 @@
     "Icthlarin's Little Helper": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Catspeak amulet",
         "name": "Icthlarin's Little Helper",
         "release": "26 April 2005",
         "requirements": {
@@ -1629,6 +1698,7 @@
     "Imp Catcher": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Black bead",
         "name": "Imp Catcher",
         "release": "16 February 2001",
         "requirements": {
@@ -1648,6 +1718,7 @@
     "In Aid of the Myreque": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Gadderhammer",
         "name": "In Aid of the Myreque",
         "release": "22 March 2006",
         "requirements": {
@@ -1677,6 +1748,7 @@
     "In Search of Knowledge": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Tattered moon page",
         "name": "In Search of Knowledge",
         "release": "4 July 2019",
         "requirements": {
@@ -1694,6 +1766,7 @@
     "In Search of the Myreque": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Steel longsword",
         "name": "In Search of the Myreque",
         "release": "10 January 2005",
         "requirements": {
@@ -1721,6 +1794,7 @@
     "Into the Tombs": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Tumeken's guardian",
         "name": "Into the Tombs",
         "release": "24 August 2022",
         "requirements": {
@@ -1740,6 +1814,7 @@
     "Jungle Potion": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Snake weed",
         "name": "Jungle Potion",
         "release": "23 October 2002",
         "requirements": {
@@ -1763,6 +1838,7 @@
     "King's Ransom": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Piety",
         "name": "King's Ransom",
         "release": "24 July 2007",
         "requirements": {
@@ -1792,6 +1868,7 @@
     "Lair of Tarn Razorlor": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Salve amulet (e)",
         "name": "Lair of Tarn Razorlor",
         "release": "22 January 2007",
         "requirements": {
@@ -1815,6 +1892,7 @@
     "Land of the Goblins": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Goblin potion(4)",
         "name": "Land of the Goblins",
         "release": "9 February 2022",
         "requirements": {
@@ -1845,6 +1923,7 @@
     "Legends' Quest": {
         "difficulty": "Master",
         "length": "Long",
+        "img": "Yommi totem",
         "name": "Legends' Quest",
         "release": "20 August 2003",
         "requirements": {
@@ -1879,6 +1958,7 @@
     "Lost City": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Dramen staff",
         "name": "Lost City",
         "release": "27 February 2002",
         "requirements": {
@@ -1899,6 +1979,7 @@
     "Lunar Diplomacy": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Seal of passage",
         "name": "Lunar Diplomacy",
         "release": "24 July 2006",
         "requirements": {
@@ -1932,6 +2013,7 @@
     "Mage Arena I": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Saradomin cape",
         "name": "Mage Arena I",
         "release": "22 September 2003",
         "requirements": {
@@ -1951,6 +2033,7 @@
     "Mage Arena II": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Imbued saradomin cape",
         "name": "Mage Arena II",
         "release": "23 November 2017",
         "requirements": {
@@ -1972,6 +2055,7 @@
     "Making Friends with My Arm": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Basalt",
         "name": "Making Friends with My Arm",
         "release": "6 September 2018",
         "requirements": {
@@ -2004,6 +2088,7 @@
     "Making History": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Enchanted key (item)",
         "name": "Making History",
         "release": "22 November 2005",
         "requirements": {
@@ -2027,6 +2112,7 @@
     "Merlin's Crystal": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Excalibur",
         "name": "Merlin's Crystal",
         "release": "27 February 2002",
         "requirements": {
@@ -2045,6 +2131,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Killer's knife",
         "name": "Misthalin Mystery",
         "release": "26 January 2017",
         "requirements": {
@@ -2065,6 +2152,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Child's blanket",
         "name": "Monk's Friend",
         "release": "28 May 2002",
         "requirements": {
@@ -2084,6 +2172,7 @@
     "Monkey Madness I": {
         "difficulty": "Master",
         "length": "Long",
+        "img": "Dragon scimitar",
         "name": "Monkey Madness I",
         "release": "6 December 2004",
         "requirements": {
@@ -2104,6 +2193,7 @@
     "Monkey Madness II": {
         "difficulty": "Grandmaster",
         "length": "Very Long",
+        "img": "Zenyte",
         "name": "Monkey Madness II",
         "release": "6 May 2016",
         "requirements": {
@@ -2139,6 +2229,7 @@
     "Mountain Daughter": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Bearhead",
         "name": "Mountain Daughter",
         "release": "7 March 2005",
         "requirements": {
@@ -2161,6 +2252,7 @@
     "Mourning's End Part I": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Gas mask",
         "name": "Mourning's End Part I",
         "release": "19 July 2005",
         "requirements": {
@@ -2188,6 +2280,7 @@
     "Mourning's End Part II": {
         "difficulty": "Master",
         "length": "Long",
+        "img": "Death talisman",
         "name": "Mourning's End Part II",
         "release": "17 October 2005",
         "requirements": {
@@ -2210,6 +2303,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Silver book",
         "name": "Murder Mystery",
         "release": "9 June 2003",
         "requirements": {
@@ -2229,6 +2323,7 @@
     "My Arm's Big Adventure": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Gout tuber",
         "name": "My Arm's Big Adventure",
         "release": "23 October 2006",
         "requirements": {
@@ -2256,6 +2351,7 @@
     "Nature Spirit": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Mort myre fungus",
         "name": "Nature Spirit",
         "release": "13 July 2004",
         "requirements": {
@@ -2283,6 +2379,7 @@
         "active": false,
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Observatory lens",
         "name": "Observatory Quest",
         "release": "17 March 2003",
         "requirements": {
@@ -2302,6 +2399,7 @@
     "Olaf's Quest": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Brine sabre",
         "name": "Olaf's Quest",
         "release": "10 April 2007",
         "requirements": {
@@ -2326,6 +2424,7 @@
     "One Small Favour": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Red mahogany log",
         "name": "One Small Favour",
         "release": "28 February 2005",
         "requirements": {
@@ -2352,6 +2451,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Casket",
         "name": "Pirate's Treasure",
         "release": "11 June 2001",
         "requirements": {
@@ -2370,6 +2470,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Picture",
         "name": "Plague City",
         "release": "27 August 2002",
         "requirements": {
@@ -2389,6 +2490,7 @@
     "Priest in Peril": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Wolfbane",
         "name": "Priest in Peril",
         "release": "29 June 2004",
         "requirements": {
@@ -2409,6 +2511,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Pink skirt",
         "name": "Prince Ali Rescue",
         "release": "28 February 2001",
         "requirements": {
@@ -2428,6 +2531,7 @@
     "Rag and Bone Man I": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Bone in vinegar",
         "name": "Rag and Bone Man I",
         "release": "10 April 2006",
         "requirements": {
@@ -2448,6 +2552,7 @@
     "Rag and Bone Man II": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Bone in vinegar",
         "name": "Rag and Bone Man II",
         "release": "10 April 2006",
         "requirements": {
@@ -2474,6 +2579,7 @@
     "Ratcatchers": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Rat pole",
         "name": "Ratcatchers",
         "release": "28 November 2005",
         "requirements": {
@@ -2496,6 +2602,7 @@
     "Recruitment Drive": {
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Initiate sallet",
         "name": "Recruitment Drive",
         "release": "27 June 2005",
         "requirements": {
@@ -2520,6 +2627,7 @@
     "Regicide": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Barrel bomb (fused)",
         "name": "Regicide",
         "release": "20 September 2004",
         "requirements": {
@@ -2544,6 +2652,7 @@
     "RFD: Another Cook's Quest": {
         "difficulty": "Special",
         "length": "Short",
+        "img": "Dirty blast",
         "name": "RFD: Another Cook's Quest",
         "release": "15 March 2006",
         "requirements": {
@@ -2565,6 +2674,7 @@
     "RFD: Defeating the Culinaromancer": {
         "difficulty": "Special",
         "length": "Short",
+        "img": "Barrows gloves",
         "name": "RFD: Defeating the Culinaromancer",
         "release": "15 March 2006",
         "requirements": {
@@ -2594,6 +2704,7 @@
     "RFD: Freeing Evil Dave": {
         "difficulty": "Special",
         "length": "Medium",
+        "img": "Spicy stew",
         "name": "RFD: Freeing Evil Dave",
         "release": "15 March 2006",
         "requirements": {
@@ -2619,6 +2730,7 @@
     "RFD: Freeing King Awowogei": {
         "difficulty": "Special",
         "length": "Long",
+        "img": "Stuffed snake",
         "name": "RFD: Freeing King Awowogei",
         "release": "15 March 2006",
         "requirements": {
@@ -2645,6 +2757,7 @@
     "RFD: Freeing Pirate Pete": {
         "difficulty": "Special",
         "length": "Medium",
+        "img": "Diving apparatus",
         "name": "RFD: Freeing Pirate Pete",
         "release": "15 March 2006",
         "requirements": {
@@ -2672,6 +2785,7 @@
     "RFD: Freeing Sir Amik Varze": {
         "difficulty": "Special",
         "length": "Medium",
+        "img": "Brulee supreme",
         "name": "RFD: Freeing Sir Amik Varze",
         "release": "15 March 2006",
         "requirements": {
@@ -2702,6 +2816,7 @@
     "RFD: Freeing Skrach Uglogwee": {
         "difficulty": "Special",
         "length": "Medium",
+        "img": "Cooked jubbly",
         "name": "RFD: Freeing Skrach Uglogwee",
         "release": "15 March 2006",
         "requirements": {
@@ -2731,6 +2846,7 @@
     "RFD: Freeing the Goblin generals": {
         "difficulty": "Special",
         "length": "Short",
+        "img": "Slop of compromise",
         "name": "RFD: Freeing the Goblin generals",
         "release": "15 March 2006",
         "requirements": {
@@ -2755,6 +2871,7 @@
     "RFD: Freeing the Lumbridge Guide": {
         "difficulty": "Special",
         "length": "Short",
+        "img": "Cake of guidance",
         "name": "RFD: Freeing the Lumbridge Guide",
         "release": "15 March 2006",
         "requirements": {
@@ -2785,6 +2902,7 @@
     "RFD: Freeing the Mountain Dwarf": {
         "difficulty": "Special",
         "length": "Short",
+        "img": "Rock cake",
         "name": "RFD: Freeing the Mountain Dwarf",
         "release": "15 March 2006",
         "requirements": {
@@ -2809,6 +2927,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Cadava potion",
         "name": "Romeo & Juliet",
         "release": "4 January 2001",
         "requirements": {
@@ -2826,6 +2945,7 @@
     "Roving Elves": {
         "difficulty": "Experienced",
         "length": "Short",
+        "img": "Crystal bow",
         "name": "Roving Elves",
         "release": "7 February 2005",
         "requirements": {
@@ -2850,6 +2970,7 @@
     "Royal Trouble": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Heavy box",
         "name": "Royal Trouble",
         "release": "22 May 2006",
         "requirements": {
@@ -2876,6 +2997,7 @@
     "Rum Deal": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Holy wrench",
         "name": "Rum Deal",
         "release": "31 October 2005",
         "requirements": {
@@ -2907,6 +3029,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Air talisman",
         "name": "Rune Mysteries",
         "release": "29 March 2004",
         "requirements": {
@@ -2924,6 +3047,7 @@
     "Scorpion Catcher": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Scorpion cage (empty)",
         "name": "Scorpion Catcher",
         "release": "25 March 2002",
         "requirements": {
@@ -2947,6 +3071,7 @@
     "Sea Slug": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Sluglings",
         "name": "Sea Slug",
         "release": "9 September 2002",
         "requirements": {
@@ -2968,6 +3093,7 @@
     "Secrets of the North": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Muphin (ranged)",
         "name": "Secrets of the North",
         "release": "11 January 2023",
         "requirements": {
@@ -2998,6 +3124,7 @@
     "Shades of Mort'ton": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Silver key black",
         "name": "Shades of Mort'ton",
         "release": "18 October 2004",
         "requirements": {
@@ -3024,6 +3151,7 @@
     "Shadow of the Storm": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Darklight",
         "name": "Shadow of the Storm",
         "release": "14 November 2005",
         "requirements": {
@@ -3047,6 +3175,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Cattleprod",
         "name": "Sheep Herder",
         "release": "15 August 2002",
         "requirements": {
@@ -3065,6 +3194,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Shears",
         "name": "Sheep Shearer",
         "release": "4 January 2001",
         "requirements": {
@@ -3085,6 +3215,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Broken shield (right)",
         "name": "Shield of Arrav",
         "release": "4 January 2001",
         "requirements": {
@@ -3102,6 +3233,7 @@
     "Shilo Village": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Beads of the dead",
         "name": "Shilo Village",
         "release": "27 January 2003",
         "requirements": {
@@ -3127,6 +3259,7 @@
     "Sins of the Father": {
         "difficulty": "Master",
         "length": "Long",
+        "img": "Blisterwood flail",
         "name": "Sins of the Father",
         "release": "4 June 2020",
         "requirements": {
@@ -3155,6 +3288,7 @@
     "Skippy and the Mogres": {
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Fishing explosive",
         "name": "Skippy and the Mogres",
         "release": "24 October 2005",
         "requirements": {
@@ -3174,6 +3308,7 @@
     "Sleeping Giants": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Colossal blade",
         "name": "Sleeping Giants",
         "release": "8 June 2022",
         "requirements": {
@@ -3195,6 +3330,7 @@
     "Song of the Elves": {
         "difficulty": "Grandmaster",
         "length": "Very Long",
+        "img": "Enhanced crystal weapon seed",
         "name": "Song of the Elves",
         "release": "25 July 2019",
         "requirements": {
@@ -3234,6 +3370,7 @@
     "Spirits of the Elid": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Robe of elidinis (top)",
         "name": "Spirits of the Elid",
         "release": "5 December 2005",
         "requirements": {
@@ -3260,6 +3397,7 @@
     "Swan Song": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "Monkfish",
         "name": "Swan Song",
         "release": "2 May 2006",
         "requirements": {
@@ -3291,6 +3429,7 @@
     "Tai Bwo Wannai Trio": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Cooked karambwan",
         "name": "Tai Bwo Wannai Trio",
         "release": "14 September 2004",
         "requirements": {
@@ -3318,6 +3457,7 @@
     "Tale of the Righteous": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Graceful hood (Shayzien)",
         "name": "Tale of the Righteous",
         "release": "19 April 2018",
         "requirements": {
@@ -3340,6 +3480,7 @@
     "Tears of Guthix": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Stone bowl",
         "name": "Tears of Guthix",
         "release": "4 May 2005",
         "requirements": {
@@ -3363,6 +3504,7 @@
     "Temple of Ikov": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Boots of lightness",
         "name": "Temple of Ikov",
         "release": "17 June 2002",
         "requirements": {
@@ -3386,6 +3528,7 @@
     "Temple of the Eye": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Abyssal pearls 5",
         "name": "Temple of the Eye",
         "release": "23 March 2022",
         "requirements": {
@@ -3409,6 +3552,7 @@
     "The Ascent of Arceuus": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Graceful hood (Arceuus)",
         "name": "The Ascent of Arceuus",
         "release": "10 January 2019",
         "requirements": {
@@ -3433,6 +3577,7 @@
     "The Corsair Curse": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Poison (item)",
         "name": "The Corsair Curse",
         "release": "7 December 2017",
         "requirements": {
@@ -3450,6 +3595,7 @@
     "The Depths of Despair": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Graceful hood (Hosidius)",
         "name": "The Depths of Despair",
         "release": "9 November 2017",
         "requirements": {
@@ -3474,6 +3620,7 @@
     "The Dig Site": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Level 3 certificate",
         "name": "The Dig Site",
         "release": "9 July 2003",
         "requirements": {
@@ -3498,6 +3645,7 @@
     "The Enchanted Key": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Zamorak mjolnir",
         "name": "The Enchanted Key",
         "release": "22 November 2005",
         "requirements": {
@@ -3517,6 +3665,7 @@
     "The Eyes of Glouphrie": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Crystal saw",
         "name": "The Eyes of Glouphrie",
         "release": "15 August 2006",
         "requirements": {
@@ -3546,6 +3695,7 @@
     "The Feud": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Maple blackjack(o)",
         "name": "The Feud",
         "release": "4 April 2005",
         "requirements": {
@@ -3567,6 +3717,7 @@
     "The Forsaken Tower": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Graceful hood (Lovakengj)",
         "name": "The Forsaken Tower",
         "release": "10 January 2019",
         "requirements": {
@@ -3591,6 +3742,7 @@
     "The Fremennik Exiles": {
         "difficulty": "Master",
         "length": "Medium",
+        "img": "V's shield",
         "name": "The Fremennik Exiles",
         "release": "26 September 2019",
         "requirements": {
@@ -3623,6 +3775,7 @@
     "The Fremennik Isles": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Helm of neitiznot",
         "name": "The Fremennik Isles",
         "release": "6 February 2007",
         "requirements": {
@@ -3650,6 +3803,7 @@
     "The Fremennik Trials": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Berserker helm",
         "name": "The Fremennik Trials",
         "release": "2 November 2004",
         "requirements": {
@@ -3678,6 +3832,7 @@
     "The Frozen Door": {
         "difficulty": "Master",
         "length": "Short",
+        "img": "Frozen key piece (armadyl)",
         "name": "The Frozen Door",
         "release": "16 December 2021",
         "requirements": {
@@ -3703,6 +3858,7 @@
     "The Garden of Death": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Stone tablet (The Garden of Death, 2)",
         "name": "The Garden of Death",
         "release": "30 November 2022",
         "requirements": {
@@ -3724,6 +3880,7 @@
     "The General's Shadow": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Shadow sword",
         "name": "The General's Shadow",
         "release": "12 February 2007",
         "requirements": {
@@ -3747,6 +3904,7 @@
     "The Giant Dwarf": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Left boot",
         "name": "The Giant Dwarf",
         "release": "31 May 2005",
         "requirements": {
@@ -3776,6 +3934,7 @@
     "The Golem": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Statuette (The Golem)",
         "name": "The Golem",
         "release": "11 April 2005",
         "requirements": {
@@ -3799,6 +3958,7 @@
     "The Grand Tree": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Daconia rock",
         "name": "The Grand Tree",
         "release": "12 December 2002",
         "requirements": {
@@ -3822,6 +3982,7 @@
     "The Great Brain Robbery": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Barrelchest anchor",
         "name": "The Great Brain Robbery",
         "release": "6 March 2007",
         "requirements": {
@@ -3851,6 +4012,7 @@
     "The Hand in the Sand": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Sandy hand",
         "name": "The Hand in the Sand",
         "release": "10 January 2006",
         "requirements": {
@@ -3874,6 +4036,7 @@
     "The Knight's Sword": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Blurite sword",
         "name": "The Knight's Sword",
         "release": "6 April 2001",
         "requirements": {
@@ -3897,6 +4060,7 @@
     "The Lost Tribe": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Ring of life",
         "name": "The Lost Tribe",
         "release": "31 May 2005",
         "requirements": {
@@ -3923,6 +4087,7 @@
     "The Path of Glouphrie": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Mith grapple",
         "name": "The Path of Glouphrie",
         "release": "13 September 2023",
         "requirements": {
@@ -3952,6 +4117,7 @@
     "The Queen of Thieves": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Graceful hood (Piscarilius)",
         "name": "The Queen of Thieves",
         "release": "9 November 2017",
         "requirements": {
@@ -3976,6 +4142,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Short",
+        "img": "Ghostspeak amulet",
         "name": "The Restless Ghost",
         "release": "4 January 2001",
         "requirements": {
@@ -3995,6 +4162,7 @@
     "The Slug Menace": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Dead sea slug",
         "name": "The Slug Menace",
         "release": "20 September 2006",
         "requirements": {
@@ -4024,6 +4192,7 @@
     "The Tourist Trap": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Slave shirt",
         "name": "The Tourist Trap",
         "release": "14 April 2003",
         "requirements": {
@@ -4044,6 +4213,7 @@
     "Throne of Miscellania": {
         "difficulty": "Experienced",
         "length": "Medium",
+        "img": "Coins 10000",
         "name": "Throne of Miscellania",
         "release": "29 November 2004",
         "requirements": {
@@ -4064,6 +4234,7 @@
     "Tower of Life": {
         "difficulty": "Novice",
         "length": "Medium",
+        "img": "Builder's shirt",
         "name": "Tower of Life",
         "release": "19 February 2007",
         "requirements": {
@@ -4087,6 +4258,7 @@
     "Tree Gnome Village": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Orbs of protection",
         "name": "Tree Gnome Village",
         "release": "23 July 2002",
         "requirements": {
@@ -4106,6 +4278,7 @@
     "Tribal Totem": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Totem",
         "name": "Tribal Totem",
         "release": "30 April 2002",
         "requirements": {
@@ -4127,6 +4300,7 @@
     "Troll Romance": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Sled (unwaxed)",
         "name": "Troll Romance",
         "release": "5 January 2005",
         "requirements": {
@@ -4152,6 +4326,7 @@
     "Troll Stronghold": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Law talisman",
         "name": "Troll Stronghold",
         "release": "24 August 2004",
         "requirements": {
@@ -4173,6 +4348,7 @@
     "Underground Pass": {
         "difficulty": "Experienced",
         "length": "Long",
+        "img": "Iban's staff",
         "name": "Underground Pass",
         "release": "3 March 2003",
         "requirements": {
@@ -4197,6 +4373,7 @@
     "Vampyre Slayer": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Stake",
         "name": "Vampyre Slayer",
         "release": "28 January 2001",
         "requirements": {
@@ -4216,6 +4393,7 @@
     "Wanted!": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "White full helm",
         "name": "Wanted!",
         "release": "17 October 2005",
         "requirements": {
@@ -4240,6 +4418,7 @@
     "Watchtower": {
         "difficulty": "Intermediate",
         "length": "Medium",
+        "img": "Crystal (cyan)",
         "name": "Watchtower",
         "release": "7 May 2003",
         "requirements": {
@@ -4266,6 +4445,7 @@
         "active": false,
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Glarial's urn",
         "name": "Waterfall Quest",
         "release": "24 September 2002",
         "requirements": {
@@ -4286,6 +4466,7 @@
     "What Lies Below": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Beacon ring",
         "name": "What Lies Below",
         "release": "27 March 2007",
         "requirements": {
@@ -4310,6 +4491,7 @@
     "Witch's House": {
         "difficulty": "Intermediate",
         "length": "Very Short",
+        "img": "Ball",
         "name": "Witch's House",
         "release": "27 February 2002",
         "requirements": {
@@ -4329,6 +4511,7 @@
     "Witch's Potion": {
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Rat's tail",
         "name": "Witch's Potion",
         "release": "6 April 2001",
         "requirements": {
@@ -4349,6 +4532,7 @@
         "active": false,
         "difficulty": "Novice",
         "length": "Very Short",
+        "img": "Ancient casket",
         "name": "X Marks the Spot",
         "release": "7 February 2019",
         "requirements": {
@@ -4366,6 +4550,7 @@
     "Zogre Flesh Eaters": {
         "difficulty": "Intermediate",
         "length": "Short",
+        "img": "Ourg bones",
         "name": "Zogre Flesh Eaters",
         "release": "17 May 2005",
         "requirements": {

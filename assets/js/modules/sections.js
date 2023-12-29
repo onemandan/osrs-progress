@@ -211,7 +211,7 @@ class Quests extends Section {
             const nodes = [];
 
             for (const obj of arr) {
-                nodes.push(this.template(obj.name, obj.difficulty, this.difficulty[obj.difficulty], obj.active))
+                nodes.push(this.template(obj.name, obj.img, obj.difficulty, this.difficulty[obj.difficulty], obj.active))
             }
 
             return nodes.join('');
@@ -227,13 +227,13 @@ class Quests extends Section {
         return (+a.active) - (+b.active) || a.name.localeCompare(b.name);
     }
 
-    template(quest, difficulty, colour, active) {
+    template(quest, img, difficulty, colour, active) {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex justify-between items-center'>
                 <div class='flex items-center'>
                     <div class='flex justify-center w-8'>
-                        <img src='' alt='icon'/>
+                        <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='icon'/>
                     </div>
                     <h3 class='text-2xl ms-3 _id'>${quest}</h3>
                 </div>
