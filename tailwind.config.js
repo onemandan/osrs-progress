@@ -6,6 +6,13 @@ module.exports = {
 	],
     theme: {
         extend: {
+            minWidth: {
+                'lg': '32rem'
+            },
+            maxHeight: {
+                '9/10': '90%',
+                'lg': '32rem'
+            },
             transitionProperty: {
                 'width': 'width'
             },

@@ -71,6 +71,19 @@ import { HandlerFactory } from '{{ "assets/js/modules/handler.js" | relative_url
                     total: '.collections-total',
                     complete: '.collections-complete',
                     incomplete: '#collections-incomplete'
+                },
+                dialog: {
+                    modal: '#collections-modal',
+                    title: '#collections-modal-title',
+                    wrapper: '#collections-modal-wrapper',
+                    items: '#collections-modal-wrapper>li',
+                    itemsInactive: '#collections-modal-wrapper>li._inactive',
+                    img: '#collections-modal-img',
+                    buttons: {
+                        all: '#collections-modal-all',
+                        log: '#collections-modal-log',
+                        close: '#collections-modal-close'
+                    }
                 }
             }
         }

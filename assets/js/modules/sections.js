@@ -159,9 +159,11 @@ class Achievements extends Section {
     template(diary, img, difficulty, task, colour, active) {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
-            <div class='flex flex-row justify-between items-center'>
-                <div class='flex flex-row items-center'>
-                    <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${img} icon'/>
+            <div class='flex justify-between items-center'>
+                <div class='flex items-center'>
+                    <div class='flex justify-center w-8'>
+                        <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${img} icon'/>
+                    </div>
                     <h3 class='text-2xl ms-3'>${diary}</h3>
                 </div>
                 
@@ -228,9 +230,11 @@ class Quests extends Section {
     template(quest, difficulty, colour, active) {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
-            <div class='flex flex-row justify-between items-center'>
-                <div class='flex flex-row items-center'>
-                    <img class='h-6 w-auto' src='' alt='icon'/>
+            <div class='flex justify-between items-center'>
+                <div class='flex items-center'>
+                    <div class='flex justify-center w-8'>
+                        <img src='' alt='icon'/>
+                    </div>
                     <h3 class='text-2xl ms-3 _id'>${quest}</h3>
                 </div>
                 
@@ -281,8 +285,10 @@ class Pets extends Section {
     template(pet, img, active) {
         return `
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
-            <div class='flex flex-row items-center'>
-                <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${pet} icon'/>
+            <div class='flex items-center'>
+                <div class='flex justify-center w-8'>
+                    <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${pet} icon'/>
+                </div>
                 <h3 class='text-2xl ms-3 _id'>${pet}</h3>
             </div>
             <hr class='h-px my-2 bg-birch-800 border-0'>
@@ -299,6 +305,18 @@ class Collections extends Section {
         super(data, selectors, onClick, onVisible);
 
         this.maxItemsDisplay = 5;
+        this.dialog = $(this.selectors.dialog.modal)[0];
+
+        //Dialog 'complete all' and 'close' button event handlers
+        $(this.selectors.dialog.buttons.all).on('click', () => {
+            $(this.selectors.dialog.items).removeClass('_active');
+            $(this.selectors.dialog.items).addClass('_inactive');
+        });
+
+        $(this.selectors.dialog.buttons.close).on('click', () => {
+            this.dialog.close();
+        });
+
         this.compare = this.compare.bind(this);
     }
 
@@ -313,11 +331,25 @@ class Collections extends Section {
         }
 
         $(this.selectors.wrapper).html(nodes.join(''));
+
+        //Item click event is different for collections, as a modal needs to be created to display collection items
+        //each collection item can be individually completed
         $(this.selectors.items).on('click', (event) => {
             const id = $(event.currentTarget).find('._id').text();
-            const items = this.data[id].items;
+            const itemsCompleted = id in completed ? completed[id] : [];
 
-            super.onItemClick(event, items);
+            //populate and show the collections dialog
+            this.modal(id, this.data[id].img, this.data[id].items, itemsCompleted);
+
+            //Reset dialog 'log' button click event to ensure the correct collection and items are being stored
+            $(this.selectors.dialog.buttons.log).off('click').on('click', () => {
+                const items = $(this.selectors.dialog.itemsInactive).map(function() { 
+                    return this.innerText.trim();
+                }).get();
+
+                this.onClick(id, items);
+                this.dialog.close();
+            });
         });
     }
 
@@ -327,13 +359,38 @@ class Collections extends Section {
         return (+a.active) - (+b.active) || a.name.localeCompare(b.name);
     }
 
+    //modal
+    //Populates and opens the collections modal
+    //@collection - the collection item
+    //@img - image relating to the collection item
+    //@items - collection items array
+    //@completed - completed items array
+    modal(collection, img, items, completed) {
+        $(this.selectors.dialog.title).text(collection);
+        $(this.selectors.dialog.img).attr('src', `${this.imagesURL}${img.replaceAll(' ', '_')}.png`);
+
+        const nodes = [];
+
+        for (const item of items) {
+            nodes.push(this.templateModalItem(item, completed));
+        }
+
+        $(this.selectors.dialog.wrapper).html(nodes.join(''));
+        $(this.selectors.dialog.items).on('click', (event) => {
+            $(event.currentTarget).toggleClass('_active');
+            $(event.currentTarget).toggleClass('_inactive');
+        });
+
+        this.dialog.showModal();
+    }
+
     template(collection, img, active, items, completed) {
         const nodes = [];
         let additional = '';
         
         for (let i = 0; i < Math.min(this.maxItemsDisplay, items.length); i++) {
             const colour = collection in completed && completed[collection].includes(items[i]) ? 'text-green-400' : '';
-            nodes.push(`<li class='text-md p-2 rounded-xl bg-birch-950 ${colour}'>${items[i]}</li>`);
+            nodes.push(`<li class='text-md px-2 py-1 rounded-lg bg-birch-950 ${colour}'>${items[i]}</li>`);
         }
 
         if (items.length > this.maxItemsDisplay) {
@@ -345,7 +402,9 @@ class Collections extends Section {
         <div class='flex flex-col mb-5 break-inside-avoid-column rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex flex-row justify-between items-center'>
                 <div class='flex flex-row items-center'>
-                    <img class='h-6 w-auto' src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${collection} icon'/>
+                    <div class='flex justify-center w-8'>
+                        <img src="${this.imagesURL}${img.replaceAll(' ', '_')}.png" alt='${collection} icon'/>
+                    </div>
                     <h3 class='text-2xl ms-3 _id'>${collection}</h3>
                 </div>
                 <span class='text-md'>${collection in completed ? completed[collection].length : '0'}/${items.length}</span>
@@ -357,7 +416,22 @@ class Collections extends Section {
             <div><span class='text-md'>${additional}</span></div>
             <hr class='h-px my-2 bg-birch-800 border-0'>
             <span class='text-status text-md'></span>
-        </div>`
+        </div>`;
+    }
+
+    templateModalItem(item, completed) {
+        const complete = completed.includes(item);
+
+        return `
+        <li class='rounded-lg bg-birch-500 px-2 py-1 cursor-pointer ${complete ? '_inactive' : '_active'} _ic'>
+            <div class='flex justify-between items-center'>
+                <div class='flex flex-row items-center'>
+                    <img class='me-2 h-4 w-4' src="${this.imagesURL}${item.replaceAll(' ', '_')}.png" onerror="this.src='${this.imagesURL}Bank_filler.png'" alt='${item} icon'/>
+                    <span class='text-md _id'>${item}</span>
+                </div>
+                <span class='text-status text-md'></span>
+            </div>
+        </li>`;
     }
 }
 

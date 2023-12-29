@@ -8,7 +8,12 @@
 @layer base {
     html {
         font-family: "VT323", monospace;
+        scrollbar-gutter: stable both-edges;
     }
+
+    html:has(dialog[open]:modal) {
+        overflow: hidden;
+      }
 
     ._inactive {
         opacity: 60%;
@@ -36,5 +41,13 @@
     ._inactive._ic .text-status:after {
         content: "Complete";
         @apply text-green-400;
+    }
+
+    dialog {
+        opacity: 0;
+    }
+
+    dialog[open] {
+        opacity: 1;
     }
 }
