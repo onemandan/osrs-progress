@@ -21,23 +21,25 @@
 
     <body class='bg-birch-800 text-carrot-400 select-none'>
 
-        <dialog id='collections-modal' class='flex flex-col h-screen w-screen max-h-full max-w-full justify-center items-stretch sm:items-center transition-opacity duration-300 bg-black/80 text-carrot-400'>
-            <div class='flex flex-col sm:min-w-lg max-h-9/10 rounded-xl m-5 bg-birch-800 select-none'>
-                <div class='flex justify-between items-center px-5'>
-                    <div class='flex flex-row items-center py-3'>
-                        <img id='collections-modal-img' class='' alt='icon'>
-                        <h2 id='collections-modal-title' class='font-medium ms-3 text-2xl'>Collection Title</h2>
+        <dialog id='collections-modal' class='max-h-full max-w-full bg-black/80 text-carrot-400'>
+            <div class='h-screen w-screen flex flex-col justify-center items-stretch sm:items-center'>
+                <div class='flex flex-col sm:min-w-lg max-h-9/10 rounded-xl m-5 bg-birch-800 select-none'>
+                    <div class='flex justify-between items-center px-5'>
+                        <div class='flex flex-row items-center py-3'>
+                            <img id='collections-modal-img' class='' alt='icon'>
+                            <h2 id='collections-modal-title' class='font-medium ms-3 text-2xl'>Collection Title</h2>
+                        </div>
+                        <svg id='collections-modal-close' class='w-8 h-8 opacity-30 hover:opacity-60 cursor-pointer transition-opacity' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"></path> 
+                        </svg>
                     </div>
-                    <svg id='collections-modal-close' class='w-8 h-8 opacity-30 hover:opacity-60 cursor-pointer transition-opacity' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"></path> 
-                    </svg>
-                </div>
-                <ul id='collections-modal-wrapper' class='flex flex-col px-5 list-none gap-2 overflow-scroll'>
-                    
-                </ul>
-                <div class='flex justify-end px-5 py-3 gap-2'>
-                    <button id='collections-modal-all' class="bg-yellow-400 hover:bg-yellow-300 outline-none text-birch-950 py-1 px-4 rounded-lg">Complete All</button>
-                    <button id='collections-modal-log' class="bg-yellow-400 hover:bg-yellow-300 outline-none text-birch-950 py-1 px-4 rounded-lg">Log</button>
+                    <ul id='collections-modal-wrapper' class='flex flex-col px-5 list-none gap-2 overflow-scroll'>
+                        
+                    </ul>
+                    <div class='flex justify-end px-5 py-3 gap-2'>
+                        <button id='collections-modal-all' class="bg-yellow-400 hover:bg-yellow-300 outline-none text-birch-950 py-1 px-4 rounded-lg">Complete All</button>
+                        <button id='collections-modal-log' class="bg-yellow-400 hover:bg-yellow-300 outline-none text-birch-950 py-1 px-4 rounded-lg">Log</button>
+                    </div>
                 </div>
             </div>
         </dialog>

@@ -42,12 +42,4 @@
         content: "Complete";
         @apply text-green-400;
     }
-
-    dialog {
-        opacity: 0;
-    }
-
-    dialog[open] {
-        opacity: 1;
-    }
 }
