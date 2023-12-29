@@ -125,7 +125,7 @@ class Store {
     //saveFile
     //Saves @dataObjToWrite as a .json file
     //@filename resulting name of the file
-    saveFile(filename) {
+    saveFile(filename = 'profile.json') {
 
         //Create blob data stream from @dataObjToWrite with 'text/json' mimetype
         const blob = new Blob([JSON.stringify(this.obj)], { type: "text/json" });
@@ -148,7 +148,7 @@ class Store {
 
     //uploadFile
     //Loads a user selected .json file and updates @_userObj with the given data
-    uploadFile() {
+    uploadFile(callback) {
         
         //Create an 'input' element
         const link = document.createElement("input");
@@ -158,27 +158,25 @@ class Store {
         link.accept = ".json";
 
         //change event is called when a file is selected
-        link.addEventListener("change", function() {
+        link.addEventListener("change", () => {
             var reader = new FileReader();
-            reader.onload = function (e) {
-                var target = e.target;
 
+            reader.onload = (e) => {
                 try {
-                    const data = JSON.parse(target.result);
+                    const data = JSON.parse(e.target.result);
 
                     //Arbitrary simple check
-                    if ('combat' in data && 'qp' in data && 'complete' in data) {
-                        _userObj = data;
+                    if ('qp' in data && 'complete' in data && 'visible' in data) {
+                        this.obj = data;
+                        localStorage.setObject(this.id, this.obj);
 
-                        _progressSections.updateAllSections();
-                        updateGeneral();
-
-                        localStorage.setObject(_userObjID, _userObj);
+                        callback();
                     }
                 } catch (e) {
                     console.error(e);
                 }
             }
+
             reader.readAsText(link.files[0]);
         }, false);
 
@@ -208,13 +206,7 @@ class Skills {
     //Initialise skill items status (_active, _inactive) based on @completed and set click event handlers
     //@complete - localStorage completed skills object
     init(completed) {
-        $(this.selectors.items).each((index, element) => {
-            if (completed.includes($(element).find('._id').text())) {
-                $(element).addClass('_active');
-                $(element).removeClass('_inactive');
-            }
-        });
-
+    
         //Skills items click event handler
         $(this.selectors.items).on('click', (event) => {
 
@@ -227,10 +219,24 @@ class Skills {
             this.updateProgress();
         });
 
-        this.updateProgress();
+        this.update(completed);
+
         return this;
     }
 
+    update(completed) {
+        $(this.selectors.items).each((index, element) => {
+            if (completed.includes($(element).find('._id').text())) {
+                $(element).addClass('_active');
+                $(element).removeClass('_inactive');
+            } else {
+                $(element).addClass('_inactive');
+                $(element).removeClass('_active');
+            }
+        });
+
+        this.updateProgress();
+    }
 
     //updateProgress
     //Update the skill progress count

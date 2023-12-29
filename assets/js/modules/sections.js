@@ -2,7 +2,7 @@
 ---
 
 class Section {
-    constructor(data, selectors, onClick, onVisible, visible) {
+    constructor(data, selectors, onClick, onVisible) {
         this.imagesURL = 'https://oldschool.runescape.wiki/images/';
         this.showPath = '{{ "assets/images/svg/show.svg" | relative_url }}';
         this.hidePath = '{{ "assets/images/svg/hide.svg" | relative_url }}';
@@ -17,16 +17,12 @@ class Section {
             complete: 0
         };
 
-        //Set initial state of visible button
-        if (!visible) {
-            $(this.selectors.visible).removeClass('_visible');
-            $(this.selectors.visible).attr("src", this.hidePath);
-        }
-
         $(this.selectors.visible).on('click', this.onVisibleClick.bind(this));
     }
 
-    update(fUnlocked, fSort, fHtml, completed) {
+    update(fUnlocked, fSort, fHtml, completed, visible) {
+        this.updateVisible(visible);
+
         const available = this.getAvailable(fUnlocked, fSort, completed);
         this.updateProgress();
 
@@ -34,6 +30,33 @@ class Section {
         $(this.selectors.items).on('click', (event) => {
             this.onItemClick(event);
         });
+    }
+
+    //updateProgress
+    //Updates progress elements with @progress counts
+    updateProgress() {
+
+        //Update total, complete and incomplete progress counts
+        $(this.selectors.progress.total).text(this.progress.total);
+        $(this.selectors.progress.complete).text(this.progress.complete);
+        $(this.selectors.progress.incomplete).text(this.progress.total - this.progress.complete);
+
+        //Update progress bar width
+        $(this.selectors.progress.bar).css('width', `${(this.progress.complete / this.progress.total) * 100}%`);
+    }
+
+    //updateVisible
+    //Updates the '_visible' and 'src' attributes of the section visibility button.  This is mainly required due to the upload
+    //feature, as otherwise it could be included in the constructor
+    //@visible - whether or not the visibility button should have the '_visible' class applied
+    updateVisible(visible) {
+        if (!visible && $(this.selectors.visible).hasClass('_visible')) {
+            $(this.selectors.visible).removeClass('_visible');
+            $(this.selectors.visible).attr("src", this.hidePath);
+        } else if(visible && !$(this.selectors.visible).hasClass('_visible')) {
+            $(this.selectors.visible).addClass('_visible');
+            $(this.selectors.visible).attr("src", this.showPath);
+        }
     }
 
     //getAvailable
@@ -99,27 +122,14 @@ class Section {
 
         this.onVisible();
     }
-
-    //updateProgress
-    //Updates progress elements with @progress counts
-    updateProgress() {
-
-        //Update total, complete and incomplete progress counts
-        $(this.selectors.progress.total).text(this.progress.total);
-        $(this.selectors.progress.complete).text(this.progress.complete);
-        $(this.selectors.progress.incomplete).text(this.progress.total - this.progress.complete);
-
-        //Update progress bar width
-        $(this.selectors.progress.bar).css('width', `${(this.progress.complete / this.progress.total) * 100}%`);
-    }
 }
 
 //----------------------------
 // Achievements
 //----------------------------
 class Achievements extends Section {
-    constructor(data, selectors, onClick, onVisible, visible) {
-        super(data, selectors, onClick, onVisible, visible);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         //Provides colours and sort function comparison values based on difficulty
         this.difficulty = {
@@ -144,7 +154,7 @@ class Achievements extends Section {
         this.compare = this.compare.bind(this);
     }
 
-    update(fUnlocked, completed) {
+    update(fUnlocked, completed, visible) {
         super.update(fUnlocked, this.compare, (arr) => {
             const nodes = [];
 
@@ -153,7 +163,7 @@ class Achievements extends Section {
             }
 
             return nodes.join('');
-        }, completed);
+        }, completed, visible);
     }
 
     //compare
@@ -187,8 +197,8 @@ class Achievements extends Section {
 // Quests
 //----------------------------
 class Quests extends Section {
-    constructor(data, selectors, onClick, onVisible, visible) {
-        super(data, selectors, onClick, onVisible, visible);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         //As quests cannot be started until all relevant skills are unlocked, treat quest skill rewards as requirements
         for(const key of Object.keys(this.data)) {
@@ -212,7 +222,7 @@ class Quests extends Section {
         this.compare = this.compare.bind(this);
     }
 
-    update(fUnlocked, completed, qp) {
+    update(fUnlocked, completed, qp, visible) {
         super.update(fUnlocked, this.compare, (arr) => {
             const nodes = [];
 
@@ -221,7 +231,7 @@ class Quests extends Section {
             }
 
             return nodes.join('');
-        }, completed);
+        }, completed, visible);
 
         //Update quest point count
         $(this.selectors.progress.questPoints).text(qp);
@@ -264,13 +274,13 @@ class Quests extends Section {
 // Pets
 //----------------------------
 class Pets extends Section {
-    constructor(data, selectors, onClick, onVisible, visible) {
-        super(data, selectors, onClick, onVisible, visible);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         this.compare = this.compare.bind(this);
     }
 
-    update(fUnlocked, completed) {
+    update(fUnlocked, completed, visible) {
         super.update(fUnlocked, this.compare, (arr) => {
             const nodes = [];
 
@@ -279,7 +289,7 @@ class Pets extends Section {
             }
 
             return nodes.join('');
-        }, completed);
+        }, completed, visible);
     }
 
     //compare
@@ -307,8 +317,8 @@ class Pets extends Section {
 // Collections
 //----------------------------
 class Collections extends Section {
-    constructor(data, selectors, onClick, onVisible, visible) {
-        super(data, selectors, onClick, onVisible, visible);
+    constructor(data, selectors, onClick, onVisible) {
+        super(data, selectors, onClick, onVisible);
 
         this.maxItemsDisplay = 5;
         this.dialog = $(this.selectors.dialog.modal)[0];
@@ -326,7 +336,10 @@ class Collections extends Section {
         this.compare = this.compare.bind(this);
     }
 
-    update(fUnlocked, completed) {
+    //Collections update differs from the previous section and as such instead calls individual functions rather than @super.update
+    update(fUnlocked, completed, visible) {
+        super.updateVisible(visible);
+
         const available = super.getAvailable(fUnlocked, this.compare, completed);
         super.updateProgress();
 
@@ -406,8 +419,8 @@ class Collections extends Section {
         
         return `
         <div class='flex flex-col mb-5 break-inside-avoid-column rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
-            <div class='flex flex-row justify-between items-center'>
-                <div class='flex flex-row items-center'>
+            <div class='flex justify-between items-center'>
+                <div class='flex items-center'>
                     <div class='flex justify-center w-8'>
                         <img src="${this.imagesURL}${img.replaceAll(' ', '_')}.png" alt='${collection} icon'/>
                     </div>
@@ -431,7 +444,7 @@ class Collections extends Section {
         return `
         <li class='rounded-lg bg-birch-500 px-2 py-1 cursor-pointer ${complete ? '_inactive' : '_active'} _ic'>
             <div class='flex justify-between items-center'>
-                <div class='flex flex-row items-center'>
+                <div class='flex items-center'>
                     <img class='me-2 h-4 w-4' src="${this.imagesURL}${item.replaceAll(' ', '_')}.png" onerror="this.src='${this.imagesURL}Bank_filler.png'" alt='${item} icon'/>
                     <span class='text-md _id'>${item}</span>
                 </div>
