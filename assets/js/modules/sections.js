@@ -178,7 +178,7 @@ class Achievements extends Section {
             <div class='flex justify-between items-center'>
                 <div class='flex items-center'>
                     <div class='flex justify-center w-8'>
-                        <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${img} icon'/>
+                        <img src="${this.imagesURL}${img.replaceAll(' ', '_')}.png" onerror="this.src='${this.imagesURL}Bank_filler.png'" alt='${img} icon'/>
                     </div>
                     <h3 class='text-2xl ms-3'>${diary}</h3>
                 </div>
@@ -249,7 +249,7 @@ class Quests extends Section {
             <div class='flex justify-between items-center'>
                 <div class='flex items-center'>
                     <div class='flex justify-center w-8'>
-                        <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='icon'/>
+                        <img src="${this.imagesURL}${img.replaceAll(' ', '_')}.png" onerror="this.src='${this.imagesURL}Bank_filler.png'" alt='icon'/>
                     </div>
                     <h3 class='text-2xl ms-3 _id'>${quest}</h3>
                 </div>
@@ -303,7 +303,7 @@ class Pets extends Section {
         <div class='flex flex-col rounded-lg p-3 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 ${active ? '_inactive' : '_active'} _ic'>
             <div class='flex items-center'>
                 <div class='flex justify-center w-8'>
-                    <img src='${this.imagesURL}${img.replaceAll(' ', '_')}.png' alt='${pet} icon'/>
+                    <img src="${this.imagesURL}${img.replaceAll(' ', '_')}.png" onerror="this.src='${this.imagesURL}Bank_filler.png'" alt='${pet} icon'/>
                 </div>
                 <h3 class='text-2xl ms-3 _id'>${pet}</h3>
             </div>
