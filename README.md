@@ -1,6 +1,6 @@
-# xosaat.github.io
+# osrs-progress
 
-A very simple OSRS tracker, mainly created for the XOSAAT playstyle.  Track achievements, quests, pets and collections based on unlocked skills and completed quests.
+A very simple OSRS tracker to track achievements, quests, pets and collections based on unlocked skills and completed quests.
 
 ## A Brief Overview
 
