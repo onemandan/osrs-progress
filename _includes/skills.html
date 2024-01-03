@@ -11,9 +11,10 @@
     </div>
     <div id='skills-wrapper' class='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-5 lg:gap-4 xl:gap-3 pt-1 px-1 pb-5'>
         {% for skill in site.data.skills %}
+            {% capture iconURL %}assets/images/icons/{{ skill }}_icon.png{% endcapture %}
             <div class='flex flex-col items-center rounded-lg p-2 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 _inactive _lu' data-src='skill'>
-                <span class='text-md _id'>{{ skill.name }}</span>
-                <img src='{{ skill.icon }}' alt="Agility icon" width="64px" height="64px">
+                <span class='text-md _id'>{{ skill }}</span>
+                <img src='{{ iconURL | relative_url }}' alt="{{ skill }} icon" width="64px" height="64px">
                 <span class='text-status text-md'></span>
             </div>
         {% endfor %}

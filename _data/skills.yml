@@ -1,48 +1,24 @@
-- name: Agility
-  icon: /osrs-progress/assets/images/icons/Agility_icon.png
-- name: Attack
-  icon: /osrs-progress/assets/images/icons/Attack_icon.png
-- name: Construction
-  icon: /osrs-progress/assets/images/icons/Construction_icon.png
-- name: Cooking
-  icon: /osrs-progress/assets/images/icons/Cooking_icon.png
-- name: Crafting
-  icon: /osrs-progress/assets/images/icons/Crafting_icon.png
-- name: Defence
-  icon: /osrs-progress/assets/images/icons/Defence_icon.png
-- name: Farming
-  icon: /osrs-progress/assets/images/icons/Farming_icon.png
-- name: Firemaking
-  icon: /osrs-progress/assets/images/icons/Firemaking_icon.png
-- name: Fishing
-  icon: /osrs-progress/assets/images/icons/Fishing_icon.png
-- name: Fletching
-  icon: /osrs-progress/assets/images/icons/Fletching_icon.png
-- name: Herblore
-  icon: /osrs-progress/assets/images/icons/Herblore_icon.png
-- name: Hitpoints
-  icon: /osrs-progress/assets/images/icons/Hitpoints_icon.png
-- name: Hunter
-  icon: /osrs-progress/assets/images/icons/Hunter_icon.png
-- name: Magic
-  icon: /osrs-progress/assets/images/icons/Magic_icon.png
-- name: Mining
-  icon: /osrs-progress/assets/images/icons/Mining_icon.png
-- name: Prayer
-  icon: /osrs-progress/assets/images/icons/Prayer_icon.png
-- name: Ranged
-  icon: /osrs-progress/assets/images/icons/Ranged_icon.png
-- name: Runecraft
-  icon: /osrs-progress/assets/images/icons/Runecraft_icon.png
-- name: Slayer
-  icon: /osrs-progress/assets/images/icons/Slayer_icon.png
-- name: Smithing
-  icon: /osrs-progress/assets/images/icons/Smithing_icon.png
-- name: Strength
-  icon: /osrs-progress/assets/images/icons/Strength_icon.png
-- name: Thieving
-  icon: /osrs-progress/assets/images/icons/Thieving_icon.png
-- name: Woodcutting
-  icon: /osrs-progress/assets/images/icons/Woodcutting_icon.png
-- name: Combat
-  icon: /osrs-progress/assets/images/icons/Combat_icon.png
+- Agility
+- Attack
+- Construction
+- Cooking
+- Crafting
+- Defence
+- Farming
+- Firemaking
+- Fishing
+- Fletching
+- Herblore
+- Hitpoints
+- Hunter
+- Magic
+- Mining
+- Prayer
+- Ranged
+- Runecraft
+- Slayer
+- Smithing
+- Strength
+- Thieving
+- Woodcutting
+- Combat
