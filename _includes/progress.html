@@ -1,10 +1,9 @@
 <section class='container mx-auto flex flex-col h-full p-5'>
     <div class='flex flex-row items-center'>
-        <img class='me-3' src='{{ "assets/images/icons/Progress_icon.png" | relative_url }}' height='32px' width='32px' alt='Progress icon'>
+        <img class='me-3 w-8 h-8' src='{{ "assets/images/icons/Progress_icon.png" | relative_url }}' alt='Progress icon'>
         <h2 class='font-medium text-3xl'>Progress</h2>
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-none mt-5 gap-5">
-
         {% include partials/progress-numeral.html title='Skills' id='skills-progress' max='23' class='order-1 lg:order-none' %}
         {% include partials/progress-numeral.html title='Quest Points' id='quests-progress' max='300' class='order-2 sm:order-4 md:order-5 lg:order-none' %}
 

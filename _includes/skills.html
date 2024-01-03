@@ -1,12 +1,12 @@
 <section class='px-5'>
     <div class='flex justify-between items-center py-5 sticky top-0 z-10 bg-birch-800'>
         <div class='flex items-center'>
-            <img class='me-3' src='{{ "assets/images/icons/Stats_icon.png" | relative_url }}' height='32px' width='32px' alt='Skills icon'>
+            <img class='me-3 w-8 h-8' src='{{ "assets/images/icons/Stats_icon.png" | relative_url }}'alt='Skills icon'>
             <h3 class='font-medium text-3xl'>Skills</h2>
         </div>
         <div class='flex items-center'>
-            <img id='button-download' class='me-3 cursor-pointer' src='{{ "assets/images/svg/download.svg" | relative_url }}' height='32px' width='32px' alt='Download icon'>
-            <img id='button-upload' class='cursor-pointer' src='{{ "assets/images/svg/upload.svg" | relative_url }}' height='32px' width='32px' alt='Upload icon'>
+            <img id='button-download' class='me-3 cursor-pointer w-8 h-8' src='{{ "assets/images/svg/download.svg" | relative_url }}' alt='Download icon'>
+            <img id='button-upload' class='cursor-pointer w-8 h-8' src='{{ "assets/images/svg/upload.svg" | relative_url }}' alt='Upload icon'>
         </div>
     </div>
     <div id='skills-wrapper' class='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-5 lg:gap-4 xl:gap-3 pt-1 px-1 pb-5'>
@@ -14,7 +14,7 @@
             {% capture iconURL %}assets/images/icons/{{ skill }}_icon.png{% endcapture %}
             <div class='flex flex-col items-center rounded-lg p-2 cursor-pointer transition-opacity drop-shadow-lg hover:outline bg-birch-500 _inactive _lu' data-src='skill'>
                 <span class='text-md _id'>{{ skill }}</span>
-                <img src='{{ iconURL | relative_url }}' alt="{{ skill }} icon" width="64px" height="64px">
+                <img class='w-16 h-16' src='{{ iconURL | relative_url }}' alt="{{ skill }} icon">
                 <span class='text-status text-md'></span>
             </div>
         {% endfor %}
